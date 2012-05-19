@@ -1,0 +1,7 @@
+from application1.models import UserExtended, Request, RequestResponse, RequestFulfilled, PrivateMessages
+from django.contrib import admin
+admin.site.register(UserExtended)
+admin.site.register(Request)
+admin.site.register(RequestFulfilled)
+admin.site.register(RequestResponse)
+admin.site.register(PrivateMessages)
