@@ -37,13 +37,13 @@
 
     <div id="big_container">
       <div id="header" class="container">
-	<div class="row" style="max-width:90%">
-	  <div class="two columns">
+	<div class="row" style="max-width:85%">
+	  <div class="three columns">
 	    <h1 class="white logotext">Project Name</h1>
 	  </div>
-	  <div class="four columns" id="search_bar">
+	  <div class="three columns" id="search_bar">
 	    <form class="nice">
-	      <center> <input id="search_input" class="large input-text" type="text" placeholder="Search" /> </center>
+	      <input id="search_input" class="medium input-text" type="text" placeholder="  Search" />
 	    </form>
 	  </div>
 	  <div class="six columns" id="login_forms">

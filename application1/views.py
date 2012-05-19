@@ -26,6 +26,18 @@ def home(request):
 #return HttpResponse(loader.get_template('postRequest.html').render(c))
 #return HttpResponse("you have come home to app1")
 
+def timeline(request):
+    if request.user.is_authenticated():
+        is_authenticated = True
+    else:
+        is_authenticated = False
+    
+    c = {'Name':'Lu', 'is_authenticated':is_authenticated}
+    c.update(csrf(request))
+    #return render_to_response('postRequest.html', c)
+    return render_to_response('timeline.html', c)
+
+
 def createUser(request):
 
     jsonData = simplejson.loads(request.raw_post_data)

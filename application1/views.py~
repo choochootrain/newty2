@@ -3,7 +3,7 @@ from django.template import Context, loader
 from django.shortcuts import render_to_response, get_object_or_404
 from django.views.decorators.csrf import csrf_protect
 from django.core.context_processors import csrf
-from application1.models import UserExtended, Request, RequestResponse, RequestFulfilled, PrivateMessages
+from application1.models import UserExtended
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
 
@@ -73,7 +73,7 @@ def logout_view(request):
 def get_id(request):
     id = request.REQUEST['id']
     try:
-        posting_obj = Model1.objects.get(x = id)
+        posting_obj = UserExtended.objects.get(x = id)
     except Exception:
         return HttpResponse("you have no entry with x = " + id)
     return HttpResponse("your request id was there " + id)
