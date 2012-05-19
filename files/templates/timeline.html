@@ -4,48 +4,67 @@
 <div id="content">
   <center>
     <div style="max-width:1000px; overflow:hidden">
-      <div style="background-color:black; width:5000px;" id="drag_me">
+      <div style="background-color:white; width:5000px;" id="drag_me">
+
+	<!-- Testing out the draggable with random stuff-->
 	<div class="row" style="max-width:9000px;">
-	  <div class="two columns" style="background-color:blue; padding:0px 0px 0px 0px">
+	  <div class="two columns time_block" style="background-color:blue">
 	    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 	    <div class="row" style="max-width:9000px;">
-	      <div class="two columns" style="background-color:blue; padding:0px 0px 0px 0px">
+	      <div class="two columns time_block" style="background-color:blue">
 		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 	      </div>
-	      <div class="two columns" style="background-color:orange; padding:0px 0px 0px 0px">
+	      <div class="two columns time_block" style="background-color:orange">
 		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 	      </div>
-	      <div class="two columns" style="background-color:yellow">
+	      <div class="two columns time_block" style="background-color:yellow">
 		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 	      </div>
-	      <div class="two columns" style="background-color:green">
+	      <div class="two columns time_block" style="background-color:green">
 		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 	      </div>
-	      <div class="two columns" style="background-color:purple">
+	      <div class="two columns time_block" style="background-color:purple">
 		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 	      </div>
-	      <div class="two columns" style="background-color:red">
+	      <div class="two columns time_block" style="background-color:red">
 		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 	      </div>
 	    </div>
 
 	  </div>
-	  <div class="two columns" style="background-color:orange; padding:0px 0px 0px 0px">
+	  <div class="two columns time_block" style="background-color:orange">
 	    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 	  </div>
-	  <div class="two columns" style="background-color:yellow">
+	  <div class="two columns time_block" style="background-color:yellow">
 	    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 	  </div>
-	  <div class="two columns" style="background-color:green">
+	  <div class="two columns time_block" style="background-color:green">
 	    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 	  </div>
-	  <div class="two columns" style="background-color:purple">
+	  <div class="two columns time_block" style="background-color:purple">
 	    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 	  </div>
-	  <div class="two columns" style="background-color:red">
+	  <div class="two columns time_block" style="background-color:red">
 	    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 	  </div>
 	</div>
+	
+	<!-- SVG Stuff to denote tick marks -->
+	<div class="row" style="max-width:5000px;">
+	  <svg id="svg_timeline" height="100" width="5000px">
+	    <line x1="0" y1="10" x2="9000" y2="10" style="stroke:blue;stroke-width:4"/>
+	    <line x1="10" y1="10" x2="10" y2="30" style="stroke:blue;stroke-width:2"/>
+	    <text x="7" y="40"> This is a text </text>
+	  </svg>
+	</div>
+
+	<!-- Flot.js Graphs -->
+	<div class="row" style="max-width:5000px;">
+	  <div id="graph" style="width:5000px;height:300px;"></div>
+	</div>
+	
+
+	
       </div>
     </div>
   </center>

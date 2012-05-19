@@ -85,10 +85,14 @@ h3 {
    font-family: Helvetica, Arial, Sans-Serif;
 }
 
-.logotext {
-	  margin-top: 10px;
-	  margin-bottom: 3px;
+#title_font {
+       font-size: 20px;
+       color: white;
+       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+       margin-top: 15px;
 }
+
+
 .blurbtext-top {
 	  margin-top: 30px; 
 	       margin-bottom: 0px;
@@ -154,3 +158,7 @@ div.panel.space-bottom {
 /* -----------------------------------------
    Page Name 2
 ----------------------------------------- */
+.time_block {
+	    margin-left: 0px;
+}
+
