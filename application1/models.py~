@@ -1,0 +1,65 @@
+from django.db import models
+from django.contrib.auth.models import User
+
+class UserExtended(models.Model):
+    userOther = models.ForeignKey(User, unique = True)
+    username = models.CharField(max_length = 40)
+    location = models.CharField(max_length = 50)
+    uuid = models.CharField(max_length = 32)
+    numHelped = models.IntegerField()
+    weight = models.IntegerField()
+    confirmed = models.BooleanField()
+    created = models.DateTimeField()
+    updated = models.DateTimeField()
+    def __unicode__(self):
+        return self.username
+
+
+class Request(models.Model):
+    userRequested = models.ForeignKey(UserExtended)
+    description = models.CharField(max_length=400)
+    def __unicode__(self):
+        return self.description
+
+class RequestResponse(models.Model):
+    request = models.ForeignKey(Request)
+    userResponded = models.ForeignKey(UserExtended)
+    details = models.CharField(max_length = 150)
+    def __unicode__(self):
+        return self.request.description
+
+class RequestFulfilled(models.Model):
+    request = models.ForeignKey(Request)
+    requester= models.ForeignKey(UserExtended, related_name="requester")
+    fulfiller = models.ForeignKey(UserExtended, related_name="fulfiller")
+    rating = models.IntegerField()
+    comments = models.CharField(max_length = 150)
+    dateTime = models.DateTimeField()
+    def __unicode__(self):
+        return self.request.description
+    
+
+class PrivateMessages(models.Model):
+    user1 = models.ForeignKey(UserExtended, related_name="user1")
+    user2 = models.ForeignKey(UserExtended, related_name="user2")
+    #"uuid:"text + uuid2: text
+    allMessages = models.TextField()
+    def __unicode__(self):
+        return "Message b/t " + self.user1.username + " and " + self.user2.username
+
+
+"""
+class Model1(models.Model):
+    x = models.CharField(max_length=50, blank=True, null=True)
+    def __unicode__(self):
+        return self.x
+
+class Model2(models.Model):
+    y = models.IntegerField(blank=True, null=True)
+    z = models.BooleanField()
+    a = models.ForeignKey(Model1)
+    b = models.DateTimeField()
+    def __unicode__(self):
+        return self.a.x
+
+"""
