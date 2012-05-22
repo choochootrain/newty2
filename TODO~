@@ -1,5 +1,1 @@
-deal with full_address, num_baths fields
-have better criteria for whether a posting is a repeat or not
-don't include price, bedrooms, sqft in title
-studio keyword
-
+Write an error handler for get_html. Retry errors again because sometimes it fucks up and treats non reachable html (when your internet is down) as an error.
