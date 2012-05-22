@@ -53,19 +53,21 @@ def main():
                 print 'working on ' + url
                 page = url_opener.open(url)
                 html = page.read()
+                print 'reached1'
                 url = url.replace('http://', '')
                 account_for_last_slash = url_regex.search(url)
                 if account_for_last_slash and account_for_last_slash.group(0) == url:
                     url = account_for_last_slash.group(1)
                 ensure_path(url)
+                print 'reached2'
                 f = open(url + '_file', 'w')
                 f.write(html)
                 f.close()
-
+                print 'reached3'
                 """Find new urls"""
                 links = [x.group(1) for x in re.finditer(r'href="([^"]*)"', html)]
                 for x in links:
-                    if url_to_scrape in x and x not in explored_set:
+                    if ('bbc.co.uk' in x or 'techcrunch.com' in x or 'usatoday.com' in x) and x not in explored_set:
                         explored_set.add(x)
                         current_queue.append(x)
                 success.append(error)
@@ -84,6 +86,16 @@ def main():
 directories_exist = set()
 directory_regex = re.compile('(.*)/[^/]+')
 url_regex = re.compile('(.*)/')
+def ensure_path(url):
+    if '/' not in url:
+        return
+    path = directory_regex.search(url).group(1)
+    if path in directories_exist:
+        return
+    if not os.path.exists(path):
+        os.makedirs(path)
+        directories_exist.add(path)
+
 
 def to_bytestring (s, enc='utf-8'):
     """Convert the given unicode string to a bytestring, using the standard encoding,                                                                                                                     

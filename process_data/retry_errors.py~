@@ -49,7 +49,7 @@ def main():
         for error in k:
             url = error['url']
             try:
-                time.sleep(1 + random.randint(0,70)/30.0)
+                time.sleep(.2 + random.randint(0,30)/30.0)
                 print 'working on ' + url
                 page = url_opener.open(url)
                 html = page.read()
