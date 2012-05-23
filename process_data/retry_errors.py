@@ -37,7 +37,8 @@ def main():
     collection_techcrunch = db['http://techcrunch.com']
     collection_bbc = db['http://www.bbc.co.uk/']
     collection_usa = db['http://www.usatoday.com']    
-    list_url = [(techcrunch, collection_techcrunch), (bbc, collection_bbc), (usaToday, collection_usa)]
+    #list_url = [(techcrunch, collection_techcrunch), (bbc, collection_bbc), (usaToday, collection_usa)]
+    list_url = [ (usaToday, collection_usa), (bbc, collection_bbc), (techcrunch, collection_techcrunch)]
     success = []
 
     for k, v in list_url:

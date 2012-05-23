@@ -1,0 +1,972 @@
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>2012 Election: Presidential, Senate, and State - USATODAY.com</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" />
+<meta name="ROBOTS" content="NOODP, NOYDIR" />
+<!--<META HTTP-EQUIV="REFRESH" CONTENT="900; URL=index?refresh=1" />-->
+<meta name="pubdate" content="2012-05-23" />
+<meta name="pubtime" content="02:07 AM" />
+<meta name="description" content="Complete coverage of the 2012 Elections with expert analysis, polls and more" />
+<meta name="keywords" content="us politics, us politics news, us political news, election news, politics, government news, us government" />
+<link rel="Shortcut Icon" type="image/x-icon" href="http://i.usatoday.net/_common/_images/favicon-news.ico" />
+<link rel="stylesheet" type="text/css" href="http://i.usatoday.net/_common/_styles/_foundation/reset-fonts-grids-usat.css" />
+<link rel="stylesheet" type="text/css" href="http://i.usatoday.net/_fronts2010/_c/structure-v2.css?v=20110907" />
+<link rel="stylesheet" type="text/css" href="http://www.usatoday.com/news/_common/styles/styles-news.css" />  
+<link rel="stylesheet" type="text/css" href="/news/_common/styles/styles-election.css?v=20111212" />
+<link rel="stylesheet" type="text/css" href="http://i.usatoday.net/_common/_styles/_ad/ads.css" />
+<!--[if lte IE 9]>
+<link href="/news/_common/styles/styles-election-ie9.css" rel="stylesheet" type="text/css"/>
+<![endif]-->
+<!--[if lte IE 8]>
+<link href="/news/_common/styles/styles-election-ie8.css" rel="stylesheet" type="text/css"/>
+<![endif]-->
+<!--[if lte IE 7]>
+<link href="/news/_common/styles/styles-election-ie7.css" rel="stylesheet" type="text/css"/>
+<![endif]-->
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+var pagePath, pagePathParts;
+
+jQuery(document).ready(function(){
+// highlight the current navigation item
+var url = window.location.href;
+if (url.indexOf("politics/") != -1) {
+pagePath = url.substring(url.indexOf("news/politics/"), url.length);
+pagePathParts = pagePath.split("/");
+if (pagePathParts.length > 3)
+pagePath = pagePathParts[0] + "/" + pagePathParts[1] + "/" + pagePathParts[2];
+jQuery("#election-nav li a").not("#election-sub a").each(function(){
+if (jQuery(this).attr("href").indexOf(pagePath) != -1) {
+jQuery(this).addClass("active");
+return;
+}
+});
+}
+});
+
+</script>
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/_oas/google.js"></script>
+</head>
+<body id="news" class="homepage subsection">
+<div class="skip">
+<a href="#maincontent" title="Skip navigation and go to main content area">Skip to Main Content</a>
+</div>
+<!-- End Skip Nav -->
+<div id="custom-doc" class="yui-t6">
+<div id="usat_launchpad">
+<banner position="Launchpad" size="980x66" />
+</div>
+<div id="hd" class="home" role="banner">
+<div class="usat_masthead ">
+<h1><a href="http://www.usatoday.com/" onclick="s_objectID='usat_elections|masthead|logo|home';">USA TODAY</a></h1>
+<ul class="global-nav" role="navigation">
+<li class="nav-home">
+<a href="http://www.usatoday.com/" onclick="s_objectID='usat_elections|masthead|global-nav|home';">Home</a>
+</li>
+<li class="nav-news">
+<a href="http://www.usatoday.com/news/" onclick="s_objectID='usat_elections|masthead|global-nav|news';">News</a>
+</li>
+<li class="nav-travel">
+<a href="http://travel.usatoday.com/" onclick="s_objectID='usat_elections|masthead|global-nav|travel';">Travel</a>
+</li>
+<li class="nav-money">
+<a href="http://www.usatoday.com/money/" onclick="s_objectID='usat_elections|masthead|global-nav|money';">Money</a>
+</li>
+<li class="nav-sports">
+<a href="http://www.usatoday.com/sports/" onclick="s_objectID='usat_elections|masthead|global-nav|sports';">Sports</a>
+</li>
+<li class="nav-life">
+<a href="http://www.usatoday.com/life/" onclick="s_objectID='usat_elections|masthead|global-nav|life';">Life</a>
+</li>
+<li class="nav-yourlife">
+<a href="http://yourlife.usatoday.com/" onclick="s_objectID='usat_elections|masthead|global-nav|yourlife';">Your Life</a>
+</li>
+<li class="nav-tech">
+<a href="http://www.usatoday.com/tech/" onclick="s_objectID='usat_elections|masthead|global-nav|tech';">Tech</a>
+</li>
+<li class="nav-weather">
+<a href="http://www.usatoday.com/weather/" onclick="s_objectID='usat_elections|masthead|global-nav|weather';">Weather</a>
+</li>
+</ul>
+</div>
+<div class="election-nav">
+<ul id="election-nav">
+<li>
+<a href="/news/politics/index" onclick="s_objectID='usat_elections|masthead|elections-nav|home';">Election Home</a>
+</li>
+<li>
+<a href="http://content.usatoday.com/communities/onpolitics/index" onclick="s_objectID='usat_elections|masthead|elections-nav|onpolitics';">On Politics</a>
+</li>
+<li>
+<a href="/news/politics/candidates/index" onclick="s_objectID='usat_elections|masthead|elections-nav|candidates';">Candidates</a>
+<!--<ul class="election-nav-dropdown box-shadow" id="election-sub">
+<li>
+<a href="/news/politics/candidates/bachmann">Michele Bachmann</a>
+</li>
+<li>
+<a href="/news/politics/candidates/cain">Herman Cain</a>
+</li>
+<li>
+<a href="/news/politics/candidates/gingrich">Newt Gingrich</a>
+</li>
+<li>
+<a href="/news/politics/candidates/huntsman">John Huntsman</a>
+</li>
+<li>
+<a href="/news/politics/candidates/johnson">Gary Johnson</a>
+</li>
+<li>
+<a href="/news/politics/candidates/paul">Ron Paul</a>
+</li>
+<li>
+<a href="/news/politics/candidates/perry">Rick Perry</a>
+</li>
+  <li>
+<a href="/news/politics/candidates/roemer">Buddy Roemer</a>
+</li>
+<li>
+<a href="/news/politics/candidates/romney">Mitt Romney</a>
+</li>
+<li>
+<a href="/news/politics/candidates/santorum">Rick Santorum</a>
+</li>
+<li>
+<a href="/news/politics/candidates/obama">Barack Obama</a>
+</li>
+</ul>-->
+</li>
+<li>
+<a href="/news/politics/issues/economy" onclick="s_objectID='usat_elections|masthead|elections-nav|issues';">Issues</a>
+</li>
+<li>
+<a href="/news/politics/debates/index" onclick="s_objectID='usat_elections|masthead|elections-nav|debates';">Debates</a>
+</li>
+<li>
+<a href="/news/politics/primaries/index" onclick="s_objectID='usat_elections|masthead|elections-nav|primaries';">Primaries</a>
+</li>
+</ul>
+<div class="elections-logo">
+<img src="http://i.usatoday.net/news/_common/images/elections/election12_logo.png" width="256" height="69" alt="Election 2012" />
+</div>
+<!-- end .election-nav -->
+</div>
+<!--<div class="grey-background"></div>-->
+</div>
+<!-- end hd container -->
+<div id="bd">
+<div id="usat_breaking_news_01">
+<!--bn container-->
+</div>
+<!-- end usat_breaking-news_01 container -->
+<div id="campaign-promo-container"></div>
+<!-- end series ribbon page-spanning container -->
+<a id="maincontent"> </a>
+<!-- BEGIN CONTENT AREA -->
+<div id="yui-main" class="electionsContainer">
+<div class="yui-b content">
+<div class="topnews" role="main">
+<div class="lede-left">
+<h2>
+<!--getCC('55143398.story')-->
+<a href="http://www.usatoday.com/news/politics/story/2012-05-22/romney-republican-nomination/55143398/1" onclick="s_objectID='usat_life_front|Lede|title'">Romney edges closer to clinching</a>
+  <a href="http://www.usatoday.com/news/politics/primaries/index" title="MORE:  The latest GOP delegate count" class="hed-icon story-icon first"></a><a href="http://www.usatoday.com/news/politics/electoral-tracker" title="INTERACTIVE:  Electoral Vote Tracker" class="hed-icon interactive-icon "></a>
+</h2>
+<div class="photo">
+<a href="http://www.usatoday.com/news/politics/story/2012-05-22/romney-republican-nomination/55143398/1" onclick="s_objectID='usat_life_front|Lede|photo'">
+<img src="http://i.usatoday.net/webapps/optimus/resizeimage.ashx?path=http://i.usatoday.net/news/_photos/2012/05/22/Ky-Ark-primaries-leave-Romney-just-short-GG1HEVG4-x-extralarge.jpg&amp;width=305&amp;height=229" alt="Text" width="305px" height="229px" />
+</a>
+<div class="photo-caption">
+<div class="photo-caption-text">Republican presidential candidate Mitt Romney speaks in Lansing, Mich., on May 8.</div>
+</div>
+<!-- end photo-caption-text -->
+</div>
+<!-- end photo -->
+<div class="photo-caption-toggle">
+<div class="caption">
+<a class="caption-toggle" id="caption-toggle" href="#">CAPTION</a>
+</div>
+<div class="photo-credit">By Carlos Osorio, AP</div>
+</div>
+<!-- end photo-caption-toggle -->
+<div class="clear"></div>
+</div>
+<div class="lede-right three-pack">
+<ul>
+<li class="@~class1">
+<a href="http://www.usatoday.com/news/politics/story/2012-05-22/opposition-research-romney-obama/55138756/1">
+<img src="http://i.usatoday.net/news/_photos/2012/05/22/Researchers-dig-deep-into-political-opponents-GG1HDRNC-x-square.jpg" width="70" height="70" />
+</a>
+<a href="http://www.usatoday.com/news/politics/story/2012-05-22/opposition-research-romney-obama/55138756/1">Researchers dig deep into political opponents</a><a href="http://www.usatoday.com/news/politics/political-ad-tracker/index" title="INTERACTIVE:  Political Ad Tracker" class="hed-icon interactive-icon first"></a><p>Technology gives political opposition researchers more tools to probe for weaknesses.</p><div class="clear"></div></li>
+<li class="@~class1">
+<a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/cory-booker-obama-criticism-romney-video-/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/on-politics/2012/05/22/bookerx-square.jpg" width="70" height="70" />
+</a>
+<a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/cory-booker-obama-criticism-romney-video-/1">Mayor Booker slams GOP's use of his words</a><p>Cory Booker, a rising Democratic star, has long been an Obama supporter. </p><div class="clear"></div></li>
+<li class="text-block-last">
+<a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/barack-obama-ad-basketball-crossroads-gps-karl-rove-/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/on-politics/2012/05/22/obama x-square.jpg" width="70" height="70" />
+</a>
+<a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/barack-obama-ad-basketball-crossroads-gps-karl-rove-/1">GOP group's ad focuses on Obama and debt</a><p>Crossroads GPS is focusing on the themes of debt, taxes, jobs and the economy. </p><div class="clear"></div></li>
+</ul>
+</div>
+<!-- end lede-right -->
+</div>
+<!-- end topnews -->
+<div class="clear"></div>
+<div id="electionsConveyor">
+<div id="conveyor">
+<ul class="conveyor-buttons">
+<span style="display:none">true</span>
+<li class="left-button">
+<a title="Scroll left" class="prev"></a>
+</li>
+<li class="right-button">
+<a title="Scroll right" class="next"></a>
+</li>
+</ul>
+<div class="top-picks">
+<h2>Top Picks in Politics</h2>     
+<ul class="gel-nav">
+<li class="on" value="1">
+<span style="display:none">true1</span>
+<a>1</a>
+</li>
+<li class="" value="2">
+<span style="display:none">true2</span>
+<a>2</a>
+</li>
+</ul>
+</div>
+<div class="content-wrap">
+<div class="gel-content">
+<div class="gel-pane">
+<ul>
+<li class="clip first"><a href="http://content.usatoday.com/communities/theoval/index" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|1';"> <!--<img src="http://i.usatoday.net/webapps/optimus/resizeimage.ashx?path=http://i.usatoday.net/news/_photos/2011/12/12/ovalx86.jpg&amp;width=115&amp;height=86" alt="" width="115" height="86" border="0" class="story-thumb" />--><img src="http://i.usatoday.net/news/_photos/2011/12/12/ovalx86.jpg" alt="" width="115" height="86" border="0" class="story-thumb" /></a> <p class="story-thumb"><a href="http://content.usatoday.com/communities/theoval/index" onclick="s_objectID='usat_leftContent_01|TopPicks|text|1';">The Oval: Tracking the Obama presidency</a> </p></li>
+<li class="clip"><a href="http://www.usatoday.com/news/politics/electoral-tracker" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|2';"> <!--<img src="http://i.usatoday.net/webapps/optimus/resizeimage.ashx?path=http://i.usatoday.net/news/graphics/2012/election2012/evt_promos/EVT_115x98.jpg&amp;width=115&amp;height=86" alt="" width="115" height="86" border="0" class="interactive-thumb" />--><img src="http://i.usatoday.net/news/graphics/2012/election2012/evt_promos/EVT_115x98.jpg" alt="" width="115" height="86" border="0" class="interactive-thumb" /></a> <p class="interactive-thumb"><a href="http://www.usatoday.com/news/politics/electoral-tracker" onclick="s_objectID='usat_leftContent_01|TopPicks|text|2';">You decide the 2012 election</a> </p></li>
+<li class="clip"><a href="http://www.usatoday.com/news/politics/story/2012-05-02/super-pacs-mega-donors/54701270/1" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|3';"> <!--<img src="http://i.usatoday.net/webapps/optimus/resizeimage.ashx?path=http://i.usatoday.net/news/_photos/2012/05/02/adelsonx86.jpg&amp;width=115&amp;height=86" alt="" width="115" height="86" border="0" class="story-thumb" />--><img src="http://i.usatoday.net/news/_photos/2012/05/02/adelsonx86.jpg" alt="" width="115" height="86" border="0" class="story-thumb" /></a> <p class="story-thumb"><a href="http://www.usatoday.com/news/politics/story/2012-05-02/super-pacs-mega-donors/54701270/1" onclick="s_objectID='usat_leftContent_01|TopPicks|text|3';">Interactive: Track large donations to super PACs</a> </p></li>
+<li class="clip"><a href="http://www.usatoday.com/video/news/1646509990001" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|4';"> <!--<img src="http://i.usatoday.net/webapps/optimus/resizeimage.ashx?path=http://i.usatoday.net/news/_photos/2012/05/21/economyvotersx86.jpg&amp;width=115&amp;height=86" alt="" width="115" height="86" border="0" class="video-thumb" />--><img src="http://i.usatoday.net/news/_photos/2012/05/21/economyvotersx86.jpg" alt="" width="115" height="86" border="0" class="video-thumb" /><img class="video-dark" alt="Play Video" src="http://i.usatoday.net/_common/_images/black.gif"></img><div class="video-play"><span style="display:none;"></span><img src="http://i.usatoday.net/_fronts2010/_i/tp-play.png" width="33" height="33" alt="Play Video" /></div></a> <p class="video-thumb"><a href="http://www.usatoday.com/video/news/1646509990001" onclick="s_objectID='usat_leftContent_01|TopPicks|text|4';">Analysis: On the economy, a spectrum of views</a> </p></li>
+<li class="clip"><a href="http://www.usatoday.com/video/news/1641636826001" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|5';"> <!--<img src="http://i.usatoday.net/webapps/optimus/resizeimage.ashx?path=http://i.usatoday.net/news/_photos/2012/05/16/christiebookerx86.jpg&amp;width=115&amp;height=86" alt="" width="115" height="86" border="0" class="video-thumb" />--><img src="http://i.usatoday.net/news/_photos/2012/05/16/christiebookerx86.jpg" alt="" width="115" height="86" border="0" class="video-thumb" /><img class="video-dark" alt="Play Video" src="http://i.usatoday.net/_common/_images/black.gif"></img><div class="video-play"><span style="display:none;"></span><img src="http://i.usatoday.net/_fronts2010/_i/tp-play.png" width="33" height="33" alt="Play Video" /></div></a> <p class="video-thumb"><a href="http://www.usatoday.com/video/news/1641636826001" onclick="s_objectID='usat_leftContent_01|TopPicks|text|5';">Christie, Booker channel 'Seinfeld' in video parody</a> </p></li>
+</ul>
+</div>
+<div class="gel-pane">
+<ul>
+<li class="clip first"><a href="http://mediagallery.usatoday.com/Race+for+the+White+House/G3828" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|6';"> <!--<img src="http://i.usatoday.net/webapps/optimus/resizeimage.ashx?path=http://i.usatoday.net/news/_photos/2012/05/06/obama-beltx86.jpg&amp;width=115&amp;height=86" alt="" width="115" height="86" border="0" class="photo-thumb" />--><img src="http://i.usatoday.net/news/_photos/2012/05/06/obama-beltx86.jpg" alt="" width="115" height="86" border="0" class="photo-thumb" /></a> <p class="photo-thumb"><a href="http://mediagallery.usatoday.com/Race+for+the+White+House/G3828" onclick="s_objectID='usat_leftContent_01|TopPicks|text|6';">Race for the White House</a> </p></li>
+<li class="clip"><a href="http://www.usatoday.com/video/news/1638562385001" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|7';"> <!--<img src="http://i.usatoday.net/webapps/optimus/resizeimage.ashx?path=http://i.usatoday.net/news/_photos/2012/01/03/obamaspeechx86.jpg&amp;width=115&amp;height=86" alt="" width="115" height="86" border="0" class="video-thumb" />--><img src="http://i.usatoday.net/news/_photos/2012/01/03/obamaspeechx86.jpg" alt="" width="115" height="86" border="0" class="video-thumb" /><img class="video-dark" alt="Play Video" src="http://i.usatoday.net/_common/_images/black.gif"></img><div class="video-play"><span style="display:none;"></span><img src="http://i.usatoday.net/_fronts2010/_i/tp-play.png" width="33" height="33" alt="Play Video" /></div></a> <p class="video-thumb"><a href="http://www.usatoday.com/video/news/1638562385001" onclick="s_objectID='usat_leftContent_01|TopPicks|text|7';">Obama challenges women to lead the way</a> </p></li>
+<li class="clip"><a href="http://www.usatoday.com/video/news/1638871784001" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|8';"> <!--<img src="http://i.usatoday.net/webapps/optimus/resizeimage.ashx?path=http://i.usatoday.net/news/_photos/2012/01/03/obama13x86.jpg&amp;width=115&amp;height=86" alt="" width="115" height="86" border="0" class="video-thumb" />--><img src="http://i.usatoday.net/news/_photos/2012/01/03/obama13x86.jpg" alt="" width="115" height="86" border="0" class="video-thumb" /><img class="video-dark" alt="Play Video" src="http://i.usatoday.net/_common/_images/black.gif"></img><div class="video-play"><span style="display:none;"></span><img src="http://i.usatoday.net/_fronts2010/_i/tp-play.png" width="33" height="33" alt="Play Video" /></div></a> <p class="video-thumb"><a href="http://www.usatoday.com/video/news/1638871784001" onclick="s_objectID='usat_leftContent_01|TopPicks|text|8';">Analysis: Poll says Americans optimistic</a> </p></li>
+<li class="clip"><a href="http://www.usatoday.com/_common/_noflash/_horizontal-immersive/20120430-mitt-romney-vice-president-candidates/index.htm" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|9';"> <!--<img src="http://i.usatoday.net/webapps/optimus/resizeimage.ashx?path=http://i.usatoday.net/news/_photos/2012/04/30/immersive-romney-rubiox86.jpg&amp;width=115&amp;height=86" alt="" width="115" height="86" border="0" class="interactive-thumb" />--><img src="http://i.usatoday.net/news/_photos/2012/04/30/immersive-romney-rubiox86.jpg" alt="" width="115" height="86" border="0" class="interactive-thumb" /></a> <p class="interactive-thumb"><a href="http://www.usatoday.com/_common/_noflash/_horizontal-immersive/20120430-mitt-romney-vice-president-candidates/index.htm" onclick="s_objectID='usat_leftContent_01|TopPicks|text|9';">Sizing up potential GOP vice presidents</a> </p></li>
+<li class="clip"><a href="http://www.usatoday.com/news/politics/candidate-match-game" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|10';"> <!--<img src="http://i.usatoday.net/webapps/optimus/resizeimage.ashx?path=http://i.usatoday.net/news/graphics/2011/election2012/cmg_promo-art/images/CMG_115x98.jpg&amp;width=115&amp;height=86" alt="" width="115" height="86" border="0" class="story-thumb" />--><img src="http://i.usatoday.net/news/graphics/2011/election2012/cmg_promo-art/images/CMG_115x98.jpg" alt="" width="115" height="86" border="0" class="story-thumb" /></a> <p class="story-thumb"><a href="http://www.usatoday.com/news/politics/candidate-match-game" onclick="s_objectID='usat_leftContent_01|TopPicks|text|10';">Which 2012 hopeful do you match up with?</a> </p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- /ElectionsConveyor -->
+<div class="main-news-well">
+<div class="left-rail">
+<!-- end lr-module -->
+<div class="lr-module">
+<a href="http://www.usatoday.com/news/politics/political-ad-tracker/index">
+<img src="http://i.usatoday.net/news/graphics/2012/election2012/pat_promos/PAT_115x98.jpg" />
+</a>
+</div>
+<div class="lr-module">
+<h3>Election Issues</h3>
+<ul>
+<li><a href="/news/politics/issues/economy">Economy</a></li>
+<li><a href="/news/politics/issues/energy">Energy</a></li>
+<li><a href="/news/politics/issues/foreignpolicy">Foreign Policy</a></li>
+<li><a href="/news/politics/issues/healthcare">Health Care</a></li>
+<li><a href="/news/politics/issues/immigration">Immigration</a></li>
+<li><a href="/news/politics/issues/medicare">Medicare</a></li>
+<li><a href="/news/politics/issues/socialissues">Social Issues</a></li>
+<li><a href="/news/politics/issues/socialsecurity">Social Security</a></li>
+</ul>
+</div>
+<div class="lr-module">
+<h3>Candidates</h3>
+<ul class="@~listClass candidateNav">
+<li>
+<a href="/news/politics/candidates/bachmann">Michele Bachmann</a>
+</li>
+<li>
+<a href="/news/politics/candidates/cain">Herman Cain</a>
+</li>
+<li>
+<a href="/news/politics/candidates/gingrich">Newt Gingrich</a>
+</li>
+<li>
+<a href="/news/politics/candidates/huntsman">Jon Huntsman</a>
+</li>
+<li>
+<a href="/news/politics/candidates/johnson">Gary Johnson</a>
+</li>
+<li>
+<a href="/news/politics/candidates/paul">Ron Paul</a>
+</li>
+<li>
+<a href="/news/politics/candidates/perry">Rick Perry</a>
+</li>
+<li>
+<a href="/news/politics/candidates/roemer">Buddy Roemer</a>
+</li>
+<li>
+<a href="/news/politics/candidates/romney">Mitt Romney</a>
+</li>
+<li>
+<a href="/news/politics/candidates/santorum">Rick Santorum</a>
+</li>
+<li class="incumbent">
+<a href="/news/politics/candidates/obama">Barack Obama</a>
+</li>
+</ul>
+</div>
+<!-- end lr-module -->
+</div>
+<!-- end left-rail -->
+<div class="center-news-well">
+<div class="center-module">
+<h2>More top stories in Politics</h2>
+<ul class="top-section-stories">
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/james-clyburn-mitt-romney-raping-companies-bain-capital-/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/on-politics/2012/05/22/clyburn x86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/onpolitics/index">ON POLITICS: </a><!-- getCC('699649.blog') --><a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/james-clyburn-mitt-romney-raping-companies-bain-capital-/1">Top Dem leader: Romney was 'raping companies'</a></h4>
+<p><p>A comment by Rep. James Clyburn, D-S.C., that Mitt Romney was "raping companies" is rebuked by President Obama's campaign.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/obama-super-pac-romney-ad-ampad-/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/on-politics/2012/05/22/mitt-romneyx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/onpolitics/index">ON POLITICS: </a><!-- getCC('699304.blog') --><a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/obama-super-pac-romney-ad-ampad-/1">Pro-Obama group attacks Romney for Ampad layoffs</a></h4>
+<p><p>In the latest attack on Mitt Romney's business record, a new ad by a pro-Obama group packs an emotional wallop. </p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/theoval/post/2012/05/campaign-offers-meeting-with-obama-and-bill-clinton/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/the-oval/2012/05/22/obama-clintonx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/theoval/index">THE OVAL: </a><!-- getCC('699210.blog') --><a href="http://content.usatoday.com/communities/theoval/post/2012/05/campaign-offers-meeting-with-obama-and-bill-clinton/1">Campaign offers meeting with Obama and Bill Clinton</a></h4>
+<p><p>President Obama's re-election campaign is offering supporters the chance to meet Obama and former president Bill Clinton in New York.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/chris-christie-mitt-romney-fundraiser-new-york-city-/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/on-politics/2012/05/22/christie-romneyx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/onpolitics/index">ON POLITICS: </a><!-- getCC('699114.blog') --><a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/chris-christie-mitt-romney-fundraiser-new-york-city-/1">Chris Christie to raise money for Mitt Romney </a></h4>
+<p><p>New Jersey Gov. Chris Christie joins Mitt Romney in New York City on a fundraising swing expected to bring in $10 million. </p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/theoval/post/2012/05/obama-citizenship-still-an-issue-for-some-republicans/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/the-oval/2012/03/01/aaa-certificatex86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/theoval/index">THE OVAL: </a><!-- getCC('699042.blog') --><a href="http://content.usatoday.com/communities/theoval/post/2012/05/obama-citizenship-still-an-issue-for-some-republicans/1">Obama citizenship still an issue for some Republicans</a></h4>
+<p><p>Iowa Republican Party official wants presidential candidates to "show proof of being a 'natural born citizen' of the United States."</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/donald-trump-republican-voter-registration-/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/on-politics/2012/05/22/trumpx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/onpolitics/index">ON POLITICS: </a><!-- getCC('699034.blog') --><a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/donald-trump-republican-voter-registration-/1">Donald Trump registers (again) to vote GOP </a></h4>
+<p><p>Now that he's backing Mitt Romney for president, the real estate mogul has registered to vote Republican.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/theoval/post/2012/05/teacher-suspended-over-obama-argument/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/the-oval/2012/05/22/obama-lawnx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/theoval/index">THE OVAL: </a><!-- getCC('699028.blog') --><a href="http://content.usatoday.com/communities/theoval/post/2012/05/teacher-suspended-over-obama-argument/1">Teacher suspended over Obama argument</a></h4>
+<p><p>A North Carolina teacher has been suspended following an argument she had with a student over President Obama and Mitt Romney.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/theoval/post/2012/05/powell-declines-to-endorse-obama/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/the-oval/2012/05/22/obama-powellx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/theoval/index">THE OVAL: </a><!-- getCC('699016.blog') --><a href="http://content.usatoday.com/communities/theoval/post/2012/05/powell-declines-to-endorse-obama/1">Colin Powell declines to endorse Obama</a></h4>
+<p><p>Former Secretary of State Colin Powell is declining to endorse President Obama for re-election, at least for now.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/theoval/post/2012/05/obama-goes-after-romney----the-businessman/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/the-oval/2012/05/22/obama-romneyx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/theoval/index">THE OVAL: </a><!-- getCC('698994.blog') --><a href="http://content.usatoday.com/communities/theoval/post/2012/05/obama-goes-after-romney----the-businessman/1">Obama goes after Romney -- the businessman</a></h4>
+<p><p>President Obama, targeting Mitt Romney's work at Bain Capital, says private equity is not good preparation for the presidency.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/mitch-daniels-mitt-romney-vice-president-disconnect-phone-/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/on-politics/2012/04/18/mitch-daniels x86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/onpolitics/index">ON POLITICS: </a><!-- getCC('698591.blog') --><a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/mitch-daniels-mitt-romney-vice-president-disconnect-phone-/1">Gov. Daniels on being VP: I'd 'disconnect the phone'</a></h4>
+<p><p>Indiana Gov. Mitch Daniels says he'd "disconnect the phone" if he thought Mitt Romney were to call him about being his running mate.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/theoval/post/2012/05/obama-defends-campaign-ad-targeting-romneys-business/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/the-oval/2012/05/21/obama-romneyx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/theoval/index">THE OVAL: </a><!-- getCC('698573.blog') --><a href="http://content.usatoday.com/communities/theoval/post/2012/05/obama-defends-campaign-ad-targeting-romneys-business/1">Obama defends campaign ads targeting Romney's business</a></h4>
+<p><p>President Obama defended his campaign's focus on plant closings and layoffs caused by Bain Capital, the firm once headed by Mitt Romney.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/bill-maher-tweet-mitt-romney-cult-/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/on-politics/2012/05/21/maherx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/onpolitics/index">ON POLITICS: </a><!-- getCC('698489.blog') --><a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/bill-maher-tweet-mitt-romney-cult-/1">Bill Maher calls Mormonism a 'cult' </a></h4>
+<p><p>Comedian Bill Maher, a major donor to President Obama, referred to Mitt Romney's Mormon faith as a cult.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/mitt-romney-cory-booker-bain-capital-attacks-/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/on-politics/2012/05/21/romney x86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/onpolitics/index">ON POLITICS: </a><!-- getCC('698456.blog') --><a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/mitt-romney-cory-booker-bain-capital-attacks-/1">Romney features Mayor Booker's comments in video </a></h4>
+<p><p>Mitt Romney features Newark Mayor Cory Booker's comments about private equity in a new Web video.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/theoval/post/2012/05/catholic-institutions-sue-obama-over-birth-control-mandate/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/the-oval/2012/05/21/a-obama-notredamex86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/theoval/index">THE OVAL: </a><!-- getCC('698360.blog') --><a href="http://content.usatoday.com/communities/theoval/post/2012/05/catholic-institutions-sue-obama-over-birth-control-mandate/1">Catholic institutions sue Obama over birth control mandate</a></h4>
+<p><p>The birth control dispute between President Obama and some Catholic institutions is headed to court.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/theoval/post/2012/05/will-smith-as-barack-obama/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/the-oval/2012/05/21/a-obama-prizex86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/theoval/index">THE OVAL: </a><!-- getCC('698345.blog') --><a href="http://content.usatoday.com/communities/theoval/post/2012/05/will-smith-as-barack-obama/1">Will Smith as Barack Obama?</a></h4>
+<p><p>Actor Will Smith has a suggestion on who should play the title role in a movie about President Obama.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/theoval/post/2012/05/cheney-to-host-fundraiser-for-romney/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/the-oval/2012/05/21/cheney-romneyx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/theoval/index">THE OVAL: </a><!-- getCC('698310.blog') --><a href="http://content.usatoday.com/communities/theoval/post/2012/05/cheney-to-host-fundraiser-for-romney/1">Cheney to host fundraiser for Romney</a></h4>
+<p><p>Former vice president Dick Cheney continues to stay active politically and will host a fundraiser in July for Mitt Romney.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/congress-speaks-dumb-sophomores-sunlight-foundation-/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/on-politics/2012/05/21/mulvaneyx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/onpolitics/index">ON POLITICS: </a><!-- getCC('698221.blog') --><a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/congress-speaks-dumb-sophomores-sunlight-foundation-/1">Analysis: Congress talks like high school sophomores</a></h4>
+<p><p>Members of Congress on average speak at the same level as high school sophomores, a new report says.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/theoval/post/2012/05/chamber-of-commerce-to-spend-more-than-50m-on-elections/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/the-oval/2012/05/21/obama-donohuex86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/theoval/index">THE OVAL: </a><!-- getCC('698191.blog') --><a href="http://content.usatoday.com/communities/theoval/post/2012/05/chamber-of-commerce-to-spend-more-than-50m-on-elections/1">Chamber of Commerce may spend at least $50M on elections</a></h4>
+<p><p>The president of the U.S. Chamber of Commerce indicates that reports that the business group would spend $50 million on the 2012 elections are too low.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/texas-senate-rick-perry-david-dewhurst-sarah-palin-ted-cruz/1">
+<img src="http://i.usatoday.net/communitymanager/_photos/on-politics/2012/05/21/palin-perry x86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/onpolitics/index">ON POLITICS: </a><!-- getCC('698081.blog') --><a href="http://content.usatoday.com/communities/onpolitics/post/2012/05/texas-senate-rick-perry-david-dewhurst-sarah-palin-ted-cruz/1">Texas Senate race features Perry vs. Palin backdrop</a></h4>
+<p><p>Tea Party favorites Rick Perry and Sarah Palin weigh in for different candidates in a the high-profile Texas Senate GOP primary.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block @~class1">
+<a href="http://www.usatoday.com/news/religion/story/2012-05-21/church-politics-religion-election/55118380/1">
+</a>
+<div class="top-stories-text no-image">
+<h4>
+<a class="section-link" href="http://www.usatoday.com/news/religion/index">RELIGION: </a><!-- getCC('55118380.story') --><a href="http://www.usatoday.com/news/religion/story/2012-05-21/church-politics-religion-election/55118380/1">Churches tread lightly on politics in 2012 election</a></h4>
+<p><p>With the 2012 election less than six months away, congregations are getting the message that Americans want religion out of politics.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+</ul>
+<!-- end top-section-stories -->
+<div class="clear"></div>
+</div>
+<!-- end center-module -->
+<div class="clear"></div>
+<div class="ads-indexbottom">
+<h2>Sponsored Links</h2>
+<script type="text/javascript">adsonar_placementId=1549623;adsonar_pid=2624768;adsonar_ps=0;adsonar_zw=525;adsonar_zh=100;adsonar_jv='ads.adsonar.com';</script>
+<script language="JavaScript" src="http://js.adsonar.com/js/adsonar.js"></script>
+</div>
+<!-- end bottom-google-links -->
+</div>
+<!-- end center-news-well -->
+</div>
+<!-- end main-news-well -->
+</div>
+<!-- end yui-b .content -->
+</div>
+<!-- end yui-main -->
+<!-- END CONTENT AREA -->
+<!-- BEGIN RIGHT RAIL -->
+<div class="yui-b sidebar">
+<div id="electionsTwitter">
+<h2>Latest from Twitter</h2>
+<div id="twitterContainer" style="display:none;">
+<ul class="tabs">               
+<li><a href="#tab1">USA TODAY Politics</a></li>
+<li><a href="#tab2">Campaign Updates</a></li>
+</ul>
+<div id="tab1">
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'list',
+  rpp: 30,
+  interval: 30000,
+  title: '',
+  subject: '',
+  width: 300,
+  height: 195,
+  theme: {
+    shell: {
+      background: '#cfcfcf',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#333333',
+      links: '#0093c8'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setList('USAToday', 'usat-political-team').start();
+</script>
+</div>
+<div id="tab2">
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'list',
+  rpp: 30,
+  interval: 30000,
+  title: '',
+  subject: '',
+  width: 300,
+  height: 195,
+  theme: {
+    shell: {
+      background: '#cfcfcf',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#333333',
+      links: '#0093c8'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setList('ElectionsUSAT', 'campaign-news').start();
+</script>
+</div>
+<!-- /tab_container -->
+</div>
+</div>
+<!-- /electionsTwitter -->
+<script type="text/javascript">
+jQuery(document).ready(function() {       
+var tabContainers = jQuery('#twitterContainer > div');     
+tabContainers.hide().filter(':first').show();
+jQuery('#twitterContainer ul.tabs a').click(function() {
+tabContainers.hide();
+tabContainers.filter(this.hash).show();
+jQuery('#twitterContainer ul.tabs a').removeClass('active');
+jQuery(this).addClass('active');
+return false;
+}).filter(':first').click();
+jQuery('#twitterContainer').show();
+});
+</script>
+<div class="rr-module poster-ad">
+<banner position="SFPoster" size="300x250" />
+</div>
+<!-- end rr-module ad -->
+<div class="rr-module section-front-video">
+<div style="display:none"></div>
+<script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script src="http://admin.brightcove.com/js/APIModules_all.js"></script>
+<object id="myExperience" class="BrightcoveExperience">
+<param name="bgcolor" value="#FFFFFF" />
+<param name="width" value="300" />
+<param name="height" value="344" />
+<param name="playerID" value="941402411001" />
+<param name="publisherID" value="29906170001" />
+<param name="isVid" value="true" />
+<param name="isUI" value="true" />
+<param name="omnitureAccountID" value="usatodayprod" />
+<param name="division" value="usatoday" />
+<param name="marketName" value="usat" />
+<param name="pageTitle" value="news" />
+<param name="revSciZip" />
+<param name="revSciAge" />
+<param name="revSciGender" />
+<param name="SSTSCode" value="life/default.htm" />
+<param name="adServerURL" value="http://gannett.gcion.com/?adrawdata/3.0/5111.1/778078/0/0/header=yes;cc=2;alias=www.usatoday.com/video/news_PreRoll;cookie=info;key=42806346001;adct=204;grp=12345" />
+<param name="@videoList" value="71179331001" />
+<param name="wmode" value="transparent" />
+</object>
+
+<script type="text/javascript">
+brightcove.createExperiences();
+
+var bcExp;
+var adModule;  
+var kk=0;    
+function onTemplateLoaded(experienceID) {
+bcExp = brightcove.getExperience(experienceID);
+adModule = bcExp.getModule(APIModules.ADVERTISING);
+}
+function writeExpandedBanner(value)
+{
+if(value != null && value != '') {         
+jQuery("#usat_PosterBlog").html('' + value + '');  
+if(kk == 0) {
+jQuery('.preroll-ad-wrapper').slideToggle('slow');
+kk=1;
+}
+}
+else { 
+if(kk == 1) {
+jQuery('.preroll-ad-wrapper').slideToggle('slow');
+kk=0;
+}
+}    
+}
+
+
+</script>
+<style type="text/css">
+#usat_PosterBlog {
+height:auto;
+background:url(http://i.usatoday.net/_fronts2010/_i/poster-ad-agate.gif);
+background-repeat:no-repeat;
+background-position:bottom;
+padding-bottom:16px;
+}
+</style>
+<div class="preroll-ad-wrapper" style="display:none;">
+<div id="usat_PosterBlog" class="ad poster3"></div>
+</div>
+</div>
+<!-- end rr-module section-front-video -->
+<!-- <container name="electionsRSS" processor="repeater" template="electionsRSS" rangeFrom="1" rangeTo="10" dataSource="super-tuesday-rss" /> -->
+
+<div class="rr-module rr-template">
+<h2>Photo Galleries</h2>
+<div class="rr-template-container photo-gallery-template">
+<ul>
+<li>
+<a href="http://mediagallery.usatoday.com/2012+GOP+debates+and+the+polls/G3000" title="2012 GOP debates and the polls">
+<img src="http://i.usatoday.net/_common/_notches/039598af-7990-4bc2-84f6-ce446a79d671-2debatex86.jpg" width="86" height="65" alt="" />
+</a>
+<a href="http://mediagallery.usatoday.com/2012+GOP+debates+and+the+polls/G3000" title="2012 GOP debates and the polls">2012 GOP debates and the polls</a>
+</li>
+<li>
+<a href="http://mediagallery.usatoday.com/Possible-GOP-presidential-candidates/G2171,A8928" title="2012 GOP presidential field">
+<img src="http://i.usatoday.net/_common/_notches/108132fc-f4e0-418a-9b8a-794438dc9454-Romney currentx86.jpg" width="86" height="65" alt="" />
+</a>
+<a href="http://mediagallery.usatoday.com/Possible-GOP-presidential-candidates/G2171,A8928" title="2012 GOP presidential field">2012 GOP presidential field</a>
+</li>
+<li>
+<a href="http://mediagallery.usatoday.com/Super+Tuesday/G3468" title="Super Tuesday">
+<img src="http://i.usatoday.net/_common/_notches/039598af-7990-4bc2-84f6-ce446a79d671-1supertuesdayx86.jpg" width="86" height="65" alt="" />
+</a>
+<a href="http://mediagallery.usatoday.com/Super+Tuesday/G3468" title="Super Tuesday">Super Tuesday</a>
+</li>
+</ul>
+<div class="clear"></div>
+</div>
+</div>
+<div class="rr-module rr-template">
+<h2>Headlines from POLITICO</h2>
+<div class="rr-template-container one-square-list-template">
+<img src="http://i.usatoday.net/news/_common/_images/politico-new.jpg" width="86" height="65" alt="" />
+<a href="http://www.politico.com/news/stories/0512/76657.html" class="one-square-list-template-heading">House incumbents win primaries</a>
+<p>None of the eight members seeking reelection faced serious opposition in their primaries.</p>
+<ul>
+<li>
+<span class="spike default"></span>
+<a href="http://www.politico.com/news/stories/0512/76656.html">Obama struggles in primaries</a>
+<p> Romney fared moderately better. </p>
+</li>
+<li>
+<span class="spike default"></span>
+<a href="http://www.politico.com/news/stories/0512/76654.html">Nancy Reagan suffers broken ribs</a>
+<p> She was expected to attend Paul Ryan&#39;s speech at the Reagan Presidential Library on Tuesday. </p>
+</li>
+</ul>
+<div class="clear"></div>
+</div>
+<!-- end rr-template-container -->
+</div>
+<!-- end rr-module -->
+</div>
+<!-- end yui-b sidebar -->
+<!-- END RIGHT RAIL -->
+</div>
+<!-- end bd container -->
+<div id="ft">
+<!-- /EdSysObj -->
+<div id="usat-footer-02">
+<!-- EdSysObj ID="SSIFragment" FRAGMENTID="37368062" appadmin --><div class="usat_footer_01"> 
+<h5>USA TODAY Digital Services</h5> 
+<ul role="navigation"> 
+<li class="no-border"><a href="http://www.usatoday.com/mobile/index.htm?POE=FOOTER" onClick="s_objectID='usat_footer_01|digital|1';">Mobile</a></li> 
+<li><a href="http://email.usatoday.com/" onClick="s_objectID='usat_footer_01|digital|2';">E-Newsletters</a></li> 
+<li><a href="http://content.usatoday.com/marketing/rss/index.aspx?POE=FOOTER" onClick="s_objectID='usat_footer_01|digital|3';">RSS</a></li> 
+<li><a href="http://twitter.usatoday.com  " onClick="s_objectID='usat_footer_01|digital|4';">Twitter</a></li> 
+<!--<li><a href="http://content.usatoday.com/marketing/rss/index.aspx#podcast" onClick="s_objectID='usat_footer_01|digital|5';">Podcasts</a></li> 
+<li><a href="http://www.usatoday.com/community/widgets/index.htm" onClick="s_objectID='usat_footer_01|digital|6';">Widgets</a></li>-->
+<li><a href="http://www.usatodaysubscribe.com/eeservice" onClick="s_objectID='usat_footer_01|digital|7';">e-Newspaper</a></li> 
+<li><a href="http://www.usatoday.com/ipad" onClick="s_objectID='usat_footer_01|digital|17';">USA TODAY for iPad</a></li>
+<li><a href="http://www.amazon.com/USA_TODAY/dp/B001KBZ3D2/ref=o_disp_017_129_242_99_035&amp;tag=partnerlink1-20" onClick="s_objectID='usat_footer_01|digital|8';">USA TODAY on Kindle</a></li>
+<li><a href="http://search.barnesandnoble.com/USA-Today/Gannett-Co-Inc/e/2940000228067?itm=1&amp;USRI=usa%2Btoday" onClick="s_objectID='usat_footer_01|digital|18';">USA TODAY on Nook</a></li>
+<li><a href="http://www.usatoday.com/hpwebos-tablet/" onClick="s_objectID='usat_footer_01|digital|19';">USA TODAY on HP TouchPad</a></li>
+<!--<li><a href="http://www.usatoday.com/printedition/news/index.htm?POE=FOOTER" onClick="s_objectID='usat_footer_01|digital|9';">Print Edition</a></li> 
+<li><a href="www.usatodaysubscribe.com/homeNav" onClick="s_objectID='usat_footer_01|digital|10';">Subscribe to Home Delivery</a></li>-->
+</ul> 
+<ul role="navigation"> 
+<li class="no-border"><a href="http://www.GannettReprints.com?POE=Footer#reprints" onClick="s_objectID='usat_footer_01|digital|12';">Reprints &amp; Permissions</a></li> 
+<li><a href="http://content.usatoday.com/topics/index" onClick="s_objectID='usat_footer_01|digital|13';">USA TODAY Topics</a></li> 
+<li><a href="http://content.usatoday.com/topics/ReporterList" onClick="s_objectID='usat_footer_01|digital|14';">Reporter Index</a></li> 
+<li><a href="http://www.usatoday.com/news/Corrections-and-clarifications.htm" onClick="s_objectID='usat_footer_01|digital|15';">Corrections/Clarifications</a></li> 
+<li><a href="http://www.usatoday.com/marketing/feedback.htm?POE=Footer" onClick="s_objectID='usat_footer_01|digital|16';">Contact Us</a></li>
+<li><a href="http://www.usatodaysubscribe.com/homeNav" onClick="s_objectID='usat_footer_01|digital|10';">Subscribe to Home Delivery</a></li> 
+<li><a href="http://www.usatodaysubscribe.com/HomeService" onClick="s_objectID='usat_footer_01|digital|12';">Customer Service</a></li>
+<li><a href="http://pqasb.pqarchiver.com/USAToday/search.html?POE=FOOTER" onClick="s_objectID='usat_footer_01|digital|11';">Archives</a></li> 
+</ul> 
+</div><!-- /EdSysObj -->
+</div>
+<div id="usat_Bottom728x90" class="ad">
+<banner position="Bottom728x90" size="728x90" />
+</div>
+<div id="usat-footer-03">
+<!-- EdSysObj ID="SSIFragment" FRAGMENTID="37368064" cpeksens --><div class="float-inner"> 
+<ul class="usat_footer_02" role="navigation"> 
+<li class="no-border"><a href="http://www.usatoday.com/default.htm" class="ssts_home" onclick="s_objectID='usat_footer_02|nav|1';">Home</a></li> 
+<li><a href="http://www.usatoday.com/news/default.htm" class="ssts_news" onclick="s_objectID='usat_footer_02|nav|2';">News</a></li> 
+<li><a href="http://travel.usatoday.com/" class="ssts_travel" onclick="s_objectID='usat_footer_02|nav|3';">Travel</a></li> 
+<li><a href="http://www.usatoday.com/money/default.htm" class="ssts_money" onclick="s_objectID='usat_footer_02|nav|4';">Money</a></li> 
+<li><a href="http://www.usatoday.com/sports/default.htm" class="ssts_sports" onclick="s_objectID='usat_footer_02|nav|5';">Sports</a></li> 
+<li><a href="http://www.usatoday.com/life/default.htm"  class="ssts_life" onclick="s_objectID='usat_footer_02|nav|6';">Life</a></li> 
+<!--<li><a href="http://yourlife.usatoday.com/" class="ssts_yourlife" onclick="s_objectID='usat_footer_02|nav|9';">Your Life</a></li>-->    
+<li><a href="http://www.usatoday.com/tech/default.htm" class="ssts_tech" onclick="s_objectID='usat_footer_02|nav|7';">Tech</a></li> 
+<li><a href="http://www.usatoday.com/weather/default.htm" class="ssts_weather" onclick="s_objectID='usat_footer_02|nav|8';">Weather</a></li> 
+</ul> 
+<ul class="usat_footer_03"> 
+<li class="no-border"><strong>Visit our Partners:</strong></li> 
+<li class="no-border"><a href="http://www.usaweekend.com/usatoday.html?POE=FOOTER" onclick="s_objectID='usat_footer_03|partners|1';">USA WEEKEND</a></li> 
+<!--<li><a href="http://www.usatoday.com/marketing/media_kit/live/brand.html?POE=FOOTER" onclick="s_objectID='usat_footer_03|partners|2';">USA TODAY LIVE</a></li>-->
+<li><a href="http://www.mysportsweekly.com/cs" onclick="s_objectID='usat_footer_03|partners|3';">Sports Weekly</a></li>
+<li><a href="http://www.usatoday.com/educate/homesplash.htm?POE=FOOTER" onclick="s_objectID='usat_footer_03|partners|5';">Education</a></li> 
+<li><a href="http://www.space.com/?POE=FOOTER" onclick="s_objectID='usat_footer_03|partners|6';">Space.com</a></li> 
+<li><a href="http://traveltips.usatoday.com" onclick="s_objectID='usat_footer_03|partners|7';">Travel Tips</a></li> 
+</ul> 
+</div><!-- /EdSysObj -->
+</div>
+<div id="usat-footer-04">
+<!-- EdSysObj ID="SSIFragment" FRAGMENTID="37368068" appadmin --><div>
+<ul class="usat_footer_04" role="navigation">
+<li class="no-border"><a href="http://www.usatoday.com/marketing/feedback.htm?POE=FOOTER" onclick="s_objectID='usat_footer_04|misc|1';">Contact us</a></li> 
+<li><a href="http://www.usatoday.com/marketing/media_kit/index.html" onclick="s_objectID='usat_footer_04|misc|2';">Advertise</a></li> 
+<li><a href="http://www.usatoday.com/marketing/media_kit/pressroom/press_releases_home.html" onclick="s_objectID='usat_footer_04|misc|3';">Pressroom</a></li> 
+<li><a href="http://developer.usatoday.com/" onclick="s_objectID='usat_footer_04|developer|1';">Developer</a></li> 
+<!--<li><a href="http://www.usatoday.com/marketing/media_lounge/index.html" onclick="s_objectID='usat_footer_04|misc|4';">Media Lounge</a></li>--> 
+<li><a href="http://www.careerbuilder.com/?lr=cbga_usa" onclick="s_objectID='usat_footer_04|misc|5';">Jobs</a></li> 
+<li><a href="http://www.usatoday.com/marketing/faq.htm" onclick="s_objectID='usat_footer_04|misc|6';">FAQ</a></li> 
+<li><a href="http://www.usatoday.com/marketing/questions.htm?POE=FOOTER#contentLicensingTop" onclick="s_objectID='usat_footer_04|misc|7';">Reprints/Permissions</a></li> 
+<li><a href="http://www.usatoday.com/marketing/privacy-notice.htm" onclick="s_objectID='usat_footer_04|misc|8';">Privacy Notice/Your California Privacy Rights</a></li> 
+<li><a href="http://www.usatoday.com/marketing/privacy-notice.htm#adserving" onclick="s_objectID='usat_footer_04|misc|11';">Ad Choices</a></li> 
+<li><a href="http://www.usatoday.com/marketing/tos.htm" onclick="s_objectID='usat_footer_04|misc|9';">Terms of Service</a></li> 
+<li><a href="http://www.usatoday.com/howtofind-cat.htm" onclick="s_objectID='usat_footer_04|misc|10';">Site Index</a></li> 
+</ul>
+<p class="usat_footer_05">&#169; 2012 USA TODAY, a division of <a href="http://www.gannett.com/" onclick="s_objectID='usat_footer_05|gannett|1';">Gannett Satellite Information Network, Inc.</a></p>
+</div><!-- /EdSysObj -->
+</div>
+</div>
+<!-- end ft div -->
+</div>
+<!-- end custom-doc div -->
+<script type="text/javascript">
+var usat_analytics_url = "www.usatoday.com/news/politics/front";
+var usat_analytics_pagename_url = "www.usatoday.com/news/politics/default.htm";
+</script>
+
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/usatv2.js"></script>
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/_omniture/omniturebase.js"></script>
+<script type="text/javascript" src="http://content.usatoday.com/asp/usataj/usataj.js"></script>
+<script type="text/javascript" src="http://www.usatoday.com/asp/uas3/uas.js"></script>
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/gel/lib/core/core.js"></script>
+<!--<script type="text/javascript" src="http://i.usatoday.net/_fronts2010/_home/_j/gel-directives-v2.js"></script>-->
+<script type="text/javascript">
+jQuery(window).load(function(){
+(function($){ usatAuth.initialSetup(); })(jQuery);
+});
+</script>
+<script type="text/javascript">
+GEL.config.AdPage = "www.usatoday.com/news/politics/default.htm";
+GEL.config.AdServer = "gannett.gcion.com";
+GEL.config.AdNetworkId = "5111.1";
+GEL.thepage.initializer.addInitRoutine({
+name: "banners",
+namespace: "widget.AdBanner",
+callback: function () {
+var loader = GEL.thepage.bannerLoader = new GEL.widget.AdBanner.Locator();
+loader.findBanners();
+loader.loadBanners(function () { return this.config.loadOnInit; });
+},
+priority: 10
+});
+</script>
+<script type="text/javascript" src="http://www.usatoday.com/news/_common/scripts/gel-directives-conveyor.js"></script>
+<!-- <script type="text/javascript">GEL.thepage.scrollTabs.init();</script> -->
+<!--[if IE 6]>
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('.search, #day1, #day2, #day3, .left-button, .right-button, .bullet, a, h2, h3, img');
+</script>
+<![endif]-->
+</body>
+<!--pltResponseStatus--><!--OK--><!--/pltResponseStatus--></html>

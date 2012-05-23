@@ -8,50 +8,50 @@ import time
 import random
 
 
-"""Global setting variables"""
-main_dir = sys.argv[1]
-news_name = 'wall_street_journal'
 
-"""Define what to do with each file"""
-from bs4 import BeautifulSoup
-def function_on_file(file_path):
-    print file_path
-"""Do something on error collection and url_collection"""
-
-
-
-
-
-"""current dir begins with main_dir as current_dir and is recursive and finds all file paths in the main_dir"""
-def get_files(current_dir = main_dir):
-    files_list = []
-    files = os.listdir(main_dir)
-    for file in files:
-        file_path = current_dir + file
-        if os.path.isdir(file_path):
-            files_list.extend(get_files(file_path))
-        else:
-            files_list.append(file_path)
-    return files_list
-
-from multiprocessing import Pool
-def main():
-    set_up_globals()
-    files_list = get_files(main_dir)
-    pool = Pool(processes=5)
-    pool.map(function_on_file, files_list)
-
-    
 def set_up_globals():
-    global connection, db, url_collection, error_collection
+    global random_wait, wait_time, url_to_scrape, connection, db, url_collection, cookie_handler, url_opener, url_short, error_collection, backup_interval
+    
+    random_wait = True
+    wait_time = 1
+    backup_interval = 100
+
+    """Determines which urls to scrape through storing previous entries in database"""
+    url_to_scrape = sys.argv[1]
+    url_short = url_to_scrape.replace('http://', '')
     connection = Connection('localhost', 27018)
-    db = connection.process_html
-    url_collection = db[news_name]
-    error_collection = db[news_name + '_errors']
+    db = connection.get_html
+    url_collection = db[url_to_scrape]
+    error_collection = db['errors']
     
+    cookie_handler = urllib2.HTTPCookieProcessor()
+    url_opener = urllib2.build_opener(MyHTTPRedirectHandler, cookie_handler)
+    url_opener.addheaders = [('User-agent', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.9 Safari/536.5')]
 
-
+def scrape_html():
+    all_entries = url_collection.find({'counter' : {'$exists' : True}}).sort('counter', DESCENDING)
     
+    if all_entries.count() == 0:
+        print 'No previous recursive request found'
+        explored_set = set()
+        url_queue = Queue()
+        url_queue.put(url_to_scrape)
+        begin_get(url_queue, explored_set, 0)
+        return
+    current_entry = all_entries[0]
+    current_counter = current_entry['counter']
+    print 'Working on ' + str(current_counter * 5) + ' entry'
+    url_array = current_entry['url_array']
+    url_queue = Queue()
+    for x in url_array:
+        url_queue.put(x)
+
+    explored_array = current_entry['explored_array']
+    explored_set = set()
+    for x in explored_array:
+        explored_set.add(x)
+    
+    begin_get(url_queue, explored_set, current_counter)
 
 
 directories_exist = set()
@@ -158,4 +158,5 @@ class MyHTTPRedirectHandler(urllib2.HTTPRedirectHandler):
 
 
 if __name__ == '__main__':
-    main()
+    set_up_globals()
+    scrape_html()
