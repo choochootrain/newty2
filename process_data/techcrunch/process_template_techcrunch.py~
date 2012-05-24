@@ -6,11 +6,61 @@ import os
 import sys
 import time
 import random
+import traceback
+
+testing = True
+
+
+begin_tags = r'<(div|td|tr|th|table|a|body|area|form|font|h1|h2|h3|h4|h5|h6|head|title|li|p|center|html|input|option|select|textarea|ul|i|b|label|footer|span)(>|[\s][^>^<^]*>)'
+end_tags = r'</(div|td|tr|th|table|a|body|area|form|font|h1|h2|h3|h4|h5|h6|head|title|li|p|center|html|input|option|select|textarea|ul|i|b|label|footer|span)(>|[\s][^>^<^]*>)'
+
+tags_regex = '<[^<^>]*>'
 
 
 """Global setting variables"""
 main_dir = sys.argv[1]
-news_name = 'wsj'
+
+"""@toedit"""
+news_name = 'techcrunch_data'
+news_name = 'insert name here.'
+#news_name = 'usatoday_data'
+#news_name = 'techcrunch_data'
+#news_name = 'wsj_data'
+#news_name = 'nyt_data'
+
+
+"""@toedit"""
+def get_title(html):
+    print 'get title not yet implemented'
+
+"""@toedit"""
+def get_body(html):
+    print 'get body not yet implemented'
+    a = html.find('<div class="body-copy">')
+    html1 = html[a + 23 :]
+    html_array = html1.split('</div>')
+    body = html_array[1]
+    clean_body = remove_tags(body)
+    print clean_body
+
+
+"""@toedit"""
+def get_date(html):
+    print 'get date not yet implemented'
+
+
+
+def remove_tags(html):
+    tags = [(x.start(), x.end()) for x in re.finditer(tags_regex, html)]
+    clean_html = ''
+    prev_end = 0
+    for begin, end in tags:
+        clean_html += html[prev_end : begin]
+        prev_end = end
+    clean_html += html[prev_end : ]
+    return clean_html
+    
+
 
 connection = Connection('localhost', 27018)
 db = connection[news_name]
@@ -29,14 +79,29 @@ db = c['wsj']
 db.drop_collection('explored')
 db.drop_collection('queue')"""
 
+
 """Define what to do with each file"""
 from bs4 import BeautifulSoup
 def function_on_file(queue_obj):
     file_path = queue_obj['path']
-    os.system('open ' + file_path)
+    f = open(file_path, 'r')
+    html = f.read()
+    try:
+        title = get_title(html)
+        body = get_body(html)
+        date = get_date(html)
+        f.close()
+        entry = {'path' : file_path, 'title' : title, 'body' : body, 'date' : date}
+        if not testing:
+            success.insert(entry)
+    except:
+        if not testing:
+            error.insert({'path' : file_path})
+        traceback.print_exc()
     print file_path
+    if not testing:
+        queue.remove(queue_obj)
 
-    #queue.remove(queue_obj)
 """Do something on error collection and url_collection"""
 
 
