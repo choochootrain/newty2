@@ -6,11 +6,28 @@ import os
 import sys
 import time
 import random
-
+import traceback
 
 """Global setting variables"""
 main_dir = sys.argv[1]
-news_name = 'wsj'
+news_name = 'insert name here'
+#news_name = 'usatoday_data'
+#news_name = 'techcrunch_data'
+#news_name = 'wsj_data'
+#news_name = 'nyt_data'
+def get_title(html):
+    print 'get title not yet implemented'
+
+
+def get_body(html):
+    print 'get body not yet implemented'
+
+def get_date(html):
+    print 'get date not yet implemented'
+
+
+
+
 
 connection = Connection('localhost', 27018)
 db = connection[news_name]
@@ -22,13 +39,33 @@ explored = db['explored']
 """failure has path"""
 
 
+
+""" from pymongo import Connection
+c = Connection('localhost', 27018)
+db = c['wsj']
+db.drop_collection('explored')
+db.drop_collection('queue')"""
+
+
 """Define what to do with each file"""
 from bs4 import BeautifulSoup
 def function_on_file(queue_obj):
     file_path = queue_obj['path']
+    f = open(file_path, 'r')
+    html = f.read()
+    try:
+        title = get_title(html)
+        body = get_body(html)
+        date = get_date(html)
+        f.close()
+        entry = {'path' : file_path, 'title' : title, 'body' : body, 'date' : date}
+        success.insert(entry)
+    except:
+        error.insert({'path' : file_path})
+        traceback.print_exc()
     print file_path
-
     #queue.remove(queue_obj)
+
 """Do something on error collection and url_collection"""
 
 

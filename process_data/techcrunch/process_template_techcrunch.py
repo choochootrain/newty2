@@ -10,11 +10,7 @@ import traceback
 
 """Global setting variables"""
 main_dir = sys.argv[1]
-news_name = 'insert name here'
-news_name = 'usatoday_data'
-#news_name = 'techcrunch_data'
-#news_name = 'wsj_data'
-#news_name = 'nyt_data'
+news_name = 'techcrunch_data'
 def get_title(html):
     print 'get title not yet implemented'
 
