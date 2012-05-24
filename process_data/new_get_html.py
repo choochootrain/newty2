@@ -38,6 +38,8 @@ def main():
 
 def begin_scrape():
     while queue_cursor.count():
+        queue.ensure_index('url')
+        explored.ensure_index('url')
         random_wait = random.randint(0, 70) / 30.0
         time.sleep(wait_time + random_wait)
 
@@ -64,7 +66,7 @@ def begin_scrape():
             add_queue = []
             for x in links:
             #if url_short in x and x not in explored_set:
-                if url_short in x and explored.find({'url' : x}).count() == 0:
+                if url_short in x and explored.find({'url' : x}).count() == 0 and x not in add_explored:
                     add_explored.append({'url' : x})
                     add_queue.append({'url' : x})
             if len(add_explored) > 0:

@@ -10,12 +10,25 @@ import random
 
 """Global setting variables"""
 main_dir = sys.argv[1]
-news_name = 'wall_street_journal'
+news_name = 'wsj'
+
+connection = Connection('localhost', 27018)
+db = connection[news_name]
+success = db['success']
+failure = db['failure']
+queue = db['queue']
+explored = db['explored']
+"""success has path, title, date, body"""
+"""failure has path"""
+
 
 """Define what to do with each file"""
 from bs4 import BeautifulSoup
-def function_on_file(file_path):
+def function_on_file(queue_obj):
+    file_path = queue_obj['path']
     print file_path
+
+    #queue.remove(queue_obj)
 """Do something on error collection and url_collection"""
 
 
@@ -25,9 +38,9 @@ def function_on_file(file_path):
 """current dir begins with main_dir as current_dir and is recursive and finds all file paths in the main_dir"""
 def get_files(current_dir = main_dir):
     files_list = []
-    files = os.listdir(main_dir)
+    files = os.listdir(current_dir)
     for file in files:
-        file_path = current_dir + file
+        file_path = current_dir + '/' + file
         if os.path.isdir(file_path):
             files_list.extend(get_files(file_path))
         else:
@@ -38,8 +51,21 @@ from multiprocessing import Pool
 def main():
     set_up_globals()
     files_list = get_files(main_dir)
+    for x in files_list:
+        if explored.find({'path' : x}).count() == 0:
+            entry = {'path' : x}
+            explored.insert(entry)
+            queue.insert(entry)
+    queue_list = []
+    print explored.count(), queue.count()
+    for x in queue.find():
+        queue_list.append(x)
+    
+    #for x in files_list:
+        #print x
+    #print '\n\n\n'
     pool = Pool(processes=5)
-    pool.map(function_on_file, files_list)
+    pool.map(function_on_file, queue_list)
 
     
 def set_up_globals():
