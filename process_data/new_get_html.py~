@@ -5,7 +5,7 @@ import os
 import sys
 import time
 import random
-
+import traceback
 
 """Handles opening sites that force you to redirect. """
 class MyHTTPRedirectHandler(urllib2.HTTPRedirectHandler):
@@ -38,6 +38,8 @@ def main():
 
 def begin_scrape():
     while queue_cursor.count():
+        queue.ensure_index('url')
+        explored.ensure_index('url')
         random_wait = random.randint(0, 70) / 30.0
         time.sleep(wait_time + random_wait)
 
@@ -55,21 +57,25 @@ def begin_scrape():
             if account_for_last_slash and account_for_last_slash.group(0) == url_no_http:
                 url_no_http = account_for_last_slash.group(1)
             ensure_path(url_no_http)
-            f = open(url + '_file', 'w')
+            f = open(url_no_http + '_file', 'w')
             f.write(html)
             f.close()
             links = [x.group(1) for x in re.finditer(r'href="([^"]*)"', html)]
-            
+
             add_explored = []
             add_queue = []
             for x in links:
             #if url_short in x and x not in explored_set:
-                if url_short in x and explored.find({'url' : x}).count() == 0:
+                if url_short in x and explored.find({'url' : x}).count() == 0 and x not in add_explored:
                     add_explored.append({'url' : x})
                     add_queue.append({'url' : x})
-            explored.insert(add_explored)
-            queue.insert(add_queue)
+            if len(add_explored) > 0:
+                explored.insert(add_explored)
+            if len(add_queue) > 0:
+                queue.insert(add_queue)
         except:
+            print 'error here'
+            traceback.print_exc()
             errors.insert({'url' : current_url})
         """TO BEGIN HERE TOMORROW. x not in explored_set --> explored.find("""
 
@@ -100,7 +106,7 @@ url_opener.addheaders = [('User-agent', 'Mozilla/5.0 (X11; Linux x86_64) AppleWe
 """Regex expressions"""
 directory_regex = re.compile('(.*)/[^/]+')
 url_regex = re.compile('(.*)/')
-
+directories_exist = set()
 
 """Call this function on a url without http
 to make sure a directory exists to save a file"""

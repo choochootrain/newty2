@@ -85,7 +85,7 @@ def begin_scrape():
 random_wait = True
 wait_time = 1
 url_to_scrape = sys.argv[1]
-url_short = url_to_scrape.replace('http://', '')
+url_short = url_to_scrape.replace('http://', '').replace('www', '')
 insert_interval = 100
 
 """MongoDB Variables"""
