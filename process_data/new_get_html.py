@@ -64,15 +64,19 @@ def begin_scrape():
 
             add_explored = []
             add_queue = []
+            add_explored_ele = []
             for x in links:
             #if url_short in x and x not in explored_set:
-                if url_short in x and explored.find({'url' : x}).count() == 0 and x not in add_explored:
+                if url_short in x and explored.find({'url' : x}).count() == 0 and x not in add_explored_ele:
                     add_explored.append({'url' : x})
+                    add_explored_ele.append(x)
                     add_queue.append({'url' : x})
             if len(add_explored) > 0:
                 explored.insert(add_explored)
+                add_explored = []
             if len(add_queue) > 0:
                 queue.insert(add_queue)
+                add_queue = []
         except:
             print 'error here'
             traceback.print_exc()
