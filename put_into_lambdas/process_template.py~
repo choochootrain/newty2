@@ -53,6 +53,11 @@ def get_files(current_dir):
     return files_list
 
 
+def map_files(function, file_queue):
+    pool = Pool(processes=5)
+    pool.map(function, file_queue)
+    #for x in file_queue:
+    #function(x)
 
 
 

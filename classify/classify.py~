@@ -1,0 +1,3 @@
+def bag_of_words(html):
+    html_array = html.split(' ')
+    
