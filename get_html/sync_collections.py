@@ -18,4 +18,6 @@ for x in visited.find():
     if queue.find({'url' : url}).count > 0:
         for to_remove in queue.find({'url' : url}):
             queue.remove(to_remove)
-        
+    if explored.find({'url' : url}).count == 0:
+        explored.insert({'url' : url})
+    

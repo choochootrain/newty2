@@ -15,73 +15,12 @@ class MyHTTPRedirectHandler(urllib2.HTTPRedirectHandler):
 
 
 
+
+
 """To do bulk insert entry = [{k:v}, {k:v}]
 coll.insert(entry)
 This inserts two entries
 Minimize database queries/requests """
-
-
-"""Key variables to use:
-queue
-explored
-errors"""
-def main():
-    global queue_cursor
-    if queue.count() == 0:
-        new_entry = {'url' : url_to_scrape}
-        queue.insert(new_entry)
-        queue_cursor = queue.find()
-        begin_scrape()
-    else:
-        queue_cursor = queue.find()
-        begin_scrape()
-
-def begin_scrape():
-    while queue_cursor.count():
-        queue.ensure_index('url')
-        explored.ensure_index('url')
-        random_wait = random.randint(0, 70) / 30.0
-        time.sleep(wait_time + random_wait)
-
-        current_url_obj = queue_cursor[0]
-        current_url = current_url_obj['url']
-        queue.remove(current_url_obj)
-        print 'Working on ' + current_url
-        try:
-            page = url_opener.open(current_url)
-            html = page.read()
-            if not url_short in current_url:
-                continue
-            url_no_http = current_url.replace('http://', '')
-            account_for_last_slash = url_regex.search(url_no_http)
-            if account_for_last_slash and account_for_last_slash.group(0) == url_no_http:
-                url_no_http = account_for_last_slash.group(1)
-            ensure_path(url_no_http)
-            f = open(url_no_http + '_file', 'w')
-            f.write(html)
-            f.close()
-            links = [x.group(1) for x in re.finditer(r'href="([^"]*)"', html)]
-
-            add_explored = []
-            add_queue = []
-            add_explored_ele = []
-            for x in links:
-            #if url_short in x and x not in explored_set:
-                if url_short in x and explored.find({'url' : x}).count() == 0 and x not in add_explored_ele:
-                    add_explored.append({'url' : x})
-                    add_explored_ele.append(x)
-                    add_queue.append({'url' : x})
-            if len(add_explored) > 0:
-                explored.insert(add_explored)
-                add_explored = []
-            if len(add_queue) > 0:
-                queue.insert(add_queue)
-                add_queue = []
-        except:
-            print 'error here'
-            traceback.print_exc()
-            errors.insert({'url' : current_url})
-        """TO BEGIN HERE TOMORROW. x not in explored_set --> explored.find("""
 
 
 
@@ -96,9 +35,102 @@ insert_interval = 100
 connection = Connection('localhost', 27018)
 url_split = url_to_scrape.split('.')
 db = connection[url_split[1]]
-queue = db['queue']
-explored = db['explored']
+forced_queue = db['forced_queue']
 errors = db['errors']
+visited = db['visited']
+
+"""Key variables to use:
+queue
+explored
+errors"""
+
+def list_of_dates():
+    months_and_days = ((1, 31), (2, 29), (3, 31), (4, 30), (5, 31), (6, 30),
+                       (7, 31), (8, 31), (9, 30), (10, 31), (11, 30), (12, 31))
+    years = (2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012)
+    formatted_dates = []
+    for year in years:
+        for month, days in months_and_days:
+            for day in range(1, days + 1):
+                if year%4 != 0 and month == 2 and day == 29:
+                    continue
+                formatted_dates.append('/' + str(year) + '/' + str(month) + '/' + str(day) + '/')
+    return formatted_dates
+
+def force_queue_urls():
+    return ['http://www.techcrunch.com']
+
+def main():
+    get_input = raw_input('This assumes you have created a visited collection \n type yes if you have already created \n')
+    if get_input != 'yes':
+        return
+    list_dates = list_of_dates()
+    for x in list_dates:
+        print x
+    return    
+    global forced_queue_cursor
+    if forced_queue.count() == 0:
+        entries_to_force = force_queue_urls()
+        for x in entries_to_force:
+            forced_queue.insert({'url' : x})
+        forced_queue_cursor = forced_queue.find()
+        begin_scrape()
+    else:
+        forced_queue_cursor = forced_queue.find()
+        begin_scrape()
+
+def reject_url():
+    return False
+def begin_scrape():
+    while forced_queue_cursor.count():
+        forced_queue.ensure_index('url')
+        visited.ensure_index('url')
+
+        current_url_obj = forced_queue_cursor[0]
+        current_url = current_url_obj['url']
+        if reject_url(current_url):
+            forced_queue.remove(current_url_obj)
+            continue
+
+        random_wait = random.randint(0, 70) / 30.0
+        time.sleep(wait_time + random_wait)
+
+        forced_queue.remove(current_url_obj)
+
+        print 'Working on ' + current_url
+        try:
+
+
+            page = url_opener.open(current_url)
+            html = page.read()
+            if not url_short in current_url:
+                continue
+            url_no_http = current_url.replace('http://', '')
+            account_for_last_slash = url_regex.search(url_no_http)
+            if account_for_last_slash and account_for_last_slash.group(0) == url_no_http:
+                url_no_http = account_for_last_slash.group(1)
+            ensure_path(url_no_http)
+            f = open(url_no_http + '_file', 'w')
+            f.write(html)
+            f.close()
+
+
+
+            links = [x.group(1) for x in re.finditer(r'href="([^"]*)"', html)]
+
+            for x in links:
+                if url_short in x and visited.find({'url' : x}).count() == 0 and forced_queue.find({'url' : x}).count() == 0:
+                    forced_queue.insert({'url' : x})
+            
+            visited.insert({'url' : current_url})
+        except:
+            print 'error here'
+            traceback.print_exc()
+            errors.insert({'url' : current_url})
+        """TO BEGIN HERE TOMORROW. x not in explored_set --> explored.find("""
+
+
+
 
 
 """Url Parser : use as page = url_opener.open(url)"""
