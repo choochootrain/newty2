@@ -1,0 +1,26 @@
+
+
+
+news_name = 'techcrunch_data'
+
+"""@toedit"""
+def get_title(html):
+    print 'get title not yet implemented'
+
+
+
+"""@toedit"""
+def get_body(html):
+    print 'get body not yet implemented'
+    a = html.find('<div class="body-copy">')
+    html1 = html[a + 23 :]
+    html_array = html1.split('</div>')
+    body = html_array[0]
+    clean_body = remove_tags(body)
+    print clean_body
+
+
+"""@toedit"""
+def get_date(html):
+    print 'get date not yet implemented'
+    

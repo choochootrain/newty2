@@ -1,0 +1,625 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>News, Travel, Weather, Entertainment, Sports, Technology, U.S. &amp; World - USATODAY.com</title>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="ROBOTS" content="NOODP, NOYDIR"/>
+<meta name="google-site-verification" content="u686fHLjNurDq9rB45vhmGprUxg40XGCAhZB_iqh0aA"/>
+<meta name="msvalidate.01" content="4E3516E34824EE1FB189522500EDF65D"/> 
+<!-- IE9 application pinning tags -->
+<meta name="application-name" content="USA TODAY"/>
+<meta name="msapplication-task" content="name=News - World &amp; National News;action-uri=http://www.usatoday.com/news/default.htm;icon-uri=http://i.usatoday.net/_common/_images/favicon-news.ico"/>
+<meta name="msapplication-task" content="name=Money - Economy &amp; Stock Market;action-uri=http://www.usatoday.com/money/default.htm;icon-uri=http://i.usatoday.net/_common/_images/favicon-money.ico"/>
+<meta name="msapplication-task" content="name=Sports - News, Scores &amp; Stats;action-uri=http://www.usatoday.com/sports/default.htm;icon-uri=http://i.usatoday.net/_common/_images/favicon-sports.ico"/>
+<meta name="msapplication-task" content="name=Life - Entertainment News &amp; Photos;action-uri=http://www.usatoday.com/life/default.htm;icon-uri=http://i.usatoday.net/_common/_images/favicon-life.ico"/>
+<meta name="msapplication-task" content="name=Tech - News &amp; Product Reviews;action-uri=http://www.usatoday.com/tech/default.htm;icon-uri=http://i.usatoday.net/_common/_images/favicon-tech.ico"/>
+<!-- end IE9 app pinning tags-->
+<meta property="fb:app_id" content="215046668549694"/>
+<link rel="shortcut icon" type="image/x-icon" href="http://i.usatoday.net/_common/_images/favicon.ico"/>
+<link href="http://i.usatoday.net/_common/_styles/_foundation/reset-fonts-grids-usat.css" rel="stylesheet" type="text/css"/>
+<link href="http://i.usatoday.net/_fronts2010/_c/structure-v2.css?v=20110907" rel="stylesheet" type="text/css"/>
+<link href="http://i.usatoday.net/_fronts2010/_c/hfvideo-modal.css" rel="stylesheet" type="text/css"/>
+<meta http-equiv="REFRESH" content="900; URL=default.htm?refresh=1"/>
+
+
+
+<meta name="pubdate" content="May 23, 2012" />
+<meta name="pubtime" content="01:00 AM" />
+<meta name="description" content="Breaking news on weather, sports, world, science, financial, technology, travel, national, economy, and entertainment news provided by USATODAY.com. USATODAY.com provides video, sudoku, RSS feeds, crossword puzzles, audio, photo galleries, and email..." />
+<meta name="keywords" content="news,breaking news,world news,international news,us news,travel news,financial news,money news,finance news,economic news,economy news,sports news,technology news,science news,weather,weather news,national news" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+
+<!-- EdSysObj ID="head_container4" FRAGMENTID="37037894" appadmin --><script type="text/javascript">var cCount = {};
+function getCC(key){return (cCount[key])?cCount[key]:0};</script>
+<link rel="alternate" type="application/rss+xml" title="Top Headlines" href="http://rssfeeds.usatoday.com/usatoday-NewsTopStories">
+<link rel="alternate" type="application/rss+xml" title="Most Viewed" href="http://rssfeeds.usatoday.com/Usatoday-MostViewedArticles">
+<meta property="fb:page_id" content="13652355666" /><!-- /EdSysObj -->
+<!-- EDSYS OBJECT HEAD CALL-->
+<!--[if lte IE 7]>
+<link href=" http://www.usatoday.com/_fronts2010/_c/ie7-v2.css" rel="stylesheet" type="text/css"/>
+<![endif]-->
+<!--[if lte IE 6]>
+<link href=" http://www.usatoday.com/_fronts2010/_c/ie6-v2.css" rel="stylesheet" type="text/css"/>
+<![endif]-->
+<script type="text/javascript"> var adArray = {HFPoster: true,PosterBlog: true,HFLaunchpad: true,Bottom728x90: true,HFStrip:false,HFHeadline:false,PageCount:false,Upper90:false}; window['GELConfig']= { loadBanners: adArray }; </script> <style type="text/css">#usat_HFPoster {height:auto;background:url(http://i.usatoday.net/_fronts2010/_i/poster-ad-agate.gif);background-repeat:no-repeat;background-position:bottom;padding-bottom:16px;}#usat_PosterBlog {height:auto;background:url(http://i.usatoday.net/_fronts2010/_i/poster-ad-agate.gif);background-repeat:no-repeat;background-position:bottom;padding-bottom:16px;}#usat_launchpad {background-color:#FFF;display:block;height:auto;}#usat_Bottom728x90.ad {background-color:#FFF;}#usat_HFStrip {display:none;}#usat_Upper90 {display:none;}</style>
+
+<style type="text/css">
+/* 07/01/11 cwmanning */
+#custom-doc {
+width: 1003px;
+}
+#hd {
+background: url(http://i.usatoday.net/_fronts2010/_home/_i/bg-full-nav.jpg) repeat-x;
+height: 136px;
+position: absolute;
+left: 0;
+width: 100%;
+z-index: 900;
+}
+#hdContent {
+margin: 0 auto;
+width: 983px;
+}
+#title_search {
+float: left;
+width: 663px;
+}
+#usat_headline {
+float: right;
+width: 300px;
+}
+.global-nav {
+clear: both;
+}
+#hdSpacer {
+padding-top: 136px;
+}
+#usat_launchpad {
+margin: 10px auto;
+width: 100%;
+min-width: 983px; /*1003px;*/
+position: relative;
+z-index: 899;
+}
+#bd, #ft {
+background: #fff;
+padding: 0 10px;
+width: 983px;
+}
+#usat_breaking_news_01 {
+background: #fff;
+}
+</style>
+
+
+
+</head>
+<body class="homepage">
+<div id="custom-doc" class="yui-t6">
+<div id="hd" class="home">
+<div id="hdContent">
+<div class="usat_masthead">
+<div id="title_search">
+<h1><a href="http://www.usatoday.com/" onclick="s_objectID='masthead|logo|home';">USA TODAY</a></h1>  
+<span id="timestamp">05/23/2012&nbsp;-&nbsp;Updated&nbsp;01:00 AM&nbsp;ET</span>
+<!-- EdSysObj ID="usat-masthead-center" FRAGMENTID="37359024" appadmin --><ul class="pre-nav">
+	<li class="search">
+		<form method="get" action="http://www.usatoday.com/search/results" id="searchForm">
+			<input type="text" id="googleSearch" name="q" class="search-enter" />
+			<input id="site-search-submit" name="submit" type="image" src="http://i.usatoday.net/_fronts2010/_i/v2/search-go.png" value="Search" />
+		</form>
+	</li>
+	<li class="subscribe"><a href="http://www.usatodaysubscribe.com/usatsubscribe" onclick="s_objectID='masthead|logo|subscribe';">Subscribe</a></li>
+	<li class="mobile"><a href="http://www.usatoday.com/mobile/index.htm?POE=HEADER" onclick="s_objectID='masthead|logo|mobile';">Mobile</a></li>
+</ul><!-- /EdSysObj -->					
+</div>
+<div id="usat_headline">
+<!-- EdSysObj ID="usat-headline" FRAGMENTID="37133846" jfrenett --><banner position="HFHeadline" size="300x64"></banner><!-- /EdSysObj -->
+</div>
+<!-- EdSysObj ID="usat-global-nav" FRAGMENTID="37359104" appadmin --><ul class="global-nav">
+	<li class="nav-home"><strong>Home</strong></li>
+	<li class="nav-news"><a href="http://www.usatoday.com/news/" onclick="s_objectID='masthead|global-nav|news';">News</a></li>
+	<li class="nav-travel"><a href="http://travel.usatoday.com" onclick="s_objectID='masthead|global-nav|travel';">Travel</a></li>
+	<li class="nav-money"><a href="http://www.usatoday.com/money/" onclick="s_objectID='masthead|global-nav|money';">Money</a></li>
+	<li class="nav-sports"><a href="http://www.usatoday.com/sports/" onclick="s_objectID='masthead|global-nav|sports';">Sports</a></li>
+	<li class="nav-life"><a href="http://www.usatoday.com/life/" onclick="s_objectID='masthead|global-nav|life';">Life</a></li>
+	<li class="nav-yourlife"><a href="http://yourlife.usatoday.com/" onclick="s_objectID='masthead|global-nav|yourlife';">Your Life</a></li>
+	<li class="nav-tech"><a href="http://www.usatoday.com/tech/" onclick="s_objectID='masthead|global-nav|tech';">Tech</a></li>
+	<li class="nav-weather"><a href="http://www.usatoday.com/weather/" onclick="s_objectID='masthead|global-nav|weather';">Weather</a></li>
+</ul><!-- /EdSysObj -->
+</div>
+<div id="usat_essentials_nav">
+<!-- EdSysObj ID="usat-essentials-nav" FRAGMENTID="37359222" appadmin --><!--section nav start-->
+<ul id="section-nav">
+	<!--<li class="sectionlabel">Essentials:</li>-->
+	<li class="navItem first"><a href="http://markets.usatoday.com/custom/usatoday-com/html-markets.asp" onclick="s_objectID='essentials|nav|markets';">Markets</a></li>
+	<!--<li class="navItem"><a href="http://content.usatoday.com/sportsdata/scores" onclick="s_objectID='essentials|nav|scores';">Scores</a></li>-->
+	<li class="navItem"><a href="http://content.usatoday.com/sportsdata/scores" onclick="s_objectID='essentials|nav|scores';">Scores</a>
+		<ul>
+			
+			<li class="first"><a href="http://content.usatoday.com/sportsdata/scores/ncaab" onclick="s_objectID='essentials|nav|scores-a';">NCAAB Scores</a></li>
+			<li><a href="http://content.usatoday.com/sportsdata/scores/nba" onclick="s_objectID='essentials|nav|scores-b';">NBA Scores</a></li>
+			<li><a href="http://content.usatoday.com/sportsdata/scores/nhl" onclick="s_objectID='essentials|nav|scores-c';">NHL Scores</a></li>
+			<li><a href="http://content.usatoday.com/sportsdata/scores/mlb" onclick="s_objectID='essentials|nav|scores-d';">MLB Scores</a></li>
+			<li><a href="http://content.usatoday.com/sportsdata/scores/nfl" onclick="s_objectID='essentials|nav|scores-e';">NFL Scores</a></li>
+			<li><a href="http://content.usatoday.com/sportsdata/scores/ncaaf" onclick="s_objectID='essentials|nav|scores-f';">NCAAF Scores</a></li>
+			   
+		</ul>
+	</li>
+	<li class="navItem"><a href="http://puzzles.usatoday.com/" onclick="s_objectID='essentials|nav|games';">Games</a>
+		<ul>
+			<li class="first"><a href="http://puzzles.usatoday.com/sudoku/?POE=SULFLN" onclick="s_objectID='essentials|nav|games-a';">Sudoku</a></li>
+			<li><a href="http://puzzles.usatoday.com/?POE=cwlfql" onclick="s_objectID='essentials|nav|games-b';">Crossword</a></li>
+			<!--<li><a href="http://arcade.usatoday.com/" onclick="s_objectID='essentials|nav|games-c';">Arcade</a></li>-->
+		</ul>
+	</li>
+	<li class="navItem"><a href="http://www.usatoday.com/news/lottery/lotto.htm" onclick="s_objectID='essentials|nav|lotteries';">Lotteries</a></li>
+	<li class="navItem"><a href="http://www.usatoday.com/video" onclick="s_objectID='essentials|nav|video';">Video</a></li>
+	<li class="navItem"><a href="http://mediagallery.usatoday.com/The-day-in-pictures/G165" onclick="s_objectID='essentials|nav|photos';">Photos</a>
+		<ul>
+			<li class="first"><a href="http://mediagallery.usatoday.com/The-day-in-pictures/G165" onclick="s_objectID='essentials|nav|photos-a';">Day in Pictures</a></li>
+			<li><a href="http://mediagallery.usatoday.com/The-Day-in-Sports/G164" onclick="s_objectID='essentials|nav|photos-b';">Day in Sports</a></li>
+			<li><a href="http://mediagallery.usatoday.com/Day-in-celebrities/G56" onclick="s_objectID='essentials|nav|photos-c';">Day in Celebrities</a></li>
+
+		</ul>
+	</li>
+    <li class="navItem"><a href="http://www.usatoday.com/news/politics/index" onclick="s_objectID='essentials|nav|politics';">Election 2012</a></li>	
+	<li class="navItem"><a href="http://www.usatoday.com/news/opinion/default.htm" onclick="s_objectID='essentials|nav|opinion';">Opinion</a></li>
+	<li class="navItem navShiftLeft"><a href="http://www.usatoday.com/blog-index.htm" onclick="s_objectID='essentials|nav|blogs';">Blogs</a>
+		<ul class="column1">
+			<li class="first"><a href="http://content.usatoday.com/communities/ondeadline/index" onclick="s_objectID='essentials|nav|blogs-a';">On Deadline</a></li>
+			<li><a href="http://content.usatoday.com/communities/theoval/index" onclick="s_objectID='essentials|nav|blogs-b';">The Oval</a></li>
+			<li><a href="http://content.usatoday.com/communities/onpolitics/index" onclick="s_objectID='essentials|nav|blogs-c';">On Politics</a></li>
+			<li><a href="http://content.usatoday.com/communities/religion/index/" onclick="s_objectID='essentials|nav|blogs-d';">Faith &amp; Reason</a></li>
+			<li><a href="http://content.usatoday.com/communities/kindness/index" onclick="s_objectID='essentials|nav|blogs-e';">Kindness</a></li>
+			<li><a href="http://content.usatoday.com/communities/greenhouse/index" onclick="s_objectID='essentials|nav|blogs-f';">Green House</a></li>
+			<li><a href="http://www.usatoday.com/travel/flights/default.aspx" onclick="s_objectID='essentials|nav|blogs-g';">Today in the Sky</a></li>
+			<li><a href="http://www.usatoday.com/travel/cruises/default.aspx" onclick="s_objectID='essentials|nav|blogs-h';">Cruise Log</a></li>
+			<li><a href="http://content.usatoday.com/communities/hotelcheckin/index" onclick="s_objectID='essentials|nav|blogs-i';">Hotel Check-In</a></li>
+			<li><a href="http://content.usatoday.com/communities/driveon/index" onclick="s_objectID='essentials|nav|blogs-j';">Drive On</a></li>
+			<li><a href="http://content.usatoday.com/communities/thehuddle/index" onclick="s_objectID='essentials|nav|blogs-k';">The Huddle</a></li>
+			<li><a href="http://content.usatoday.com/communities/campusrivalry/index" onclick="s_objectID='essentials|nav|blogs-l';">Campus Rivalry</a></li>
+			<li><a href="http://travel.usatoday.com/destinations/dispatches/index" onclick="s_objectID='essentials|nav|blogs-m';">Dispatches</a></li>
+            <li><a href="http://content.usatoday.com/communities/dailypitch/index" onclick="s_objectID='essentials|nav|blogs-n';">Daily Pitch</a></li>
+		</ul>
+		<ul class="column2">
+			<li class="first"><a href="http://content.usatoday.com/communities/gameon/index" onclick="s_objectID='essentials|nav|blogs-o';">Game On!</a></li>
+			<li><a href="http://content.usatoday.com/communities/fantasyjoe/index" onclick="s_objectID='essentials|nav|blogs-p';">Fantasy Joe</a></li>
+			<li><a href="http://content.usatoday.com/communities/fantasywindup/index" onclick="s_objectID='essentials|nav|blogs-q';">Fantasy Windup</a></li>
+			<li><a href="http://content.usatoday.com/sports/mma/index" onclick="s_objectID='essentials|nav|blogs-r';">Fighting Stances</a></li>
+			<li><a href="http://content.usatoday.com/communities/entertainment/index" onclick="s_objectID='essentials|nav|blogs-s';">Lifeline Live</a></li>					
+			<li><a href="http://content.usatoday.com/communities/popcandy/index" onclick="s_objectID='essentials|nav|blogs-t';">Pop Candy</a></li>
+			<li><a href="http://content.usatoday.com/communities/idolchatter/index" onclick="s_objectID='essentials|nav|blogs-u';">Idol Chatter</a></li>
+			<li><a href="http://content.usatoday.com/communities/livefrom/index" onclick="s_objectID='essentials|nav|blogs-v';">Live From</a></li>
+			<li><a href="http://content.usatoday.com/communities/pawprintpost/index" onclick="s_objectID='essentials|nav|blogs-w';">Paw Print Post</a></li>
+			<li><a href="http://content.usatoday.com/communities/gamehunters/index" onclick="s_objectID='essentials|nav|blogs-x';">Game Hunters</a></li>
+			<li><a href="http://content.usatoday.com/communities/technologylive/index" onclick="s_objectID='essentials|nav|blogs-y';">Technology Live</a></li>
+			<li><a href="http://content.usatoday.com/communities/sciencefair/index" onclick="s_objectID='essentials|nav|blogs-z';">Science Fair</a></li>
+            <li><a href="http://books.usatoday.com/bookbuzz/index" onclick="s_objectID='essentials|nav|blogs-aa';">Book Buzz</a></li>
+			<li><a href="http://books.usatoday.com/happyeverafter/index" onclick="s_objectID='essentials|nav|blogs-bb';">Happy Ever After</a></li>
+            <!--<li class="emptyItem">&nbsp;</li>-->
+		</ul>
+	</li>
+	<!-- /blogs -->
+	<li class="navItem"><a href="http://www.usatodaysubscribe.com/HomeSubscribe?POE=Essentials" class="nolink" onclick="s_objectID='essentials|nav|subscribe';">Subscribe</a>
+		<ul>
+			<li class="first"><a href="http://www.usatodaysubscribe.com/HomeSubscribe?POE=Essentials" onclick="s_objectID='essentials|nav|subscribe-a';">Home Delivery</a></li>
+			<li><a href="http://www.usatodaysubscribe.com/eesubscribe" target="_blank" onclick="s_objectID='essentials|nav|subscribe-b';">USA TODAY e-Newspaper</a></li>
+			<li><a href="http://www.mysportsweekly.com/swsubscribe" onclick="s_objectID='essentials|nav|subscribe-c';">Sports Weekly</a></li>
+			<li><a href="http://reg.e.usatoday.com/?POE=Essentials" onclick="s_objectID='essentials|nav|subscribe-d';">E-mail newsletters</a></li>
+			<li><a href="http://www.usatoday.com/mobile/index.htm?POE=Essentials" onclick="s_objectID='essentials|nav|subscribe-e';">Mobile news</a></li>
+			<li><a href="http://twitter.usatoday.com" onclick="s_objectID='essentials|nav|subscribe-f';">Twitter</a></li>
+            <!--<li><a href="http://content.usatoday.com/marketing/rss/index.aspx?POE=Essentials#podcast" onclick="s_objectID='essentials|nav|subscribe-g';">Podcasts</a></li>-->
+			<li><a href="http://content.usatoday.com/marketing/rss/index.aspx?POE=Essentials" onclick="s_objectID='essentials|nav|subscribe-h';">RSS</a></li>
+			<!--<li><a href="http://www.usatoday.com/community/widgets/index.htm?POE=Essentials" onclick="s_objectID='essentials|nav|subscribe-i';">Widgets</a></li>-->
+			<li><a href="https://service.usatoday.com/shop/index.html" onclick="s_objectID='essentials|nav|subscribe-j';">Back Issues of Newspaper</a></li>
+            <li><a href="https://service.usatoday.com/shop/index.html
+" onclick="s_objectID='essentials|nav|subscribe-k';">Back Issues of Other Publications</a></li>
+			<li><a href="http://www.usatoday.com/ipad" onclick="s_objectID='essentials|nav|subscribe-l';">USA TODAY for iPad</a></li>
+            <li><a href="http://search.barnesandnoble.com/USA-Today/Gannett-Co-Inc/e/2940000228067?itm=1&USRI=usa%2Btoday
+" onclick="s_objectID='essentials|nav|subscribe-m';">USA TODAY on Nook</a></li>
+<li><a href="http://www.amazon.com/USA_TODAY/dp/B001KBZ3D2/ref=o_disp_017_129_242_99_035&tag=partnerlink1-20
+" onclick="s_objectID='essentials|nav|subscribe-n';">USA TODAY on Kindle</a></li>
+		</ul>
+	</li>
+	<li class="navItem"><a href="http://www.russelljohns.com/classifieds/usatoday/?POE=HFMKTPL" onclick="s_objectID='essentials|nav|classifieds';">Classifieds</a>
+		<ul>
+			<li class="first"><a href="http://sportsstore.usatoday.com/" onclick="s_objectID='essentials|nav|classifieds-a';">Sports Store</a></li>
+			<li><a href="http://franchisesolutions.com/" onclick="s_objectID='essentials|nav|classifieds-b';">Franchises</a></li>
+			<li><a href="http://www.usatoday.com/marketing/store.htm?POE=Essentials" onclick="s_objectID='essentials|nav|classifieds-c';">USA TODAY Store</a></li>
+			<li><a href="http://www.usatoday.com/marketplace/realestate/front.htm?POE=Essentials" onclick="s_objectID='essentials|nav|classifieds-d';">Real Estate</a></li>
+            <li><a href="http://www.russelljohns.com/classifieds/usatoday?POE=Essentials" onclick="s_objectID='essentials|nav|classifieds-e';">Classified Marketplace</a></li>
+		</ul>
+	</li>
+	<li class="navItem"><a href="http://www.careerbuilder.com/Default.aspx?lr=cbga_usa&amp;siteid=gausa0005" onclick="s_objectID='essentials|nav|jobs';">Jobs</a></li>
+
+</ul>
+<!-- section nav end --><!-- /EdSysObj -->
+<div id="usat_uas">
+<div id="uas_icon"></div>
+<div id="uas_username"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="hdSpacer"></div>
+<div id="usat_breaking_news_01">
+<!-- EdSysObj ID="usat-breaking-news-01" FRAGMENTID="37505950" bcoffman --><!-- /EdSysObj -->
+</div>
+<div id="usat_launchpad">
+<banner position="HFLaunchPad" size="980x66"></banner>
+</div>
+<div id="bd">
+<div id="yui-main">
+<div class="yui-b content">
+<div class="yui-g topnews">
+<!-- EdSysObj ID="usat-lede-well-a" FRAGMENTID="37424370" mharzall --><div class="standard-first headline-top"><!--FMTemplate:Story2--><h2 class="headline"><a href="http://www.usatoday.com/life/television/news/story/2012-05-22/Dancing-With-the-Stars-winner/55149700/1" onclick="s_objectID='usat_lede_well_a|lede-left-title-top|headline|1';">'Dancing' crowns surprising winner </a><!--getCC('55149700.story')--></h2><div class="photo"><a href="http://www.usatoday.com/life/television/news/story/2012-05-22/Dancing-With-the-Stars-winner/55149700/1" onclick="s_objectID='usat_lede_well_a|lede-left-title-top|photo|1';"><img src="http://i.usatoday.net/news/_photos/2012/05/22/1-dwts.jpg" alt="William Levy, Katherine Jenkins and Donald Driver were the three finalists for this season’s ‘Dancing With the Stars'" width="309px" height="229px" border="0" /></a><div class="photo-caption"><div class="photo-caption-text">William Levy, Katherine Jenkins and Donald Driver were the three finalists for this season’s ‘Dancing With the Stars'</div></div></div><div class="photo-caption-toggle"><div class="caption"><a class="caption-toggle" id="caption-toggle" href="#">CAPTION</a></div><div class="photo-credit">ABC</div></div></div><!-- /EdSysObj -->
+<!-- EdSysObj ID="usat-lede-well-b" FRAGMENTID="31613716" scrow --><div class="threepack-second-thumbs"><ul class="more-headlines"><li><a href="http://www.usatoday.com/news/world/story/2012-05-22/free-syria-rebels-assad/55143142/1" onclick="s_objectID='usat_lede_well_b|lede-right-3pack-thumbs|thumb|1';"><img src="http://i.usatoday.net/news/_photos/2012/05/22/Syrias-rebels-Underarmed-under-siege-GG1HCD4T-x-front-thumb.jpg" alt="Abu Derda, a defected solder, joined the Free Syrian Army, a group that is trying to take on the army of President Bashar Assad." width="82" height="70" border="0" class="thumb" /></a><h3><a href="http://www.usatoday.com/news/world/story/2012-05-22/free-syria-rebels-assad/55143142/1" onclick="s_objectID='usat_lede_well_b|lede-right-3pack-thumbs|headline|1';">Syria's rebels: Under siege</a><!--getCC('55143142.story')--></h3><p>"We didn't choose this," one Syrian rebel says of the war with Assad's regime. With 10,000 dead, and counting, the group refuses to quit.</p><ul class="spikes"><li class="last"><a href="http://mediagallery.usatoday.com/Unrest+in+Syria/G2126" onclick="s_objectID='usat_lede_well_b|lede-right-3pack-thumbs|headline-spike|1';"><strong>PHOTOS: </strong> Unrest in Syria</a> <a href="http://mediagallery.usatoday.com/Unrest+in+Syria/G2126" class="photo-icon" onclick="s_objectID='usat_lede_well_b|lede-right-3pack-thumbs|headline-spike|1';"><img src="http://i.usatoday.net/_fronts2010/_i/v2/icons.gif" width="15px" height="15px" alt="icons" /></a></li></ul></li><li><a href="http://content.usatoday.com/communities/gameon/post/2012/05/live-nhl-blog-los-angeles-kings-at-phoenix-coyotes/1" onclick="s_objectID='usat_lede_well_b|lede-right-3pack-thumbs|thumb|2';"><img src="http://i.usatoday.net/news/_photos/2012/05/23/kingsx-front-thumb.jpg" alt="" width="82" height="70" border="0" class="thumb" /></a><h3><a href="http://content.usatoday.com/communities/gameon/post/2012/05/live-nhl-blog-los-angeles-kings-at-phoenix-coyotes/1" onclick="s_objectID='usat_lede_well_b|lede-right-3pack-thumbs|headline|2';">Kings beat Coyotes 4-3 in OT</a><!--getCC('699843.blog')--></h3><p>The Los Angeles Kings capture the Western Conference final in five games and advance to Stanley Cup Finals for the first time since 1993.</p><ul class="spikes"><li class="last"><a href="http://mediagallery.usatoday.com/2012+NHL+playoffs/G3694?csp=ftsmpg" onclick="s_objectID='usat_lede_well_b|lede-right-3pack-thumbs|headline-spike|1';"><strong>PHOTO: </strong> 2012 NHL playoffs</a> <a href="http://mediagallery.usatoday.com/2012+NHL+playoffs/G3694?csp=ftsmpg" class="photo-icon" onclick="s_objectID='usat_lede_well_b|lede-right-3pack-thumbs|headline-spike|1';"><img src="http://i.usatoday.net/_fronts2010/_i/v2/icons.gif" width="15px" height="15px" alt="icons" /></a></li></ul></li><li class="last"><a href="http://content.usatoday.com/communities/idolchatter/post/2012/05/phil-staceys-final-thoughts-on-phillip-vs-jessica/1" onclick="s_objectID='usat_lede_well_b|lede-right-3pack-thumbs|thumb|3';"><img src="http://i.usatoday.net/communitymanager/_photos/idol-chatter/2012/05/22/TopTwox-front-thumb.jpg" alt="AMERICAN IDOL: The final 2: L-R: Phillip Phillips and Jessica Sanchez." width="82" height="70" border="0" class="thumb" /></a><h3><a href="http://content.usatoday.com/communities/idolchatter/post/2012/05/phil-staceys-final-thoughts-on-phillip-vs-jessica/1" onclick="s_objectID='usat_lede_well_b|lede-right-3pack-thumbs|headline|3';">Final thoughts on the 'Idol' finale</a><!--getCC('699849.blog')--></h3><p>It was a showing of tremendous talent and ability by both performers, says guest blogger and former season 6 finalist Phil Stacey.</p></li></ul></div><!-- /EdSysObj -->
+</div>
+<div class="yui-g">
+<!--==================== top picks ===============================-->
+<!-- EdSysObj ID="usat-leftContent-01" FRAGMENTID="37424434" mharzall --><div id="conveyor"><ul class="conveyor-buttons"><li class="left-button"><a title="Scroll left" class="prev"><!----></a></li><li class="right-button"><a title="Scroll right" class="next"><!----></a></li></ul><div class="top-picks"><h2>Top picks</h2><ul class="gel-nav"><li class="on"><a>1</a></li><li><a>2</a></li><li><a>3</a></li><li id="conveyorAdNav" style="display: none;"><a>4</a></li></ul></div><div class="content-wrap"><div class="gel-content"><div class="gel-pane" id="conveyorAdWrap" style="display: none; width: 660px;"><banner position="HFStrip" size="660x180" /></div><div class="gel-pane"><ul><li class="clip first"><h3 class="video-clip">VIDEO</h3><a href="http://www.usatoday.com/video/news/1651322940001" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|1';" class="video-opacity"><img src="http://i.usatoday.net//news/_photos/2012/05/22/video-joplinx-front-thumb.jpg" alt="" width="115" height="98" border="0" class="video-thumb" /><img class="video-dark" alt="Play Video" src="http://i.usatoday.net/_common/_images/black.gif" /><div class="video-play"><img src="http://i.usatoday.net/_fronts2010/_i/tp-play.png" width="33" height="33" alt="Play Video" /></div></a><p class="video-thumb"><a href="http://www.usatoday.com/video/news/1651322940001" onclick="s_objectID='usat_leftContent_01|TopPicks|text|1';">Joplin marches to 'remember' tornado victims</a></p></li><li class="clip"><h3 class="photo-clip">PHOTO</h3><a href="http://mediagallery.usatoday.com/Indianapolis+500/100+years+of+the+Indianapolis+500/G2288,A9231" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|2';"><img src="http://i.usatoday.net//sports/_photos/2012/05/22/indy-gallery-jrx-front-thumb.jpg" alt="" width="115" height="98" border="0" /></a><p><a href="http://mediagallery.usatoday.com/Indianapolis+500/100+years+of+the+Indianapolis+500/G2288,A9231" onclick="s_objectID='usat_leftContent_01|TopPicks|text|2';">A look back at 100 years of the Indianapolis 500</a></p></li><li class="clip"><h3 class="photo-clip">PHOTO</h3><a href="http://mediagallery.usatoday.com/Foie+gras+in+the+Hudson+Valley/G3878" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|3';"><img src="http://i.usatoday.net//news/_photos/2012/05/22/gallery-foie-grasx-front-thumb.jpg" alt="" width="115" height="98" border="0" /></a><p><a href="http://mediagallery.usatoday.com/Foie+gras+in+the+Hudson+Valley/G3878" onclick="s_objectID='usat_leftContent_01|TopPicks|text|3';">A delicacy ban: Foie gras in the Hudson Valley</a></p></li><li class="clip"><h3 class="photo-clip">PHOTO</h3><a href="http://mediagallery.usatoday.com/Editorial-Cartoons/G373" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|4';"><img src="http://i.usatoday.net//news/_photos/2012/05/22/z-editx-front-thumb.jpg" alt="" width="115" height="98" border="0" /></a><p><a href="http://mediagallery.usatoday.com/Editorial-Cartoons/G373" onclick="s_objectID='usat_leftContent_01|TopPicks|text|4';">Gallery: Top editorial cartoons from the month of May</a></p></li><li class="clip"><h3 class="snapshot-clip">SNAPSHOT</h3><a href="http://www.usatoday.com/news/snapshot.htm?section=L" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|5';"><img src="http://i.usatoday.net//news/snapshots/val115/v115-05-22-dietbusters.png" alt="" width="115" height="98" border="0" /></a><p><a href="http://www.usatoday.com/news/snapshot.htm?section=L" onclick="s_objectID='usat_leftContent_01|TopPicks|text|5';">Snapshot: What sidelines your healthy eating?</a></p></li></ul></div><div class="gel-pane"><ul><li class="clip first"><h3 class="photo-clip">PHOTO</h3><a href="http://mediagallery.usatoday.com/%27American+Idol%27+Season+11+Most+memorable+performances/G3902" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|6';"><img src="http://i.usatoday.net//communitymanager/_photos/non-stories/2012/05/22/idolx-front-thumb.jpg" alt="" width="115" height="98" border="0" /></a><p><a href="http://mediagallery.usatoday.com/%27American+Idol%27+Season+11+Most+memorable+performances/G3902" onclick="s_objectID='usat_leftContent_01|TopPicks|text|6';">Photos: Most memorable 'Idol' moments</a></p></li><li class="clip"><h3 class="video-clip">VIDEO</h3><a href="http://www.usatoday.com/video/news/1650781344001" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|7';" class="video-opacity"><img src="http://i.usatoday.net//news/_photos/2012/05/22/joplin-beltx-front-thumb.jpg" alt="" width="115" height="98" border="0" class="video-thumb" /><img class="video-dark" alt="Play Video" src="http://i.usatoday.net/_common/_images/black.gif" /><div class="video-play"><img src="http://i.usatoday.net/_fronts2010/_i/tp-play.png" width="33" height="33" alt="Play Video" /></div></a><p class="video-thumb"><a href="http://www.usatoday.com/video/news/1650781344001" onclick="s_objectID='usat_leftContent_01|TopPicks|text|7';">More than 32,000 photos lost in Joplin tornado saved</a></p></li><li class="clip"><h3 class="photo-clip">PHOTO</h3><a href="http://mediagallery.usatoday.com/The-day-in-pictures/G165" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|8';"><img src="http://i.usatoday.net//news/_photos/2012/05/22/day-beltx-front-thumb.jpg" alt="" width="115" height="98" border="0" /></a><p><a href="http://mediagallery.usatoday.com/The-day-in-pictures/G165" onclick="s_objectID='usat_leftContent_01|TopPicks|text|8';">Day in pictures: Images from around the world</a></p></li><li class="clip"><h3 class="video-clip">VIDEO</h3><a href="http://www.usatoday.com/video/news/1651237664001" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|9';" class="video-opacity"><img src="http://i.usatoday.net//news/_photos/2012/05/22/video-airwaysx-front-thumb.jpg" alt="" width="115" height="98" border="0" class="video-thumb" /><img class="video-dark" alt="Play Video" src="http://i.usatoday.net/_common/_images/black.gif" /><div class="video-play"><img src="http://i.usatoday.net/_fronts2010/_i/tp-play.png" width="33" height="33" alt="Play Video" /></div></a><p class="video-thumb"><a href="http://www.usatoday.com/video/news/1651237664001" onclick="s_objectID='usat_leftContent_01|TopPicks|text|9';">US Airways flight diverts to Maine on 'security issue'</a></p></li><li class="clip"><h3 class="transcript-clip">STORY</h3><a href="http://www.usatoday.com/sports/baseball/story/power-rankings/54331380/1" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|10';"><img src="http://i.usatoday.net//sports/_photos/2012/05/14/MLBpowerx-front-thumb.jpg" alt="" width="115" height="98" border="0" /></a><p><a href="http://www.usatoday.com/sports/baseball/story/power-rankings/54331380/1" onclick="s_objectID='usat_leftContent_01|TopPicks|text|10';">Power Rankings: Dodgers nearly overtake Rangers</a></p></li></ul></div><div class="gel-pane"><ul><li class="clip first"><h3 class="video-clip">VIDEO</h3><a href="http://www.usatoday.com/video/news/1649539517001" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|11';" class="video-opacity"><img src="http://i.usatoday.net//news/_photos/2012/05/22/launch-beltx-front-thumb.jpg" alt="" width="115" height="98" border="0" class="video-thumb" /><img class="video-dark" alt="Play Video" src="http://i.usatoday.net/_common/_images/black.gif" /><div class="video-play"><img src="http://i.usatoday.net/_fronts2010/_i/tp-play.png" width="33" height="33" alt="Play Video" /></div></a><p class="video-thumb"><a href="http://www.usatoday.com/video/news/1649539517001" onclick="s_objectID='usat_leftContent_01|TopPicks|text|11';">Private SpaceX flight takes off for space station</a></p></li><li class="clip"><h3 class="photo-clip">PHOTO</h3><a href="http://mediagallery.usatoday.com/Day+in+celebrities/May+22,+2012/G56,A12528/" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|12';"><img src="http://i.usatoday.net//life/_photos/2012/05/22/dicx-front-thumb.jpg" alt="" width="115" height="98" border="0" /></a><p><a href="http://mediagallery.usatoday.com/Day+in+celebrities/May+22,+2012/G56,A12528/" onclick="s_objectID='usat_leftContent_01|TopPicks|text|12';">Day in Celebrities: Cannes, Colbert and more</a></p></li><li class="clip"><h3 class="video-clip">VIDEO</h3><a href="http://www.usatoday.com/video/news/1649161686001" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|13';" class="video-opacity"><img src="http://i.usatoday.net//news/_photos/2012/01/03/niagrax-front-thumb.jpg" alt="" width="115" height="98" border="0" class="video-thumb" /><img class="video-dark" alt="Play Video" src="http://i.usatoday.net/_common/_images/black.gif" /><div class="video-play"><img src="http://i.usatoday.net/_fronts2010/_i/tp-play.png" width="33" height="33" alt="Play Video" /></div></a><p class="video-thumb"><a href="http://www.usatoday.com/video/news/1649161686001" onclick="s_objectID='usat_leftContent_01|TopPicks|text|13';">Raw video: Man rescued after Niagara Falls plunge</a></p></li><li class="clip"><h3 class="video-clip">VIDEO</h3><a href="http://www.usatoday.com/video/news/1650971214001" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|14';" class="video-opacity"><img src="http://i.usatoday.net//news/_photos/2012/05/22/video-cubax-front-thumb.jpg" alt="" width="115" height="98" border="0" class="video-thumb" /><img class="video-dark" alt="Play Video" src="http://i.usatoday.net/_common/_images/black.gif" /><div class="video-play"><img src="http://i.usatoday.net/_fronts2010/_i/tp-play.png" width="33" height="33" alt="Play Video" /></div></a><p class="video-thumb"><a href="http://www.usatoday.com/video/news/1650971214001" onclick="s_objectID='usat_leftContent_01|TopPicks|text|14';">Cuba waiting for cyber age to come</a></p></li><li class="clip"><h3 class="interactive-clip">INTERACTIVE</h3><a href="http://www.usatoday.com/news/politics/political-ad-tracker/index" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|15';"><img src="http://i.usatoday.net//news/graphics/2012/election2012/pat_promos/PAT_115x98.jpg" alt="" width="115" height="98" border="0" /></a><p><a href="http://www.usatoday.com/news/politics/political-ad-tracker/index" onclick="s_objectID='usat_leftContent_01|TopPicks|text|15';">Watch, rate ads from the 2012 campaign</a></p></li></ul></div></div></div></div><!-- /EdSysObj -->
+<!--==================== / top picks ===============================-->
+</div>
+<div class="yui-g">
+<div class="yui-u first">
+
+</div>
+<div class="yui-u">
+
+</div>
+</div>
+<div class="yui-g">
+<div class="yui-u first">
+<!-- EdSysObj ID="usat-leftContent-02-a" FRAGMENTID="37442950" bcoffman --><div class="rounded-section news-headlines"> 
+
+
+
+<!-- EdSysObj ID="SSIFragment" FRAGMENTID="37442952" bcoffman --><h2><a href="http://www.usatoday.com/news/default.htm" onclick="s_objectID='nation--world-sectionbox|mainwell-sectionbox|header|1';">Nation &amp; World</a></h2><a href="http://www.usatoday.com/news/world/story/2012-05-22/egypt-elections/55140580/1" onclick="s_objectID='nation--world-sectionbox|mainwell-sectionbox|imageset-item|1';"><img src="http://i.usatoday.net/news/_photos/2012/05/22/Turmoil-dampens-Egypts-revolutionary-fervor-GG1HELNO-x-front-thumb.jpg" alt="Egyptians argue political issues in front of an anti-government mural Tuesday, a day before presidential elections in Cairo, Egypt." width="115" height="98" border="0" class="top-story-thumb" /></a><div class="section-lead"><h3 class="headline"><!--getCC('55140580.story')--><a href="http://www.usatoday.com/news/world/story/2012-05-22/egypt-elections/55140580/1" onclick="s_objectID='nation--world-sectionbox|mainwell-sectionbox|headline|1';">Many in Egypt wish for stable economy, politics</a></h3><p>Egypt's revolutionary fervor gives way to wish for stability as presidential voting starts.</p></div><ul class="more-headlines"><li><a href="http://www.usatoday.com/news/world/story/2012-05-23/Pakistan-drone-US/55150736/1" onclick="s_objectID='nation--world-sectionbox|mainwell-sectionbox|headline|2';">U.S. missiles kill 4 suspected militants in Pakistan</a><!--getCC('55150736.story')--></li><li><a href="http://www.usatoday.com/news/washington/story/2012-05-22/secret-service-investigation/55146396/1" onclick="s_objectID='nation--world-sectionbox|mainwell-sectionbox|headline|3';">Secret Service boss: Security not hurt in Colombia</a><!--getCC('55146396.story')--></li><li><a href="http://www.usatoday.com/weather/wildfires/story/2012-05-22/nevada-wildfire/55147532/1" onclick="s_objectID='nation--world-sectionbox|mainwell-sectionbox|headline|4';">Nevada wildfire spreads, destroys 7 homes</a><!--getCC('55147532.story')--></li><li><a href="http://www.usatoday.com/news/nation/story/2012-05-22/white-supremacist-scottsdale-bombing/55143058/1" onclick="s_objectID='nation--world-sectionbox|mainwell-sectionbox|headline|5';">White supremacist gets 40 years in Ariz. bombing</a><!--getCC('55143058.story')--></li><li><a href="http://content.usatoday.com/communities/theoval/post/2012/05/obama-to-look-for-new-afghanistan-ambassador/1" onclick="s_objectID='nation--world-sectionbox|mainwell-sectionbox|headline|6';">Obama to look for new ambassador to Afghanistan </a><!--getCC('699490.blog')--></li></ul><ul class="subsections"><li class="first"><a href="http://www.usatoday.com/news/politics/index" onclick="s_objectID='nation--world-sectionbox|mainwell-sectionbox|attribution|1';">Election 2012</a></li><li><a href="http://content.usatoday.com/communities/ondeadline/index" onclick="s_objectID='nation--world-sectionbox|mainwell-sectionbox|attribution|2';">On Deadline</a></li><li><a href="http://www.usatoday.com/news/military/index" onclick="s_objectID='nation--world-sectionbox|mainwell-sectionbox|attribution|3';">Military</a></li></ul><!-- /EdSysObj -->
+
+
+
+</div><!-- /EdSysObj -->
+</div>
+<div class="yui-u">
+<!-- EdSysObj ID="usat-leftContent-02-b" FRAGMENTID="37443394" bcoffman --><div class="rounded-section money-headlines"> 
+
+
+
+<!-- EdSysObj ID="SSIFragment" FRAGMENTID="37443396" bcoffman --><h2><a href="http://www.usatoday.com/money/default.htm" onclick="s_objectID='money-sectionbox|mainwell-sectionbox|header|1';">Money</a></h2><!--getArticleLedeCC('55143066.story.articleLede')--><a href="http://www.usatoday.com/money/industries/retail/story/2012-05-22/vizio-takes-on-apple-computers/55143066/1" onclick="s_objectID='money-sectionbox|mainwell-sectionbox|imageset-item|1';"><img src="http://i.usatoday.net/money/_photos/2012/05/22/Vizio-turns-to-computers-takes-on-Apple-841HCJ6F-x-front-thumb.jpg" alt="Introducing:  Matt McRae, chief technology officer. The computers aim to rival Apple's style but run Microsoft Windows." width="115" height="98" border="0" class="top-story-thumb" /></a><div class="section-lead"><h3 class="headline"><!--getCC('55143066.story')--><a href="http://www.usatoday.com/money/industries/retail/story/2012-05-22/vizio-takes-on-apple-computers/55143066/1" onclick="s_objectID='money-sectionbox|mainwell-sectionbox|headline|1';">TV maker Vizio turns to PCs, takes on Apple</a></h3><p>Vizio is making a daring move: Taking on the world's biggest PC makers, including Apple.</p></div><ul class="more-headlines"><li><a href="http://www.usatoday.com/money/industries/food/story/2012-05-22/free-pizza-order-in-spanish/55143404/1" onclick="s_objectID='money-sectionbox|mainwell-sectionbox|headline|2';">Backlash over Pizza Patron deal for Spanish orders</a><!--getCC('55143404.story')--></li><li><a href="http://www.usatoday.com/money/perfi/columnist/krantz/story/2012-05-22/stock-hunches-netflix/55143052/1" onclick="s_objectID='money-sectionbox|mainwell-sectionbox|headline|3';">Ask Matt: Following your gut when picking stocks</a><!--getCC('55143052.story')--></li><li><a href="http://www.usatoday.com/money/world/story/2012-05-22/europe-risks-severe-recession/55129116/1" onclick="s_objectID='money-sectionbox|mainwell-sectionbox|headline|4';">Eurozone warned 'severe recession' looming</a><!--getCC('55129116.story')--></li><li><a href="http://www.usatoday.com/money/industries/energy/story/2012-05-22/usec-energy-department-deal/55142414/1" onclick="s_objectID='money-sectionbox|mainwell-sectionbox|headline|5';">New proposal exchanges centrifuges for USEC grant</a><!--getCC('55142414.story')--></li><li><a href="http://www.usatoday.com/money/industries/retail/story/2012-05-22/calpers-votes-against-wal-mart/55136358/1" onclick="s_objectID='money-sectionbox|mainwell-sectionbox|headline|6';">Calif. pension fund to vote against Wal-Mart board</a><!--getCC('55136358.story')--></li></ul><ul class="subsections"><li class="first"><a href="http://www.usatoday.com/money/perfi/index" onclick="s_objectID='money-sectionbox|mainwell-sectionbox|attribution|1';">Personal Finance</a></li><li><a href="http://markets.usatoday.com/custom/usatoday-com/html-markets.asp" onclick="s_objectID='money-sectionbox|mainwell-sectionbox|attribution|2';">Markets</a></li><li><a href="http://www.usatoday.com/money/autos/index" onclick="s_objectID='money-sectionbox|mainwell-sectionbox|attribution|3';">Cars</a></li></ul><!-- /EdSysObj -->
+
+
+
+</div><!-- /EdSysObj -->
+</div>
+</div>
+<div class="yui-g">
+<div class="yui-u first">
+<!-- EdSysObj ID="usat-leftContent-03-a" FRAGMENTID="37443054" bcoffman --><div class="rounded-section sports-headlines"> 
+
+
+
+<!-- EdSysObj ID="SSIFragment" FRAGMENTID="37443206" bcoffman --><h2><a href="http://www.usatoday.com/sports/default.htm" onclick="s_objectID='sports-sectionbox|mainwell-sectionbox|header|1';">Sports</a></h2><!--getArticleLedeCC('55148552.story.articleLede')--><a href="http://www.usatoday.com/sports/basketball/nba/story/2012-05-22/Heat-beat-Pacers-in-Game-5/55148552/1" onclick="s_objectID='sports-sectionbox|mainwell-sectionbox|imageset-item|1';"><img src="http://i.usatoday.net/sports/_photos/2012/05/22/James-Wade-too-much-as-Heat-rout-Pacers-GG1HH01D-x-front-thumb.jpg" alt="Heat small forward LeBron James (6) reacts after scoring against the Indiana Pacers in the third quarter during Game 5 on Tuesday in Miami." width="115" height="98" border="0" class="top-story-thumb" /></a><div class="section-lead"><h3 class="headline"><!--getCC('55148552.story')--><a href="http://www.usatoday.com/sports/basketball/nba/story/2012-05-22/Heat-beat-Pacers-in-Game-5/55148552/1" onclick="s_objectID='sports-sectionbox|mainwell-sectionbox|headline|1';">James, Wade pace Heat in Game 5 rout of Pacers</a></h3><p>Miami's formula that has staggered the Indiana Pacers? Play suffocating defense, get the rebound and go. </p></div><ul class="more-headlines"><li><a href="http://www.usatoday.com/sports/basketball/nba/story/2012-05-22/Los-Angeles-Lakers-Metta-World-Peace-Kobe-Bryant/55143600/1" onclick="s_objectID='sports-sectionbox|mainwell-sectionbox|headline|2';">Metta World Peace: Lakers rely too much on Kobe</a><!--getCC('55143600.story')--></li><li><a href="http://www.highschoolsports.net/sports/preps/baseball/story/2012-05-22/Martensdale-St-Marys-comes-up-a-game-short-of-record/55148550/1" onclick="s_objectID='sports-sectionbox|mainwell-sectionbox|headline|3';">Iowa high school baseball team falls short of record</a><!--getCC('55148550.story')--></li><li><a href="http://www.usatoday.com/sports/motor/story/2012-05-22/Travis-Pastrana-ready-for-NASCAR-and-RallyCross-at-Charlotte/55143696/1" onclick="s_objectID='sports-sectionbox|mainwell-sectionbox|headline|4';">Thrill-seeking Pastrana set for Saturday twofer</a><!--getCC('55143696.story')--></li><li><a href="http://www.usatoday.com/sports/college/story/2012-05-22/Commissioners-Scott-Swofford-received-huge-bumps-in-pay/55139964/1" onclick="s_objectID='sports-sectionbox|mainwell-sectionbox|headline|5';">Pacific-12 commissioner got nearly $1.9M in 2010</a><!--getCC('55139964.story')--></li><li><a href="http://www.usatoday.com/sports/olympics/london/track/story/2012-05-22/lolo-jones-talks-struggles-as-virgin/55128718/1" onclick="s_objectID='sports-sectionbox|mainwell-sectionbox|headline|6';">Track star discusses struggle to 'stay a virgin'</a><!--getCC('55128718.story')--></li></ul><ul class="subsections"><li class="first"><a href="http://content.usatoday.com/sportsdata/scores/nba" onclick="s_objectID='sports-sectionbox|mainwell-sectionbox|attribution|1';">NBA scores</a></li><li><a href="http://content.usatoday.com/sportsdata/scores/mlb" onclick="s_objectID='sports-sectionbox|mainwell-sectionbox|attribution|2';">MLB scores</a></li><li><a href="http://content.usatoday.com/sportsdata/scores/nhl" onclick="s_objectID='sports-sectionbox|mainwell-sectionbox|attribution|3';">NHL scores</a></li></ul><!-- /EdSysObj -->
+
+
+
+</div><!-- /EdSysObj -->
+</div>
+<div class="yui-u">
+<!-- EdSysObj ID="usat-leftContent-03-b" FRAGMENTID="37443336" bcoffman --><div class="rounded-section life-headlines"> 
+
+
+
+<!-- EdSysObj ID="SSIFragment" FRAGMENTID="37443338" bcoffman --><h2><a href="http://www.usatoday.com/life/default.htm" onclick="s_objectID='life-sectionbox|mainwell-sectionbox|header|1';">Life</a></h2><!--getArticleLedeCC('55122246.story.articleLede')--><a href="http://www.usatoday.com/life/music/reviews/story/2012-05-21/garbage-not-your-kind-of-people/55122246/1" onclick="s_objectID='life-sectionbox|mainwell-sectionbox|imageset-item|1';"><img src="http://i.usatoday.net/life/_photos/2012/05/21/People-is-Garbages-kind-of-album-Good-V51H8E60-x-front-thumb.jpg" alt="Butch Vig, left, Steve Marker, Shirley Manson and Duke Erikson of the band Garbage return with their first album since 2005." width="115" height="98" border="0" class="top-story-thumb" /></a><div class="section-lead"><h3 class="headline"><!--getCC('55122246.story')--><a href="http://www.usatoday.com/life/music/reviews/story/2012-05-21/garbage-not-your-kind-of-people/55122246/1" onclick="s_objectID='life-sectionbox|mainwell-sectionbox|headline|1';">'People' is Garbage's kind of album: A good one</a></h3><p>The rock band hasn't lost any of its appeal on its first new album since 2005.</p></div><ul class="more-headlines"><li><a href="http://mediagallery.usatoday.com/Ernie+K-Doe,+Emperor+of+New+Orleans/G3909" onclick="s_objectID='life-sectionbox|mainwell-sectionbox|headline|2';">Photos: Ernie K-Doe, Emperor of New Orleans</a><!--getCC('699546.blog')--></li><li><a href="http://www.usatoday.com/life/comics/story/2012-05-22/Marvel-Comics-same-sex-X-Men-wedding/55132706/1" onclick="s_objectID='life-sectionbox|mainwell-sectionbox|headline|3';">'Astonishing X-Men' plan a same-sex wedding</a><!--getCC('55132706.story')--></li><li><a href="http://www.usatoday.com/life/television/news/story/2012-05-22/american-idol-finale/55117950/1" onclick="s_objectID='life-sectionbox|mainwell-sectionbox|headline|4';">'American Idol': And then there were two</a><!--getCC('55117950.story')--></li><li><a href="http://content.usatoday.com/communities/entertainment/post/2012/05/dancing-with-the-stars-finals-whos-poised-to-win-/1" onclick="s_objectID='life-sectionbox|mainwell-sectionbox|headline|5';">'Dancing' finals: Who's poised to win? </a><!--getCC('698805.blog')--></li><li><a href="http://books.usatoday.com/book/‘canada-what-happens-when-parents-rob-a-bank/r698621" onclick="s_objectID='life-sectionbox|mainwell-sectionbox|headline|6';">'Canada:' When parents rob a bank</a><!--getCC('698621.blog')--></li></ul><ul class="subsections"><li class="first"><a href="http://content.usatoday.com/communities/entertainment/index" onclick="s_objectID='life-sectionbox|mainwell-sectionbox|attribution|1';">Celebrity news</a></li><li><a href="http://puzzles.usatoday.com/" onclick="s_objectID='life-sectionbox|mainwell-sectionbox|attribution|2';">Games, puzzles</a></li><li><a href="http://tvlistings.zap2it.com/tvlistings/ZCGrid.do?aid=usatoday" onclick="s_objectID='life-sectionbox|mainwell-sectionbox|attribution|3';">TV schedule</a></li></ul><!-- /EdSysObj -->
+
+
+
+</div><!-- /EdSysObj -->
+</div>
+</div>
+<div class="yui-g">
+<div class="yui-u first">
+<!-- EdSysObj ID="usat-leftContent-04-a" FRAGMENTID="37443428" bcoffman --><div class="rounded-section travel-headlines"> 
+
+
+
+<!-- EdSysObj ID="SSIFragment" FRAGMENTID="37443200" bcoffman --><h2><a href="http://travel.usatoday.com/index" onclick="s_objectID='travel-sectionbox|mainwell-sectionbox|header|1';">Travel</a></h2><!--getArticleLedeCC('55118546.story.articleLede')--><a href="http://travel.usatoday.com/destinations/story/2012-05-21/Ken-Burns-National-parks-feed-Americas-soul/55118546/1" onclick="s_objectID='travel-sectionbox|mainwell-sectionbox|imageset-item|1';"><img src="http://i.usatoday.net/travel/_photos/2012/05/21/Ken-Burns-National-parks-feed-Americas-soul-DF1H6CVK-x-front-thumb.jpg" alt="Passing on American birthright: Ken Burns and his daughter Olivia, 4, at Arches National Park in September 2009." width="115" height="98" border="0" class="top-story-thumb" /></a><div class="section-lead"><h3 class="headline"><!--getCC('55118546.story')--><a href="http://travel.usatoday.com/destinations/story/2012-05-21/Ken-Burns-National-parks-feed-Americas-soul/55118546/1" onclick="s_objectID='travel-sectionbox|mainwell-sectionbox|headline|1';">Ken Burns: National parks bring us together</a></h3><p>The filmmaker reflects on "the most moving places on Earth" and shares his own memories.</p></div><ul class="more-headlines"><li><a href="http://travel.usatoday.com/flights/post/2012/05/southwest-finds-taker-for-airtran-717s-in-delta/699512/1" onclick="s_objectID='travel-sectionbox|mainwell-sectionbox|headline|2';">Southwest to lease AirTran 717s to Delta</a><!--getCC('699512.blog')--></li><li><a href="http://travel.usatoday.com/destinations/dispatches/post/2012/05/rush-limbaugh-bust-goes-on-display-in-missouri-capitol/699467/1" onclick="s_objectID='travel-sectionbox|mainwell-sectionbox|headline|3';">Rush Limbaugh bust goes on display in Missouri</a><!--getCC('699467.blog')--></li><li><a href="http://travel.usatoday.com/hotels/post/2012/05/cultural-considerations-key-westin-abu-dhabi-w-oman-hotels/693215/1" onclick="s_objectID='travel-sectionbox|mainwell-sectionbox|headline|4';">Hotel bars challenge Western brands in Middle East</a><!--getCC('693215.blog')--></li><li><a href="http://travel.usatoday.com/destinations/dispatches/post/2012/05/what-states-new-tourism-slogan-is--its-revolutionary/698470/1" onclick="s_objectID='travel-sectionbox|mainwell-sectionbox|headline|5';">What state's new slogan is 'Still Revolutionary'?</a><!--getCC('698470.blog')--></li><li><a href="http://travel.usatoday.com/cruises/post/2012/05/photo-tour-oceania-cruises-riviera/695679/1" onclick="s_objectID='travel-sectionbox|mainwell-sectionbox|headline|6';">Photo tour: Oceania Cruises' new Riviera</a><!--getCC('695679.blog')--><a href="http://mediagallery.usatoday.com/Cruise+Ship+Tours/Oceania+Riviera/G1773,A12526" onclick="s_objectID='travel-sectionbox|mainwell-sectionbox|headline-mediaSpike|6';" class="photo-icon"><img src="http://i.usatoday.net/_fronts2010/_i/v2/icons.gif" width="15px" height="15px" alt="icons" /></a></li></ul><ul class="subsections"><li class="first"><a href="http://travel.usatoday.com/flights/index" onclick="s_objectID='travel-sectionbox|mainwell-sectionbox|attribution|1';">Flights</a></li><li><a href="http://travel.usatoday.com/cruises/index" onclick="s_objectID='travel-sectionbox|mainwell-sectionbox|attribution|2';">Cruises</a></li><li><a href="http://travel.usatoday.com/destinations/lasvegas/index" onclick="s_objectID='travel-sectionbox|mainwell-sectionbox|attribution|3';">Las Vegas</a></li></ul><!-- /EdSysObj -->
+
+
+
+</div><!-- /EdSysObj -->
+</div>
+<div class="yui-u">
+<!-- EdSysObj ID="usat-leftContent-04-b" FRAGMENTID="37443018" rberthol --><div class="rounded-section life-headlines"> 
+
+
+
+<!-- EdSysObj ID="SSIFragment" FRAGMENTID="37443044" bcoffman --><h2><a href="http://www.usatoday.com/news/health/index" onclick="s_objectID='health--wellness-sectionbox|mainwell-sectionbox|header|1';">Health &amp; Wellness</a></h2><!--getArticleLedeCC('55139970.story.articleLede')--><a href="http://www.usatoday.com/news/health/wellness/story/2012-05-09/Ellie-Kriger-salt/55139970/1" onclick="s_objectID='health--wellness-sectionbox|mainwell-sectionbox|imageset-item|1';"><img src="http://i.usatoday.net/news/_photos/2012/05/09/Heres-how-to-cut-the-salt-but-keep-the-taste-JP1G1MEI-x-front-thumb.jpg" alt="Most people consume an average of 3,400 mg. of salt daily." width="115" height="98" border="0" class="top-story-thumb" /></a><div class="section-lead"><h3 class="headline"><!--getCC('55139970.story')--><a href="http://www.usatoday.com/news/health/wellness/story/2012-05-09/Ellie-Kriger-salt/55139970/1" onclick="s_objectID='health--wellness-sectionbox|mainwell-sectionbox|headline|1';">Ellie: Cutting your salt without cutting taste</a></h3><p>The evidence in favor of eating less salt keeps rolling in, but most people are doubling their daily recommended dose.</p></div><ul class="more-headlines"><li><a href="http://www.usatoday.com/news/health/story/2012-05-21/injuries-law-by-state/55130406/1" onclick="s_objectID='health--wellness-sectionbox|mainwell-sectionbox|headline|2';">10 steps states can take to avoid injuries</a><!--getCC('55130406.story')--></li><li><a href="http://www.usatoday.com/news/health/story/2012-05-14/FDA-sunscreen-labeling/54979576/1" onclick="s_objectID='health--wellness-sectionbox|mainwell-sectionbox|headline|3';">Consumers caught in middle of sunscreen debate</a><!--getCC('54979576.story')--></li><li><a href="http://www.usatoday.com/news/health/story/2012-05-22/barefoot-running-injuries/55137118/1" onclick="s_objectID='health--wellness-sectionbox|mainwell-sectionbox|headline|4';">Barefoot running leads to injuries in some</a><!--getCC('55137118.story')--></li><li><a href="http://www.usatoday.com/news/health/story/2012-05-22/Britain-fertility-guidelines-IVF/55132790/1" onclick="s_objectID='health--wellness-sectionbox|mainwell-sectionbox|headline|5';">U.K. may expand free fertility treatment access</a><!--getCC('55132790.story')--></li><li><a href="http://www.usatoday.com/news/health/story/2012-05-21/spider-fear/55118154/1" onclick="s_objectID='health--wellness-sectionbox|mainwell-sectionbox|headline|6';">Scared of spiders? You can escape that web</a><!--getCC('55118154.story')--></li></ul><ul class="subsections"><li class="first"><a href="http://www.usatoday.com/news/health/index" onclick="s_objectID='a-better-life-sectionbox|mainwell-sectionbox|attribution|1';">More in Health &amp; Wellness</a></li></ul><!-- /EdSysObj -->
+
+
+
+</div><!-- /EdSysObj -->
+</div>
+</div>
+<div class="yui-g">
+<div class="yui-u first">
+<!-- EdSysObj ID="usat-leftContent-05-a" FRAGMENTID="37443402" bcoffman --><div class="rounded-section tech-headlines"> 
+
+
+
+<!-- EdSysObj ID="SSIFragment" FRAGMENTID="37443210" bcoffman --><h2><a href="http://www.usatoday.com/tech/default.htm" onclick="s_objectID='tech-sectionbox|mainwell-sectionbox|header|1';">Tech</a></h2><!--getArticleLedeCC('55142404.story.articleLede')--><a href="http://www.usatoday.com/tech/news/story/2012-05-22/cellphone-wireless-wifi-hotspots/55142404/1" onclick="s_objectID='tech-sectionbox|mainwell-sectionbox|imageset-item|1';"><img src="http://i.usatoday.net/tech/_photos/2012/05/22/Wireless-carriers-seek-to-offload-customers-GG1HDCKD-x-front-thumb.jpg" alt="Wireless carriers are looking to divert traffic from their cell networks and onto local Wi-Fi hotspots." width="115" height="98" border="0" class="top-story-thumb" /></a><div class="section-lead"><h3 class="headline"><!--getCC('55142404.story')--><a href="http://www.usatoday.com/tech/news/story/2012-05-22/cellphone-wireless-wifi-hotspots/55142404/1" onclick="s_objectID='tech-sectionbox|mainwell-sectionbox|headline|1';">Wireless carriers seek to 'offload' customers</a></h3><p>Major carriers are looking to steer customers' wireless traffic to more localized networks, such as Wi-Fi hotspots.</p></div><ul class="more-headlines"><li><a href="http://content.usatoday.com/communities/technologylive/post/2012/05/google-turns-logo-into-playable-synthesizer/1" onclick="s_objectID='tech-sectionbox|mainwell-sectionbox|headline|2';">Google turns logo into playable synthesizer</a><!--getCC('699896.blog')--></li><li><a href="http://www.usatoday.com/tech/columnist/edwardbaig/story/2012-05-22/sidecar-phone-app/55141408/1" onclick="s_objectID='tech-sectionbox|mainwell-sectionbox|headline|3';">Sidecar makes multitasking easier on smartphones</a><!--getCC('55141408.story')--></li><li><a href="http://www.usatoday.com/tech/science/space/story/2012-05-22/spacex-private-space-station/55141734/1" onclick="s_objectID='tech-sectionbox|mainwell-sectionbox|headline|4';">Hopes on Space X rocket heading to space station</a><!--getCC('55141734.story')--></li><li><a href="http://mediagallery.usatoday.com/Annular+solar+eclipse/G3898" onclick="s_objectID='tech-sectionbox|mainwell-sectionbox|headline|5';">Photos: The 'ring of fire' solar eclipse</a></li><li><a href="http://content.usatoday.com/communities/technologylive/post/2012/05/inventor-of-the-tv-remote-control-dies-at-96/1" onclick="s_objectID='tech-sectionbox|mainwell-sectionbox|headline|6';">Inventor of the TV remote control dies at 96</a><!--getCC('699272.blog')--></li></ul><ul class="subsections"><li class="first"><a href="http://content.usatoday.com/communities/technologylive/index" onclick="s_objectID='tech-sectionbox|mainwell-sectionbox|attribution|1';">Technology news</a></li><li><a href="http://content.usatoday.com/communities/gamehunters/index" onclick="s_objectID='tech-sectionbox|mainwell-sectionbox|attribution|2';">Gaming</a></li><li><a href="http://www.digitalcamerainfo.com" onclick="s_objectID='tech-sectionbox|mainwell-sectionbox|attribution|3';">Digital camera reviews</a></li></ul><!-- /EdSysObj -->
+
+
+
+</div><!-- /EdSysObj -->
+</div>
+<div class="yui-u">
+<!-- EdSysObj ID="usat-leftContent-05-b" FRAGMENTID="37443398" bcoffman --><div class="rounded-section home-headlines"> 
+
+
+
+<!-- EdSysObj ID="SSIFragment" FRAGMENTID="37443400" bcoffman --><h2><a href="http://www.usatoday.com/news/opinion/default.htm" onclick="s_objectID='opinion-sectionbox|mainwell-sectionbox|header|1';">Opinion</a></h2><!--getArticleLedeCC('55145688.story.articleLede')--><a href="http://www.usatoday.com/news/opinion/editorials/story/2012-05-22/prostate-test-PSA-screening/55145688/1" onclick="s_objectID='opinion-sectionbox|mainwell-sectionbox|imageset-item|1';"><img src="http://i.usatoday.net/news/_photos/2012/05/22/Editorial-Skipping-prostate-test-can-kill-KH1HDAUT-x-front-thumb.jpg" alt="Prostate cancer surgery." width="115" height="98" border="0" class="top-story-thumb" /></a><div class="section-lead"><h3 class="headline"><!--getCC('55145688.story')--><a href="http://www.usatoday.com/news/opinion/editorials/story/2012-05-22/prostate-test-PSA-screening/55145688/1" onclick="s_objectID='opinion-sectionbox|mainwell-sectionbox|headline|1';">Skipping prostate screening can kill</a></h3><p>Our view: That logic about the PSA test seems lost on the U.S. Preventive Services Task Force.</p></div><ul class="more-headlines"><li><a href="http://www.usatoday.com/news/opinion/story/2012-05-22/Preventive-Services-Task-Force/55145238/1" onclick="s_objectID='opinion-sectionbox|mainwell-sectionbox|headline|2';">Opposing view: Make informed decisions on PSA</a><!--getCC('55145238.story')--></li><li><a href="http://www.usatoday.com/news/opinion/editorials/story/2012-05-22/Obama-Afghanistan-War-NATO/55143804/1" onclick="s_objectID='opinion-sectionbox|mainwell-sectionbox|headline|3';">Editorial: Messy Afghan war heads for uncertain end</a><!--getCC('55143804.story')--></li><li><a href="http://www.usatoday.com/news/opinion/forum/story/2012-05-22/kids-romney-obama-education-health-care-bullying/55141010/1" onclick="s_objectID='opinion-sectionbox|mainwell-sectionbox|headline|4';">Column: What about the war on children?</a><!--getCC('55141010.story')--></li><li><a href="http://www.usatoday.com/news/opinion/forum/story/2012-05-22/electronic-medical-health-records-technology-joplin/55140908/1" onclick="s_objectID='opinion-sectionbox|mainwell-sectionbox|headline|5';">Column: E-medical records immune to tornado</a><!--getCC('55140908.story')--></li><li><a href="http://mediagallery.usatoday.com/Editorial-Cartoons/G373" onclick="s_objectID='opinion-sectionbox|mainwell-sectionbox|headline|6';">Gallery: Check out the best editorial cartoons</a></li></ul><ul class="subsections"><li class="first"><a href="http://www.usatoday.com/news/opinion/editorials/index.htm" onclick="s_objectID='opinion-sectionbox|mainwell-sectionbox|attribution|1';">Editorials/Debates</a></li><li><a href="http://www.usatoday.com/news/opinion/forum/index.htm" onclick="s_objectID='opinion-sectionbox|mainwell-sectionbox|attribution|2';">Columns</a></li><li><a href="http://mediagallery.usatoday.com/Editorial-Cartoons/G373" onclick="s_objectID='opinion-sectionbox|mainwell-sectionbox|attribution|3';">Cartoons</a></li></ul><!-- /EdSysObj -->
+
+
+
+</div><!-- /EdSysObj -->
+</div>
+</div>
+<div id="usat_leftContent_06" class="yui-g">
+<!-- EdSysObj ID="usat-leftContent-06" FRAGMENTID="36952210" rberthol --><!-- topics in the news -->
+<div class="mainwell-full">
+  <div id="usat-topics" class="topics-in-the-news">
+    <!-- popular topics -->
+    <div class="pop-topics">
+      <div class="single-list"><h2>Popular topics in the news</h2><ul><li><a href="http://content.usatoday.com/topics/topic/People/Athletes/Olympic+Sports/Lolo+Jones" onclick="s_objectID='topics|link|1';">Lolo Jones</a><a href="http://mediagallery.usatoday.com/Lolo+Jones" onclick="s_objectID='topics|gallerylink|1';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Miley+Cyrus" onclick="s_objectID='topics|link|2';">Miley Cyrus</a><a href="http://mediagallery.usatoday.com/Miley+Cyrus" onclick="s_objectID='topics|gallerylink|2';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Culture/Television/Programming/Deadliest+Catch" onclick="s_objectID='topics|link|3';">Deadliest Catch</a></li><li><a href="http://content.usatoday.com/topics/topic/People/Celebrities/Designers,+Models/Bar+Refaeli" onclick="s_objectID='topics|link|4';">Bar Refaeli</a><a href="http://mediagallery.usatoday.com/Bar+Refaeli" onclick="s_objectID='topics|gallerylink|4';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Culture/Television/The+Big+Bang+Theory" onclick="s_objectID='topics|link|5';">The Big Bang Theory</a><a href="http://mediagallery.usatoday.com/The+Big+Bang+Theory" onclick="s_objectID='topics|gallerylink|5';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Bo+Derek" onclick="s_objectID='topics|link|6';">Bo Derek</a><a href="http://mediagallery.usatoday.com/Bo+Derek" onclick="s_objectID='topics|gallerylink|6';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://www.usatoday.com/topics/topic/People/Athletes/MLB/Erin+Andrews" onclick="s_objectID='topics|link|7';">Erin Andrews</a><a href="http://mediagallery.usatoday.com/Erin+Andrews" onclick="s_objectID='topics|gallerylink|7';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/People/Celebrities/Actors,+Agents/Megan+Fox" onclick="s_objectID='topics|link|8';">Megan Fox</a><a href="http://mediagallery.usatoday.com/Megan+Fox" onclick="s_objectID='topics|gallerylink|8';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Olivia+Munn" onclick="s_objectID='topics|link|9';">Olivia Munn</a><a href="http://mediagallery.usatoday.com/Olivia+Munn" onclick="s_objectID='topics|gallerylink|9';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Elin+Nordegren" onclick="s_objectID='topics|link|10';">Elin Nordegren</a></li><li><a href="http://content.usatoday.com/topics/topic/People/Athletes/NFL/Donald+Driver" onclick="s_objectID='topics|link|11';">Donald Driver</a><a href="http://mediagallery.usatoday.com/Donald+Driver" onclick="s_objectID='topics|gallerylink|11';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/sheryl+sandberg" onclick="s_objectID='topics|link|12';">sheryl sandberg</a></li><li><a href="http://content.usatoday.com/topics/topic/Mila+Kunis" onclick="s_objectID='topics|link|13';">Mila Kunis</a><a href="http://mediagallery.usatoday.com/Mila+Kunis" onclick="s_objectID='topics|gallerylink|13';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Jessica+Sanchez" onclick="s_objectID='topics|link|14';">Jessica Sanchez</a></li><li><a href="http://content.usatoday.com/topics/topic/Katherine+Jenkins" onclick="s_objectID='topics|link|15';">Katherine Jenkins</a></li><li><a href="http://content.usatoday.com/topics/topic/People/Athletes/Golf/Natalie+Gulbis" onclick="s_objectID='topics|link|16';">Natalie Gulbis</a><a href="http://mediagallery.usatoday.com/Natalie+Gulbis" onclick="s_objectID='topics|gallerylink|16';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/People/Celebrities/Designers,+Models/Kim+Kardashian" onclick="s_objectID='topics|link|17';">Kim Kardashian</a><a href="http://mediagallery.usatoday.com/Kim+Kardashian" onclick="s_objectID='topics|gallerylink|17';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Maria+Bartiromo" onclick="s_objectID='topics|link|18';">Maria Bartiromo</a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports%2BLeagues/NFL/Pittsburgh%2BSteelers" onclick="s_objectID='topics|link|19';">Pittsburgh Steelers</a><a href="http://mediagallery.usatoday.com/Pittsburgh+Steelers" onclick="s_objectID='topics|gallerylink|19';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Companies/Publishers,+Media,+Music/Playboy+Magazine" onclick="s_objectID='topics|link|20';">Playboy Magazine</a><a href="http://mediagallery.usatoday.com/Playboy+Magazine" onclick="s_objectID='topics|gallerylink|20';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Culture/Television/Programming/Dancing+with+the+Stars" onclick="s_objectID='topics|link|21';">Dancing with the Stars</a><a href="http://mediagallery.usatoday.com/Dancing+with+the+Stars" onclick="s_objectID='topics|gallerylink|21';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/ricky+hendrick" onclick="s_objectID='topics|link|22';">ricky hendrick</a></li><li><a href="http://content.usatoday.com/topics/topic/Tiger+Woods" onclick="s_objectID='topics|link|23';">Tiger Woods</a><a href="http://mediagallery.usatoday.com/Tiger+Woods" onclick="s_objectID='topics|gallerylink|23';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Emma+Stone" onclick="s_objectID='topics|link|24';">Emma Stone</a><a href="http://mediagallery.usatoday.com/Emma+Stone" onclick="s_objectID='topics|gallerylink|24';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Container+Store" onclick="s_objectID='topics|link|25';">Container Store</a></li><li><a href="http://content.usatoday.com/topics/topic/People/Celebrities/Actors,+Agents/Adrianne+Palicki" onclick="s_objectID='topics|link|26';">Adrianne Palicki</a><a href="http://mediagallery.usatoday.com/Adrianne+Palicki" onclick="s_objectID='topics|gallerylink|26';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Culture/Television/Programming/American+Idol" onclick="s_objectID='topics|link|27';">American Idol</a><a href="http://mediagallery.usatoday.com/American+Idol" onclick="s_objectID='topics|gallerylink|27';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Jenny+McCarthy" onclick="s_objectID='topics|link|28';">Jenny McCarthy</a><a href="http://mediagallery.usatoday.com/Jenny+McCarthy" onclick="s_objectID='topics|gallerylink|28';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://www.usatoday.com/topics/topic/People/Celebrities/Actors,+Agents/Olivia+Wilde" onclick="s_objectID='topics|link|29';">Olivia Wilde</a><a href="http://mediagallery.usatoday.com/Olivia+Wilde" onclick="s_objectID='topics|gallerylink|29';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Tim+Tebow" onclick="s_objectID='topics|link|30';">Tim Tebow</a><a href="http://mediagallery.usatoday.com/Tim+Tebow" onclick="s_objectID='topics|gallerylink|30';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Culture/Computers+and+Internet/Facebook" onclick="s_objectID='topics|link|31';">Facebook</a><a href="http://mediagallery.usatoday.com/Facebook" onclick="s_objectID='topics|gallerylink|31';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Places,+Geography/Landmarks,+Landforms/Mount+Everest" onclick="s_objectID='topics|link|32';">Mount Everest</a><a href="http://mediagallery.usatoday.com/Mount+Everest" onclick="s_objectID='topics|gallerylink|32';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Apple" onclick="s_objectID='topics|link|33';">Apple</a><a href="http://mediagallery.usatoday.com/Apple" onclick="s_objectID='topics|gallerylink|33';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Companies/Manufacturing,+Construction/Elon+Musk" onclick="s_objectID='topics|link|34';">Elon Musk</a></li><li><a href="http://content.usatoday.com/topics/topic/Marc+Andreessen" onclick="s_objectID='topics|link|35';">Marc Andreessen</a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports%2BLeagues/NFL/Green%2BBay%2BPackers" onclick="s_objectID='topics|link|36';">Green Bay Packers</a><a href="http://mediagallery.usatoday.com/Green+Bay+Packers" onclick="s_objectID='topics|gallerylink|36';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Companies/Publishers,+Media,+Music/ESPN" onclick="s_objectID='topics|link|37';">ESPN</a><a href="http://mediagallery.usatoday.com/ESPN" onclick="s_objectID='topics|gallerylink|37';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Companies/Transportation,+Travel,+Hospitality/Airlines/American+Airlines" onclick="s_objectID='topics|link|38';">American Airlines</a><a href="http://mediagallery.usatoday.com/American+Airlines" onclick="s_objectID='topics|gallerylink|38';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/James+Doohan" onclick="s_objectID='topics|link|39';">James Doohan</a></li><li><a href="http://content.usatoday.com/topics/topic/People/Politicians,+Government+Officials,+Strategists/Executive/Barack+Obama" onclick="s_objectID='topics|link|40';">Barack Obama</a><a href="http://mediagallery.usatoday.com/Barack+Obama" onclick="s_objectID='topics|gallerylink|40';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Brandon%20Davies" onclick="s_objectID='topics|link|41';">Brandon Davies</a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports+Leagues/NBA/Los%20Angeles%20Lakers" onclick="s_objectID='topics|link|42';">Los Angeles Lakers</a><a href="http://mediagallery.usatoday.com/Los+Angeles+Lakers" onclick="s_objectID='topics|gallerylink|42';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/William+Levy" onclick="s_objectID='topics|link|43';">William Levy</a></li><li><a href="http://content.usatoday.com/topics/topic/Jennifer+Lawrence" onclick="s_objectID='topics|link|44';">Jennifer Lawrence</a><a href="http://mediagallery.usatoday.com/Jennifer+Lawrence" onclick="s_objectID='topics|gallerylink|44';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Phillip+Phillips" onclick="s_objectID='topics|link|45';">Phillip Phillips</a></li><li><a href="http://content.usatoday.com/topics/topic/HBO" onclick="s_objectID='topics|link|46';">HBO</a><a href="http://mediagallery.usatoday.com/HBO" onclick="s_objectID='topics|gallerylink|46';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Brands/Automotive/Chevrolet" onclick="s_objectID='topics|link|47';">Chevrolet</a><a href="http://mediagallery.usatoday.com/Chevrolet" onclick="s_objectID='topics|gallerylink|47';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports+Leagues/NFL/Oakland+Raiders" onclick="s_objectID='topics|link|48';">Oakland Raiders</a><a href="http://mediagallery.usatoday.com/Oakland+Raiders" onclick="s_objectID='topics|gallerylink|48';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Brands/Automotive/Porsche" onclick="s_objectID='topics|link|49';">Porsche</a><a href="http://mediagallery.usatoday.com/Porsche" onclick="s_objectID='topics|gallerylink|49';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Michael+Hoffman" onclick="s_objectID='topics|link|50';">Michael Hoffman</a></li><li><a href="http://content.usatoday.com/topics/topic/Alzheimer's+Disease" onclick="s_objectID='topics|link|51';">Alzheimer's Disease</a></li><li><a href="http://content.usatoday.com/topics/topic/Webby+Awards" onclick="s_objectID='topics|link|52';">Webby Awards</a><a href="http://mediagallery.usatoday.com/Webby+Awards" onclick="s_objectID='topics|gallerylink|52';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Beth+Mowins" onclick="s_objectID='topics|link|53';">Beth Mowins</a></li><li><a href="http://content.usatoday.com/topics/topic/Kristen+Wiig" onclick="s_objectID='topics|link|54';">Kristen Wiig</a><a href="http://mediagallery.usatoday.com/Kristen+Wiig" onclick="s_objectID='topics|gallerylink|54';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports+Leagues/NFL/Detroit+Lions" onclick="s_objectID='topics|link|55';">Detroit Lions</a><a href="http://mediagallery.usatoday.com/Detroit+Lions" onclick="s_objectID='topics|gallerylink|55';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Natural+and+Physical+Sciences/Space+and+Astronomy/International+Space+Station" onclick="s_objectID='topics|link|56';">International Space Station</a><a href="http://mediagallery.usatoday.com/International+Space+Station" onclick="s_objectID='topics|gallerylink|56';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports%2BLeagues/NFL/Dallas%2BCowboys" onclick="s_objectID='topics|link|57';">Dallas Cowboys</a><a href="http://mediagallery.usatoday.com/Dallas+Cowboys" onclick="s_objectID='topics|gallerylink|57';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/breast+cancer" onclick="s_objectID='topics|link|58';">breast cancer</a></li><li><a href="http://content.usatoday.com/topics/topic/Amber+Tamblyn" onclick="s_objectID='topics|link|59';">Amber Tamblyn</a><a href="http://mediagallery.usatoday.com/Amber+Tamblyn" onclick="s_objectID='topics|gallerylink|59';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Michelle+Obama" onclick="s_objectID='topics|link|60';">Michelle Obama</a><a href="http://mediagallery.usatoday.com/Michelle+Obama" onclick="s_objectID='topics|gallerylink|60';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports%2BLeagues/NFL/Buffalo%2BBills" onclick="s_objectID='topics|link|61';">Buffalo Bills</a><a href="http://mediagallery.usatoday.com/Buffalo+Bills" onclick="s_objectID='topics|gallerylink|61';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/People/Athletes/Olympic+Sports/Shawn+Johnson" onclick="s_objectID='topics|link|62';">Shawn Johnson</a><a href="http://mediagallery.usatoday.com/Shawn+Johnson" onclick="s_objectID='topics|gallerylink|62';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/People/Athletes/NBA/Kobe+Bryant" onclick="s_objectID='topics|link|63';">Kobe Bryant</a><a href="http://mediagallery.usatoday.com/Kobe+Bryant" onclick="s_objectID='topics|gallerylink|63';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/People/Athletes/MLB/Torii+Hunter" onclick="s_objectID='topics|link|64';">Torii Hunter</a><a href="http://mediagallery.usatoday.com/Torii+Hunter" onclick="s_objectID='topics|gallerylink|64';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/People/Celebrities/Phil+Harris" onclick="s_objectID='topics|link|65';">Phil Harris</a></li><li><a href="http://content.usatoday.com/topics/topic/Ronald+Reagan" onclick="s_objectID='topics|link|66';">Ronald Reagan</a><a href="http://mediagallery.usatoday.com/Ronald+Reagan" onclick="s_objectID='topics|gallerylink|66';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Adam+Lambert" onclick="s_objectID='topics|link|67';">Adam Lambert</a><a href="http://mediagallery.usatoday.com/Adam+Lambert" onclick="s_objectID='topics|gallerylink|67';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Katy+Perry" onclick="s_objectID='topics|link|68';">Katy Perry</a><a href="http://mediagallery.usatoday.com/Katy+Perry" onclick="s_objectID='topics|gallerylink|68';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Joel+Johnson" onclick="s_objectID='topics|link|69';">Joel Johnson</a></li><li><a href="http://content.usatoday.com/topics/topic/meles+zenawi" onclick="s_objectID='topics|link|70';">meles zenawi</a></li><li><a href="http://content.usatoday.com/topics/topic/NFL" onclick="s_objectID='topics|link|71';">NFL</a><a href="http://mediagallery.usatoday.com/NFL" onclick="s_objectID='topics|gallerylink|71';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports%2BLeagues/NFL/Washington%2BRedskins" onclick="s_objectID='topics|link|72';">Washington Redskins</a><a href="http://mediagallery.usatoday.com/Washington+Redskins" onclick="s_objectID='topics|gallerylink|72';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/flesh-eating+bacteria" onclick="s_objectID='topics|link|73';">flesh-eating bacteria</a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports+Leagues/NFL/New%20York%20Giants" onclick="s_objectID='topics|link|74';">New York Giants</a><a href="http://mediagallery.usatoday.com/New+York+Giants" onclick="s_objectID='topics|gallerylink|74';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/jennifer+lopez" onclick="s_objectID='topics|link|75';">jennifer lopez</a><a href="http://mediagallery.usatoday.com/jennifer+lopez" onclick="s_objectID='topics|gallerylink|75';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/People/Sports+Coaches,+Team+Owners,+Execs,+Officials/NFL/John+Fox" onclick="s_objectID='topics|link|76';">John Fox</a><a href="http://mediagallery.usatoday.com/John+Fox" onclick="s_objectID='topics|gallerylink|76';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Companies/Publishers,+Media,+Music/Bloomberg+News" onclick="s_objectID='topics|link|77';">Bloomberg News</a></li><li><a href="http://content.usatoday.com/topics/topic/People/Celebrities/Directors,+Producers,+Writers/Simon+Fuller" onclick="s_objectID='topics|link|78';">Simon Fuller</a><a href="http://mediagallery.usatoday.com/Simon+Fuller" onclick="s_objectID='topics|gallerylink|78';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/barry+gibb" onclick="s_objectID='topics|link|79';">barry gibb</a></li><li><a href="http://content.usatoday.com/topics/topic/People/Athletes/NBA/Joe+Johnson" onclick="s_objectID='topics|link|80';">Joe Johnson</a><a href="http://mediagallery.usatoday.com/Joe+Johnson" onclick="s_objectID='topics|gallerylink|80';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports%2BLeagues/NFL/Chicago%2BBears" onclick="s_objectID='topics|link|81';">Chicago Bears</a><a href="http://mediagallery.usatoday.com/Chicago+Bears" onclick="s_objectID='topics|gallerylink|81';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/People/Celebrities/Actors,+Agents/Angelina+Jolie" onclick="s_objectID='topics|link|82';">Angelina Jolie</a><a href="http://mediagallery.usatoday.com/Angelina+Jolie" onclick="s_objectID='topics|gallerylink|82';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/People/Athletes/NBA/Dwight+Howard" onclick="s_objectID='topics|link|83';">Dwight Howard</a><a href="http://mediagallery.usatoday.com/Dwight+Howard" onclick="s_objectID='topics|gallerylink|83';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Neil+Diamond" onclick="s_objectID='topics|link|84';">Neil Diamond</a><a href="http://mediagallery.usatoday.com/Neil+Diamond" onclick="s_objectID='topics|gallerylink|84';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/People/Politicians,+Government+Officials,+Strategists/Governors,+Mayors/Mitt+Romney" onclick="s_objectID='topics|link|85';">Mitt Romney</a><a href="http://mediagallery.usatoday.com/Mitt+Romney" onclick="s_objectID='topics|gallerylink|85';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/PSA" onclick="s_objectID='topics|link|86';">PSA</a></li><li><a href="http://content.usatoday.com/topics/topic/Russell+Brice" onclick="s_objectID='topics|link|87';">Russell Brice</a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports+Leagues/NFL/San%20Francisco%2049ers" onclick="s_objectID='topics|link|88';">San Francisco 49Ers</a><a href="http://mediagallery.usatoday.com/San+Francisco+49Ers" onclick="s_objectID='topics|gallerylink|88';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Sandra+Bullock" onclick="s_objectID='topics|link|89';">Sandra Bullock</a><a href="http://mediagallery.usatoday.com/Sandra+Bullock" onclick="s_objectID='topics|gallerylink|89';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports%2BLeagues/NFL/Minnesota%2BVikings" onclick="s_objectID='topics|link|90';">Minnesota Vikings</a><a href="http://mediagallery.usatoday.com/Minnesota+Vikings" onclick="s_objectID='topics|gallerylink|90';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports%2BLeagues/NFL/New%2BEngland%2BPatriots" onclick="s_objectID='topics|link|91';">New England Patriots</a><a href="http://mediagallery.usatoday.com/New+England+Patriots" onclick="s_objectID='topics|gallerylink|91';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports+Leagues/NBA/Miami+Heat" onclick="s_objectID='topics|link|92';">Miami Heat</a><a href="http://mediagallery.usatoday.com/Miami+Heat" onclick="s_objectID='topics|gallerylink|92';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Companies/Manufacturing,+Construction/Tesla+Motors" onclick="s_objectID='topics|link|93';">Tesla Motors</a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports+Leagues/NBA/San+Antonio+Spurs" onclick="s_objectID='topics|link|94';">San Antonio Spurs</a><a href="http://mediagallery.usatoday.com/San+Antonio+Spurs" onclick="s_objectID='topics|gallerylink|94';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports+Leagues/NFL/Kansas+City+Chiefs" onclick="s_objectID='topics|link|95';">Kansas City Chiefs</a><a href="http://mediagallery.usatoday.com/Kansas+City+Chiefs" onclick="s_objectID='topics|gallerylink|95';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Sports+Leagues/NFL/Miami+Dolphins" onclick="s_objectID='topics|link|96';">Miami Dolphins</a><a href="http://mediagallery.usatoday.com/Miami+Dolphins" onclick="s_objectID='topics|gallerylink|96';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Companies/Transportation,+Travel,+Hospitality/Hotels/Hotel+Brands/Hilton+Hotels+Corporation" onclick="s_objectID='topics|link|97';">Hilton Hotels Corporation</a><a href="http://mediagallery.usatoday.com/Hilton+Hotels+Corporation" onclick="s_objectID='topics|gallerylink|97';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Brad+Pitt" onclick="s_objectID='topics|link|98';">Brad Pitt</a><a href="http://mediagallery.usatoday.com/Brad+Pitt" onclick="s_objectID='topics|gallerylink|98';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li><li><a href="http://content.usatoday.com/topics/topic/Cannes+International+Film+Festival" onclick="s_objectID='topics|link|99';">Cannes International Film Festival</a><a href="http://mediagallery.usatoday.com/Cannes+International+Film+Festival" onclick="s_objectID='topics|gallerylink|99';"><img src="http://i.usatoday.net/_common/_images/_photogallery/photo.png" border="0" /></a></li></ul></div>
+    </div>
+    <!-- /topics in the news -->
+  </div>
+</div><!-- /EdSysObj -->
+</div>
+<div id="usat_leftContent_07" class="yui-g">
+
+</div>
+<div id="usat_leftContent_08" class="yui-g">
+
+</div>
+</div>
+</div>
+<div class="yui-b sidebar">
+<div id="usat_Upper90" class="ad"><banner position="Upper90" size="300x300"></banner></div>
+<div id="usat_rightContent_01">
+<!-- EdSysObj ID="usat-rightContent-01" FRAGMENTID="37424590" rberthol --><div class="sidebar-fragment ranked-list">
+<h3>Most Popular</h3>
+<ol>
+  <li><a href="http://content.usatoday.com/communities/entertainment/post/2012/05/dancing-with-the-stars-crowns-season-14-winner/1?csp=hf" title="'Dancing' crowns surprising Season 14 champ" onclick="s_objectID='usat_rightContent_01|MostPopular|popular-home|1'">'Dancing' crowns surprising Season 14 champ</a></li>
+<li><a href="http://www.usatoday.com/sports/olympics/london/track/story/2012-05-22/lolo-jones-talks-struggles-as-virgin/55128718/1?csp=hf" title="Lolo Jones talks candidly of struggle to 'stay a virgin'" onclick="s_objectID='usat_rightContent_01|MostPopular|popular-home|2'">Lolo Jones talks candidly of struggle to...</a></li>
+<li><a href="http://www.usatoday.com/sports/college/football/story/2012-05-22/penn-state-joe-paterno-13-million-pension-payout/55135210/1?csp=hf" title="Paterno's wife to receive $13.4 million pension from Penn State" onclick="s_objectID='usat_rightContent_01|MostPopular|popular-home|3'">Paterno's wife to receive $13.4 million...</a></li>
+<li><a href="http://content.usatoday.com/communities/ondeadline/post/2012/05/report-4-witnesses-revised-accounts--in-trayvon-martin-case/1?csp=hf" title="Report: 4 witnesses revised Trayvon accounts" onclick="s_objectID='usat_rightContent_01|MostPopular|popular-home|4'">Report: 4 witnesses revised Trayvon accounts</a></li>
+<li><a href="http://www.usatoday.com/news/nation/story/2012-05-22/traffic-congestion-down/55120930/1?csp=hf" title="Gridlock eases in many metro areas" onclick="s_objectID='usat_rightContent_01|MostPopular|popular-home|5'">Gridlock eases in many metro areas</a></li>
+</ol></div><!-- /EdSysObj -->
+</div>
+<!-- sidebar-fragment -->
+<div class="sidebar-fragment">
+<div id="usat_rightContent_02">
+<!-- EdSysObj ID="usat-rightContent-02" FRAGMENTID="37431618" appadmin --><div id="weather-provisioner">
+					<!--WEATHER-->
+					</div>
+					<div id="usat-markets">
+					<!-- MARKETS -->
+					<div class="sidehalf-right">
+						<h3>Markets</h3>
+						<div id="markets-chart">
+							<map name="marketsMap" id="marketsMap">
+								<area shape="rect" coords="1,1,142,21" href="http://www.usatoday.idmanagedsolutions.com/stocks/overview.idms?index=DJIA" title="Dow" alt="Dow" onclick="s_objectID='usat_rightContent_01|snapshot|chart|dow';" />
+								<area shape="rect" coords="1,23,142,43" href="http://www.usatoday.idmanagedsolutions.com/stocks/overview.idms?index=SP500" title="S &amp; P 500" alt="S &amp; P 500" onclick="s_objectID='usat_rightContent_01|snapshot|chart|sandp';" />
+								<area shape="rect" coords="1,45,142,65" href="http://www.usatoday.idmanagedsolutions.com/stocks/overview.idms?index=NASDAQ" title="NASDAQ" alt="NASDAQ" onclick="s_objectID='usat_rightContent_01|snapshot|chart|nasdaq';" />
+							</map>
+							<img src="http://markets.usatoday.net/custom/usatoday-com/fp-mktindex-quote-iii.gifquote" width="142" height="72" alt="Financial markets" title="Financial markets" usemap="#marketsMap" border="0" />
+						</div>
+						<form action="http://www.usatoday.idmanagedsolutions.com/stocks/quote.idms" method="get" name="mwQuote" id="mwQuote">
+							<input type="text" name="SYMBOL_US" id="symbol_search" title="Symbol" />
+							<input id="marketbtn" name="marketbtn" type="image" src="http://i.usatoday.net/_fronts2010/_i/v2/market-go.png" value="Search" />
+						</form>
+					</div>
+					<!-- /MARKETS -->
+				</div><!-- /EdSysObj -->
+</div>
+</div>
+<!-- /sidebar-fragment -->
+<!-- poster ad -->
+<div id="usat_HFPoster" class="ad poster3">
+<banner position="HFPoster" size="300x250"></banner>
+</div>
+<div id="usat_rightContent_03">
+<!-- EdSysObj ID="usat-rightContent-03" FRAGMENTID="37424610" mharzall --><div class="sidebar-fragment rounded">
+  <h3>News from our Communities</h3>
+  <h5>Latest posts from USA TODAY blogs</h5>
+  <ul class="community-updates">
+    <li class="first">
+  <a href="http://content.usatoday.com/communities/thehuddle/post/2012/05/nfl-reviews-support-for-ex-players-in-wake-of-junior-seaus-death/1" onclick="s_objectID='usat_rightContent_02|CommunityBuzz|icon|1'">
+    <img src="http://i.usatoday.net/_fronts2010/_home/_i/_community/icon-thehuddle.gif" width="28" height="28" border="0" alt="The Huddle" />
+  </a>
+  <span class="post-time">1:55 AM</span> <a class="community-headline" onclick="s_objectID='usat_rightContent_02|LatestPosts|headline|1'" href="http://content.usatoday.com/communities/thehuddle/post/2012/05/nfl-reviews-support-for-ex-players-in-wake-of-junior-seaus-death/1"><strong>The Huddle</strong> After Seau, NFL reviews support for ex-players</a></li>
+<li>
+  <a href="http://content.usatoday.com/communities/gameon/post/2012/05/amir-khan-will-fight-danny-swift-garcia-on-july-14/1" onclick="s_objectID='usat_rightContent_02|CommunityBuzz|icon|2'">
+    <img src="http://i.usatoday.net/_fronts2010/_home/_i/_community/icon-gameon.gif" width="28" height="28" border="0" alt="Game On" />
+  </a>
+  <span class="post-time">1:15 AM</span> <a class="community-headline" onclick="s_objectID='usat_rightContent_02|LatestPosts|headline|2'" href="http://content.usatoday.com/communities/gameon/post/2012/05/amir-khan-will-fight-danny-swift-garcia-on-july-14/1"><strong>Game On</strong> Amir Khan will fight Danny 'Swift' Garcia on July 14</a></li>
+<li>
+  <a href="http://content.usatoday.com/communities/gameon/post/2012/05/james-wade-heat-pacers-celtics-76ers-nba-playoffs/1" onclick="s_objectID='usat_rightContent_02|CommunityBuzz|icon|3'">
+    <img src="http://i.usatoday.net/_fronts2010/_home/_i/_community/icon-gameon.gif" width="28" height="28" border="0" alt="Game On" />
+  </a>
+  <span class="post-time">1:02 AM</span> <a class="community-headline" onclick="s_objectID='usat_rightContent_02|LatestPosts|headline|3'" href="http://content.usatoday.com/communities/gameon/post/2012/05/james-wade-heat-pacers-celtics-76ers-nba-playoffs/1"><strong>Game On</strong> Can Pacers, 76ers rebound from routs?</a></li>
+<li>
+  <a href="http://content.usatoday.com/communities/technologylive/post/2012/05/google-turns-logo-into-playable-synthesizer/1" onclick="s_objectID='usat_rightContent_02|CommunityBuzz|icon|4'">
+    <img src="http://i.usatoday.net/_fronts2010/_home/_i/_community/icon-technologylive.gif" width="28" height="28" border="0" alt="Technology Live" />
+  </a>
+  <span class="post-time">12:00 AM</span> <a class="community-headline" onclick="s_objectID='usat_rightContent_02|LatestPosts|headline|4'" href="http://content.usatoday.com/communities/technologylive/post/2012/05/google-turns-logo-into-playable-synthesizer/1"><strong>Technology Live</strong> Google turns logo into playable synthesizer</a></li>
+<li>
+  <a href="http://books.usatoday.com/happyeverafter/post/2012-05-22/elizabeth-lowell-interview-beautiful-sacrifice/699903/1" onclick="s_objectID='usat_rightContent_02|CommunityBuzz|icon|5'">
+    <img src="http://i.usatoday.net/_fronts2010/_home/_i/_community/icon-happyeverafter.gif" width="28" height="28" border="0" alt="Happy Ever After" />
+  </a>
+  <span class="post-time">11:54 PM</span> <a class="community-headline" onclick="s_objectID='usat_rightContent_02|LatestPosts|headline|5'" href="http://books.usatoday.com/happyeverafter/post/2012-05-22/elizabeth-lowell-interview-beautiful-sacrifice/699903/1"><strong>Happy Ever After</strong> Interview: Elizabeth Lowell</a></li>
+<li>
+  <a href="http://content.usatoday.com/communities/entertainment/post/2012/05/dancing-with-the-stars-crowns-season-14-winner/1" onclick="s_objectID='usat_rightContent_02|CommunityBuzz|icon|6'">
+    <img src="http://i.usatoday.net/_fronts2010/_home/_i/_community/icon-entertainment.gif" width="28" height="28" border="0" alt="Lifeline Live" />
+  </a>
+  <span class="post-time">11:01 PM</span> <a class="community-headline" onclick="s_objectID='usat_rightContent_02|LatestPosts|headline|6'" href="http://content.usatoday.com/communities/entertainment/post/2012/05/dancing-with-the-stars-crowns-season-14-winner/1"><strong>Lifeline Live</strong> 'Dancing' crowns surprising Season 14 champ</a></li>
+<li>
+  <a href="http://content.usatoday.com/communities/gameon/post/2012/05/danny-granger-rolls-ankle-vs-heat-return-questionable/1" onclick="s_objectID='usat_rightContent_02|CommunityBuzz|icon|7'">
+    <img src="http://i.usatoday.net/_fronts2010/_home/_i/_community/icon-gameon.gif" width="28" height="28" border="0" alt="Game On" />
+  </a>
+  <span class="post-time">9:34 PM</span> <a class="community-headline" onclick="s_objectID='usat_rightContent_02|LatestPosts|headline|7'" href="http://content.usatoday.com/communities/gameon/post/2012/05/danny-granger-rolls-ankle-vs-heat-return-questionable/1"><strong>Game On</strong> Danny Granger rolls ankle, limps off in return</a></li>
+<li>
+  <a href="http://content.usatoday.com/communities/idolchatter/post/2012/05/phil-staceys-final-thoughts-on-phillip-vs-jessica/1" onclick="s_objectID='usat_rightContent_02|CommunityBuzz|icon|8'">
+    <img src="http://i.usatoday.net/_fronts2010/_home/_i/_community/icon-idolchatter.gif" width="28" height="28" border="0" alt="Idol Chatter" />
+  </a>
+  <span class="post-time">9:13 PM</span> <a class="community-headline" onclick="s_objectID='usat_rightContent_02|LatestPosts|headline|8'" href="http://content.usatoday.com/communities/idolchatter/post/2012/05/phil-staceys-final-thoughts-on-phillip-vs-jessica/1"><strong>Idol Chatter</strong> Phil Stacey's final thoughts on 'Idol' finale</a></li>
+<li>
+  <a href="http://content.usatoday.com/communities/gameon/post/2012/05/live-nhl-blog-los-angeles-kings-at-phoenix-coyotes/1" onclick="s_objectID='usat_rightContent_02|CommunityBuzz|icon|9'">
+    <img src="http://i.usatoday.net/_fronts2010/_home/_i/_community/icon-gameon.gif" width="28" height="28" border="0" alt="Game On" />
+  </a>
+  <span class="post-time">9:06 PM</span> <a class="community-headline" onclick="s_objectID='usat_rightContent_02|LatestPosts|headline|9'" href="http://content.usatoday.com/communities/gameon/post/2012/05/live-nhl-blog-los-angeles-kings-at-phoenix-coyotes/1"><strong>Game On</strong> Live blog: Kings beat Coyotes 4-3 in OT</a></li>
+<li>
+  <a href="http://content.usatoday.com/communities/idolchatter/post/2012/05/phillip-phillips-home/1" onclick="s_objectID='usat_rightContent_02|CommunityBuzz|icon|10'">
+    <img src="http://i.usatoday.net/_fronts2010/_home/_i/_community/icon-idolchatter.gif" width="28" height="28" border="0" alt="Idol Chatter" />
+  </a>
+  <span class="post-time">9:04 PM</span> <a class="community-headline" onclick="s_objectID='usat_rightContent_02|LatestPosts|headline|10'" href="http://content.usatoday.com/communities/idolchatter/post/2012/05/phillip-phillips-home/1"><strong>Idol Chatter</strong> Phillip Phillips: 'Home'</a></li>
+  </ul>
+  <h6 id="all-communities"><a href="http://www.usatoday.com/blog-index.htm">Go to all USA TODAY Communities</a></h6>
+</div>
+<!-- /EdSysObj -->
+</div>
+<!-- poster ad -->
+<div id="usat_PosterBlog" class="ad poster3">
+<banner position="PosterBlog" size="300x250"></banner>
+</div>
+<div class="sidebar-fragments rounded">
+<div id="usat_rightContent_04">
+<!-- EdSysObj ID="usat-rightContent-04" FRAGMENTID="37431414" scrow --><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="http://www.facebook.com/usatoday" width="280" height="250" show_faces="true" stream="false" header="false"></fb:like-box><br><br><br>
+
+<!-- /EdSysObj -->
+</div>
+<div id="usat_rightContent_05">
+<!-- EdSysObj ID="usat-rightContent-05" FRAGMENTID="37432332" scrow --><h3>You Tell Us</h3><div class="sub-side"><h4>What's your American war experience?</h4><a href="http://www.usatoday.com/news/nation/story/2012-05-21/American-war-experience/55122388/1" onclick="s_objectID='usat_rightContent_04|sidebar-you-said-it|icon|1'"><img src="http://i.usatoday.net/community/_photos/2012/may/memorialTH.jpg" alt="58x60" width="60" height="58" /></a><p><a href="http://www.usatoday.com/news/nation/story/2012-05-21/American-war-experience/55122388/1" onclick="s_objectID='usat_rightContent_04|sidebar-you-said-it|brief|1'">We want to feature stories, photos of those who have served in the U.S. military, from mom to great-grandpa.</a></p></div><div class="sub-side"><h4>Share your weather photos</h4><a href="http://mediagallery.usatoday.com/From+dusk+till+dawn/A11619" onclick="s_objectID='usat_rightContent_04|sidebar-you-said-it|icon|2'"><img src="http://i.usatoday.net/community/_photos/gallery/sunsets/sunsetsmanual.jpg" alt="58x60" width="60" height="58" /></a><p><a href="http://mediagallery.usatoday.com/From+dusk+till+dawn/A11619" onclick="s_objectID='usat_rightContent_04|sidebar-you-said-it|brief|2'">Have you captured a stunning scene of the sun lately? Submit your photo and we may feature it in this gallery.</a></p></div><div class="sub-side"><h4>Ask the Captain</h4><a href="http://travel.usatoday.com/columnist/cox/index" onclick="s_objectID='usat_rightContent_04|sidebar-you-said-it|icon|3'"><img src="http://i.usatoday.net/community/_photos/2011/september/aviationx-thumb.jpg" alt="58x60" width="60" height="58" /></a><p><a href="http://travel.usatoday.com/columnist/cox/index" onclick="s_objectID='usat_rightContent_04|sidebar-you-said-it|brief|3'">What do you want to know about the aviation industry? Submit a question for a retired U.S. Airways pilot.</a></p></div><!-- /EdSysObj -->
+</div>
+</div>
+</div>
+</div>
+<div id="ft">
+<div id="usat-footer-01">
+<!-- EdSysObj ID="usat-footer-01" FRAGMENTID="37009766" rberthol --> 
+
+
+
+<!-- EdSysObj ID="SSIFragment" FRAGMENTID="37047606" rberthol --><div id="fullconveyor"><ul class="conveyor-buttons"><li class="left-button"><a title="Scroll left" class="prev"><!----></a></li><li class="right-button"><a title="Scroll right" class="next"><!----></a></li></ul><div class="fullconveyor-nav"><h2>USA TODAY Offers</h2><ul class="gel-nav"><li class="on"><a>1</a></li><li><a>2</a></li><li><a>3</a></li></ul></div><div class="content-wrap"><div class="gel-content"><div class="gel-pane"><ul><li class="clip first"><a href="http://www.womenshealth.usatoday.com" onclick="s_objectID='usat_footer_01|Shopbox|photo|1';"><img src="http://i.usatoday.net//marketing/brand_mkt/HF Shopbox/WH12_cover_shopbox.gif" alt="" width="130" height="90" border="0" /></a><h4><a href="http://www.womenshealth.usatoday.com" onclick="s_objectID='usat_footer_01|Shopbox|headline|1';">Women's Health</a></h4><p>Make this summer your healthiest yet! Discover the secrets to sexy hair, healthy skin, and learn how to break out of your workout rut. It's all inside USA TODAY's American Life: Women's Health. </p></li><li class="clip"><a href="http://www.gradguide.usatoday.com" onclick="s_objectID='usat_footer_01|Shopbox|photo|2';"><img src="http://i.usatoday.net//marketing/brand_mkt/HF Shopbox/GRAD-cover-shopbox.gif" alt="" width="130" height="90" border="0" /></a><h4><a href="http://www.gradguide.usatoday.com" onclick="s_objectID='usat_footer_01|Shopbox|headline|2';">Grad Guide</a></h4><p>USA TODAY's first-ever graduate school guide, perfect for the career-changer or prospective student.</p></li><li class="clip"><a href="http://www.cancerguide.usatoday.com" onclick="s_objectID='usat_footer_01|Shopbox|photo|3';"><img src="http://i.usatoday.net//marketing/brand_mkt/HF Shopbox/CANCER_cover_shopbox.gif" alt="" width="130" height="90" border="0" /></a><h4><a href="http://www.cancerguide.usatoday.com" onclick="s_objectID='usat_footer_01|Shopbox|headline|3';">Cancer</a></h4><p>Check out the Cancer guide, the second in a series of health guides from USA TODAY.</p></li><li class="clip"><a href="http://www.scps.nyu.edu/areas-of-study/tisch/hospitality-conference/" onclick="s_objectID='usat_footer_01|Shopbox|photo|4';"><img src="http://i.usatoday.net//marketing/brand_mkt/HF Shopbox/Homepage Shopbox_ NYU12-USAT-130x90.JPG" alt="" width="130" height="90" border="0" /></a><h4><a href="http://www.scps.nyu.edu/areas-of-study/tisch/hospitality-conference/" onclick="s_objectID='usat_footer_01|Shopbox|headline|4';">Hospitality Conference</a></h4><p>Join 2,000 industry executives in lodging development, investment, and finance June 3-5, 2012 at the New York Marriott Marquis. </p></li><li class="clip"><a href="http://onlinestore.usatoday.com/american-life-green-living-p16305.aspx" onclick="s_objectID='usat_footer_01|Shopbox|photo|5';"><img src="http://i.usatoday.net//marketing/brand_mkt/HF Shopbox/GreenLiving_shopbox.gif" alt="" width="130" height="90" border="0" /></a><h4><a href="http://onlinestore.usatoday.com/american-life-green-living-p16305.aspx" onclick="s_objectID='usat_footer_01|Shopbox|headline|5';">Green Living</a></h4><p>This spring, go green with USA TODAY's American Life: Green Living special publication. </p></li></ul></div><div class="gel-pane"><ul><li class="clip first"><a href="http://onlinestore.usatoday.com/american-life-outdoor-living-p16306.aspx" onclick="s_objectID='usat_footer_01|Shopbox|photo|6';"><img src="http://i.usatoday.net//marketing/brand_mkt/HF Shopbox/OUT12_cover_shopbox.gif" alt="" width="130" height="90" border="0" /></a><h4><a href="http://onlinestore.usatoday.com/american-life-outdoor-living-p16306.aspx" onclick="s_objectID='usat_footer_01|Shopbox|headline|6';">Outdoor Living</a></h4><p>Get outside &amp; amp up your outdoor experience this summer with American Life: Outdoor Living. </p></li><li class="clip"><a href="http://onlinestore.usatoday.com/golf--gear-2012-special-edition-p16259.aspx" onclick="s_objectID='usat_footer_01|Shopbox|photo|7';"><img src="http://i.usatoday.net//marketing/brand_mkt/HF Shopbox/130x90_Golf&amp;Gear.gif" alt="" width="130" height="90" border="0" /></a><h4><a href="http://onlinestore.usatoday.com/golf--gear-2012-special-edition-p16259.aspx" onclick="s_objectID='usat_footer_01|Shopbox|headline|7';">Golf &amp; Gear</a></h4><p>The Golf &amp; Gear Special Edition is our yearly magazine that covers the 2012 golf season, tournaments, player highlights and more. Order today!</p></li><li class="clip"><a href="http://onlinestore.usatoday.com/titanic-p16342.aspx" onclick="s_objectID='usat_footer_01|Shopbox|photo|8';"><img src="http://i.usatoday.net//marketing/brand_mkt/HF Shopbox/130x90_Titanic.jpg" alt="" width="130" height="90" border="0" /></a><h4><a href="http://onlinestore.usatoday.com/titanic-p16342.aspx" onclick="s_objectID='usat_footer_01|Shopbox|headline|8';">Titanic</a></h4><p>Take a historical look back to that terrible day 100 years ago on April 15, 1912. Order now.</p></li><li class="clip"><a href="http://onlinestore.usatoday.com/mlb-special-edition-p16258.aspx" onclick="s_objectID='usat_footer_01|Shopbox|photo|9';"><img src="http://i.usatoday.net//marketing/brand_mkt/HF Shopbox/130x90_MLB_Preview.gif" alt="" width="130" height="90" border="0" /></a><h4><a href="http://onlinestore.usatoday.com/mlb-special-edition-p16258.aspx" onclick="s_objectID='usat_footer_01|Shopbox|headline|9';">MLB Preview</a></h4><p>Your ultimate guide to the the 2012 baseball season.</p></li><li class="clip"><a href="http://onlinestore.usatoday.com/american-life-the-best-years-p16297.aspx" onclick="s_objectID='usat_footer_01|Shopbox|photo|10';"><img src="http://i.usatoday.net//marketing/brand_mkt/HF Shopbox/Senior_cover_shopbox.gif" alt="" width="130" height="90" border="0" /></a><h4><a href="http://onlinestore.usatoday.com/american-life-the-best-years-p16297.aspx" onclick="s_objectID='usat_footer_01|Shopbox|headline|10';">Senior Living</a></h4><p>Put yourself first with USA TODAY's American Life: The Best Years. Packed with tips for staying strong, smart, sexy, and sharp.</p></li></ul></div><div class="gel-pane"><ul><li class="clip first"><a href="http://onlinestore.usatoday.com/heart-and-stroke-p16287.aspx" onclick="s_objectID='usat_footer_01|Shopbox|photo|11';"><img src="http://i.usatoday.net//marketing/brand_mkt/HF Shopbox/HEART12_cover_shopbox.gif" alt="" width="130" height="90" border="0" /></a><h4><a href="http://onlinestore.usatoday.com/heart-and-stroke-p16287.aspx" onclick="s_objectID='usat_footer_01|Shopbox|headline|11';">Heart &amp; Stroke</a></h4><p>USA TODAY's new health guide series, examines the latest cutting-edge ways to beat America's No. 1 killer. Packed with 82 easy upgrades to better heart health, plus critical nutritional information. </p></li><li class="clip"><a href="http://itunes.apple.com/app/usa-today-for-ipad/id364257176?mt=8" onclick="s_objectID='usat_footer_01|Shopbox|photo|12';"><img src="http://i.usatoday.net//marketing/brand_mkt/HF Shopbox/130x90_iPad_shop_box.jpg" alt="" width="130" height="90" border="0" /></a><h4><a href="http://itunes.apple.com/app/usa-today-for-ipad/id364257176?mt=8" onclick="s_objectID='usat_footer_01|Shopbox|headline|12';">USA TODAY on iPad</a></h4><p>For the busy, social and on-the-go reader, USA TODAY is the trusted source for the news you need. Download it now!</p></li><li class="clip"><a href="http://www.amazon.com/gp/product/B006PJ3UKC/" onclick="s_objectID='usat_footer_01|Shopbox|photo|13';"><img src="http://i.usatoday.net//marketing/brand_mkt/HF Shopbox/18090-MKT_KindleFire_v3_130x90.jpg" alt="" width="130" height="90" border="0" /></a><h4><a href="http://www.amazon.com/gp/product/B006PJ3UKC/" onclick="s_objectID='usat_footer_01|Shopbox|headline|13';">USA TODAY on Kindle</a></h4><p>Since its launch, USA TODAY is the most downloaded free news app on Kindle Fire. Download it today!</p></li><li class="clip"><a href="http://www.gannett.com" onclick="s_objectID='usat_footer_01|Shopbox|photo|14';"><img src="http://i.usatoday.net//marketing/brand_mkt/HF Shopbox/17106_GCI_shopbox.gif" alt="" width="130" height="90" border="0" /></a><h4><a href="http://www.gannett.com" onclick="s_objectID='usat_footer_01|Shopbox|headline|14';">UPWARDLY MOBILE</a></h4><p>A collaborative approach to helping your business grow. Learn more now.</p></li><li class="clip"><a href="http://www.usatodayservice.com/eeshopbox" onclick="s_objectID='usat_footer_01|Shopbox|photo|15';"><img src="http://i.usatoday.net//marketing/brand_mkt/HF Shopbox/17122-CRC-USAT-e-edition-shop-box-v2.gif" alt="" width="130" height="90" border="0" /></a><h4><a href="http://www.usatodayservice.com/eeshopbox" onclick="s_objectID='usat_footer_01|Shopbox|headline|15';">USA TODAY e-Edition</a></h4><p>An exact digital copy of the print edition with enhanced features.</p></li></ul></div></div></div></div><!-- /EdSysObj -->
+
+
+
+<!-- /EdSysObj -->
+</div>
+<div id="usat-footer-02">
+<!-- EdSysObj ID="usat-footer-02" FRAGMENTID="37368062" appadmin --><div class="usat_footer_01"> 
+	<h5>USA TODAY Digital Services</h5> 
+	<ul role="navigation"> 
+		<li class="no-border"><a href="http://www.usatoday.com/mobile/index.htm?POE=FOOTER" onClick="s_objectID='usat_footer_01|digital|1';">Mobile</a></li> 
+		<li><a href="http://email.usatoday.com/" onClick="s_objectID='usat_footer_01|digital|2';">E-Newsletters</a></li> 
+		<li><a href="http://content.usatoday.com/marketing/rss/index.aspx?POE=FOOTER" onClick="s_objectID='usat_footer_01|digital|3';">RSS</a></li> 
+        <li><a href="http://twitter.usatoday.com  " onClick="s_objectID='usat_footer_01|digital|4';">Twitter</a></li> 
+		<!--<li><a href="http://content.usatoday.com/marketing/rss/index.aspx#podcast" onClick="s_objectID='usat_footer_01|digital|5';">Podcasts</a></li> 
+		<li><a href="http://www.usatoday.com/community/widgets/index.htm" onClick="s_objectID='usat_footer_01|digital|6';">Widgets</a></li>-->
+		<li><a href="http://www.usatodaysubscribe.com/eeservice" onClick="s_objectID='usat_footer_01|digital|7';">e-Newspaper</a></li> 
+        <li><a href="http://www.usatoday.com/ipad" onClick="s_objectID='usat_footer_01|digital|17';">USA TODAY for iPad</a></li>
+		<li><a href="http://www.amazon.com/USA_TODAY/dp/B001KBZ3D2/ref=o_disp_017_129_242_99_035&amp;tag=partnerlink1-20" onClick="s_objectID='usat_footer_01|digital|8';">USA TODAY on Kindle</a></li>
+        <li><a href="http://search.barnesandnoble.com/USA-Today/Gannett-Co-Inc/e/2940000228067?itm=1&amp;USRI=usa%2Btoday" onClick="s_objectID='usat_footer_01|digital|18';">USA TODAY on Nook</a></li>
+        <li><a href="http://www.usatoday.com/hpwebos-tablet/" onClick="s_objectID='usat_footer_01|digital|19';">USA TODAY on HP TouchPad</a></li>
+         <!--<li><a href="http://www.usatoday.com/printedition/news/index.htm?POE=FOOTER" onClick="s_objectID='usat_footer_01|digital|9';">Print Edition</a></li> 
+		<li><a href="www.usatodaysubscribe.com/homeNav" onClick="s_objectID='usat_footer_01|digital|10';">Subscribe to Home Delivery</a></li>-->
+	</ul> 
+	<ul role="navigation"> 
+		<li class="no-border"><a href="http://www.GannettReprints.com?POE=Footer#reprints" onClick="s_objectID='usat_footer_01|digital|12';">Reprints &amp; Permissions</a></li> 
+		<li><a href="http://content.usatoday.com/topics/index" onClick="s_objectID='usat_footer_01|digital|13';">USA TODAY Topics</a></li> 
+		<li><a href="http://content.usatoday.com/topics/ReporterList" onClick="s_objectID='usat_footer_01|digital|14';">Reporter Index</a></li> 
+		<li><a href="http://www.usatoday.com/news/Corrections-and-clarifications.htm" onClick="s_objectID='usat_footer_01|digital|15';">Corrections/Clarifications</a></li> 
+		<li><a href="http://www.usatoday.com/marketing/feedback.htm?POE=Footer" onClick="s_objectID='usat_footer_01|digital|16';">Contact Us</a></li>
+        <li><a href="http://www.usatodaysubscribe.com/homeNav" onClick="s_objectID='usat_footer_01|digital|10';">Subscribe to Home Delivery</a></li> 
+        <li><a href="http://www.usatodaysubscribe.com/HomeService" onClick="s_objectID='usat_footer_01|digital|12';">Customer Service</a></li>
+        <li><a href="http://pqasb.pqarchiver.com/USAToday/search.html?POE=FOOTER" onClick="s_objectID='usat_footer_01|digital|11';">Archives</a></li> 
+	</ul> 
+</div><!-- /EdSysObj -->
+</div>
+<div id="usat_Bottom728x90" class="ad">
+<banner position="Bottom728x90" size="728x90"></banner>
+</div>
+<div id="usat-footer-03">
+<!-- EdSysObj ID="usat-footer-03" FRAGMENTID="37368064" cpeksens --><div class="float-inner"> 
+	<ul class="usat_footer_02" role="navigation"> 
+		<li class="no-border"><a href="http://www.usatoday.com/default.htm" class="ssts_home" onclick="s_objectID='usat_footer_02|nav|1';">Home</a></li> 
+		<li><a href="http://www.usatoday.com/news/default.htm" class="ssts_news" onclick="s_objectID='usat_footer_02|nav|2';">News</a></li> 
+		<li><a href="http://travel.usatoday.com/" class="ssts_travel" onclick="s_objectID='usat_footer_02|nav|3';">Travel</a></li> 
+		<li><a href="http://www.usatoday.com/money/default.htm" class="ssts_money" onclick="s_objectID='usat_footer_02|nav|4';">Money</a></li> 
+		<li><a href="http://www.usatoday.com/sports/default.htm" class="ssts_sports" onclick="s_objectID='usat_footer_02|nav|5';">Sports</a></li> 
+		<li><a href="http://www.usatoday.com/life/default.htm"  class="ssts_life" onclick="s_objectID='usat_footer_02|nav|6';">Life</a></li> 
+		<!--<li><a href="http://yourlife.usatoday.com/" class="ssts_yourlife" onclick="s_objectID='usat_footer_02|nav|9';">Your Life</a></li>-->    
+		<li><a href="http://www.usatoday.com/tech/default.htm" class="ssts_tech" onclick="s_objectID='usat_footer_02|nav|7';">Tech</a></li> 
+		<li><a href="http://www.usatoday.com/weather/default.htm" class="ssts_weather" onclick="s_objectID='usat_footer_02|nav|8';">Weather</a></li> 
+	</ul> 
+	<ul class="usat_footer_03"> 
+		<li class="no-border"><strong>Visit our Partners:</strong></li> 
+		<li class="no-border"><a href="http://www.usaweekend.com/usatoday.html?POE=FOOTER" onclick="s_objectID='usat_footer_03|partners|1';">USA WEEKEND</a></li> 
+		<!--<li><a href="http://www.usatoday.com/marketing/media_kit/live/brand.html?POE=FOOTER" onclick="s_objectID='usat_footer_03|partners|2';">USA TODAY LIVE</a></li>-->
+		<li><a href="http://www.mysportsweekly.com/cs" onclick="s_objectID='usat_footer_03|partners|3';">Sports Weekly</a></li>
+		<li><a href="http://www.usatoday.com/educate/homesplash.htm?POE=FOOTER" onclick="s_objectID='usat_footer_03|partners|5';">Education</a></li> 
+		<li><a href="http://www.space.com/?POE=FOOTER" onclick="s_objectID='usat_footer_03|partners|6';">Space.com</a></li> 
+        <li><a href="http://traveltips.usatoday.com" onclick="s_objectID='usat_footer_03|partners|7';">Travel Tips</a></li> 
+	</ul> 
+</div><!-- /EdSysObj -->
+</div>
+<div id="usat-footer-04">
+<!-- EdSysObj ID="usat-footer-04" FRAGMENTID="37368068" appadmin --><div>
+<ul class="usat_footer_04" role="navigation">
+	<li class="no-border"><a href="http://www.usatoday.com/marketing/feedback.htm?POE=FOOTER" onclick="s_objectID='usat_footer_04|misc|1';">Contact us</a></li> 
+	<li><a href="http://www.usatoday.com/marketing/media_kit/index.html" onclick="s_objectID='usat_footer_04|misc|2';">Advertise</a></li> 
+	<li><a href="http://www.usatoday.com/marketing/media_kit/pressroom/press_releases_home.html" onclick="s_objectID='usat_footer_04|misc|3';">Pressroom</a></li> 
+	<li><a href="http://developer.usatoday.com/" onclick="s_objectID='usat_footer_04|developer|1';">Developer</a></li> 
+	<!--<li><a href="http://www.usatoday.com/marketing/media_lounge/index.html" onclick="s_objectID='usat_footer_04|misc|4';">Media Lounge</a></li>--> 
+	<li><a href="http://www.careerbuilder.com/?lr=cbga_usa" onclick="s_objectID='usat_footer_04|misc|5';">Jobs</a></li> 
+	<li><a href="http://www.usatoday.com/marketing/faq.htm" onclick="s_objectID='usat_footer_04|misc|6';">FAQ</a></li> 
+	<li><a href="http://www.usatoday.com/marketing/questions.htm?POE=FOOTER#contentLicensingTop" onclick="s_objectID='usat_footer_04|misc|7';">Reprints/Permissions</a></li> 
+	<li><a href="http://www.usatoday.com/marketing/privacy-notice.htm" onclick="s_objectID='usat_footer_04|misc|8';">Privacy Notice/Your California Privacy Rights</a></li> 
+	<li><a href="http://www.usatoday.com/marketing/privacy-notice.htm#adserving" onclick="s_objectID='usat_footer_04|misc|11';">Ad Choices</a></li> 
+	<li><a href="http://www.usatoday.com/marketing/tos.htm" onclick="s_objectID='usat_footer_04|misc|9';">Terms of Service</a></li> 
+	<li><a href="http://www.usatoday.com/howtofind-cat.htm" onclick="s_objectID='usat_footer_04|misc|10';">Site Index</a></li> 
+</ul>
+<p class="usat_footer_05">&#169; 2012 USA TODAY, a division of <a href="http://www.gannett.com/" onclick="s_objectID='usat_footer_05|gannett|1';">Gannett Satellite Information Network, Inc.</a></p>
+</div><!-- /EdSysObj -->
+</div>
+<div id="usat-footer-05">
+
+</div>
+</div>
+</div>
+<banner position="PageCount" size="1x1"></banner>
+<div id="overlay_container" class="simple_overlay"><h1 id="video_title"></h1><a id="modal_article_link" class="modal-article-link" href="" onclick="s_objectID='||hfmodal-video|';">(view article)</a><div id="video_container" class="video_container"></div><div id="video_footer" class="video_footer"><div class="modal-sponsorship"></div><div class="info-extras"><ul><li><a href="javascript:openVideoShareMenu()"><img src="http://i.usatoday.net/_fronts2010/_i/plus-more.png" alt="Share this video"/></a></li></ul></div><div class="clear"></div></div></div>
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/usatv2.js"></script>
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/_omniture/omniturebase.js"></script>
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/gel/lib/core/core.js?v=20110907"></script>
+<script type="text/javascript" src="http://i.usatoday.net/_fronts2010/_home/_j/gel-directives-v2.js?v=20111222"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('.search, #day1, #day2, #day3, .left-button, .right-button, .bullet, a, h2, h3, img');
+</script>
+<![endif]-->
+
+</body>
+</html>
+
+
+
+
+

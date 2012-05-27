@@ -1,0 +1,1983 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+xmlns:pas="http://sitelifestage.usatoday.com/2009/pluckApplicationServer"
+xmlns:og="http://opengraphprotocol.org/schema/"
+xmlns:fb="http://www.facebook.com/2008/fbml"
+>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+
+
+
+<title>Videos: News, Sports, Entertainment, Technology & More - USATODAY.com</title>
+<meta name="title" content="Joplin remembers deadly tornado, 1 year later" />
+<meta name="description" content="Thousands of people participated in a somber march through some of Joplin, Missouri's hardest-hit neighborhoods, one year after a devastating tornado struck the community, killing a total of 161 people.  (May 23)" /> 
+<meta name="video_height" content="352" />
+<meta name="video_width" content="626" />
+<meta name="medium" content="video" />
+
+<link rel="image_src" href="http://videos.usatoday.net/29906170001/29906170001_1651484416001_0522dv-joplin-anniversary-400x300.jpg?pubId=29906170001" />
+<link rel="video_src"
+href="http://c.brightcove.com/services/viewer/federated_f9/921735227001?isVid=1&isUI=1&publisherID=29906170001&playerID=921735227001&domain=embed&videoId=1651396034001" />
+
+<meta property="og:title" content="Joplin remembers deadly tornado, 1 year later"/>
+<meta property="og:description" content="Thousands of people participated in a somber march through some of Joplin, Missouri's hardest-hit neighborhoods, one year after a devastating tornado struck the community, killing a total of 161 people.  (May 23)"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="http://www.usatoday.com/video/joplin-remembers-deadly-tornado-1-year-later/1651396034001"/>
+<meta property="og:image" content="http://videos.usatoday.net/29906170001/29906170001_1651484416001_0522dv-joplin-anniversary-400x300.jpg?pubId=29906170001"/>
+<meta property="og:video:height" content="352" />
+<meta property="og:video:width" content="626" />
+<meta property="og:video" 
+content="http://c.brightcove.com/services/viewer/federated_f9/921735227001?isVid=1&amp;isUI=1&publisherID=29906170001&playerID=921735227001&domain=embed&videoId=1651396034001" />
+<meta property="og:site_name" content="USA TODAY"/>
+<meta property="fb:app_id" content="215046668549694" />
+<script type="text/javascript">
+var appPath = "http://www.usatoday.com/video";
+var sectionName = "news";
+var brightcoveAPI = {
+basePath: "http://api.brightcove.com/services/library?",
+token: "q5_Y4xoa5cxoQzjXmWp0Ks1vFKO6Q5ImYpTo8dZ0r_cfc0UeDKs6qw..",
+tokenHTML: "q5_Y4xoa5cyPszGwuztctcIelcmgwIFXqWKmIhNV1ar4U2lNQdGfmQ..",
+fields: "id,name,shortDescription,longDescription,length,tags,thumbnailURL,videoStillURL,publishedDate,customFields",
+fieldsHTML: "id,name,shortDescription,longDescription,length,tags,thumbnailURL,videoStillURL,FLVURL,publishedDate,customFields"
+}
+var usat_analytics_url = "www.usatoday.com/video/immersive";
+var usat_analytics_pagename_url = "www.usatoday.com/video";
+if (usat_analytics_pagename_url == "www.usatoday.com/video")
+usat_analytics_pagename_url = "www.usatoday.com/video/index.htm";
+var usat_analytics_content_type = "video";
+</script>
+<script type="text/javascript" src="http://i.usatoday.net/asp/usatly/handler.ashx?longUrl=http://www.usatoday.com/video/joplin-remembers-deadly-tornado-1-year-later/1651396034001"></script>
+
+<link rel="stylesheet" href="http://i.usatoday.net/video/_common/css/styles.css" type="text/css" media="screen" />
+<!--[if lte IE 9]>
+<link rel="stylesheet" type="text/css" media="screen" href="http://i.usatoday.net/video/_common/css/ie.css" />
+<![endif]--> 
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/jquery-1.6.2.min.js"></script>
+</head>
+<body>
+
+<div id="hd" class="pos-fixed"> 
+<div class="container">
+<div id="hd-video" class="row">  
+<div id="nav-video" class="hd-nav h-stack three-col">
+<h1>
+<span class="usat-logo">USA TODAY </span> 
+<a href="/video" class="title" onclick="s_objectID='video_immersive|header|video_home';">Video</a>
+</h1>
+</div>
+<div id="nav-site" class="hd-nav h-stack five-col">
+<ul class="global-nav h-stack">
+<li class="nav-home"><a href="http://www.usatoday.com/">Home</a></li>
+<li class="nav-news"><a href="http://www.usatoday.com/news/index">News</a></li>
+<li class="nav-travel"><a href="http://travel.usatoday.com/index">Travel</a></li>
+<li class="nav-money"><a href="http://www.usatoday.com/money/index">Money</a></li>
+<li class="nav-sports"><a href="http://www.usatoday.com/sports/index">Sports</a></li>
+<li class="nav-life"><a href="http://www.usatoday.com/life/index">Life</a></li>
+<li class="nav-tech"><a href="http://www.usatoday.com/tech/index">Tech</a></li>
+<li class="nav-weather"><a href="http://www.usatoday.com/weather/index">Weather</a></li>
+</ul>
+</div> <!-- close #nav-site -->
+<div class="search_cont">
+<img id="searchIcon" src="http://i.usatoday.net/video/_common/images/search_icon.png" width="19" height="20" />
+<form id="videoSearch" class="searchform">
+  <input name="search" class="searchfield" type="text" value="Search Videos..." autocomplete="off" />
+  <input class="searchbutton" type="submit" value="GO" />
+</form>
+</div><!-- close search_cont -->
+</div> <!-- close #hd-multitmedia -->
+</div> <!-- close .container -->
+</div> <!-- close .hd -->
+<div id="hdPlaceholder"></div>
+<div id="searchResultsPane">
+<div class="container">
+<a id="closeSearchButton">
+<span id="xIcon"></span>Close Search
+</a>
+<div id="searchLoader">
+<img src="http://i.usatoday.net/video/_common/images/loading.gif" width="48" height="48" />
+</div>
+<div class="tabsGroup related_video">
+<h2 id="searchDesc" class="text-shadow"></h2>
+<div id="searchPagination" class="pagination" style="display:block">
+<a class="prev">« Previous Results</a>
+<a class="next">Next Results »</a>
+</div>
+<div class="gel-content">
+<ul id="searchResultsList"></ul>
+</div>
+</div>
+</div>
+</div>
+<div id="above_fold">    
+<div class="container">
+<div class="video-cont rounded-corners box-shadow">
+<div id="videoPlayer">
+
+
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/_video-preroll/companion.preroll.js?v1"></script>
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/_video/ExternalAd.js"></script>
+<script type="text/javascript" src="http://i.usatoday.net/video/_common/js/player.js?v=2"></script>
+<script type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script type="text/javascript" src="http://admin.brightcove.com/js/APIModules_all.js"></script>
+
+<object id="myExperience" class="BrightcoveExperience">
+<param name="bgcolor" value="#000000" />
+<param name="width" value="626" />
+<param name="height" value="352" />
+<param name="playerID" value="921735227001" />
+<param name="publisherID" value="29906170001" />
+<param name="isVid" value="true" />
+<param name="isUI" value="true" />
+<param name="dynamicStreaming" value="true" />
+<param name="wmode" value="opaque" />
+<param name="allowScriptAccess" value="always" />
+<!-- used by actionsource plugin
+<param name="omnitureAccountID" value="usatodayprod" />
+<param name="pageContentCategory" />
+<param name="pageContentSubcategory" />
+<param name="marketName" value="usat" />
+<param name="revSciZip" />
+<param name="revSciAge" />
+<param name="revSciGender" />
+<param name="division" value="usatoday" />
+<param name="SSTSCode" value="news" />-->
+<param name="adServerURLBegin" value="http://gannett.gcion.com/?adrawdata/3.0/5111.1/778078/0/0/header=yes;cc=2;alias=www.usatoday.com/video/" />
+<param name="adServerURLEnd" value="/immersive_PreRoll;cookie=info;key=42806346001;adct=204;grp=12345" />
+<param name="@videoPlayer" value="1651396034001" />
+</object>
+<script type="text/javascript">
+var videoPlayer = new FlashPlayer();
+brightcove.createExperiences();
+</script>
+</div>
+
+<div class="video_descript">
+<!--<h4 id="playerDate" class="time-stamp">05/23/2012</h4>
+<h4>latest video</h4>-->
+<h1 id="playerTitle">Joplin remembers deadly tornado, 1 year later</h1>
+<p id="playerDesc">Thousands of people participated in a somber march through some of Joplin, Missouri's hardest-hit neighborhoods, one year after a devastating tornado struck the community, killing a total of 161 people.  (May 23)</p>
+<div id="playerSSTS" class="hide">news</div>
+<div id="playerSpoof" class="hide">immersive</div>
+<div id="playerStill" class="hide">http://videos.usatoday.net/29906170001/29906170001_1651484416001_0522dv-joplin-anniversary-400x300.jpg?pubId=29906170001</div>
+<div id="playerId" class="hide">1651396034001</div>
+</div>
+<div id="sharingBar" class="syndication text-shadow">
+<h4 id="sharePrompt">share this video:</h4>
+
+<ul>
+<li>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<div id="facebookShare" style="opacity:1; position:relative; z-index: 1000;">
+<fb:like href="http://www.usatoday.com/video/joplin-remembers-deadly-tornado-1-year-later/1651396034001" send="false" layout="button_count" width="125" allowTransparency="false" show_faces="false" action="recommend" colorscheme="dark"></fb:like>
+</div>
+</li>
+<li>
+<div id="twitterShare">
+  <a href="https://twitter.com/share" class="twitter-share-button"
+ data-url="http://www.usatoday.com/video/joplin-remembers-deadly-tornado-1-year-later/1651396034001"
+ data-counturl="http://www.usatoday.com/video/joplin-remembers-deadly-tornado-1-year-later/1651396034001"
+ data-text="Joplin remembers deadly tornado, 1 year later"
+ data-via="USATODAY"
+ data-count="horizontal">Tweet</a>
+</div>
+</li>
+<li id="addThisAll">
+<a class="addthis_button" addthis:url="http://www.usatoday.com/video/joplin-remembers-deadly-tornado-1-year-later/1651396034001" addthis:title="Joplin remembers deadly tornado, 1 year later">
+<img src="http://i.usatoday.net/video/_common/images/share_more.png" 
+width="61" height="20" border="0" alt="Share" />
+</a>
+</li>
+
+</ul>
+
+</div><!-- close syndication -->
+<div class="clear"></div>
+       
+
+</div><!-- close .video-cont -->
+<div class="rr-cont">
+
+<style type="text/css">#exclusive{margin-top:15px;}</style>
+<div class="ad-container" id="expandedBannerWrapper">
+
+<!-- video companion -->
+<div id="expandedBanner"></div>
+<span>Advertisement</span>
+</div><!-- close ad-container -->
+
+<div id="exclusive" class="cEnd box-shadow tabsContent">
+<h2 class="text-shadow"> exclusive</h2>
+<a class="prev">previous</a>
+<div class="carousel">
+<div class="gel-content">
+<ul class="gel-pane">
+
+<li>
+<a id="http://www.usatoday.com/video/wildlife-sanctuary-rescues-exotic-animals/1650923366001" href="http://www.usatoday.com/video/wildlife-sanctuary-rescues-exotic-animals/1650923366001" class="RR-thumb videoLink" title="Wildlife sanctuary rescues exotic animals">
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1650890577001_ari-origin07-arc-160-1337709224346.jpg?pubId=44692046001" title="The Keepers of the Wild animal sanctuary in Arizona is dedicated to the protection of abused, neglected, abandoned and retired captive wildlife." width="80" height="60" alt="" />
+<span>Wildlife sanctuary rescues exotic animals</span>
+<span class="name hide">Wildlife sanctuary rescues exotic animals</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">The Keepers of the Wild animal sanctuary in Arizona is dedicated to the protection of abused, neglected, abandoned and retired captive wildlife.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1650890578001_ari-origin07-arc-160-1337709224938.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/ken-burns-talks-about-national-parks/1567332394001" href="http://www.usatoday.com/video/ken-burns-talks-about-national-parks/1567332394001" class="RR-thumb videoLink" title="Ken Burns talks about National Parks">
+<img src="http://videos.usatoday.net/29906170001/29906170001_1567246853001_ari-origin05-arc-136-1334688663836.jpg?pubId=29906170001" title="Ken Burns talks about the national parks for USA Today." width="80" height="60" alt="" />
+<span>Ken Burns talks about National Parks</span>
+<span class="name hide">Ken Burns talks about National Parks</span>
+<span class="time-stamp hide">05/21/2012</span>
+<span class="short-desc hide">Ken Burns talks about the national parks for USA Today.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1567246854001_ari-origin05-arc-136-1334688664210.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/5-tips-for-a-visit-to-yellowstone/1648045096001" href="http://www.usatoday.com/video/5-tips-for-a-visit-to-yellowstone/1648045096001" class="RR-thumb videoLink" title="5 tips for a visit to Yellowstone">
+<img src="http://videos.usatoday.net/29906170001/29906170001_1648063905001_th-1648061645001.jpg?pubId=29906170001" title="National Geographic's Casey Anderson shares five tips for a great visit to Yellowstone National Park." width="80" height="60" alt="" />
+<span>5 tips for a visit to Yellowstone</span>
+<span class="name hide">5 tips for a visit to Yellowstone</span>
+<span class="time-stamp hide">05/20/2012</span>
+<span class="short-desc hide">National Geographic's Casey Anderson shares five tips for a great visit to Yellowstone National Park.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1648063904001_vs-1648061645001.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+
+<li>
+<a id="http://www.usatoday.com/video/style-file-week-of-may-14/1644660278001" href="http://www.usatoday.com/video/style-file-week-of-may-14/1644660278001" class="RR-thumb videoLink" title="Style File: Week of May 14">
+<img src="http://videos.usatoday.net/29906170001/29906170001_1646020740001_ari-origin05-arc-135-1337349690170.jpg?pubId=29906170001" title="USA TODAY's Arienne Thompson takes a look at the hot fashions celebrities showed off this week." width="80" height="60" alt="" />
+<span>Style File: Week of May 14</span>
+<span class="name hide">Style File: Week of May 14</span>
+<span class="time-stamp hide">05/17/2012</span>
+<span class="short-desc hide">USA TODAY's Arienne Thompson takes a look at the hot fashions celebrities showed off this week.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1646020741001_ari-origin05-arc-135-1337349690613.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/ring-of-fire-solar-eclipse-explained/1644414554001" href="http://www.usatoday.com/video/ring-of-fire-solar-eclipse-explained/1644414554001" class="RR-thumb videoLink" title="'Ring of Fire' Solar Eclipse Explained">
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1644409423001_th-1644391443001.jpg?pubId=44692046001" title="The eclipse will be visible Sunday afternoon over parts of Oregon, Northern California, Nevada, Utah, Arizona, New Mexico and Texas. Much of the rest of the country will see a partial solar eclipse, but the East Coast will miss out." width="80" height="60" alt="" />
+<span>'Ring of Fire' Solar Eclipse Explained</span>
+<span class="name hide">'Ring of Fire' Solar Eclipse Explained</span>
+<span class="time-stamp hide">05/17/2012</span>
+<span class="short-desc hide">The eclipse will be visible Sunday afternoon over parts of Oregon, Northern California, Nevada, Utah, Arizona, New Mexico and Texas. Much of the rest of the country will see a partial solar eclipse, but the East Coast will miss out.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1644409422001_vs-1644391443001.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/supporters-of-victim-of-flesh-eating-bacteria-donate-blood/1642658658001" href="http://www.usatoday.com/video/supporters-of-victim-of-flesh-eating-bacteria-donate-blood/1642658658001" class="RR-thumb videoLink" title="Supporters of victim of flesh eating bacteria donate blood">
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1642572254001_ari-origin07-arc-156-1337183265530.jpg?pubId=44692046001" title="A phenomenal response for Aimee Copeland on Tuesday at her college in Carrollton resulted in 162 pints of donated blood." width="80" height="60" alt="" />
+<span>Supporters of victim of flesh eating bacteria...</span>
+<span class="name hide">Supporters of victim of flesh eating bacteria donate blood</span>
+<span class="time-stamp hide">05/16/2012</span>
+<span class="short-desc hide">A phenomenal response for Aimee Copeland on Tuesday at her college in Carrollton resulted in 162 pints of donated blood.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1642572255001_ari-origin07-arc-156-1337183266094.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+
+<li>
+<a id="http://www.usatoday.com/video/buzz-bissinger-talks-about-his-new-book-fathers-day/1626595904001" href="http://www.usatoday.com/video/buzz-bissinger-talks-about-his-new-book-fathers-day/1626595904001" class="RR-thumb videoLink" title="Buzz Bissinger talks about his new book &#34;Father's Day&#34;">
+<img src="http://videos.usatoday.net/29906170001/29906170001_1626650729001_th-1626632357001.jpg?pubId=29906170001" title="Buzz Bissinger, author of &#34;Friday Night Lights,&#34; has a new book, &#34;Father's Day,&#34; about a journey with his disabled son Zach." width="80" height="60" alt="" />
+<span>Buzz Bissinger talks about his new book &#34;Father's...</span>
+<span class="name hide">Buzz Bissinger talks about his new book &#34;Father's Day&#34;</span>
+<span class="time-stamp hide">05/15/2012</span>
+<span class="short-desc hide">Buzz Bissinger, author of &#34;Friday Night Lights,&#34; has a new book, &#34;Father's Day,&#34; about a journey with his disabled son Zach.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1626650728001_vs-1626632357001.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/analysis-poll-says-americans-optimistic/1638871784001" href="http://www.usatoday.com/video/analysis-poll-says-americans-optimistic/1638871784001" class="RR-thumb videoLink" title="Analysis: Poll says Americans optimistic">
+<img src="http://videos.usatoday.net/29906170001/29906170001_1638868303001_lllo.jpg?pubId=29906170001" title="USA Today Washington Bureau Chief Susan Page talks about how polls are looking." width="80" height="60" alt="" />
+<span>Analysis: Poll says Americans optimistic</span>
+<span class="name hide">Analysis: Poll says Americans optimistic</span>
+<span class="time-stamp hide">05/14/2012</span>
+<span class="short-desc hide">USA Today Washington Bureau Chief Susan Page talks about how polls are looking.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1638876652001_hi.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/five-questions-with-lisa-marie-presley/1630320076001" href="http://www.usatoday.com/video/five-questions-with-lisa-marie-presley/1630320076001" class="RR-thumb videoLink" title="Five Questions with Lisa Marie Presley">
+<img src="http://videos.usatoday.net/29906170001/29906170001_1630362045001_th-1630355270001.jpg?pubId=29906170001" title="For her new album &#34;Storm &#38; Grace&#34; Lisa Marie Presley went to London to write the songs and then recorded them with producer T-Bone Burnett. Presley discusses her music with Marco della Cava. Video produced by Robert Hanashiro, USA TODAY" width="80" height="60" alt="" />
+<span>Five Questions with Lisa Marie Presley</span>
+<span class="name hide">Five Questions with Lisa Marie Presley</span>
+<span class="time-stamp hide">05/13/2012</span>
+<span class="short-desc hide">For her new album &#34;Storm &#38; Grace&#34; Lisa Marie Presley went to London to write the songs and then recorded them with producer T-Bone Burnett. Presley discusses her music with Marco della Cava. Video produced by Robert Hanashiro, USA TODAY</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1630362044001_vs-1630355270001.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+<li>
+<a id="http://www.usatoday.com/video/6yearold-turns-rare-unassisted-triple-play/1634127731001" href="http://www.usatoday.com/video/6yearold-turns-rare-unassisted-triple-play/1634127731001" class="RR-thumb videoLink" title="6-year-old turns rare unassisted triple play">
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1634123036001_ari-origin07-arc-140-1336747093482.jpg?pubId=44692046001" title="ATLANTA - The next great sports star is now in kindergarten. Six-year-old Ross Bernath made an unassisted triple play during a recent game at Atlanta's Chastain Park." width="80" height="60" alt="" />
+<span>6-year-old turns rare unassisted triple play</span>
+<span class="name hide">6-year-old turns rare unassisted triple play</span>
+<span class="time-stamp hide">05/11/2012</span>
+<span class="short-desc hide">ATLANTA - The next great sports star is now in kindergarten. Six-year-old Ross Bernath made an unassisted triple play during a recent game at Atlanta's Chastain Park.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1634123037001_ari-origin07-arc-140-1336747093991.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/breastfeeding-mom-featured-in-time/1633929033001" href="http://www.usatoday.com/video/breastfeeding-mom-featured-in-time/1633929033001" class="RR-thumb videoLink" title="Breast-feeding mom featured in 'Time'">
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1633880695001_th-1633649822001.jpg?pubId=44692046001" title="A Broomfield, Colorado resident is one of the mothers profiled in the latest edition of Time. The cover picture shows a mom breastfeeding her 3-year-old son as he stands on stool to reach her." width="80" height="60" alt="" />
+<span>Breast-feeding mom featured in 'Time'</span>
+<span class="name hide">Breast-feeding mom featured in 'Time'</span>
+<span class="time-stamp hide">05/11/2012</span>
+<span class="short-desc hide">A Broomfield, Colorado resident is one of the mothers profiled in the latest edition of Time. The cover picture shows a mom breastfeeding her 3-year-old son as he stands on stool to reach her.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1633880694001_vs-1633649822001.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/studioa--interview-with-devotchkas-lead-singer-nick-urata/1621249943001" href="http://www.usatoday.com/video/studioa--interview-with-devotchkas-lead-singer-nick-urata/1621249943001" class="RR-thumb videoLink" title="StudioA:  Interview with DevotchKa's lead singer Nick Urata">
+<img src="http://videos.usatoday.net/29906170001/29906170001_1621707102001_Nick-Urata-low.jpg?pubId=29906170001" title="Nick Urata, DevotchKa's lead singer, talks with USA TODAY's Korina Lopez after a session in StudioA." width="80" height="60" alt="" />
+<span>StudioA:  Interview with DevotchKa's lead singer...</span>
+<span class="name hide">StudioA:  Interview with DevotchKa's lead singer Nick Urata</span>
+<span class="time-stamp hide">05/11/2012</span>
+<span class="short-desc hide">Nick Urata, DevotchKa's lead singer, talks with USA TODAY's Korina Lopez after a session in StudioA.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1621755432001_Nick-Urata-hi.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+<li>
+<a id="http://www.usatoday.com/video/style-file-week-of-510/1632925221001" href="http://www.usatoday.com/video/style-file-week-of-510/1632925221001" class="RR-thumb videoLink" title="Style File: Week of 5/10">
+<img src="http://videos.usatoday.net/29906170001/29906170001_1632968995001_th-1632944143001.jpg?pubId=29906170001" title="USA TODAY's Cindy Clark checks out the hot fashions celebrities showed off this week." width="80" height="60" alt="" />
+<span>Style File: Week of 5/10</span>
+<span class="name hide">Style File: Week of 5/10</span>
+<span class="time-stamp hide">05/11/2012</span>
+<span class="short-desc hide">USA TODAY's Cindy Clark checks out the hot fashions celebrities showed off this week.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1632968994001_vs-1632944143001.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/the-implications-of-obamas-support-of-gay-marriage/1632670393001" href="http://www.usatoday.com/video/the-implications-of-obamas-support-of-gay-marriage/1632670393001" class="RR-thumb videoLink" title="The implications of Obama's support of gay marriage">
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1632667694001_th-1632662696001.jpg?pubId=44692046001" title="From the left and the right, rival sides in the gay-marriage debate claimed they would reap Election Day benefits from President Barack Obama's declaration that he supports same-sex couples' right to wed." width="80" height="60" alt="" />
+<span>The implications of Obama's support of gay...</span>
+<span class="name hide">The implications of Obama's support of gay marriage</span>
+<span class="time-stamp hide">05/10/2012</span>
+<span class="short-desc hide">From the left and the right, rival sides in the gay-marriage debate claimed they would reap Election Day benefits from President Barack Obama's declaration that he supports same-sex couples' right to wed.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1632667693001_vs-1632662696001.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/teacher-forces-students-to-wear-cone-of-shame/1632511294001" href="http://www.usatoday.com/video/teacher-forces-students-to-wear-cone-of-shame/1632511294001" class="RR-thumb videoLink" title="Teacher forces students to wear 'cone of shame'">
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1632478582001_ari-origin07-arc-142-1336672561981.jpg?pubId=44692046001" title="ZEPHYRHILLS, Fla. - They are images stirring controversy: photos of students with dog collars around their necks. The collars are historically used on dogs to prevent them from licking wounds after surgery." width="80" height="60" alt="" />
+<span>Teacher forces students to wear 'cone of shame'</span>
+<span class="name hide">Teacher forces students to wear 'cone of shame'</span>
+<span class="time-stamp hide">05/10/2012</span>
+<span class="short-desc hide">ZEPHYRHILLS, Fla. - They are images stirring controversy: photos of students with dog collars around their necks. The collars are historically used on dogs to prevent them from licking wounds after surgery.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1632478583001_ari-origin07-arc-142-1336672562470.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+<li>
+<a id="http://www.usatoday.com/video/the-cigar-box-guitar-maker/1632467444001" href="http://www.usatoday.com/video/the-cigar-box-guitar-maker/1632467444001" class="RR-thumb videoLink" title="The cigar box guitar maker">
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1632384090001_ari-origin07-arc-142-1336669868375.jpg?pubId=44692046001" title="LITTLE ROCK, Ark. - Bill Jugitsch is a throwback to the days when tough times forced people to find ways to creatively make instruments." width="80" height="60" alt="" />
+<span>The cigar box guitar maker</span>
+<span class="name hide">The cigar box guitar maker</span>
+<span class="time-stamp hide">05/10/2012</span>
+<span class="short-desc hide">LITTLE ROCK, Ark. - Bill Jugitsch is a throwback to the days when tough times forced people to find ways to creatively make instruments.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1632384091001_ari-origin07-arc-142-1336669868853.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/alzheimers-drug-trial--why-participate/1630650353001" href="http://www.usatoday.com/video/alzheimers-drug-trial--why-participate/1630650353001" class="RR-thumb videoLink" title="Alzheimer's drug trial:  Why participate?">
+<img src="http://videos.usatoday.net/29906170001/29906170001_1630654627001_th-1630641333001.jpg?pubId=29906170001" title="Alzheimer's sufferer Bob Sessions talks about why he is participating in a trial of resveratrol being conducted by Georgetown University Medical Center and sponsored by the National Institutes of Health." width="80" height="60" alt="" />
+<span>Alzheimer's drug trial:  Why participate?</span>
+<span class="name hide">Alzheimer's drug trial:  Why participate?</span>
+<span class="time-stamp hide">05/09/2012</span>
+<span class="short-desc hide">Alzheimer's sufferer Bob Sessions talks about why he is participating in a trial of resveratrol being conducted by Georgetown University Medical Center and sponsored by the National Institutes of Health.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1630654626001_vs-1630641333001.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/expecting-gets-star-treatment-with-lopez-diaz-kendrick-and-banks/1630464894001" href="http://www.usatoday.com/video/expecting-gets-star-treatment-with-lopez-diaz-kendrick-and-banks/1630464894001" class="RR-thumb videoLink" title="'Expecting' gets star treatment with Lopez, Diaz, Kendrick and Banks">
+<img src="http://videos.usatoday.net/29906170001/29906170001_1642625907001_ari-origin05-arc-126-1337188118587.jpg?pubId=29906170001" title="The best-selling pregnancy guidebook &#34;What To Expect When You're Expecting&#34; gets the star-studded big screen treatment in a new movie featuring Cameron Diaz, Jennifer Lopez, Anna Kendrick, Elizabeth Banks and more." width="80" height="60" alt="" />
+<span>'Expecting' gets star treatment with Lopez, Diaz,...</span>
+<span class="name hide">'Expecting' gets star treatment with Lopez, Diaz, Kendrick and Banks</span>
+<span class="time-stamp hide">05/09/2012</span>
+<span class="short-desc hide">The best-selling pregnancy guidebook &#34;What To Expect When You're Expecting&#34; gets the star-studded big screen treatment in a new movie featuring Cameron Diaz, Jennifer Lopez, Anna Kendrick, Elizabeth Banks and more.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1642625908001_ari-origin05-arc-126-1337188119761.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+<li>
+<a id="http://www.usatoday.com/video/five-questions-for-paul-williams/1628622398001" href="http://www.usatoday.com/video/five-questions-for-paul-williams/1628622398001" class="RR-thumb videoLink" title="Five questions for Paul Williams">
+<img src="http://videos.usatoday.net/29906170001/29906170001_1628638894001_th-1628629491001.jpg?pubId=29906170001" title="Singer, songwriter and actor Paul Williams, subject of the documentary &#34;Paul Williams Still Alive,&#34; talks about his music, famous roles, skydiving and calamari." width="80" height="60" alt="" />
+<span>Five questions for Paul Williams</span>
+<span class="name hide">Five questions for Paul Williams</span>
+<span class="time-stamp hide">05/08/2012</span>
+<span class="short-desc hide">Singer, songwriter and actor Paul Williams, subject of the documentary &#34;Paul Williams Still Alive,&#34; talks about his music, famous roles, skydiving and calamari.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1628638893001_vs-1628629491001.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/maurice-sendak-wild-things-author-dies/1628474308001" href="http://www.usatoday.com/video/maurice-sendak-wild-things-author-dies/1628474308001" class="RR-thumb videoLink" title="Maurice Sendak, 'Wild Things' author, dies">
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1628375703001_ari-origin07-arc-177-1336499347080.jpg?pubId=44692046001" title="Author and illustrator Maurice Sendak, who penned &#34;Where the Wild Things Are,&#34; has died after suffering a stroke last week." width="80" height="60" alt="" />
+<span>Maurice Sendak, 'Wild Things' author, dies</span>
+<span class="name hide">Maurice Sendak, 'Wild Things' author, dies</span>
+<span class="time-stamp hide">05/08/2012</span>
+<span class="short-desc hide">Author and illustrator Maurice Sendak, who penned &#34;Where the Wild Things Are,&#34; has died after suffering a stroke last week.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1628375704001_ari-origin07-arc-177-1336499347769.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/stylefile-met-gala-2012--red-carpet-fashion-from-all-the-stars/1626969388001" href="http://www.usatoday.com/video/stylefile-met-gala-2012--red-carpet-fashion-from-all-the-stars/1626969388001" class="RR-thumb videoLink" title="StyleFile: Met Gala 2012 - Red Carpet fashion from all the stars">
+<img src="http://videos.usatoday.net/29906170001/29906170001_1627012608001_Rhianna-low.jpg?pubId=29906170001" title="Stars gather at the Metropolitan Museum of Art in New York to celebrate the exhibition of Schiaparelli and Prada: Impossible Conversations." width="80" height="60" alt="" />
+<span>StyleFile: Met Gala 2012 - Red Carpet fashion...</span>
+<span class="name hide">StyleFile: Met Gala 2012 - Red Carpet fashion from all the stars</span>
+<span class="time-stamp hide">05/08/2012</span>
+<span class="short-desc hide">Stars gather at the Metropolitan Museum of Art in New York to celebrate the exhibition of Schiaparelli and Prada: Impossible Conversations.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1627040325001_Rhianna-Hi.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+<li>
+<a id="http://www.usatoday.com/video/white-tiger-cubs-born/1626603716001" href="http://www.usatoday.com/video/white-tiger-cubs-born/1626603716001" class="RR-thumb videoLink" title="White tiger cubs born">
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1626509443001_ari-origin07-arc-173-1336423053178.jpg?pubId=44692046001" title="A tiger presented to jailed former Ukranian prime minister Yulia Tymoshenko has given birth to four white tiger cubs at the Skazka private zoo in the city of Yalta." width="80" height="60" alt="" />
+<span>White tiger cubs born</span>
+<span class="name hide">White tiger cubs born</span>
+<span class="time-stamp hide">05/07/2012</span>
+<span class="short-desc hide">A tiger presented to jailed former Ukranian prime minister Yulia Tymoshenko has given birth to four white tiger cubs at the Skazka private zoo in the city of Yalta.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1626509444001_ari-origin07-arc-173-1336423053676.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/popcorn-stand-is-true-small-business/1626354476001" href="http://www.usatoday.com/video/popcorn-stand-is-true-small-business/1626354476001" class="RR-thumb videoLink" title="Popcorn stand is true 'small' business">
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1626247928001_ari-origin07-arc-173-1336410081279.jpg?pubId=44692046001" title="GRANITE FALLS, Minn. - America was built on the backs of small businesses. You just won't find many businesses as small as the one that stands in the middle of downtown Granite Falls." width="80" height="60" alt="" />
+<span>Popcorn stand is true 'small' business</span>
+<span class="name hide">Popcorn stand is true 'small' business</span>
+<span class="time-stamp hide">05/07/2012</span>
+<span class="short-desc hide">GRANITE FALLS, Minn. - America was built on the backs of small businesses. You just won't find many businesses as small as the one that stands in the middle of downtown Granite Falls.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1626247929001_ari-origin07-arc-173-1336410081891.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/eaglet-back-in-nest-but-still-in-danger/1626236648001" href="http://www.usatoday.com/video/eaglet-back-in-nest-but-still-in-danger/1626236648001" class="RR-thumb videoLink" title="Eaglet back in nest but still in danger">
+<img src="http://videos.usatoday.net/29906170001/29906170001_1626596343001_ari-origin05-arc-149-1336424831688.jpg?pubId=29906170001" title="HUTHCHINSON, Minn. - Harmon, a three-week-old baby eagle, is back in his nest after being treated at the University of Minnesota's Raptor Center." width="80" height="60" alt="" />
+<span>Eaglet back in nest but still in danger</span>
+<span class="name hide">Eaglet back in nest but still in danger</span>
+<span class="time-stamp hide">05/07/2012</span>
+<span class="short-desc hide">HUTHCHINSON, Minn. - Harmon, a three-week-old baby eagle, is back in his nest after being treated at the University of Minnesota's Raptor Center.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1626596344001_ari-origin05-arc-149-1336424832152.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+<li>
+<a id="http://www.usatoday.com/video/supermoon-rises-across-america/1625860464001" href="http://www.usatoday.com/video/supermoon-rises-across-america/1625860464001" class="RR-thumb videoLink" title="Supermoon rises across America">
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1625823619001_th-1625763700001.jpg?pubId=44692046001" title="The biggest and brightest full moon of the year arrived Saturday night as our celestial neighbor passes closer to Earth than usual." width="80" height="60" alt="" />
+<span>Supermoon rises across America</span>
+<span class="name hide">Supermoon rises across America</span>
+<span class="time-stamp hide">05/07/2012</span>
+<span class="short-desc hide">The biggest and brightest full moon of the year arrived Saturday night as our celestial neighbor passes closer to Earth than usual.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1625823618001_vs-1625763700001.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/supermoon-explained/1622136969001" href="http://www.usatoday.com/video/supermoon-explained/1622136969001" class="RR-thumb videoLink" title="Supermoon explained">
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1622123434001_ari-origin07-arc-154-1336162234985.jpg?pubId=44692046001" title="The biggest and brightest full moon of the year will arrive Saturday night as our celestial neighbor passes closer to Earth than usual." width="80" height="60" alt="" />
+<span>Supermoon explained</span>
+<span class="name hide">Supermoon explained</span>
+<span class="time-stamp hide">05/04/2012</span>
+<span class="short-desc hide">The biggest and brightest full moon of the year will arrive Saturday night as our celestial neighbor passes closer to Earth than usual.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1622123436001_ari-origin07-arc-154-1336162235530.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/five-questions-with-the-avengers-mark-ruffalo/1618126010001" href="http://www.usatoday.com/video/five-questions-with-the-avengers-mark-ruffalo/1618126010001" class="RR-thumb videoLink" title="Five Questions with The Avengers' Mark Ruffalo">
+<img src="http://videos.usatoday.net/29906170001/29906170001_1618171280001_th-1618164851001.jpg?pubId=29906170001" title="Mark Ruffalo talks about joining the super hero ranks, portraying the Incredible Hulk in one of the year's most anticipated movie &#34;The Avengers.&#34;  Ruffalo answers five questions with Bryan Alexander. Video produced by Robert Hanashiro, USA TODAY" width="80" height="60" alt="" />
+<span>Five Questions with The Avengers' Mark Ruffalo</span>
+<span class="name hide">Five Questions with The Avengers' Mark Ruffalo</span>
+<span class="time-stamp hide">05/04/2012</span>
+<span class="short-desc hide">Mark Ruffalo talks about joining the super hero ranks, portraying the Incredible Hulk in one of the year's most anticipated movie &#34;The Avengers.&#34;  Ruffalo answers five questions with Bryan Alexander. Video produced by Robert Hanashiro, USA TODAY</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1618171279001_vs-1618164851001.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+<li>
+<a id="http://www.usatoday.com/video/stylefile-week-of-430/1620141031001" href="http://www.usatoday.com/video/stylefile-week-of-430/1620141031001" class="RR-thumb videoLink" title="StyleFile: Week of 4/30">
+<img src="http://videos.usatoday.net/29906170001/29906170001_1620843612001_ari-origin05-arc-125-1336137797194.jpg?pubId=29906170001" title="USA TODAY's Arienne Thompson takes a look at the hottest celebrity fashions of the week." width="80" height="60" alt="" />
+<span>StyleFile: Week of 4/30</span>
+<span class="name hide">StyleFile: Week of 4/30</span>
+<span class="time-stamp hide">05/03/2012</span>
+<span class="short-desc hide">USA TODAY's Arienne Thompson takes a look at the hottest celebrity fashions of the week.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1620843613001_ari-origin05-arc-125-1336137798142.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/family-with-four-autistic-kids-says-its-their-purpose-in-life/1573777109001" href="http://www.usatoday.com/video/family-with-four-autistic-kids-says-its-their-purpose-in-life/1573777109001" class="RR-thumb videoLink" title="Family with four autistic kids says it's their 'purpose in life'">
+<img src="http://videos.usatoday.net/29906170001/29906170001_1573805662001_Picture-4.jpg?pubId=29906170001" title="All four of John &#38; Nicole May's sons, ages 2-10, have autism. Yet despite the struggles that come along with raising them, the couple says they wouldn't have it any other way. By Maxine Park/USA TODAY" width="80" height="60" alt="" />
+<span>Family with four autistic kids says it's their...</span>
+<span class="name hide">Family with four autistic kids says it's their 'purpose in life'</span>
+<span class="time-stamp hide">05/01/2012</span>
+<span class="short-desc hide">All four of John &#38; Nicole May's sons, ages 2-10, have autism. Yet despite the struggles that come along with raising them, the couple says they wouldn't have it any other way. By Maxine Park/USA TODAY</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1573805661001_Picture-4.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li>
+<a id="http://www.usatoday.com/video/analysis-how-mitt-romney-will-select-a-running-mate/1614061450001" href="http://www.usatoday.com/video/analysis-how-mitt-romney-will-select-a-running-mate/1614061450001" class="RR-thumb videoLink" title="Analysis: How Mitt Romney will select a running mate">
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1613949858001_th-1613923999001.jpg?pubId=44692046001" title="USA Today Washington Bureau Chief Susan Page explains how presidential candidates choose a running mate and what we can expect from Mitt Romney." width="80" height="60" alt="" />
+<span>Analysis: How Mitt Romney will select a running...</span>
+<span class="name hide">Analysis: How Mitt Romney will select a running mate</span>
+<span class="time-stamp hide">04/30/2012</span>
+<span class="short-desc hide">USA Today Washington Bureau Chief Susan Page explains how presidential candidates choose a running mate and what we can expect from Mitt Romney.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1613949857001_vs-1613923999001.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+</div>
+</div><!-- close .carousel -->
+<a class="next">next</a>
+</div><!-- close #exclusive -->    
+</div><!-- close .rr-cont -->
+<div class="clear"></div>
+</div><!-- close .container-->
+</div><!-- close #above_fold-->
+<div id="below_fold">
+<div class="container">
+<div id="LR-nav">
+
+<h2 class="acc_trigger">News</h2><div class="acc_container"><ul><li><a id="1150199594001" href="http://www.usatoday.com/video/news">News</a></li><li><a id="1565146662001" href="http://www.usatoday.com/video/news/daily-features">Daily features</a></li><li><a id="43205316001" href="http://www.usatoday.com/video/news/economy">Economy</a></li><li><a id="43025167001" href="http://www.usatoday.com/video/news/afghanistan">Afghanistan</a></li><li><a id="43025166001" href="http://www.usatoday.com/video/news/iraq">Iraq</a></li><li><a id="43574941001" href="http://www.usatoday.com/video/news/raw-video">Raw video</a></li><li><a id="44278301001" href="http://www.usatoday.com/video/news/weird--strange">Weird &amp; Strange</a></li><li><a id="45603016001" href="http://www.usatoday.com/video/news/opinion">Opinion</a></li></ul></div><h2 class="acc_trigger">Travel</h2><div class="acc_container"><ul><li><a id="40264771001" href="http://www.usatoday.com/video/travel">Travel</a></li></ul></div><h2 class="acc_trigger">Money</h2><div class="acc_container"><ul><li><a id="76389477001" href="http://www.usatoday.com/video/money/all-carscom-reviews">All Cars.com reviews</a></li><li><a id="72911990001" href="http://www.usatoday.com/video/money/jobssearch">Jobs-search</a></li><li><a id="40264772001" href="http://www.usatoday.com/video/money">Money</a></li><li><a id="55139119001" href="http://www.usatoday.com/video/money/cars">Cars</a></li><li><a id="43205316001" href="http://www.usatoday.com/video/money/economy">Economy</a></li><li><a id="43205317001" href="http://www.usatoday.com/video/money/finance">Finance</a></li><li><a id="43205318001" href="http://www.usatoday.com/video/money/wall-street">Wall Street</a></li><li><a id="43025171001" href="http://www.usatoday.com/video/money/small-business">Small business</a></li></ul></div><h2 class="acc_trigger">Sports</h2><div class="acc_container"><ul><li><a id="43205315001" href="http://www.usatoday.com/video/sports">Sports</a></li><li><a id="1553806443001" href="http://www.usatoday.com/video/sports/nfl-draft-previews">NFL Draft previews</a></li><li><a id="682722548001" href="http://www.usatoday.com/video/sports/mma">MMA</a></li><li><a id="43205473001" href="http://www.usatoday.com/video/sports/ncaa">NCAA</a></li><li><a id="43575005001" href="http://www.usatoday.com/video/sports/mlb">MLB</a></li><li><a id="43651234001" href="http://www.usatoday.com/video/sports/nba">NBA</a></li><li><a id="43575004001" href="http://www.usatoday.com/video/sports/nhl">NHL</a></li><li><a id="43651233001" href="http://www.usatoday.com/video/sports/nfl">NFL</a></li><li><a id="43799870001" href="http://www.usatoday.com/video/sports/olympics">Olympics</a></li><li><a id="129114006001" href="http://www.usatoday.com/video/sports/fantasy-baseball">Fantasy Baseball</a></li><li><a id="593391153001" href="http://www.usatoday.com/video/sports/fantasy-football">Fantasy Football</a></li></ul></div><h2 class="acc_trigger">Life</h2><div class="acc_container"><ul><li><a id="40223677001" href="http://www.usatoday.com/video/life">Life</a></li><li><a id="1524361473001" href="http://www.usatoday.com/video/life/save-our-shows">Save Our Shows</a></li><li><a id="1386733687001" href="http://www.usatoday.com/video/life/books">Books</a></li><li><a id="961774681001" href="http://www.usatoday.com/video/life/music">Music</a></li><li><a id="46407493001" href="http://www.usatoday.com/video/life/education">Education</a></li><li><a id="43651236001" href="http://www.usatoday.com/video/life/fashion">Fashion</a></li><li><a id="43205476001" href="http://www.usatoday.com/video/life/movies">Movies</a></li><li><a id="45927972001" href="http://www.usatoday.com/video/life/pop-candy">Pop Candy</a></li><li><a id="46205295001" href="http://www.usatoday.com/video/life/trailers">Trailers</a></li><li><a id="43651237001" href="http://www.usatoday.com/video/life/tv">TV</a></li><li><a id="915139282001" href="http://www.usatoday.com/video/life/royal-wedding">Royal Wedding</a></li><li><a id="106529243001" href="http://www.usatoday.com/video/life/five-questions">Five Questions</a></li></ul></div><h2 class="acc_trigger">Tech</h2><div class="acc_container"><ul><li><a id="43799931001" href="http://www.usatoday.com/video/tech/talking-tech">Talking Tech</a></li><li><a id="40053427001" href="http://www.usatoday.com/video/tech">Tech</a></li><li><a id="46211857001" href="http://www.usatoday.com/video/tech/computers">Computers</a></li><li><a id="46205294001" href="http://www.usatoday.com/video/tech/internet">Internet</a></li><li><a id="43811240001" href="http://www.usatoday.com/video/tech/mobile-phones">Mobile phones</a></li><li><a id="43811239001" href="http://www.usatoday.com/video/tech/video-games">Video Games</a></li></ul></div><h2 class="acc_trigger">Weather</h2><div class="acc_container"><ul><li><a id="43799934001" href="http://www.usatoday.com/video/weather">Weather</a></li></ul></div>
+</div><!-- close #LR-nav -->
+<div id="BF-MID-well">  
+<div id="moreSection" class="tabsGroup related_video tabsContent">
+
+<h2 class="text-shadow">more from news</h2>
+
+<div class="pagination"> <span class="countWrap"></span> | 
+<a class="next">Next »</a>
+</div>   
+<div class="gel-content">
+<ul class="gel-pane">
+
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/panel-recommends-against-routine-prostate-test/1651406852001" href="http://www.usatoday.com/video/panel-recommends-against-routine-prostate-test/1651406852001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651484914001_0522dv-prostate-testing-400x300.jpg?pubId=29906170001" title="Healthy men shouldn't get routine prostate cancer screenings, says updated advice from a government panel that found the PSA blood tests do more harm than good.  (May 22)" width="135" height="102" alt="" />
+<span class="name">Panel recommends against routine prostate test</span>
+<span class="time-stamp hide">05/23/2012</span>
+<span class="short-desc hide">Healthy men shouldn't get routine prostate cancer screenings, says updated advice from a government panel that found the PSA blood tests do more harm than good.  (May 22)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651484914001_0522dv-prostate-testing-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/remains-of-veterans-found-in-basement-are-buried/1651259642001" href="http://www.usatoday.com/video/remains-of-veterans-found-in-basement-are-buried/1651259642001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651340408001_0522dv-oh-military-remains-400x300.jpg?pubId=29906170001" title="Veterans and civilians stood side by side to honor 10 Ohio veterans whose remains were buried Tuesday with full military honors, several months after they were found in a funeral home basement. (May 22)" width="135" height="102" alt="" />
+<span class="name">Remains of veterans found in basement are buried</span>
+<span class="time-stamp hide">05/23/2012</span>
+<span class="short-desc hide">Veterans and civilians stood side by side to honor 10 Ohio veterans whose remains were buried Tuesday with full military honors, several months after they were found in a funeral home basement. (May 22)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651340408001_0522dv-oh-military-remains-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/fired-lingerie-employee-claims-discrimination/1651255216001" href="http://www.usatoday.com/video/fired-lingerie-employee-claims-discrimination/1651255216001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651308216001_0522dv-lingerie-firing-400x300.jpg?pubId=29906170001" title="A woman who was fired from her job at a NY lingerie business says she was fired because her employer complained her work attire was too risque.   She has filed a workplace discrimination complaint. (May 22)" width="135" height="102" alt="" />
+<span class="name">Fired lingerie employee claims discrimination</span>
+<span class="time-stamp hide">05/23/2012</span>
+<span class="short-desc hide">A woman who was fired from her job at a NY lingerie business says she was fired because her employer complained her work attire was too risque.   She has filed a workplace discrimination complaint. (May 22)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651308216001_0522dv-lingerie-firing-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/joplin-marches-to-remember-tornado-victims/1651322940001" href="http://www.usatoday.com/video/joplin-marches-to-remember-tornado-victims/1651322940001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651318920001_0522dv-joplin-silence-400x300.jpg?pubId=29906170001" title="Carrying small American flags and wearing T-shirts bearing the names of loved ones who died when a massive tornado tore through Joplin one year ago, thousands of people marched Tuesday through some of the town's hardest-hit neighborhoods. (May 22)" width="135" height="102" alt="" />
+<span class="name">Joplin marches to 'remember' tornado victims</span>
+<span class="time-stamp hide">05/23/2012</span>
+<span class="short-desc hide">Carrying small American flags and wearing T-shirts bearing the names of loved ones who died when a massive tornado tore through Joplin one year ago, thousands of people marched Tuesday through some of the town's hardest-hit neighborhoods. (May 22)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651318920001_0522dv-joplin-silence-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/us-airways-flight-diverts-to-maine-on-security-issue/1651237664001" href="http://www.usatoday.com/video/us-airways-flight-diverts-to-maine-on-security-issue/1651237664001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1651221134001_ari-origin07-arc-145-1337725581000.jpg?pubId=29906170001" title="A US Airways flight was diverted to Bangor, Maine for a security issue. Initial reports said a female passenger appeared to be mentally unstable. The woman was taken into custody and the flight was cleared to continue." width="135" height="102" alt="" />
+<span class="name">US Airways flight diverts to Maine on 'security issue'</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">A US Airways flight was diverted to Bangor, Maine for a security issue. Initial reports said a female passenger appeared to be mentally unstable. The woman was taken into custody and the flight was cleared to continue.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1651221134001_ari-origin07-arc-145-1337725581000.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/national-weather-forecast-for-wednesday-may-23/1651206205001" href="http://www.usatoday.com/video/national-weather-forecast-for-wednesday-may-23/1651206205001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651230768001_vs-1651227794001.jpg?pubId=29906170001" title="Still unsettled in the East: Showers, thunderstorms Charleston to Boston; Showers, thunderstorms in South Florida; Showers, snow showers in the northern Rockies; Showers, thunderstorms in the Plains" width="135" height="102" alt="" />
+<span class="name">National weather forecast for Wednesday May 23</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Still unsettled in the East: Showers, thunderstorms Charleston to Boston; Showers, thunderstorms in South Florida; Showers, snow showers in the northern Rockies; Showers, thunderstorms in the Plains</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651230768001_vs-1651227794001.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/facebook-shares-continue-negative-slide/1651135034001" href="http://www.usatoday.com/video/facebook-shares-continue-negative-slide/1651135034001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651182789001_0522dv-Facebook-trades-400x300.jpg?pubId=29906170001" title="The selloff of Facebook continues. Investors pushed shares down an additional 8.9 percent Tuesday, they closed at thirty-one dollars a share. (May 22)" width="135" height="102" alt="" />
+<span class="name">Facebook shares continue negative slide</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">The selloff of Facebook continues. Investors pushed shares down an additional 8.9 percent Tuesday, they closed at thirty-one dollars a share. (May 22)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651182789001_0522dv-Facebook-trades-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/8-hurt-in-oklahoma-city-shooting-after-nba-game/1651054138001" href="http://www.usatoday.com/video/8-hurt-in-oklahoma-city-shooting-after-nba-game/1651054138001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651065162001_0522dv-okc-shooting-400x300.jpg?pubId=29906170001" title="Authorities say eight people are hurt after shots rang out in Oklahoma City as thousands of people left the NBA playoff game between the Thunder and the Los Angeles Lakers. (May 22)" width="135" height="102" alt="" />
+<span class="name">8 hurt in Oklahoma City shooting after NBA game</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Authorities say eight people are hurt after shots rang out in Oklahoma City as thousands of people left the NBA playoff game between the Thunder and the Los Angeles Lakers. (May 22)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651065162001_0522dv-okc-shooting-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/cuba-waiting-for-cyber-age-to-come/1650971214001" href="http://www.usatoday.com/video/cuba-waiting-for-cyber-age-to-come/1650971214001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651050981001_0522dv-cuba-internet-400x300.jpg?pubId=29906170001" title="Cuba, si. High-speed Internet access on the island? Internet service in Cuba remains the slowest in the Western Hemisphere. (May 22)" width="135" height="102" alt="" />
+<span class="name">Cuba waiting for cyber age to come</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Cuba, si. High-speed Internet access on the island? Internet service in Cuba remains the slowest in the Western Hemisphere. (May 22)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651050981001_0522dv-cuba-internet-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/rare-beatles-photo-to-be-auctioned/1648983246001" href="http://www.usatoday.com/video/rare-beatles-photo-to-be-auctioned/1648983246001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/ae/ae88fa65ed32e8a5fea89c43a9ba6bae/images/frame_0009.jpg" title="A photograph that features the Beatles walking the wrong way across Abbey Road hits the auction block." width="135" height="102" alt="" />
+<span class="name">Rare Beatles Photo to Be Auctioned</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">A photograph that features the Beatles walking the wrong way across Abbey Road hits the auction block.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/ae/ae88fa65ed32e8a5fea89c43a9ba6bae/images/frame_0009.jpg</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/hugo-boss-asian-ambition/1648984819001" href="http://www.usatoday.com/video/hugo-boss-asian-ambition/1648984819001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/1c/1c65edf6f7e770f139e7258e55fa8bc6/images/frame_0001.jpg" title="German high-end fashion label Hugo Boss introduces its Fall 2012 product line to China, as the brand cooks up plans to make the country one of its biggest markets in the world." width="135" height="102" alt="" />
+<span class="name">Hugo Boss' Asian Ambition</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">German high-end fashion label Hugo Boss introduces its Fall 2012 product line to China, as the brand cooks up plans to make the country one of its biggest markets in the world.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/1c/1c65edf6f7e770f139e7258e55fa8bc6/images/frame_0001.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/new-york-city-jails-to-ban-junk-food/1648961745001" href="http://www.usatoday.com/video/new-york-city-jails-to-ban-junk-food/1648961745001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/18/1845bcf7dd6117bf6f2f1c05689f029b/images/frame_0002.jpg" title="New York Mayor Michael Bloomberg is trying to get New Yorkers eating healthier for some time now. That may soon include people behind bars. A proposed ban on junk food in New York City jails could do just that." width="135" height="102" alt="" />
+<span class="name">New York City Jails to Ban Junk Food?</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">New York Mayor Michael Bloomberg is trying to get New Yorkers eating healthier for some time now. That may soon include people behind bars. A proposed ban on junk food in New York City jails could do just that.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/18/1845bcf7dd6117bf6f2f1c05689f029b/images/frame_0002.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/shepherd-smith-on-gay-marriage-gingrich-and-romney/1649024740001" href="http://www.usatoday.com/video/shepherd-smith-on-gay-marriage-gingrich-and-romney/1649024740001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/95/958dd47b8e39be84db50dfab01692d39/images/frame_0006.jpg" title="Fox News anchor Shepard Smith has never fit the right-wing mold at the cable news network but lately he's been really testing the party-line limits. Asking if Republicans were ready to join the 'right side of history' on gay marriage, suggesting it w" width="135" height="102" alt="" />
+<span class="name">Shepherd Smith on Gay Marriage, Gingrich and Romney</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Fox News anchor Shepard Smith has never fit the right-wing mold at the cable news network but lately he's been really testing the party-line limits. Asking if Republicans were ready to join the 'right side of history' on gay marriage, suggesting it w</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/95/958dd47b8e39be84db50dfab01692d39/images/frame_0006.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/my-first-job-omar-epps/1649025496001" href="http://www.usatoday.com/video/my-first-job-omar-epps/1649025496001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/b5/b5a631cd86b9b94b3a374d32e75f5800/images/frame_0002.jpg" title="Actor Omar Epps talks about his first job, the lessons he learned and how they still apply to his work today." width="135" height="102" alt="" />
+<span class="name">My First Job: Omar Epps</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Actor Omar Epps talks about his first job, the lessons he learned and how they still apply to his work today.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/b5/b5a631cd86b9b94b3a374d32e75f5800/images/frame_0002.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/my-first-job-white-house-executive-chef-cris-comerford/1649024691001" href="http://www.usatoday.com/video/my-first-job-white-house-executive-chef-cris-comerford/1649024691001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/f6/f64564cf392eb638d2bfb928e95c72a7/images/frame_0003.jpg" title="White House Executive Chef Cris Comerford, talks about her first job, the lessons she learned and how they still apply to her work today." width="135" height="102" alt="" />
+<span class="name">My First Job: White House Executive Chef Cris Comerford</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">White House Executive Chef Cris Comerford, talks about her first job, the lessons she learned and how they still apply to her work today.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/f6/f64564cf392eb638d2bfb928e95c72a7/images/frame_0003.jpg</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/my-first-job-jon-carson/1649015984001" href="http://www.usatoday.com/video/my-first-job-jon-carson/1649015984001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/18/18ed7d44ac978871863a2feecb437573/images/frame_0004.jpg" title="Jon Carson, the Director of the Office of Public Engagement at the White House, talks about his first job, the lessons he learned, and how they still apply to his work today." width="135" height="102" alt="" />
+<span class="name">My First Job: Jon Carson</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Jon Carson, the Director of the Office of Public Engagement at the White House, talks about his first job, the lessons he learned, and how they still apply to his work today.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/18/18ed7d44ac978871863a2feecb437573/images/frame_0004.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/band-scalps-own-tickets-to-save-fans-ticketmaster-fees/1649014444001" href="http://www.usatoday.com/video/band-scalps-own-tickets-to-save-fans-ticketmaster-fees/1649014444001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/96/9611455dee48903c30f24cbc00b9beeb/images/frame_0002.jpg" title="The String Cheese Incident is sticking it to TicketMaster and its service fees. The jam band bought $20,000 of its own tickets from TicketMaster for its summer tour and then resold them to fans without any fees. Priya Desai takes a look at the winner" width="135" height="102" alt="" />
+<span class="name">Band Scalps Own Tickets to Save Fans TicketMaster Fees</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">The String Cheese Incident is sticking it to TicketMaster and its service fees. The jam band bought $20,000 of its own tickets from TicketMaster for its summer tour and then resold them to fans without any fees. Priya Desai takes a look at the winner</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/96/9611455dee48903c30f24cbc00b9beeb/images/frame_0002.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/demi-moore-signs-on-for-first-movie-role-since-rehab/1649175451001" href="http://www.usatoday.com/video/demi-moore-signs-on-for-first-movie-role-since-rehab/1649175451001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/1f/1f1e8c62ce24355e266c66bf91dd980e/images/frame_0000.jpg" title="Fresh off a stint at rehab for an eating disorder and addiction issues, Demi Moore is due for a return to the silver screen." width="135" height="102" alt="" />
+<span class="name">Demi Moore Signs On For First Movie Role Since Rehab</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Fresh off a stint at rehab for an eating disorder and addiction issues, Demi Moore is due for a return to the silver screen.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/1f/1f1e8c62ce24355e266c66bf91dd980e/images/frame_0000.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/first-look-at-james-bond-skyfall/1649181345001" href="http://www.usatoday.com/video/first-look-at-james-bond-skyfall/1649181345001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/4c/4c4767db9e90799940eb4bee8147826b/images/frame_0003.jpg" title="Take a look at the first trailer and behind the scenes of the upcoming James Bond film, Skyfall." width="135" height="102" alt="" />
+<span class="name">First Look at James Bond 'Skyfall'</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Take a look at the first trailer and behind the scenes of the upcoming James Bond film, Skyfall.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/4c/4c4767db9e90799940eb4bee8147826b/images/frame_0003.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/cheryl-cole-says-forgive-chris-brown/1649177815001" href="http://www.usatoday.com/video/cheryl-cole-says-forgive-chris-brown/1649177815001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/76/76579d0765b7baf171dcc65a83bfd7d5/images/frame_0001.jpg" title="Cheryl Cole tells a radio show she thinks it's about time we all forgive Chris Brown for assaulting Rihanna in 2009." width="135" height="102" alt="" />
+<span class="name">Cheryl Cole Says 'Forgive Chris Brown'</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Cheryl Cole tells a radio show she thinks it's about time we all forgive Chris Brown for assaulting Rihanna in 2009.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/76/76579d0765b7baf171dcc65a83bfd7d5/images/frame_0001.jpg</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/katy-perry-and-musician-boyfriend-call-it-quits/1649176010001" href="http://www.usatoday.com/video/katy-perry-and-musician-boyfriend-call-it-quits/1649176010001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/50/5022af845ea25b8e7420cc60f2415ecd/images/frame_0000.jpg" title="Katy Perry is reportedly back on the market yet again." width="135" height="102" alt="" />
+<span class="name">Katy Perry and Musician Boyfriend Call it Quits</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Katy Perry is reportedly back on the market yet again.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/50/5022af845ea25b8e7420cc60f2415ecd/images/frame_0000.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/demi-moore-is-returning-to-the-big-screen/1649815442001" href="http://www.usatoday.com/video/demi-moore-is-returning-to-the-big-screen/1649815442001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/9a/9a14e096435323de16879604fc1c534e/images/frame_0003.jpg" title="Demi Moore has signed on to her first movie since splitting from Ashton Kutcher and returning from rehab." width="135" height="102" alt="" />
+<span class="name">Demi Moore is Returning to the Big Screen</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Demi Moore has signed on to her first movie since splitting from Ashton Kutcher and returning from rehab.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/9a/9a14e096435323de16879604fc1c534e/images/frame_0003.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/wall-st-rebounds-facebook-sinks/1649199553001" href="http://www.usatoday.com/video/wall-st-rebounds-facebook-sinks/1649199553001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/51/510b9bf39746b23186f0797e11b66de3/images/frame_0010.jpg" title="Summary of business headlines: Stocks climb after biggest weekly drop of 2012; Facebook closed below $38 IPO price; Lowe's cuts forecast on slow spring; Business economists expects job market to pick up next year." width="135" height="102" alt="" />
+<span class="name">Wall St. Rebounds, Facebook Sinks</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Summary of business headlines: Stocks climb after biggest weekly drop of 2012; Facebook closed below $38 IPO price; Lowe's cuts forecast on slow spring; Business economists expects job market to pick up next year.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/51/510b9bf39746b23186f0797e11b66de3/images/frame_0010.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/did-justin-bieber-and-selena-gomez-split/1650990203001" href="http://www.usatoday.com/video/did-justin-bieber-and-selena-gomez-split/1650990203001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/00/00b36c12c0c3d21acc234ee8c1e376c0/images/frame_0002.jpg" title="There's a rumor going around that Justin Bieber and Selena Gomez have gone their separate ways." width="135" height="102" alt="" />
+<span class="name">Did Justin Bieber and Selena Gomez Split?</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">There's a rumor going around that Justin Bieber and Selena Gomez have gone their separate ways.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/00/00b36c12c0c3d21acc234ee8c1e376c0/images/frame_0002.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/will-us-swing-states-go-for-first-gay-president/1651002673001" href="http://www.usatoday.com/video/will-us-swing-states-go-for-first-gay-president/1651002673001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/8b/8b04152f8378215a9f818626e316f041/images/frame_0011.jpg" title="Barack Obama's declaration in support of gay marriage has made him the nation's 'first gay president' in the eyes of US media. That's a winning title for the progressive crowd, but might not help in a battleground state like Colorado, where lawmakers" width="135" height="102" alt="" />
+<span class="name">Will US Swing States Go for 'First Gay President'?</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Barack Obama's declaration in support of gay marriage has made him the nation's 'first gay president' in the eyes of US media. That's a winning title for the progressive crowd, but might not help in a battleground state like Colorado, where lawmakers</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/8b/8b04152f8378215a9f818626e316f041/images/frame_0011.jpg</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/2013-kia-optima-hybrid-drive--review/1650991246001" href="http://www.usatoday.com/video/2013-kia-optima-hybrid-drive--review/1650991246001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/91/911fc8dfd1a4b338637fad668ca86abf/images/frame_0019.jpg" title="The 2013 KIA Optima Hybrid offers outstanding value and gets great gas mileage. Like most hybrids it has two power sources that put out a combined 206 HP to the front wheels through a standard 6 speed automatic transmission. About three years ago whe" width="135" height="102" alt="" />
+<span class="name">2013 KIA Optima Hybrid Drive &#38; Review</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">The 2013 KIA Optima Hybrid offers outstanding value and gets great gas mileage. Like most hybrids it has two power sources that put out a combined 206 HP to the front wheels through a standard 6 speed automatic transmission. About three years ago whe</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/91/911fc8dfd1a4b338637fad668ca86abf/images/frame_0019.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/brad-pitt-and-angelina-jolie-want-marriage-equality-for-all/1650995135001" href="http://www.usatoday.com/video/brad-pitt-and-angelina-jolie-want-marriage-equality-for-all/1650995135001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/8d/8d4dd6c682c43bf95f788c147c45efbc/images/frame_0003.jpg" title="Brad Pitt and Angelina have not set a date for their wedding, and the actor says he still hopes for marriage equality before they tie the knot." width="135" height="102" alt="" />
+<span class="name">Brad Pitt and Angelina Jolie Want Marriage Equality for All</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Brad Pitt and Angelina have not set a date for their wedding, and the actor says he still hopes for marriage equality before they tie the knot.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/8d/8d4dd6c682c43bf95f788c147c45efbc/images/frame_0003.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/hip-hop-hall-of-fame-finds-a-home-in-nyc/1650961816001" href="http://www.usatoday.com/video/hip-hop-hall-of-fame-finds-a-home-in-nyc/1650961816001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/7a/7a228944abc50d9bdc97c559e7c857e1/images/frame_0004.jpg" title="The Hip Hop Hall of Fame is getting a home in Midtown, Manhattan with big plans to include features like an arcade, restaurant and even television studios. In order to fund the project, organizers are bringing back the annual induction ceremony and c" width="135" height="102" alt="" />
+<span class="name">Hip Hop Hall of Fame Finds a Home in NYC</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">The Hip Hop Hall of Fame is getting a home in Midtown, Manhattan with big plans to include features like an arcade, restaurant and even television studios. In order to fund the project, organizers are bringing back the annual induction ceremony and c</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/7a/7a228944abc50d9bdc97c559e7c857e1/images/frame_0004.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/spacex-founder-says-launch-was-like-winning-the-superbowl/1650786211001" href="http://www.usatoday.com/video/spacex-founder-says-launch-was-like-winning-the-superbowl/1650786211001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/fa/fa501fe6fe857a4b0d9779a16b1f9d77/images/frame_0001.jpg" title="SpaceX founder Elon Musk says witnessing the launch was like winning the Superbowl." width="135" height="102" alt="" />
+<span class="name">SpaceX Founder Says Launch Was Like 'Winning the Superbowl'</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">SpaceX founder Elon Musk says witnessing the launch was like winning the Superbowl.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/fa/fa501fe6fe857a4b0d9779a16b1f9d77/images/frame_0001.jpg</span>
+</a>
+</li>
+</ul>
+<!-- -->              
+</div>
+</div><!-- close #more_video.related_video -->
+<div id="tabs" class="tabsGroup">
+<ul id="tabsNav">
+<li class="selected">
+<h2 class="more-video-h text-shadow">
+<a href="#mostPopular">most popular</a>
+</h2>
+</li>
+<li>
+<h2 class="more-video-h text-shadow">
+<a href="#mostRecent">recent</a>
+</h2>
+</li>
+</ul>
+<div id="mostPopular" class="tabsContent">
+<div class="pagination"> <span class="countWrap"></span> | 
+<a class="next">Next »</a>
+</div>       
+<div class="gel-content">
+<ul class="gel-pane">
+
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/donna-summer-dies-after-cancer-battle/1644426803001" href="http://www.usatoday.com/video/donna-summer-dies-after-cancer-battle/1644426803001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1644366641001_ari-origin07-arc-148-1337273394494.jpg?pubId=44692046001" title="The Queen of Disco - Donna Summer - died this morning in Florida at age 63 following a battle with breast cancer." width="135" height="102" alt="" />
+<span class="name">Donna Summer dies after cancer battle</span>
+<span class="time-stamp hide">05/17/2012</span>
+<span class="short-desc hide">The Queen of Disco - Donna Summer - died this morning in Florida at age 63 following a battle with breast cancer.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1644366641001_ari-origin07-arc-148-1337273394494.jpg?pubId=44692046001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/woman-with-flesheating-bug-needs-to-grieve/1640888836001" href="http://www.usatoday.com/video/woman-with-flesheating-bug-needs-to-grieve/1640888836001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1640826193001_0515dv-ga-flesh-psychology-400x300.jpg?pubId=29906170001" title="The father of a 24-year-old woman fighting a rare flesh-eating disease says she likely will lose her fingers. Aimee Copeland already lost most of her left leg. An Emory University psychologist says she can expect a 'grieving process.' (May 15)" width="135" height="102" alt="" />
+<span class="name">Woman with flesh-eating bug needs to 'grieve'</span>
+<span class="time-stamp hide">05/15/2012</span>
+<span class="short-desc hide">The father of a 24-year-old woman fighting a rare flesh-eating disease says she likely will lose her fingers. Aimee Copeland already lost most of her left leg. An Emory University psychologist says she can expect a 'grieving process.' (May 15)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1640826193001_0515dv-ga-flesh-psychology-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/supporters-of-victim-of-flesh-eating-bacteria-donate-blood/1642658658001" href="http://www.usatoday.com/video/supporters-of-victim-of-flesh-eating-bacteria-donate-blood/1642658658001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1642572255001_ari-origin07-arc-156-1337183266094.jpg?pubId=44692046001" title="A phenomenal response for Aimee Copeland on Tuesday at her college in Carrollton resulted in 162 pints of donated blood." width="135" height="102" alt="" />
+<span class="name">Supporters of victim of flesh eating bacteria donate blood</span>
+<span class="time-stamp hide">05/16/2012</span>
+<span class="short-desc hide">A phenomenal response for Aimee Copeland on Tuesday at her college in Carrollton resulted in 162 pints of donated blood.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1642572255001_ari-origin07-arc-156-1337183266094.jpg?pubId=44692046001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/documents-shed-new-light-on-trayvon-martin-case/1644994722001" href="http://www.usatoday.com/video/documents-shed-new-light-on-trayvon-martin-case/1644994722001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1645002434001_0518dv-zimmerman-evidence-400x300.jpg?pubId=29906170001" title="Newly released documents are shedding new light on the killing of unarmed teen Trayvon Martin in Sanford, Florida in February. This report includes images that some may find disturbing. (May 18)" width="135" height="102" alt="" />
+<span class="name">Documents shed new light on Trayvon Martin case</span>
+<span class="time-stamp hide">05/18/2012</span>
+<span class="short-desc hide">Newly released documents are shedding new light on the killing of unarmed teen Trayvon Martin in Sanford, Florida in February. This report includes images that some may find disturbing. (May 18)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1645002434001_0518dv-zimmerman-evidence-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/robert-f-kennedy-jrs-wife-found-dead/1643122088001" href="http://www.usatoday.com/video/robert-f-kennedy-jrs-wife-found-dead/1643122088001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1643180676001_0517apvus-kennedy-death-400x300.jpg?pubId=29906170001" title="Mary Richardson Kennedy, the wife of Robert F. Kennedy Junior, was found dead on Wednesday. She was 52, and was found on the family estate north of New York City. (May 17)" width="135" height="102" alt="" />
+<span class="name">Robert F. Kennedy Jr.'s Wife Found Dead</span>
+<span class="time-stamp hide">05/17/2012</span>
+<span class="short-desc hide">Mary Richardson Kennedy, the wife of Robert F. Kennedy Junior, was found dead on Wednesday. She was 52, and was found on the family estate north of New York City. (May 17)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1643180676001_0517apvus-kennedy-death-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/most-dangerous-blind-spots-in-cars/1648200390001" href="http://www.usatoday.com/video/most-dangerous-blind-spots-in-cars/1648200390001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://bcdownload.gannett.edgesuite.net/wkyc/34306114001/34306114001_1648191107001_vs-1648191126001.jpg?pubId=34306114001" title="Every week, at least 50 children are killed or injured because they are backed over by drivers. Vehicle blind spots are to blame and in some newer model cars blind spots are getting worse." width="135" height="102" alt="" />
+<span class="name">Most dangerous blind spots in cars</span>
+<span class="time-stamp hide">05/21/2012</span>
+<span class="short-desc hide">Every week, at least 50 children are killed or injured because they are backed over by drivers. Vehicle blind spots are to blame and in some newer model cars blind spots are getting worse.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/wkyc/34306114001/34306114001_1648191107001_vs-1648191126001.jpg?pubId=34306114001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/dad-wants-to-hear-victim-of-flesheating-infection-speak-again/1640844309001" href="http://www.usatoday.com/video/dad-wants-to-hear-victim-of-flesheating-infection-speak-again/1640844309001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1640751704001_ari-origin07-arc-132-1337105790672.jpg?pubId=44692046001" title="Aimee Copeland's father looks forward to &#34;Aimee Day&#34; when his daughter, who is the victim of a rare flesh-eating infection, is able to speak again." width="135" height="102" alt="" />
+<span class="name">Dad wants to hear victim of flesh-eating infection speak again</span>
+<span class="time-stamp hide">05/15/2012</span>
+<span class="short-desc hide">Aimee Copeland's father looks forward to &#34;Aimee Day&#34; when his daughter, who is the victim of a rare flesh-eating infection, is able to speak again.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1640751704001_ari-origin07-arc-132-1337105790672.jpg?pubId=44692046001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/raw-video-will-smith-slaps-kissing-reporter/1646787499001" href="http://www.usatoday.com/video/raw-video-will-smith-slaps-kissing-reporter/1646787499001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1647495574001_RUS-SMITH-20120519OVN-400x300.jpg?pubId=29906170001" title="Hollywood star Will Smith slapped a male Ukrainian television channel reporter who tried to kiss him before the Moscow premiere of the film &#34;Men in Black III.&#34; (May 19)" width="135" height="102" alt="" />
+<span class="name">Raw Video: Will Smith slaps kissing reporter</span>
+<span class="time-stamp hide">05/19/2012</span>
+<span class="short-desc hide">Hollywood star Will Smith slapped a male Ukrainian television channel reporter who tried to kiss him before the Moscow premiere of the film &#34;Men in Black III.&#34; (May 19)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1647495574001_RUS-SMITH-20120519OVN-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/hope-seen-for-woman-with-flesheating-disease/1639128858001" href="http://www.usatoday.com/video/hope-seen-for-woman-with-flesheating-disease/1639128858001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1639240202001_0514dv-flesh-eating-update-400x300.jpg?pubId=29906170001" title="Family members of a young woman in Georgia who is fighting a rare flesh-eating infection say her chances of recovery are improving.  (May 15)" width="135" height="102" alt="" />
+<span class="name">Hope seen for woman with flesh-eating disease</span>
+<span class="time-stamp hide">05/15/2012</span>
+<span class="short-desc hide">Family members of a young woman in Georgia who is fighting a rare flesh-eating infection say her chances of recovery are improving.  (May 15)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1639240202001_0514dv-flesh-eating-update-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/style-file-week-of-may-14/1644660278001" href="http://www.usatoday.com/video/style-file-week-of-may-14/1644660278001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1646020741001_ari-origin05-arc-135-1337349690613.jpg?pubId=29906170001" title="USA TODAY's Arienne Thompson takes a look at the hot fashions celebrities showed off this week." width="135" height="102" alt="" />
+<span class="name">Style File: Week of May 14</span>
+<span class="time-stamp hide">05/17/2012</span>
+<span class="short-desc hide">USA TODAY's Arienne Thompson takes a look at the hot fashions celebrities showed off this week.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1646020741001_ari-origin05-arc-135-1337349690613.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/trailer-the-dictator/1615944836001" href="http://www.usatoday.com/video/trailer-the-dictator/1615944836001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1615977765001_vs-1615972333001.jpg?pubId=29906170001" title="An oppressive Middle Eastern dictator (Sacha Baron Cohen) is forced to see how the rest of the world lives during a trip to New York City in a case of mistaken identity." width="135" height="102" alt="" />
+<span class="name">Trailer: 'The Dictator'</span>
+<span class="time-stamp hide">05/01/2012</span>
+<span class="short-desc hide">An oppressive Middle Eastern dictator (Sacha Baron Cohen) is forced to see how the rest of the world lives during a trip to New York City in a case of mistaken identity.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1615977765001_vs-1615972333001.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/marisa-miller-behindthescenes-at-buick-shoot/1632399304001" href="http://www.usatoday.com/video/marisa-miller-behindthescenes-at-buick-shoot/1632399304001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1632423545001_vs-1632413084001.jpg?pubId=29906170001" title="Marisa Miller behind-the-scenes at Buick shoot" width="135" height="102" alt="" />
+<span class="name">Marisa Miller behind-the-scenes at Buick shoot</span>
+<span class="time-stamp hide">05/10/2012</span>
+<span class="short-desc hide">Marisa Miller behind-the-scenes at Buick shoot</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1632423545001_vs-1632413084001.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/fla-mom-kills-her-4-kids-shoots-self/1640751584001" href="http://www.usatoday.com/video/fla-mom-kills-her-4-kids-shoots-self/1640751584001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1640752009001_0515dv-fla-murder-suicide-400x300.jpg?pubId=29906170001" title="Thirty-three-year-old Tonya Thomas fatally shot her four children, who ranged in age from 12 to 17, said Lt. Tod Goodyear, a spokesman for the Brevard County Sheriff's Office. (May 15)" width="135" height="102" alt="" />
+<span class="name">Fla. mom kills her 4 kids, shoots self</span>
+<span class="time-stamp hide">05/15/2012</span>
+<span class="short-desc hide">Thirty-three-year-old Tonya Thomas fatally shot her four children, who ranged in age from 12 to 17, said Lt. Tod Goodyear, a spokesman for the Brevard County Sheriff's Office. (May 15)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1640752009001_0515dv-fla-murder-suicide-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/disco-queen-donna-summer-dies-at-63/1644399959001" href="http://www.usatoday.com/video/disco-queen-donna-summer-dies-at-63/1644399959001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1644435280001_US-SUMMER-20120517E-400x300.jpg?pubId=29906170001" title="1970's hitmaker Donna Summer died Thursday in Floriada after a battle with cancer. The five-time Grammy winners is known for seventies megahits like 'On the Radio,' 'Last Dance,' and 'I Feel Love.'(May 17)" width="135" height="102" alt="" />
+<span class="name">Disco Queen Donna Summer dies at 63</span>
+<span class="time-stamp hide">05/17/2012</span>
+<span class="short-desc hide">1970's hitmaker Donna Summer died Thursday in Floriada after a battle with cancer. The five-time Grammy winners is known for seventies megahits like 'On the Radio,' 'Last Dance,' and 'I Feel Love.'(May 17)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1644435280001_US-SUMMER-20120517E-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/kate-upton-gets-her-own-trading-card/1621963600001" href="http://www.usatoday.com/video/kate-upton-gets-her-own-trading-card/1621963600001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/29/29070f95c2b8f3404bb4bab99692bc95/images/frame_0005.jpg" title="Supermodel Kate Upton will be getting her own trading card. It will be a part of the 2012 Allen and Ginter's World Champions set, which features Major League Baseball players, along with retired stars like Stan Musial and Willie Mayes. Celebrities li" width="135" height="102" alt="" />
+<span class="name">Kate Upton Gets Her Own Trading Card</span>
+<span class="time-stamp hide">05/04/2012</span>
+<span class="short-desc hide">Supermodel Kate Upton will be getting her own trading card. It will be a part of the 2012 Allen and Ginter's World Champions set, which features Major League Baseball players, along with retired stars like Stan Musial and Willie Mayes. Celebrities li</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/29/29070f95c2b8f3404bb4bab99692bc95/images/frame_0005.jpg</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/new-terminal-to-open-at-atlanta-airport/1640627205001" href="http://www.usatoday.com/video/new-terminal-to-open-at-atlanta-airport/1640627205001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1640955065001_ari-origin05-arc-151-1337123135631.jpg?pubId=29906170001" title="After four years, Atlanta's Hartsfield Jackson Airport is set to open a new international terminal.  Passengers will now be able to fly directly to 45 countries around the world." width="135" height="102" alt="" />
+<span class="name">New terminal to open at Atlanta airport</span>
+<span class="time-stamp hide">05/15/2012</span>
+<span class="short-desc hide">After four years, Atlanta's Hartsfield Jackson Airport is set to open a new international terminal.  Passengers will now be able to fly directly to 45 countries around the world.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1640955065001_ari-origin05-arc-151-1337123135631.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/best-bikini-bodies-of-2011/1344614237001" href="http://www.usatoday.com/video/best-bikini-bodies-of-2011/1344614237001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://dl2.vmixcore.com/431/488/1259/3e64d94d942b397a0d6bf42983f0f50a.jpg" title="Check out some of the best bikini bodies of the year." width="135" height="102" alt="" />
+<span class="name">Best Bikini Bodies of 2011</span>
+<span class="time-stamp hide">12/24/2011</span>
+<span class="short-desc hide">Check out some of the best bikini bodies of the year.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://dl2.vmixcore.com/431/488/1259/3e64d94d942b397a0d6bf42983f0f50a.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/expert-flesh-eating-bacteria-gets-no-respect/1640824779001" href="http://www.usatoday.com/video/expert-flesh-eating-bacteria-gets-no-respect/1640824779001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1640813954001_vs-1640763367001.jpg?pubId=44692046001" title="Flesh eating bacteria expert Dr. Amy J. Horneman discusses flesh eating bacteria, including the strain that is effecting Aimee Copeland." width="135" height="102" alt="" />
+<span class="name">Expert: Flesh eating bacteria gets no respect</span>
+<span class="time-stamp hide">05/15/2012</span>
+<span class="short-desc hide">Flesh eating bacteria expert Dr. Amy J. Horneman discusses flesh eating bacteria, including the strain that is effecting Aimee Copeland.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1640813954001_vs-1640763367001.jpg?pubId=44692046001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/bernie-fines-wife-to-sue-espn/1642640505001" href="http://www.usatoday.com/video/bernie-fines-wife-to-sue-espn/1642640505001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1642656730001_0516dv-syracuse-lawsuit-400x300.jpg?pubId=29906170001" title="Laurie Fine, the wife of fired Syracuse University assistant basketball coach Bernie Fine, claims ESPN trampled her reputation by broadcasting salacious and false stories about molestation claims against her husband. (May 16)" width="135" height="102" alt="" />
+<span class="name">Bernie Fine's wife to sue ESPN</span>
+<span class="time-stamp hide">05/16/2012</span>
+<span class="short-desc hide">Laurie Fine, the wife of fired Syracuse University assistant basketball coach Bernie Fine, claims ESPN trampled her reputation by broadcasting salacious and false stories about molestation claims against her husband. (May 16)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1642656730001_0516dv-syracuse-lawsuit-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/judge-denies-gag-order-request-in-zimmerman-case/1600567758001" href="http://www.usatoday.com/video/judge-denies-gag-order-request-in-zimmerman-case/1600567758001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1600988955001_0427dv-zimmerman-hearing-400x300.jpg?pubId=29906170001" title="A judge has refused the prosecution's request and will not issue a gag order on those involved in the George Zimmerman murder trial. (April 27)" width="135" height="102" alt="" />
+<span class="name">Judge denies gag order request in Zimmerman case</span>
+<span class="time-stamp hide">04/27/2012</span>
+<span class="short-desc hide">A judge has refused the prosecution's request and will not issue a gag order on those involved in the George Zimmerman murder trial. (April 27)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1600988955001_0427dv-zimmerman-hearing-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/woman-apparently-kills-her-4-children-then-herself/1641160459001" href="http://www.usatoday.com/video/woman-apparently-kills-her-4-children-then-herself/1641160459001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://bcdownload.gannett.edgesuite.net/brevard/38321750001/38321750001_1641085477001_051512PSJMurders3.jpg?pubId=38321750001" title="A woman apparently shot and killed her four children, then turned the gun on herself in Port St. John on Tuesday morning. By Tim Shortt, JD Gallop, Craig Bailey and Tim Walters" width="135" height="102" alt="" />
+<span class="name">Woman apparently kills her 4 children, then herself</span>
+<span class="time-stamp hide">05/16/2012</span>
+<span class="short-desc hide">A woman apparently shot and killed her four children, then turned the gun on herself in Port St. John on Tuesday morning. By Tim Shortt, JD Gallop, Craig Bailey and Tim Walters</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/brevard/38321750001/38321750001_1641085477001_051512PSJMurders3.jpg?pubId=38321750001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/new-mom-of-twins-a-victim-of-flesheating-bacteria/1644290743001" href="http://www.usatoday.com/video/new-mom-of-twins-a-victim-of-flesheating-bacteria/1644290743001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1644286528001_vs-1644277400001.jpg?pubId=44692046001" title="Lana Kuykendall of South Carolina gave birth to twins days ago and is the latest victim of a flesh-eating bacteria." width="135" height="102" alt="" />
+<span class="name">New mom of twins a victim of flesh-eating bacteria</span>
+<span class="time-stamp hide">05/17/2012</span>
+<span class="short-desc hide">Lana Kuykendall of South Carolina gave birth to twins days ago and is the latest victim of a flesh-eating bacteria.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1644286528001_vs-1644277400001.jpg?pubId=44692046001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/beach-volleyball-players-opt-for-bikinis/1555385077001" href="http://www.usatoday.com/video/beach-volleyball-players-opt-for-bikinis/1555385077001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1555297669001_ari-origin07-arc-153-1334072299309.jpg?pubId=44692046001" title="Top players say they won't be switching from bikinis to the more modest uniforms approved recently by the International Volleyball Federation." width="135" height="102" alt="" />
+<span class="name">Beach volleyball players opt for bikinis</span>
+<span class="time-stamp hide">04/10/2012</span>
+<span class="short-desc hide">Top players say they won't be switching from bikinis to the more modest uniforms approved recently by the International Volleyball Federation.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1555297669001_ari-origin07-arc-153-1334072299309.jpg?pubId=44692046001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/mystery-object-nearly-causes-midair-collision/1642840234001" href="http://www.usatoday.com/video/mystery-object-nearly-causes-midair-collision/1642840234001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1642828742001_vs-1642809106001.jpg?pubId=44692046001" title="DENVER - The Federal Aviation Administration is investigating a mystery in the sky. A mysterious object flying over Denver nearly caused a mid-air collision Monday evening, 9Wants to Know has learned." width="135" height="102" alt="" />
+<span class="name">Mystery object nearly causes mid-air collision</span>
+<span class="time-stamp hide">05/16/2012</span>
+<span class="short-desc hide">DENVER - The Federal Aviation Administration is investigating a mystery in the sky. A mysterious object flying over Denver nearly caused a mid-air collision Monday evening, 9Wants to Know has learned.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1642828742001_vs-1642809106001.jpg?pubId=44692046001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/lips-read-for-woman-with-flesheating-disease/1638474177001" href="http://www.usatoday.com/video/lips-read-for-woman-with-flesheating-disease/1638474177001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1638549986001_0514dv-ga-flesh-eating-400x300.jpg?pubId=29906170001" title="The parents of a young Georgia woman battling a flesh-eating bacterial infection say they've learned to read lips and are now able to communicate with their daughter. (May 14)" width="135" height="102" alt="" />
+<span class="name">Lips read for woman with flesh-eating disease</span>
+<span class="time-stamp hide">05/14/2012</span>
+<span class="short-desc hide">The parents of a young Georgia woman battling a flesh-eating bacterial infection say they've learned to read lips and are now able to communicate with their daughter. (May 14)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1638549986001_0514dv-ga-flesh-eating-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/celebritys-raciest-twitter-pictures/1478511633001" href="http://www.usatoday.com/video/celebritys-raciest-twitter-pictures/1478511633001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/92/92137bb3898df1f5a7214216da10d4b4/images/frame_0006.jpg" title="After Kim Kardashian posted another revealing snap of herself on Twitter yesterday, we check out some of the raciest pictures posted by celebrities on the social networking website." width="135" height="102" alt="" />
+<span class="name">Celebrity's Raciest Twitter Pictures</span>
+<span class="time-stamp hide">03/31/2012</span>
+<span class="short-desc hide">After Kim Kardashian posted another revealing snap of herself on Twitter yesterday, we check out some of the raciest pictures posted by celebrities on the social networking website.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/92/92137bb3898df1f5a7214216da10d4b4/images/frame_0006.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/nato-in-chicago-pizza-protesters--politics/1643164962001" href="http://www.usatoday.com/video/nato-in-chicago-pizza-protesters--politics/1643164962001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1643150261001_0516dv-nato-preps-400x300.jpg?pubId=29906170001" title="Chicago is preparing for an all out international extravaganza this weekend.  Delegations from 28 NATO member countries are gathering for an international summit, and President Obama's hometown is ready to play host. (May 16)" width="135" height="102" alt="" />
+<span class="name">NATO in Chicago: Pizza, protesters &#38; politics</span>
+<span class="time-stamp hide">05/17/2012</span>
+<span class="short-desc hide">Chicago is preparing for an all out international extravaganza this weekend.  Delegations from 28 NATO member countries are gathering for an international summit, and President Obama's hometown is ready to play host. (May 16)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1643150261001_0516dv-nato-preps-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/tv-preview-house-series-finale/1648699625001" href="http://www.usatoday.com/video/tv-preview-house-series-finale/1648699625001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1648735852001_vs-1648725262001.jpg?pubId=29906170001" title="'House' proves just how much he hasn't grown over the last eight seasons in this clip from the series finale, airing Monday,  May 21 at 9 ET/PT on Fox." width="135" height="102" alt="" />
+<span class="name">TV preview: 'House' series finale</span>
+<span class="time-stamp hide">05/21/2012</span>
+<span class="short-desc hide">'House' proves just how much he hasn't grown over the last eight seasons in this clip from the series finale, airing Monday,  May 21 at 9 ET/PT on Fox.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1648735852001_vs-1648725262001.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/doomsday-delayed-new-maya-calendar-unearthed/1632727084001" href="http://www.usatoday.com/video/doomsday-delayed-new-maya-calendar-unearthed/1632727084001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1632744368001_0510dv-maya-calendar-400x300.jpg?pubId=29906170001" title="An archaeologist with help from the National Geographic Society discovers a never-before-seen Maya calendar in Guatemala that may dispel the myth predicting end times in 2012. (May 10)" width="135" height="102" alt="" />
+<span class="name">Doomsday delayed? New Maya calendar unearthed</span>
+<span class="time-stamp hide">05/10/2012</span>
+<span class="short-desc hide">An archaeologist with help from the National Geographic Society discovers a never-before-seen Maya calendar in Guatemala that may dispel the myth predicting end times in 2012. (May 10)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1632744368001_0510dv-maya-calendar-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/woman-with-flesheating-disease-remains-critical/1634311190001" href="http://www.usatoday.com/video/woman-with-flesheating-disease-remains-critical/1634311190001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1634390730001_0511dv-ga-flesh-bacteria-400x300.jpg?pubId=29906170001" title="Doctors say a young woman fighting a flesh-decaying bacteria she contracted after a zip line accident remains in critical condition. (May11)" width="135" height="102" alt="" />
+<span class="name">Woman with flesh-eating disease remains critical</span>
+<span class="time-stamp hide">05/11/2012</span>
+<span class="short-desc hide">Doctors say a young woman fighting a flesh-decaying bacteria she contracted after a zip line accident remains in critical condition. (May11)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1634390730001_0511dv-ga-flesh-bacteria-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+
+</div><!-- close .tabsContent -->
+</div><!-- close #mostPopular -->
+<div id="mostRecent" class="tabsContent hide">
+<div class="pagination"> <span class="countWrap"></span> | 
+<a class="next">Next »</a>
+</div>       
+<div class="gel-content">
+<ul class="gel-pane">
+
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/joplin-remembers-deadly-tornado-1-year-later/1651396034001" href="http://www.usatoday.com/video/joplin-remembers-deadly-tornado-1-year-later/1651396034001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651484416001_0522dv-joplin-anniversary-400x300.jpg?pubId=29906170001" title="Thousands of people participated in a somber march through some of Joplin, Missouri's hardest-hit neighborhoods, one year after a devastating tornado struck the community, killing a total of 161 people.  (May 23)" width="135" height="102" alt="" />
+<span class="name">Joplin remembers deadly tornado, 1 year later</span>
+<span class="time-stamp hide">05/23/2012</span>
+<span class="short-desc hide">Thousands of people participated in a somber march through some of Joplin, Missouri's hardest-hit neighborhoods, one year after a devastating tornado struck the community, killing a total of 161 people.  (May 23)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651484416001_0522dv-joplin-anniversary-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/panel-recommends-against-routine-prostate-test/1651406852001" href="http://www.usatoday.com/video/panel-recommends-against-routine-prostate-test/1651406852001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651484914001_0522dv-prostate-testing-400x300.jpg?pubId=29906170001" title="Healthy men shouldn't get routine prostate cancer screenings, says updated advice from a government panel that found the PSA blood tests do more harm than good.  (May 22)" width="135" height="102" alt="" />
+<span class="name">Panel recommends against routine prostate test</span>
+<span class="time-stamp hide">05/23/2012</span>
+<span class="short-desc hide">Healthy men shouldn't get routine prostate cancer screenings, says updated advice from a government panel that found the PSA blood tests do more harm than good.  (May 22)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651484914001_0522dv-prostate-testing-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/remains-of-veterans-found-in-basement-are-buried/1651259642001" href="http://www.usatoday.com/video/remains-of-veterans-found-in-basement-are-buried/1651259642001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651340408001_0522dv-oh-military-remains-400x300.jpg?pubId=29906170001" title="Veterans and civilians stood side by side to honor 10 Ohio veterans whose remains were buried Tuesday with full military honors, several months after they were found in a funeral home basement. (May 22)" width="135" height="102" alt="" />
+<span class="name">Remains of veterans found in basement are buried</span>
+<span class="time-stamp hide">05/23/2012</span>
+<span class="short-desc hide">Veterans and civilians stood side by side to honor 10 Ohio veterans whose remains were buried Tuesday with full military honors, several months after they were found in a funeral home basement. (May 22)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651340408001_0522dv-oh-military-remains-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/fired-lingerie-employee-claims-discrimination/1651255216001" href="http://www.usatoday.com/video/fired-lingerie-employee-claims-discrimination/1651255216001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651308216001_0522dv-lingerie-firing-400x300.jpg?pubId=29906170001" title="A woman who was fired from her job at a NY lingerie business says she was fired because her employer complained her work attire was too risque.   She has filed a workplace discrimination complaint. (May 22)" width="135" height="102" alt="" />
+<span class="name">Fired lingerie employee claims discrimination</span>
+<span class="time-stamp hide">05/23/2012</span>
+<span class="short-desc hide">A woman who was fired from her job at a NY lingerie business says she was fired because her employer complained her work attire was too risque.   She has filed a workplace discrimination complaint. (May 22)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651308216001_0522dv-lingerie-firing-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/joplin-marches-to-remember-tornado-victims/1651322940001" href="http://www.usatoday.com/video/joplin-marches-to-remember-tornado-victims/1651322940001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651318920001_0522dv-joplin-silence-400x300.jpg?pubId=29906170001" title="Carrying small American flags and wearing T-shirts bearing the names of loved ones who died when a massive tornado tore through Joplin one year ago, thousands of people marched Tuesday through some of the town's hardest-hit neighborhoods. (May 22)" width="135" height="102" alt="" />
+<span class="name">Joplin marches to 'remember' tornado victims</span>
+<span class="time-stamp hide">05/23/2012</span>
+<span class="short-desc hide">Carrying small American flags and wearing T-shirts bearing the names of loved ones who died when a massive tornado tore through Joplin one year ago, thousands of people marched Tuesday through some of the town's hardest-hit neighborhoods. (May 22)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651318920001_0522dv-joplin-silence-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/us-airways-flight-diverts-to-maine-on-security-issue/1651237664001" href="http://www.usatoday.com/video/us-airways-flight-diverts-to-maine-on-security-issue/1651237664001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1651221134001_ari-origin07-arc-145-1337725581000.jpg?pubId=44692046001" title="A US Airways flight was diverted to Bangor, Maine for a security issue. Initial reports said a female passenger appeared to be mentally unstable. The woman was taken into custody and the flight was cleared to continue." width="135" height="102" alt="" />
+<span class="name">US Airways flight diverts to Maine on 'security issue'</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">A US Airways flight was diverted to Bangor, Maine for a security issue. Initial reports said a female passenger appeared to be mentally unstable. The woman was taken into custody and the flight was cleared to continue.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://bcdownload.gannett.edgesuite.net/contentone/44692046001/44692046001_1651221134001_ari-origin07-arc-145-1337725581000.jpg?pubId=44692046001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/national-weather-forecast-for-wednesday-may-23/1651206205001" href="http://www.usatoday.com/video/national-weather-forecast-for-wednesday-may-23/1651206205001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651230768001_vs-1651227794001.jpg?pubId=29906170001" title="Still unsettled in the East: Showers, thunderstorms Charleston to Boston; Showers, thunderstorms in South Florida; Showers, snow showers in the northern Rockies; Showers, thunderstorms in the Plains" width="135" height="102" alt="" />
+<span class="name">National weather forecast for Wednesday May 23</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Still unsettled in the East: Showers, thunderstorms Charleston to Boston; Showers, thunderstorms in South Florida; Showers, snow showers in the northern Rockies; Showers, thunderstorms in the Plains</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651230768001_vs-1651227794001.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/facebook-shares-continue-negative-slide/1651135034001" href="http://www.usatoday.com/video/facebook-shares-continue-negative-slide/1651135034001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651182789001_0522dv-Facebook-trades-400x300.jpg?pubId=29906170001" title="The selloff of Facebook continues. Investors pushed shares down an additional 8.9 percent Tuesday, they closed at thirty-one dollars a share. (May 22)" width="135" height="102" alt="" />
+<span class="name">Facebook shares continue negative slide</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">The selloff of Facebook continues. Investors pushed shares down an additional 8.9 percent Tuesday, they closed at thirty-one dollars a share. (May 22)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651182789001_0522dv-Facebook-trades-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/untamed-americas-wildlife-series-trailer/1651132938001" href="http://www.usatoday.com/video/untamed-americas-wildlife-series-trailer/1651132938001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651203809001_vs-1651192270001.jpg?pubId=29906170001" title="Get a sneak peak at Nat Geo's Untamed Americas wildlife series at usatoday.com." width="135" height="102" alt="" />
+<span class="name">Untamed Americas Wildlife Series Trailer</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Get a sneak peak at Nat Geo's Untamed Americas wildlife series at usatoday.com.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651203809001_vs-1651192270001.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/8-hurt-in-oklahoma-city-shooting-after-nba-game/1651054138001" href="http://www.usatoday.com/video/8-hurt-in-oklahoma-city-shooting-after-nba-game/1651054138001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651065162001_0522dv-okc-shooting-400x300.jpg?pubId=29906170001" title="Authorities say eight people are hurt after shots rang out in Oklahoma City as thousands of people left the NBA playoff game between the Thunder and the Los Angeles Lakers. (May 22)" width="135" height="102" alt="" />
+<span class="name">8 hurt in Oklahoma City shooting after NBA game</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Authorities say eight people are hurt after shots rang out in Oklahoma City as thousands of people left the NBA playoff game between the Thunder and the Los Angeles Lakers. (May 22)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651065162001_0522dv-okc-shooting-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/cuba-waiting-for-cyber-age-to-come/1650971214001" href="http://www.usatoday.com/video/cuba-waiting-for-cyber-age-to-come/1650971214001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651050981001_0522dv-cuba-internet-400x300.jpg?pubId=29906170001" title="Cuba, si. High-speed Internet access on the island? Internet service in Cuba remains the slowest in the Western Hemisphere. (May 22)" width="135" height="102" alt="" />
+<span class="name">Cuba waiting for cyber age to come</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Cuba, si. High-speed Internet access on the island? Internet service in Cuba remains the slowest in the Western Hemisphere. (May 22)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651050981001_0522dv-cuba-internet-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/jason-mraz-and-his-dark-side/1651032684001" href="http://www.usatoday.com/video/jason-mraz-and-his-dark-side/1651032684001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://videos.usatoday.net/29906170001/29906170001_1651050861001_CE-MRAZ-20120522E-400x300.jpg?pubId=29906170001" title="Don't let Jason Mraz's optimistic demeanor fool you: He can be dark, and he's got songs to prove it. You just may never hear them. (May 22)" width="135" height="102" alt="" />
+<span class="name">Jason Mraz and his dark side</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Don't let Jason Mraz's optimistic demeanor fool you: He can be dark, and he's got songs to prove it. You just may never hear them. (May 22)</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://videos.usatoday.net/29906170001/29906170001_1651050861001_CE-MRAZ-20120522E-400x300.jpg?pubId=29906170001</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/rare-beatles-photo-to-be-auctioned/1648983246001" href="http://www.usatoday.com/video/rare-beatles-photo-to-be-auctioned/1648983246001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/ae/ae88fa65ed32e8a5fea89c43a9ba6bae/images/frame_0009.jpg" title="A photograph that features the Beatles walking the wrong way across Abbey Road hits the auction block." width="135" height="102" alt="" />
+<span class="name">Rare Beatles Photo to Be Auctioned</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">A photograph that features the Beatles walking the wrong way across Abbey Road hits the auction block.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/ae/ae88fa65ed32e8a5fea89c43a9ba6bae/images/frame_0009.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/hugo-boss-asian-ambition/1648984819001" href="http://www.usatoday.com/video/hugo-boss-asian-ambition/1648984819001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/1c/1c65edf6f7e770f139e7258e55fa8bc6/images/frame_0001.jpg" title="German high-end fashion label Hugo Boss introduces its Fall 2012 product line to China, as the brand cooks up plans to make the country one of its biggest markets in the world." width="135" height="102" alt="" />
+<span class="name">Hugo Boss' Asian Ambition</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">German high-end fashion label Hugo Boss introduces its Fall 2012 product line to China, as the brand cooks up plans to make the country one of its biggest markets in the world.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/1c/1c65edf6f7e770f139e7258e55fa8bc6/images/frame_0001.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/new-york-city-jails-to-ban-junk-food/1648961745001" href="http://www.usatoday.com/video/new-york-city-jails-to-ban-junk-food/1648961745001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/18/1845bcf7dd6117bf6f2f1c05689f029b/images/frame_0002.jpg" title="New York Mayor Michael Bloomberg is trying to get New Yorkers eating healthier for some time now. That may soon include people behind bars. A proposed ban on junk food in New York City jails could do just that." width="135" height="102" alt="" />
+<span class="name">New York City Jails to Ban Junk Food?</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">New York Mayor Michael Bloomberg is trying to get New Yorkers eating healthier for some time now. That may soon include people behind bars. A proposed ban on junk food in New York City jails could do just that.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/18/1845bcf7dd6117bf6f2f1c05689f029b/images/frame_0002.jpg</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/shepherd-smith-on-gay-marriage-gingrich-and-romney/1649024740001" href="http://www.usatoday.com/video/shepherd-smith-on-gay-marriage-gingrich-and-romney/1649024740001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/95/958dd47b8e39be84db50dfab01692d39/images/frame_0006.jpg" title="Fox News anchor Shepard Smith has never fit the right-wing mold at the cable news network but lately he's been really testing the party-line limits. Asking if Republicans were ready to join the 'right side of history' on gay marriage, suggesting it w" width="135" height="102" alt="" />
+<span class="name">Shepherd Smith on Gay Marriage, Gingrich and Romney</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Fox News anchor Shepard Smith has never fit the right-wing mold at the cable news network but lately he's been really testing the party-line limits. Asking if Republicans were ready to join the 'right side of history' on gay marriage, suggesting it w</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/95/958dd47b8e39be84db50dfab01692d39/images/frame_0006.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/my-first-job-omar-epps/1649025496001" href="http://www.usatoday.com/video/my-first-job-omar-epps/1649025496001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/b5/b5a631cd86b9b94b3a374d32e75f5800/images/frame_0002.jpg" title="Actor Omar Epps talks about his first job, the lessons he learned and how they still apply to his work today." width="135" height="102" alt="" />
+<span class="name">My First Job: Omar Epps</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Actor Omar Epps talks about his first job, the lessons he learned and how they still apply to his work today.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/b5/b5a631cd86b9b94b3a374d32e75f5800/images/frame_0002.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/my-first-job-white-house-executive-chef-cris-comerford/1649024691001" href="http://www.usatoday.com/video/my-first-job-white-house-executive-chef-cris-comerford/1649024691001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/f6/f64564cf392eb638d2bfb928e95c72a7/images/frame_0003.jpg" title="White House Executive Chef Cris Comerford, talks about her first job, the lessons she learned and how they still apply to her work today." width="135" height="102" alt="" />
+<span class="name">My First Job: White House Executive Chef Cris Comerford</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">White House Executive Chef Cris Comerford, talks about her first job, the lessons she learned and how they still apply to her work today.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/f6/f64564cf392eb638d2bfb928e95c72a7/images/frame_0003.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/my-first-job-jon-carson/1649015984001" href="http://www.usatoday.com/video/my-first-job-jon-carson/1649015984001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/18/18ed7d44ac978871863a2feecb437573/images/frame_0004.jpg" title="Jon Carson, the Director of the Office of Public Engagement at the White House, talks about his first job, the lessons he learned, and how they still apply to his work today." width="135" height="102" alt="" />
+<span class="name">My First Job: Jon Carson</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Jon Carson, the Director of the Office of Public Engagement at the White House, talks about his first job, the lessons he learned, and how they still apply to his work today.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/18/18ed7d44ac978871863a2feecb437573/images/frame_0004.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/band-scalps-own-tickets-to-save-fans-ticketmaster-fees/1649014444001" href="http://www.usatoday.com/video/band-scalps-own-tickets-to-save-fans-ticketmaster-fees/1649014444001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/96/9611455dee48903c30f24cbc00b9beeb/images/frame_0002.jpg" title="The String Cheese Incident is sticking it to TicketMaster and its service fees. The jam band bought $20,000 of its own tickets from TicketMaster for its summer tour and then resold them to fans without any fees. Priya Desai takes a look at the winner" width="135" height="102" alt="" />
+<span class="name">Band Scalps Own Tickets to Save Fans TicketMaster Fees</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">The String Cheese Incident is sticking it to TicketMaster and its service fees. The jam band bought $20,000 of its own tickets from TicketMaster for its summer tour and then resold them to fans without any fees. Priya Desai takes a look at the winner</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/96/9611455dee48903c30f24cbc00b9beeb/images/frame_0002.jpg</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/demi-moore-signs-on-for-first-movie-role-since-rehab/1649175451001" href="http://www.usatoday.com/video/demi-moore-signs-on-for-first-movie-role-since-rehab/1649175451001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/1f/1f1e8c62ce24355e266c66bf91dd980e/images/frame_0000.jpg" title="Fresh off a stint at rehab for an eating disorder and addiction issues, Demi Moore is due for a return to the silver screen." width="135" height="102" alt="" />
+<span class="name">Demi Moore Signs On For First Movie Role Since Rehab</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Fresh off a stint at rehab for an eating disorder and addiction issues, Demi Moore is due for a return to the silver screen.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/1f/1f1e8c62ce24355e266c66bf91dd980e/images/frame_0000.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/first-look-at-james-bond-skyfall/1649181345001" href="http://www.usatoday.com/video/first-look-at-james-bond-skyfall/1649181345001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/4c/4c4767db9e90799940eb4bee8147826b/images/frame_0003.jpg" title="Take a look at the first trailer and behind the scenes of the upcoming James Bond film, Skyfall." width="135" height="102" alt="" />
+<span class="name">First Look at James Bond 'Skyfall'</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Take a look at the first trailer and behind the scenes of the upcoming James Bond film, Skyfall.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/4c/4c4767db9e90799940eb4bee8147826b/images/frame_0003.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/cheryl-cole-says-forgive-chris-brown/1649177815001" href="http://www.usatoday.com/video/cheryl-cole-says-forgive-chris-brown/1649177815001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/76/76579d0765b7baf171dcc65a83bfd7d5/images/frame_0001.jpg" title="Cheryl Cole tells a radio show she thinks it's about time we all forgive Chris Brown for assaulting Rihanna in 2009." width="135" height="102" alt="" />
+<span class="name">Cheryl Cole Says 'Forgive Chris Brown'</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Cheryl Cole tells a radio show she thinks it's about time we all forgive Chris Brown for assaulting Rihanna in 2009.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/76/76579d0765b7baf171dcc65a83bfd7d5/images/frame_0001.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/katy-perry-and-musician-boyfriend-call-it-quits/1649176010001" href="http://www.usatoday.com/video/katy-perry-and-musician-boyfriend-call-it-quits/1649176010001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/50/5022af845ea25b8e7420cc60f2415ecd/images/frame_0000.jpg" title="Katy Perry is reportedly back on the market yet again." width="135" height="102" alt="" />
+<span class="name">Katy Perry and Musician Boyfriend Call it Quits</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Katy Perry is reportedly back on the market yet again.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/50/5022af845ea25b8e7420cc60f2415ecd/images/frame_0000.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/demi-moore-is-returning-to-the-big-screen/1649815442001" href="http://www.usatoday.com/video/demi-moore-is-returning-to-the-big-screen/1649815442001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/9a/9a14e096435323de16879604fc1c534e/images/frame_0003.jpg" title="Demi Moore has signed on to her first movie since splitting from Ashton Kutcher and returning from rehab." width="135" height="102" alt="" />
+<span class="name">Demi Moore is Returning to the Big Screen</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Demi Moore has signed on to her first movie since splitting from Ashton Kutcher and returning from rehab.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/9a/9a14e096435323de16879604fc1c534e/images/frame_0003.jpg</span>
+</a>
+</li>
+</ul>
+<ul class="gel-pane">
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/wall-st-rebounds-facebook-sinks/1649199553001" href="http://www.usatoday.com/video/wall-st-rebounds-facebook-sinks/1649199553001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/51/510b9bf39746b23186f0797e11b66de3/images/frame_0010.jpg" title="Summary of business headlines: Stocks climb after biggest weekly drop of 2012; Facebook closed below $38 IPO price; Lowe's cuts forecast on slow spring; Business economists expects job market to pick up next year." width="135" height="102" alt="" />
+<span class="name">Wall St. Rebounds, Facebook Sinks</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Summary of business headlines: Stocks climb after biggest weekly drop of 2012; Facebook closed below $38 IPO price; Lowe's cuts forecast on slow spring; Business economists expects job market to pick up next year.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/51/510b9bf39746b23186f0797e11b66de3/images/frame_0010.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/did-justin-bieber-and-selena-gomez-split/1650990203001" href="http://www.usatoday.com/video/did-justin-bieber-and-selena-gomez-split/1650990203001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/00/00b36c12c0c3d21acc234ee8c1e376c0/images/frame_0002.jpg" title="There's a rumor going around that Justin Bieber and Selena Gomez have gone their separate ways." width="135" height="102" alt="" />
+<span class="name">Did Justin Bieber and Selena Gomez Split?</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">There's a rumor going around that Justin Bieber and Selena Gomez have gone their separate ways.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/00/00b36c12c0c3d21acc234ee8c1e376c0/images/frame_0002.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/will-us-swing-states-go-for-first-gay-president/1651002673001" href="http://www.usatoday.com/video/will-us-swing-states-go-for-first-gay-president/1651002673001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/8b/8b04152f8378215a9f818626e316f041/images/frame_0011.jpg" title="Barack Obama's declaration in support of gay marriage has made him the nation's 'first gay president' in the eyes of US media. That's a winning title for the progressive crowd, but might not help in a battleground state like Colorado, where lawmakers" width="135" height="102" alt="" />
+<span class="name">Will US Swing States Go for 'First Gay President'?</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Barack Obama's declaration in support of gay marriage has made him the nation's 'first gay president' in the eyes of US media. That's a winning title for the progressive crowd, but might not help in a battleground state like Colorado, where lawmakers</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/8b/8b04152f8378215a9f818626e316f041/images/frame_0011.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/2013-kia-optima-hybrid-drive--review/1650991246001" href="http://www.usatoday.com/video/2013-kia-optima-hybrid-drive--review/1650991246001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/91/911fc8dfd1a4b338637fad668ca86abf/images/frame_0019.jpg" title="The 2013 KIA Optima Hybrid offers outstanding value and gets great gas mileage. Like most hybrids it has two power sources that put out a combined 206 HP to the front wheels through a standard 6 speed automatic transmission. About three years ago whe" width="135" height="102" alt="" />
+<span class="name">2013 KIA Optima Hybrid Drive &#38; Review</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">The 2013 KIA Optima Hybrid offers outstanding value and gets great gas mileage. Like most hybrids it has two power sources that put out a combined 206 HP to the front wheels through a standard 6 speed automatic transmission. About three years ago whe</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/91/911fc8dfd1a4b338637fad668ca86abf/images/frame_0019.jpg</span>
+</a>
+</li>
+<li class="thumb rounded-corners box-shadow">
+<a id="http://www.usatoday.com/video/brad-pitt-and-angelina-jolie-want-marriage-equality-for-all/1650995135001" href="http://www.usatoday.com/video/brad-pitt-and-angelina-jolie-want-marriage-equality-for-all/1650995135001" class="BF-thumb videoLink">
+<span class="play-button"></span>
+<img src="http://cdn.newslook.com/8d/8d4dd6c682c43bf95f788c147c45efbc/images/frame_0003.jpg" title="Brad Pitt and Angelina have not set a date for their wedding, and the actor says he still hopes for marriage equality before they tie the knot." width="135" height="102" alt="" />
+<span class="name">Brad Pitt and Angelina Jolie Want Marriage Equality for All</span>
+<span class="time-stamp hide">05/22/2012</span>
+<span class="short-desc hide">Brad Pitt and Angelina have not set a date for their wedding, and the actor says he still hopes for marriage equality before they tie the knot.</span>
+<span class="ssts hide">news</span>
+<span class="spoof hide">immersive</span>
+<span class="flvurl hide"></span>
+<span class="videostill hide">http://cdn.newslook.com/8d/8d4dd6c682c43bf95f788c147c45efbc/images/frame_0003.jpg</span>
+</a>
+</li>
+</ul>
+</div><!-- close .tabsContent -->
+</div><!-- close #mostRecent -->
+</div><!-- close #tabs -->
+</div><!-- close #BF-MID-well  -->  
+</div><!-- close .container -->
+<div id="ft">
+<div id="footer_wrapper">
+<div id="footerAd">
+<banner position="Bottom728x90" size="728x90"></banner>
+</div>
+<div class="border"></div>
+<ul class="footer_left"> 
+<li class="first"><a href="http://www.usatoday.com/" onClick="s_objectID='usat_footer_02|nav|1';">Home</a></li> 
+<li><a href="http://www.usatoday.com/news/index" onClick="s_objectID='usat_footer_02|nav|2';">News</a></li> 
+<li><a href="http://travel.usatoday.com/index" onClick="s_objectID='usat_footer_02|nav|3';">Travel</a></li> 
+<li><a href="http://www.usatoday.com/money/index" onClick="s_objectID='usat_footer_02|nav|4';">Money</a></li> 
+<li><a href="http://www.usatoday.com/sports/index" onClick="s_objectID='usat_footer_02|nav|5';">Sports</a></li> 
+<li><a href="http://www.usatoday.com/life/index" onClick="s_objectID='usat_footer_02|nav|6';">Life</a></li> 
+<li><a href="http://www.usatoday.com/tech/index" onClick="s_objectID='usat_footer_02|nav|7';">Tech</a></li> 
+<li><a href="http://www.usatoday.com/weather/index" onClick="s_objectID='usat_footer_02|nav|8';">Weather</a></li> 
+</ul> 
+<ul class="footer_right"> 
+<li class="first"><strong>Visit our Partners:</strong></li> 
+<li class="first"><a href="http://www.usaweekend.com/usatoday.html?POE=FOOTER" onClick="s_objectID='usat_footer_03|partners|1';">USA WEEKEND</a></li> 
+<li><a href="http://www.usatoday.com/marketing/media_kit/live/brand.html?POE=FOOTER" onClick="s_objectID='usat_footer_03|partners|2';">USA TODAY LIVE</a></li> 
+<li><a href="http://www.mysportsweekly.com/cs" onClick="s_objectID='usat_footer_03|partners|3';">Sports Weekly</a></li>
+<li><a href="http://www.usatoday.com/educate/homesplash.htm?POE=FOOTER" onClick="s_objectID='usat_footer_03|partners|5';">Education</a></li> 
+<li><a href="http://www.space.com/?POE=FOOTER" onClick="s_objectID='usat_footer_03|partners|6';">Space.com</a></li> 
+<li><a href="http://traveltips.usatoday.com" onClick="s_objectID='usat_footer_03|partners|7';">Travel Tips</a></li> 
+</ul> 
+<div class="clear"></div>
+<div id="footer_middle">
+<ul class="footer_center"> 
+<li class="first"><a href="http://www.usatoday.com/marketing/feedback.htm?POE=FOOTER" onClick="s_objectID='usat_footer_04|misc|1';">Contact us</a></li> 
+<li><a href="http://www.usatoday.com/marketing/media_kit/index.html" onClick="s_objectID='usat_footer_04|misc|2';">Advertise</a></li> 
+<li><a href="http://www.usatoday.com/marketing/media_kit/pressroom/press_releases_home.html" onClick="s_objectID='usat_footer_04|misc|3';">Pressroom</a></li> 
+<li><a href="http://www.usatoday.com/marketing/media_lounge/index.html" onClick="s_objectID='usat_footer_04|misc|4';">Media Lounge</a></li> 
+<li><a href="http://www.careerbuilder.com/csh/search.aspx?csh=cshUSAToday" onClick="s_objectID='usat_footer_04|misc|5';">Jobs</a></li> 
+<li><a href="http://www.usatoday.com/marketing/faq.htm" onClick="s_objectID='usat_footer_04|misc|6';">FAQ</a></li> 
+<li><a href="http://www.usatoday.com/marketing/questions.htm?POE=FOOTER#contentLicensingTop" onClick="s_objectID='usat_footer_04|misc|7';">Reprints/Permissions</a></li> 
+<li><a href="http://www.usatoday.com/marketing/privacy-policy.htm" onClick="s_objectID='usat_footer_04|misc|8';">Privacy Policy/Your California Privacy Rights</a></li> 
+<li><a href="http://www.usatoday.com/marketing/tos.htm" onClick="s_objectID='usat_footer_04|misc|9';">Terms of Service</a></li> 
+<li><a href="http://www.usatoday.com/howtofind-cat.htm" onClick="s_objectID='usat_footer_04|misc|10';">Site Index</a></li> 
+</ul> 
+</div>
+<div class="clear"></div>
+<div id="footer_bottom" class="footer_center">
+© 2011 USA TODAY, a division of <a href="http://www.gannett.com/" onclick="s_objectID='video_immersive|footer|gannett';">Gannett Co. Inc.</a>
+</div>
+</div>
+</div><!-- close #ft -->
+</div><!-- close #below_fold -->
+<!--<div class="clear"></div>-->
+
+
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/gel/lib/core/core.js"></script>
+<script type="text/javascript">
+var mjx_req = "www.usatoday.com/news/default.htm"; // bottom poster ad config
+
+var addthis_config = 
+{ 
+username: 'usatshare',
+data_track_clickback:false,
+services_expanded: 'digg,email,facebook,fark,gmail,googlebuzz,linkedin,mixx,posterous,reddit,stumbleupon,tumblr,twitter,buzz',
+services_compact: 'digg,email,facebook,fark,gmail,googlebuzz,linkedin,mixx,posterous,reddit,stumbleupon,tumblr,twitter,buzz'
+};
+var addthis_share = 
+{
+templates: {
+twitter: '{{title}} {{url}} via @USATODAY'
+},
+url_transforms : { 
+shorten: {
+twitter: 'bitly'
+}
+},
+shorteners : {
+bitly : {
+login: 'usatoday',
+apiKey: 'R_fa9e62b61f9dc04aa65ea7c615e5d4f0' 
+}
+}
+};
+</script>
+<script type="text/javascript" src="http://i.usatoday.net/video/_common/js/playerNav.js"></script>
+<script type="text/javascript" src="http://i.usatoday.net/video/_common/js/gel-directives.js"></script>
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/_omniture/omniturebase.js"></script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+<script type="text/javascript" src="http://cdn.taboolasyndication.com/libtrc/usatoday/rbox.js?link_target=brightcove&visible=false"></script>
+</body>
+</html>

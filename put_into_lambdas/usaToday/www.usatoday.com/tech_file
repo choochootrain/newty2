@@ -1,0 +1,871 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html>
+<!--layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<head>
+<title>Technology News: Breaking Stories, New Product Reviews, Science, Space - USATODAY.com</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" />
+<meta name="ROBOTS" content="NOODP, NOYDIR" />
+<META HTTP-EQUIV="REFRESH" CONTENT="900; URL=index?refresh=1" />
+<meta name="pubdate" content="2012-05-23" />
+<meta name="pubtime" content="02:07 AM" />
+<meta name="description" content="The latest and breaking technology industry news articles about information technology, computers, science, new technology, internet, radio technology, and manufacturing provided by USATODAY.com." />
+<meta name="keywords" content="technology news, tech news, breaking technology news, technology articles, latest tech" />
+<!--container source: name[techHeaderIncludes] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techHeaderIncludes] filePath[/tech/_common/templates/global/techHeaderIncludes.xml]-->
+<link rel="canonical" href="http://www.usatoday.com/tech/index" />
+<link rel="Shortcut Icon" type="image/x-icon" href="http://i.usatoday.net/_common/_images/favicon-tech.ico" />
+<link rel="stylesheet" type="text/css" href="http://i.usatoday.net/_common/_styles/_foundation/reset-fonts-grids-usat.css" />
+<link rel="stylesheet" type="text/css" href="http://i.usatoday.net/_fronts2010/_c/structure-v2.css?v=20110907" />
+<link rel="stylesheet" type="text/css" href="http://www.usatoday.com/tech/_common/styles/styles-tech.css" />
+<link rel="stylesheet" type="text/css" href="http://i.usatoday.net/_common/_styles/_ad/ads.css" />
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/usatv2.js"></script>
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/sniffer.js"></script>
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/_oas/google.js"></script>
+<script src="http://i.usatoday.net/_common/_scripts/jquery.autofill.js" type="text/javascript"></script>
+<script type="text/javascript">jQuery.noConflict();</script>
+<link rel="alternate" type="application/rss+xml" title="Tech Headlines" href="http://rssfeeds.usatoday.com/usatoday-TechTopStories" />
+<link rel="alternate" type="application/rss+xml" title="Most Viewed" href="http://rssfeeds.usatoday.com/Usatoday-MostViewedArticles" />
+<meta property="fb:admins" content="827697655" />
+<meta property="fb:page_id" content="13652355666" />
+<!--/template[techHeaderIncludes]-->
+</head>
+<body id="tech" class="homepage">
+<div class="skip">
+<a href="#maincontent" title="Skip navigation and go to main content area">Skip to Main Content</a>
+</div>
+<!-- End Skip Nav -->
+<div id="custom-doc" class="yui-t6">
+<div id="hd" class="home" role="banner">
+<!--<container name="techGlobalNav" processor="echo" template="techGlobalNav" />-->
+<!--container source: name[] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[~] filePath[/_common/_includes/_fronts2011/masthead-nav-global.ssi]-->
+<div class="usat_masthead">
+<h1>
+<a href="http://www.usatoday.com/">USA TODAY</a>
+</h1>
+<ul class="pre-nav">
+<li class="search">
+<form method="get" action="http://www.usatoday.com/search/results" id="searchForm">
+<input type="text" id="googleSearch" name="q" class="search-enter" />
+<input id="site-search-submit" name="submit" type="image" src="http://content.usatoday.com/sports/mma/_common/images/search-go.png" value="Search" />
+</form>
+</li>
+<li class="subscribe">
+<a href="http://www.usatodaysubscribe.com/usatsubscribe">Get Home Delivery</a>
+</li>
+<li class="mobile">
+<a href="http://www.usatoday.com/mobile/index.htm?POE=HEADER">Mobile</a>
+</li>
+</ul>
+<!-- /pre-nav -->
+<ul class="global-nav" role="navigation">
+<li class="nav-home">
+<a href="http://www.usatoday.com/">Home</a>
+</li>
+<li class="nav-news">
+<a href="http://www.usatoday.com/news/">News</a>
+</li>
+<li class="nav-travel">
+<a href="http://travel.usatoday.com/">Travel</a>
+</li>
+<li class="nav-money">
+<a href="http://www.usatoday.com/money/">Money</a>
+</li>
+<li class="nav-sports">
+<a href="http://www.usatoday.com/sports/">Sports</a>
+</li>
+<li class="nav-life">
+<a href="http://www.usatoday.com/life/">Life</a>
+</li>
+<li class="nav-yourlife">
+  <a href="http://yourlife.usatoday.com/index">Your Life</a>
+</li>
+<li class="nav-tech">
+<a href="http://www.usatoday.com/tech/">Tech</a>
+</li>
+<li class="nav-weather">
+<a href="http://www.usatoday.com/weather/">Weather</a>
+</li>
+</ul>
+<!-- /global-nav -->
+<div id="usat_headline">
+<banner position="Headline" size="300x64" />
+</div>
+<!-- /usat_headline -->
+</div>
+<!-- /usat_usat_masthead --><!--/template[~]-->
+<div id="usat_essentials_nav">
+<!--container source: name[techSSI] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[~] filePath[http://www.usatoday.com/_common/_includes/_inside2011/_nav/tech.ssi]-->
+<ul id="section-nav">
+<li class="sectionlabel"><a href="http://www.usatoday.com/tech/index">Tech:</a></li>
+<li class="navItem first-navItem"><a href="#">Blogs</a>
+<ul class="dropdown-nav">
+<li class="first"> <a href="http://content.usatoday.com/communities/technologylive/index"> Technology Live</a> </li>
+<li> <a href="http://content.usatoday.com/communities/gamehunters/index"> Game Hunters</a> </li>
+<li> <a href="http://content.usatoday.com/communities/sciencefair/index"> Science Fair </a> </li>
+</ul>
+</li>
+<span class="divider">|</span>
+<li class="navItem"><a href="http://www.usatoday.com/tech/products/index">Products</a>
+<ul class="dropdown-nav">
+<li class="first"> <a href="http://www.usatoday.com/tech/products/default.htm"> Products Home</a> </li>
+<li> <a href="http://www.usatoday.com/tech/columnist/edwardbaig/_archive-baig.htm"> Edward C. Baig</a> </li>
+<li> <a href="http://www.usatoday.com/tech/columnist/talkingtech/index"> Talking Tech</a> </li>
+<li> <a href="http://www.usatoday.com/tech/columnist/talkingyourtech/index"> Talking Your Tech</a> </li>
+<li> <a href="http://www.usatoday.com/tech/columnist/kimkomando/_archive-komando.htm"> Kim Komando</a> </li>
+<li><a href="http://usatoday.pgpartner.com/home_elec.php">Shop for Gadgets</a></li>
+</ul>
+</li>
+<span class="divider">|</span>
+<li class="navItem"><a href="http://www.usatoday.com/tech/gaming/index">Gaming</a>
+<ul class="dropdown-nav">
+<li class="first"> <a href="http://www.usatoday.com/tech/gaming/index"> Gaming Home</a> </li>
+<li> <a href="http://content.usatoday.com/communities/gamehunters/index"> Game Hunters</a> </li>
+<li> <a href="http://www.usatoday.com/tech/columnist/jinnygudmundsen/index"> Jinny Gudmundsen</a> </li>
+<li> <a href="http://www.usatoday.com/tech/columnist/marcsaltzman/index"> Marc Saltzman</a> </li>
+<li><a href="http://usatoday.pgpartner.com/home_games.php">Shop for Games</a></li>
+</ul>
+</li>
+<span class="divider">|</span>
+<li class="navItem"><a href="http://www.usatoday.com/tech/science/index">Science &amp; Space</a>
+<ul class="dropdown-nav">
+<li class="first"> <a href="http://www.usatoday.com/tech/science/index"> Science &amp; Space Home</a> </li>
+<li> <a href="http://content.usatoday.com/communities/sciencefair/index"> Science Fair </a> </li>
+<li> <a href="http://www.usatoday.com/tech/columnist/vergano/index"> Dan Vergano</a> </li>
+<li><a href="http://usatoday.pgpartner.com/home_elec.php">Shop for Gadgets</a></li>
+</ul>
+</li></ul><!--/template[~]-->
+<div id="usat_uas">
+<div id="USATRegister"></div>
+</div>
+</div>
+<div id="usat_launchpad">
+<banner position="Launchpad" size="980x66" />
+</div>
+<!-- end usat_launchpad container -->
+<div id="usat_breaking_news_01">
+<!--container source: name[techSSI] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[~] filePath[http://www.usatoday.com/_common/_includes/_inside2011/breaking-news.ssi]-->
+<!--bn container--><!--/template[~]-->
+</div>
+<!-- end usat_breaking-news_01 container -->
+<div id="campaign-promo-container" />
+<!-- end series ribbon page-spanning container -->
+</div>
+<!-- end hd container -->
+<div id="bd">
+<a id="maincontent"> </a>
+<!-- BEGIN CONTENT AREA -->
+<div id="yui-main">
+<div class="yui-b content">
+<div class="topnews" role="main"><!--container source: name[techLeftLede] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techLedeStoryTopHeadline] filePath[/tech/_common/templates/index/techLedeStoryTopHeadline.xml]-->
+<div class="lede-left">
+<h2>
+  <!--getCC('55141408.story')-->
+<a href="http://www.usatoday.com/tech/columnist/edwardbaig/story/2012-05-22/sidecar-phone-app/55141408/1">Sidecar aids smartphone multitasking</a>
+  
+  
+</h2>
+<div class="photo">
+
+<a href="http://www.usatoday.com/tech/columnist/edwardbaig/story/2012-05-22/sidecar-phone-app/55141408/1">
+<img src="http://i.usatoday.net/tech/_photos/2012/05/22/Sidecar-makes-multitasking-easy-on-smartphones-841HDDDP-x-large.jpg" alt="" width="305" height="229"/>
+</a>
+<div class="photo-caption">
+<div class="photo-caption-text" removeIfNoDataFor="imagecaption">Sidecar: App lets you share video and other stuff while on a smartphone call.</div>
+</div>
+<!-- end photo-caption-text -->
+
+</div>
+<!-- end photo -->
+<div class="photo-caption-toggle">
+<div class="caption">
+<a class="caption-toggle" id="caption-toggle" href="#">CAPTION</a>
+</div>
+<div class="photo-credit">Sidecar.me</div>
+</div>
+<!-- end photo-caption-toggle -->
+<div class="clear"></div>
+</div>
+<!--/template[techLedeStoryTopHeadline]-->
+<!--container source: name[techRightLede] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techTopStoriesStandard1] filePath[/tech/_common/templates/index/techTopStoriesStandard1.xml]-->
+<div class="lede-right stacked-heads">
+<ul>
+<li class="second-lede">
+<a href="http://www.usatoday.com/tech/news/story/2012-05-22/cellphone-wireless-wifi-hotspots/55142404/1" onclick="s_objectID='usat_life_front|top-stories|image|2'">
+<img src="http://i.usatoday.net/tech/_photos/2012/05/22/Wireless-carriers-seek-to-offload-customers-GG1HDCKD-x86.jpg" width="112" height="84" alt="" />
+</a>
+<!--getCC('55142404.story')-->
+<a href="http://www.usatoday.com/tech/news/story/2012-05-22/cellphone-wireless-wifi-hotspots/55142404/1" onclick="s_objectID='usat_life_front|top-stories|2'">Wireless carriers seek to "offload" customers</a>
+
+<p>Major carriers are looking to steer customers' wireless traffic to cheaper and more localized networks, such as Wi-Fi hotspots.</p>
+<div class="clear"></div>
+</li>
+<!-- end lede-right -->
+<!--/template[techTopStoriesStandard1]-->
+<!--container source: name[techRightLedeMore] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techTopStoriesStandard2] filePath[/tech/_common/templates/index/techTopStoriesStandard2.xml]-->
+<li><!--getCC('699896.blog')--><a href="http://content.usatoday.com/communities/technologylive/post/2012/05/google-turns-logo-into-playable-synthesizer/1" onclick="s_objectID='usat_life_front|top-stories|3'">Google turns logo into playable synthesizer</a></li>
+<li><!--getCC('55141734.story')--><a href="http://www.usatoday.com/tech/science/space/story/2012-05-22/spacex-private-space-station/55141734/1" onclick="s_objectID='usat_life_front|top-stories|4'">Many hopes riding on SpaceX rocket</a><a href="http://mediagallery.usatoday.com/SpaceX+rocket+blasts+off/G3908" title="PHOTOS:  SpaceX rocket blasts off" class="hed-icon photo-icon first"></a></li>
+<li><!--getCC('55143066.story')--><a href="http://www.usatoday.com/tech/news/story/2012-05-22/vizio-takes-on-apple-computers/55143066/1" onclick="s_objectID='usat_life_front|top-stories|5'">Vizio turns to computers, takes on Apple</a><a href="http://www.usatoday.com/money/perfi/columnist/krantz/story/2012-05-08/apple-stock-bubble/54839678/1" title="COLUMN:  Is Apple stock becoming a bubble?" class="hed-icon story-icon first"></a><a href="http://content.usatoday.com/communities/technologylive/post/2012/05/five-cable-giants-partner-on-wifi/1#.T7vildxYurk" title="STORY:  Five cable giants partner on Wi-Fi" class="hed-icon story-icon "></a></li>
+<li><!--getCC('55132600.story')--><a href="http://www.usatoday.com/tech/news/story/2012-05-22/google-motorola-mobility-deal/55132600/1" onclick="s_objectID='usat_life_front|top-stories|6'">Google closes on Motorola Mobility acquisition</a></li>
+<li><!--getCC('697836.blog')--><a href="http://mediagallery.usatoday.com/G3898" onclick="s_objectID='usat_life_front|top-stories|7'">Photos: 'Ring of fire' eclipse </a></li>
+</ul></div><!--/template[techTopStoriesStandard2]-->
+</div>
+<!-- end topnews -->
+<div class="clear"></div>
+<div class="yui-g">
+<div id="conveyor">
+<!--container source: name[techTopPicksButtons] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techTopPicksButtons] filePath[/tech/_common/templates/index/techTopPicksButtons.xml]-->
+<ul class="conveyor-buttons">
+<span style="display:none">true</span>
+<li class="left-button">
+<a title="Scroll left" class="prev"></a>
+</li>
+<li class="right-button">
+<a title="Scroll right" class="next"></a>
+</li>
+</ul>
+<!--/template[techTopPicksButtons]-->
+<div class="top-picks">
+<!--container source: name[techTopPicksHeading] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techTopPicksHeading] filePath[/tech/_common/templates/index/techTopPicksHeading.xml]-->
+<h2>Top Picks in Tech</h2>     
+<!--/template[techTopPicksHeading]-->
+<!--container source: name[techTopPicksNumber] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techTopPicksNumber] filePath[/tech/_common/templates/index/techTopPicksNumber.xml]-->
+<ul class="gel-nav">
+<li class="on" value="1">
+<span style="display:none">true1</span>
+<a>1</a>
+</li>
+<li class="" value="2">
+<span style="display:none">true2</span>
+<a>2</a>
+</li>
+</ul>
+<!--/template[techTopPicksNumber]-->
+</div>
+<div class="content-wrap">
+<div class="gel-content">
+<!--container source: name[techTopPicks] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techTopPicks] filePath[/tech/_common/templates/index/techTopPicks.xml]-->
+<div class="gel-pane">
+<ul>
+<li class="clip first">
+<h3 class="transcript-clip">STORY</h3><a href="http://content.usatoday.com/communities/sciencefair/post/2012/05/1052500-tyrannosaurus-sale-proceeds-despite-court-order/1" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|1';"> <img src="http://i.usatoday.net/communitymanager/_photos/science-fair/2012/05/18/baatarx86.jpg" alt="" width="115" height="86" border="0" class="story-thumb" /></a> <p class="story-thumb"><a href="http://content.usatoday.com/communities/sciencefair/post/2012/05/1052500-tyrannosaurus-sale-proceeds-despite-court-order/1" onclick="s_objectID='usat_leftContent_01|TopPicks|text|1';">Sold! $1,052,500 for Tyrannosaur and lawsuit</a> </p></li>
+<li class="clip">
+<h3 class="transcript-clip">STORY</h3><a href="http://content.usatoday.com/communities/technologylive/post/2012/05/facebook-acquires-shopping-app-karma/1" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|2';"> <img src="http://i.usatoday.net/communitymanager/_photos/technology-live/2012/05/18/karmasecondtryx86.jpg" alt="" width="115" height="86" border="0" class="story-thumb" /></a> <p class="story-thumb"><a href="http://content.usatoday.com/communities/technologylive/post/2012/05/facebook-acquires-shopping-app-karma/1" onclick="s_objectID='usat_leftContent_01|TopPicks|text|2';">Facebook acquires shopping app Karma</a> </p></li>
+<li class="clip">
+<h3 class="transcript-clip">STORY</h3><a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/aliens-colonial-marines-pushed-back-to-2013/1" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|3';"> <img src="http://i.usatoday.net/communitymanager/_photos/game-hunters/2012/05/21/acmx86.jpg" alt="" width="115" height="86" border="0" class="story-thumb" /></a> <p class="story-thumb"><a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/aliens-colonial-marines-pushed-back-to-2013/1" onclick="s_objectID='usat_leftContent_01|TopPicks|text|3';">'Aliens: Colonial Marines' pushed back to 2013</a> </p></li>
+<li class="clip">
+<h3 class="transcript-clip">STORY</h3><a href="http://www.usatoday.com/tech/products/story/2012-05-20/pegoraro-mac-system-fix/55064202/1" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|4';"> <img src="http://i.usatoday.net//tech/_photos/2012/05/20/An-old-school-fix-for-a-new-Mac-problem-291G9MSN-x86.jpg" alt="" width="115" height="86" border="0" class="story-thumb" /></a> <p class="story-thumb"><a href="http://www.usatoday.com/tech/products/story/2012-05-20/pegoraro-mac-system-fix/55064202/1" onclick="s_objectID='usat_leftContent_01|TopPicks|text|4';">An old-school fix for a new Mac problem</a> </p></li>
+<li class="clip">
+<h3 class="transcript-clip">STORY</h3><a href="http://www.usatoday.com/tech/products/story/2012-05-20/apple-mac-virus-protection/55064130/1" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|5';"> <img src="http://i.usatoday.net//tech/_photos/2012/05/20/13-tips-to-keep-your-Mac-secure-291GADQO-x86.jpg" alt="" width="115" height="86" border="0" class="story-thumb" /></a> <p class="story-thumb"><a href="http://www.usatoday.com/tech/products/story/2012-05-20/apple-mac-virus-protection/55064130/1" onclick="s_objectID='usat_leftContent_01|TopPicks|text|5';">13 tips to keep your Mac secure</a> </p></li>
+</ul>
+</div>
+<!--/template[techTopPicks]-->
+<!--container source: name[techTopPicks] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techTopPicks] filePath[/tech/_common/templates/index/techTopPicks.xml]-->
+<div class="gel-pane">
+<ul>
+<li class="clip first">
+<h3 class="transcript-clip">STORY</h3><a href="http://www.usatoday.com/tech/columnist/marcsaltzman/story/2012-05-20/walking-dead-video-game/55064194/1" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|6';"> <img src="http://i.usatoday.net//tech/_photos/2012/05/20/Walking-Dead-is-frightfully-fun-9A1FTA1S-x86.jpg" alt="" width="115" height="86" border="0" class="story-thumb" /></a> <p class="story-thumb"><a href="http://www.usatoday.com/tech/columnist/marcsaltzman/story/2012-05-20/walking-dead-video-game/55064194/1" onclick="s_objectID='usat_leftContent_01|TopPicks|text|6';">'Walking Dead' is frightfully fun</a> </p></li>
+<li class="clip">
+<h3 class="transcript-clip">STORY</h3><a href="http://www.usatoday.com/tech/news/facebook/ipo/index" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|7';"> <img src="http://i.usatoday.net/tech/_photos/2012/05/16/facebookpromox86.jpg" alt="" width="115" height="86" border="0" class="story-thumb" /></a> <p class="story-thumb"><a href="http://www.usatoday.com/tech/news/facebook/ipo/index" onclick="s_objectID='usat_leftContent_01|TopPicks|text|7';">Complete coverage of Facebook's IPO</a> </p></li>
+<li class="clip">
+<h3 class="photo-clip">PHOTO</h3><a href="http://mediagallery.usatoday.com/The+Facebook+story/G3867" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|8';"> <img src="http://i.usatoday.net/tech/_photos/2012/05/18/NasdaqCQx86.jpg" alt="" width="115" height="86" border="0" class="photo-thumb" /></a> <p class="photo-thumb"><a href="http://mediagallery.usatoday.com/The+Facebook+story/G3867" onclick="s_objectID='usat_leftContent_01|TopPicks|text|8';">Photos: The Facebook story</a> </p></li>
+<li class="clip">
+<h3 class="photo-clip">PHOTO</h3><a href="http://mediagallery.usatoday.com/This+week+in+space/G333?csp=ftsmpg" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|9';"> <img src="http://i.usatoday.net/tech/_photos/2012/05/18/spacepromox86.jpg" alt="" width="115" height="86" border="0" class="photo-thumb" /></a> <p class="photo-thumb"><a href="http://mediagallery.usatoday.com/This+week+in+space/G333?csp=ftsmpg" onclick="s_objectID='usat_leftContent_01|TopPicks|text|9';">Photos: This week in space</a> </p></li>
+<li class="clip">
+<h3 class="photo-clip">PHOTO</h3><a href="http://mediagallery.usatoday.com/Annular+solar+eclipse/G3898" onclick="s_objectID='usat_leftContent_01|TopPicks|photo|10';"> <img src="http://i.usatoday.net/tech/_photos/2012/05/20/2eclipsepromox86.jpg" alt="" width="115" height="86" border="0" class="photo-thumb" /></a> <p class="photo-thumb"><a href="http://mediagallery.usatoday.com/Annular+solar+eclipse/G3898" onclick="s_objectID='usat_leftContent_01|TopPicks|text|10';">Photos: Annular solar eclipse</a> </p></li>
+</ul>
+</div>
+<!--/template[techTopPicks]-->
+<!--container source: name[techTopPicks] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techTopPicks] filePath[/tech/_common/templates/index/techTopPicks.xml]-->
+<!--/template[techTopPicks]-->
+</div>
+</div>
+</div>
+</div>
+<!-- end yui-g -->
+<div class="main-news-well">
+<script type="text/javascript">
+jQuery(document).ready(function(){
+jQuery("#photoGalleries li:gt(9), #topicsInTech li:gt(9)").hide();
+});
+</script>
+<div class="left-rail">
+<div id="photoGalleries" class="lr-module">
+<h3>Photo Galleries</h3>
+<ul>
+<!--container source: name[techSSI] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[~] filePath[/_common/_includes/_galleries/_fronts/tech-mostpopular.ssi]-->
+<li><a href="http://mediagallery.usatoday.com/Annular+solar+eclipse/G3898?csp=ftsmpg" title="Annular solar eclipse" onclick="s_objectID='usat_front|MostPopular|popular-photos|1'">Annular solar eclipse</a></li><li><a href="http://mediagallery.usatoday.com/SpaceX+rocket+blasts+off/G3908?csp=ftsmpg" title="SpaceX rocket blasts off" onclick="s_objectID='usat_front|MostPopular|popular-photos|2'">SpaceX rocket blasts off</a></li><li><a href="http://mediagallery.usatoday.com/Shots+of+the+supermoon+from+around+the+world/G3825?csp=ftsmpg" title="Shots of the supermoon from around the world" onclick="s_objectID='usat_front|MostPopular|popular-photos|3'">Shots of the supermoon from around the world</a></li><li><a href="http://mediagallery.usatoday.com/Mayan+calendar+discovery/G3851?csp=ftsmpg" title="Mayan calendar discovery" onclick="s_objectID='usat_front|MostPopular|popular-photos|4'">Mayan calendar discovery</a></li><li><a href="http://mediagallery.usatoday.com/The+Facebook+story/G3867?csp=ftsmpg" title="The Facebook story" onclick="s_objectID='usat_front|MostPopular|popular-photos|5'">The Facebook story</a></li><li><a href="http://mediagallery.usatoday.com/Flexible+screen+displays/G3657?csp=ftsmpg" title="Flexible screen displays" onclick="s_objectID='usat_front|MostPopular|popular-photos|6'">Flexible screen displays</a></li><li><a href="http://mediagallery.usatoday.com/This+week+in+space/G333?csp=ftsmpg" title="This week in space" onclick="s_objectID='usat_front|MostPopular|popular-photos|7'">This week in space</a></li><li><a href="http://mediagallery.usatoday.com/Beautiful+Instagram+photos/G2874?csp=ftsmpg" title="Beautiful Instagram photos" onclick="s_objectID='usat_front|MostPopular|popular-photos|8'">Beautiful Instagram photos</a></li><li><a href="http://mediagallery.usatoday.com/The+Soyuz+TMA-04M+rocket+launch/G3873?csp=ftsmpg" title="The Soyuz TMA-04M rocket launch" onclick="s_objectID='usat_front|MostPopular|popular-photos|9'">The Soyuz TMA-04M rocket launch</a></li><li><a href="http://mediagallery.usatoday.com/%27Kinect+Star+Wars%27/G3638?csp=ftsmpg" title="'Kinect Star Wars'" onclick="s_objectID='usat_front|MostPopular|popular-photos|10'">'Kinect Star Wars'</a></li><li><a href="http://mediagallery.usatoday.com/Google+doodles+through+the+years/G2583?csp=ftsmpg" title="Google doodles through the years" onclick="s_objectID='usat_front|MostPopular|popular-photos|11'">Google doodles through the years</a></li><li><a href="http://mediagallery.usatoday.com/Apple's+next+iPad+goes+on+sale+around+the+world/G3543?csp=ftsmpg" title="Apple's next iPad goes on sale around the world" onclick="s_objectID='usat_front|MostPopular|popular-photos|12'">Apple's next iPad goes on sale around the world</a></li><li><a href="http://mediagallery.usatoday.com/Hubble+Space+Telescope?csp=ftsmpg" title="Hubble Space Telescope" onclick="s_objectID='usat_front|MostPopular|popular-photos|13'">Hubble Space Telescope</a></li><li><a href="http://mediagallery.usatoday.com/CEO+Forum-+Mark+Pincus,+founder+of+Zynga/G3737?csp=ftsmpg" title="CEO Forum: Mark Pincus, founder of Zynga" onclick="s_objectID='usat_front|MostPopular|popular-photos|14'">CEO Forum: Mark Pincus, founder of Zynga</a></li><li><a href="http://mediagallery.usatoday.com/International+Space+Station?csp=ftsmpg" title="International Space Station" onclick="s_objectID='usat_front|MostPopular|popular-photos|15'">International Space Station</a></li><li><a href="http://mediagallery.usatoday.com/Comedian+Jeff+Dunham+collects+cars+and+Apple+computers/G3448?csp=ftsmpg" title="Comedian Jeff Dunham collects cars and Apple computers" onclick="s_objectID='usat_front|MostPopular|popular-photos|16'">Comedian Jeff Dunham collects cars and Apple computers</a></li><li><a href="http://mediagallery.usatoday.com/Donald+Trump?csp=ftsmpg" title="Donald Trump" onclick="s_objectID='usat_front|MostPopular|popular-photos|17'">Donald Trump</a></li><li><a href="http://mediagallery.usatoday.com/Inside+Zynga/G3604?csp=ftsmpg" title="Inside Zynga" onclick="s_objectID='usat_front|MostPopular|popular-photos|18'">Inside Zynga</a></li><li><a href="http://mediagallery.usatoday.com/Call+of+Duty?csp=ftsmpg" title="Call of Duty" onclick="s_objectID='usat_front|MostPopular|popular-photos|19'">Call of Duty</a></li><li><a href="http://mediagallery.usatoday.com/Facebook?csp=ftsmpg" title="Facebook" onclick="s_objectID='usat_front|MostPopular|popular-photos|20'">Facebook</a></li><!--/template[~]-->
+</ul>
+</div>
+<!-- end lr-module -->
+<div id="topicsInTech" class="lr-module">
+<h3>Topics in Tech</h3>
+<!--container source: name[techSSI] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[~] filePath[/_common/_includes/_fronts2011/techfront.ssi]-->
+<ul id="topicsLinks"><li><a href="http://content.usatoday.com/topics/topic/sheryl+sandberg?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|1';">sheryl sandberg</a></li><li><a href="http://content.usatoday.com/topics/topic/Culture/Computers+and+Internet/Facebook?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|2';">Facebook</a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Companies/Manufacturing,+Construction/Elon+Musk?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|3';">Elon Musk</a></li><li><a href="http://content.usatoday.com/topics/topic/Natural+and+Physical+Sciences/Space+and+Astronomy/International+Space+Station?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|4';">International Space Station</a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Companies/Technology/Verizon+Wireless?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|5';">Verizon Wireless</a></li><li><a href="http://content.usatoday.com/topics/topic/People/Business,+Science+and+Technology+Figures/Mark+Zuckerberg?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|6';">Mark Zuckerberg</a></li><li><a href="http://content.usatoday.com/topics/topic/Google+Inc?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|7';">Google Inc</a></li><li><a href="http://content.usatoday.com/topics/topic/Culture/Computers+and+Internet/YouTube?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|8';">YouTube</a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Companies/Technology/Intel?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|9';">Intel</a></li><li><a href="http://content.usatoday.com/topics/topic/Natural+and+Physical+Sciences/Space+and+Astronomy/Neil+Armstrong?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|10';">Neil Armstrong</a></li><li><a href="http://content.usatoday.com/topics/topic/People/Business,+Science+and+Technology+Figures/Warren+Buffett?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|11';">Warren Buffett</a></li><li><a href="http://content.usatoday.com/topics/topic/Culture/Computers+and+Internet/Podcasts?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|12';">Podcasts</a></li><li><a href="http://content.usatoday.com/topics/topic/Natural+and+Physical+Sciences/Environment/Ecology?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|13';">Ecology</a></li><li><a href="http://content.usatoday.com/topics/topic/Culture/Computers+and+Internet/Amazon.com?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|14';">Amazon.com</a></li><li><a href="http://content.usatoday.com/topics/topic/mark+geragos?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|15';">mark geragos</a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Companies/Technology/Hardware/Plastic+Logic?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|16';">Plastic Logic</a></li><li><a href="http://content.usatoday.com/topics/topic/Organizations/Companies/Technology/Services/Forrester+Research?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|17';">Forrester Research</a></li><li><a href="http://content.usatoday.com/topics/topic/Culture/Video+Games/First+Person+Shooter/Call+of+Duty?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|18';">Call of Duty</a></li><li><a href="http://content.usatoday.com/topics/topic/People/Business,+Science+and+Technology+Figures/Andre+Balazs?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|19';">Andre Balazs</a></li><li><a href="http://content.usatoday.com/topics/topic/Stephen+Hawking?csp=ftsmpt" onclick="s_objectID='usat-front|LatestTopics|20';">Stephen Hawking</a></li></ul><!--/template[~]-->
+</div>
+<!-- end lr-module -->
+</div>
+<!-- end left-rail -->
+<div class="center-news-well">
+<div class="center-module">
+<h2>More top stories in Tech</h2>
+<!--container source: name[techMoreStories] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techMoreStories] filePath[/tech/_common/templates/index/techMoreStories.xml]-->
+<ul class="top-section-stories">
+<li class="top-section-stories-block">
+<a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/second-map-pack-for-modern-warfare-3-deploys/1" onclick="s_objectID='usat_tech_front|more-stories|image|1'">
+<img src="http://i.usatoday.net/communitymanager/_photos/game-hunters/2012/05/22/mw3x86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/gamehunters/index">GAME HUNTERS: </a><!--getCC('699405.blog')--><a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/second-map-pack-for-modern-warfare-3-deploys/1" onclick="s_objectID='usat_tech_front|more-stories|1'">Second map pack for 'Modern Warfare 3' deploys</a></h4>
+<p><p>Second wave of content for first-person shooter available now for Xbox 360.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block">
+<a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/video-lego-batman-sequel-opens-up/1" onclick="s_objectID='usat_tech_front|more-stories|image|2'">
+<img src="http://i.usatoday.net/communitymanager/_photos/game-hunters/2012/05/22/lego-batman2x86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/gamehunters/index">GAME HUNTERS: </a><!--getCC('699310.blog')--><a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/video-lego-batman-sequel-opens-up/1" onclick="s_objectID='usat_tech_front|more-stories|2'">Video: 'Lego Batman' sequel opens up</a></h4>
+<p><p>New trailer features several heroes, including Wonder Woman, Green Lantern and The Flash.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block">
+<a href="http://content.usatoday.com/communities/technologylive/post/2012/05/inventor-of-the-tv-remote-control-dies-at-96/1" onclick="s_objectID='usat_tech_front|more-stories|image|3'">
+<img src="http://i.usatoday.net/communitymanager/_photos/technology-live/2012/05/22/flash-maticx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/technologylive/index">TECHNOLOGY LIVE: </a><!--getCC('699272.blog')--><a href="http://content.usatoday.com/communities/technologylive/post/2012/05/inventor-of-the-tv-remote-control-dies-at-96/1" onclick="s_objectID='usat_tech_front|more-stories|3'">Inventor of the TV remote control dies at 96</a></h4>
+<p><p>Eugene Polley, the Zenith engineer who invented the remote control, died of natural causes.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block">
+<a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/company-turns-online-authentication-into-a-game/1" onclick="s_objectID='usat_tech_front|more-stories|image|4'">
+<img src="http://i.usatoday.net/communitymanager/_photos/game-hunters/2012/05/22/humanx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/gamehunters/index">GAME HUNTERS: </a><!--getCC('699170.blog')--><a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/company-turns-online-authentication-into-a-game/1" onclick="s_objectID='usat_tech_front|more-stories|4'">Company turns online authentication into a game</a></h4>
+<p><p>Company using mini-games as method for verifying whether Web user is human.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block">
+<a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/xcom-enemy-unknown-invades-this-october/1" onclick="s_objectID='usat_tech_front|more-stories|image|5'">
+<img src="http://i.usatoday.net/communitymanager/_photos/game-hunters/2012/05/22/xcomx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/gamehunters/index">GAME HUNTERS: </a><!--getCC('699070.blog')--><a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/xcom-enemy-unknown-invades-this-october/1" onclick="s_objectID='usat_tech_front|more-stories|5'">'XCOM: Enemy Unknown' invades this October</a></h4>
+<p><p>Publisher 2K Games announced the strategy game will hit stores on Oct. 9.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block">
+<a href="http://content.usatoday.com/communities/technologylive/post/2012/05/nuance-bringing-voice-control-tech-to-cars/1" onclick="s_objectID='usat_tech_front|more-stories|image|6'">
+<img src="http://i.usatoday.net/communitymanager/_photos/technology-live/2012/05/22/nuancex86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/technologylive/index">TECHNOLOGY LIVE: </a><!--getCC('699046.blog')--><a href="http://content.usatoday.com/communities/technologylive/post/2012/05/nuance-bringing-voice-control-tech-to-cars/1" onclick="s_objectID='usat_tech_front|more-stories|6'">Nuance bringing voice control tech to cars</a></h4>
+<p><p>Platform coming to vehicles this summer that will allow drivers to perform a variety of voice commands.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block">
+<a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/revamped-devil-may-cry-out-this-january/1" onclick="s_objectID='usat_tech_front|more-stories|image|7'">
+<img src="http://i.usatoday.net/communitymanager/_photos/game-hunters/2012/05/21/dmcx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/gamehunters/index">GAME HUNTERS: </a><!--getCC('698810.blog')--><a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/revamped-devil-may-cry-out-this-january/1" onclick="s_objectID='usat_tech_front|more-stories|7'">Revamped 'Devil May Cry' out this January</a></h4>
+<p><p>The reboot of Capcom's classic action franchise Devil May Cry will vault into stores on January 15 of next year.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block">
+<a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/details-emerge-on-activision-deal-with-bungie/1" onclick="s_objectID='usat_tech_front|more-stories|image|8'">
+<img src="http://i.usatoday.net/communitymanager/_photos/game-hunters/2012/05/21/halo-reachx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/gamehunters/index">GAME HUNTERS: </a><!--getCC('698793.blog')--><a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/details-emerge-on-activision-deal-with-bungie/1" onclick="s_objectID='usat_tech_front|more-stories|8'">Details emerge on Activision deal with Bungie</a></h4>
+<p><p>Unsealed contract reveals plans for Bungie to create "sci-fantasy, action shooter" franchise.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block">
+<a href="http://www.usatoday.com/tech/news/story/2012-05-21/webby-awards/55120938/1" onclick="s_objectID='usat_tech_front|more-stories|image|9'">
+<img src="http://i.usatoday.net/life/_photos/2012/05/21/Webby-Awards-honor-Internets-best-V51H98FG-x86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/topics/site/tech/news/1">news: </a><!--getCC('55120938.story')--><a href="http://www.usatoday.com/tech/news/story/2012-05-21/webby-awards/55120938/1" onclick="s_objectID='usat_tech_front|more-stories|9'">Webby Awards honor Internet's best</a></h4>
+<p><p>Comedians, artists and more were honored, but they could only give a five-word speech.</p></p>
+<ul><li class="last-spike"><span class="spike tech"></span><span class="spike-type">MORE: </span><a href="http://www.usatoday.com/life/lifestyle/story/2012-05-21/Webby-Award-winners/55121340/1">List of Webby winners</a></li></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+<li class="top-section-stories-block">
+<a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/disney-to-sell-wheres-my-water-merchandise/1" onclick="s_objectID='usat_tech_front|more-stories|image|10'">
+<img src="http://i.usatoday.net/communitymanager/_photos/game-hunters/2012/05/21/swampyx86.jpg" alt="" width="115" height="86" />
+</a>
+<div class="top-stories-text">
+<h4>
+<a class="section-link" href="http://content.usatoday.com/communities/gamehunters/index">GAME HUNTERS: </a><!--getCC('698460.blog')--><a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/disney-to-sell-wheres-my-water-merchandise/1" onclick="s_objectID='usat_tech_front|more-stories|10'">Disney to sell 'Where's My Water' merchandise</a></h4>
+<p><p>Items such as plush toys, consumer electronics accessories to hit stores starting in June.</p></p>
+<ul></ul>
+</div>
+<!-- end top-stories-text -->
+<div class="clear"></div>
+</li>
+<!-- end top-section-stories-block -->
+</ul>
+<!--/template[techMoreStories]-->
+<!-- end top-section-stories -->
+<div class="clear"></div>
+<div class="sub-nav-block-wrapper">
+<div class="sub-nav-block">
+<div class="left-sub-nav-block">
+<h2>
+<a href="http://www.usatoday.com/tech/gaming/index">Gaming</a>
+</h2>
+<!--container source: name[gaming] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techSubFrontBox] filePath[/tech/_common/templates/index/techSubFrontBox.xml]-->
+<ul>
+<li>
+<span class="spike tech"></span><!--getCC('')--><a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/second-map-pack-for-modern-warfare-3-deploys/1" title="Second map pack for 'Modern Warfare 3' deploys" onclick="s_objectID='usat_life_front|sub-front-box|gaming|1'">Second map pack for 'Modern Warfare...</a></li>
+<li>
+<span class="spike tech"></span><!--getCC('')--><a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/video-lego-batman-sequel-opens-up/1" title="Video: 'Lego Batman' sequel opens up" onclick="s_objectID='usat_life_front|sub-front-box|gaming|2'">Video: 'Lego Batman' sequel opens up</a></li>
+<li>
+<span class="spike tech"></span><!--getCC('')--><a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/company-turns-online-authentication-into-a-game/1" title="Company turns online authentication into a game" onclick="s_objectID='usat_life_front|sub-front-box|gaming|3'">Company turns online authentication...</a></li>
+<li>
+<span class="spike tech"></span><!--getCC('')--><a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/xcom-enemy-unknown-invades-this-october/1" title="'XCOM: Enemy Unknown' invades this October" onclick="s_objectID='usat_life_front|sub-front-box|gaming|4'">'XCOM: Enemy Unknown' invades this...</a></li>
+<li>
+<span class="spike tech"></span><!--getCC('')--><a href="http://content.usatoday.com/communities/gamehunters/post/2012/05/revamped-devil-may-cry-out-this-january/1" title="Revamped 'Devil May Cry' out this January" onclick="s_objectID='usat_life_front|sub-front-box|gaming|5'">Revamped 'Devil May Cry' out this...</a></li>
+</ul>
+<!--/template[techSubFrontBox]-->
+</div>
+<!-- end left-sub-nav-block -->
+<div class="right-sub-nav-block">
+<h2>
+<a href="http://www.usatoday.com/tech/products/index">Products</a>
+</h2>
+<!--container source: name[products] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techSubFrontBox] filePath[/tech/_common/templates/index/techSubFrontBox.xml]-->
+<ul>
+<li>
+<span class="spike tech"></span><!--getCC('')--><a href="http://www.usatoday.com/tech/products/story/2012-05-20/pegoraro-mac-system-fix/55064202/1" title="An old-school fix for a new Mac problem" onclick="s_objectID='usat_life_front|sub-front-box|products|1'">An old-school fix for a new Mac problem</a></li>
+<li>
+<span class="spike tech"></span><!--getCC('')--><a href="http://www.usatoday.com/tech/products/story/2012-05-20/apple-mac-virus-protection/55064130/1" title="13 tips to keep your Mac secure" onclick="s_objectID='usat_life_front|sub-front-box|products|2'">13 tips to keep your Mac secure</a></li>
+<li>
+<span class="spike tech"></span><!--getCC('')--><a href="http://www.usatoday.com/tech/products/story/2012-05-19/truong-career-tech-tools/55063736/1" title="Tech tools to kickstart your job hunt" onclick="s_objectID='usat_life_front|sub-front-box|products|3'">Tech tools to kickstart your job hunt</a></li>
+<li>
+<span class="spike tech"></span><!--getCC('')--><a href="http://www.usatoday.com/tech/products/story/2012-05-19/new-tech-products/55063728/1" title="New products: First a bottle, now a case" onclick="s_objectID='usat_life_front|sub-front-box|products|4'">New products: First a bottle, now a case</a></li>
+<li>
+<span class="spike tech"></span><!--getCC('')--><a href="http://www.usatoday.com/tech/products/story/2012-05-19/techlicious-kids-mobile-security/55063418/1" title="Parents get more options to control kid phones" onclick="s_objectID='usat_life_front|sub-front-box|products|5'">Parents get more options to control...</a></li>
+</ul>
+<!--/template[techSubFrontBox]-->
+</div>
+<!-- end right-sub-nav-block -->
+</div>
+<!-- end sub-nav-block -->
+<div class="sub-nav-block">
+<div class="left-sub-nav-block">
+<h2>
+<a href="http://www.usatoday.com/tech/science/index">Science and Space</a>
+</h2>
+<!--container source: name[science] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techSubFrontBox] filePath[/tech/_common/templates/index/techSubFrontBox.xml]-->
+<ul>
+<li>
+<span class="spike tech"></span><!--getCC('')--><a href="http://www.usatoday.com/tech/science/space/story/2012-05-22/spacex-private-space-station/55141734/1" title="Hopes riding on SpaceX rocket as it heads to space station" onclick="s_objectID='usat_life_front|sub-front-box|science|1'">Hopes riding on SpaceX rocket as it...</a></li>
+<li>
+<span class="spike tech"></span><!--getCC('')--><a href="http://www.usatoday.com/tech/science/space/story/2012-05-22/SpaceX-rocket-space-station/55126570/1" title="SpaceX rocket blasts off for space station" onclick="s_objectID='usat_life_front|sub-front-box|science|2'">SpaceX rocket blasts off for space...</a></li>
+<li>
+<span class="spike tech"></span><!--getCC('')--><a href="http://mediagallery.usatoday.com/G3898" title="Photos: 'Ring of fire' eclipse " onclick="s_objectID='usat_life_front|sub-front-box|science|3'">Photos: 'Ring of fire' eclipse </a></li>
+<li>
+<span class="spike tech"></span><!--getCC('')--><a href="http://www.usatoday.com/tech/science/space/story/2012-05-20/solar-eclipse/55099766/1" title="Rare eclipse crosses Asia, western U.S." onclick="s_objectID='usat_life_front|sub-front-box|science|4'">Rare eclipse crosses Asia, western U.S.</a></li>
+<li>
+<span class="spike tech"></span><!--getCC('')--><a href="http://www.usatoday.com/tech/science/space/story/2012-05-19/how-to-photograph-an-eclipse/55063578/1" title="How to photograph a solar eclipse" onclick="s_objectID='usat_life_front|sub-front-box|science|5'">How to photograph a solar eclipse</a></li>
+</ul>
+<!--/template[techSubFrontBox]-->
+</div>
+<!-- end left-sub-nav-block -->
+<div class="right-sub-nav-block">
+<h2>
+Tech Columnists
+</h2>
+<!--container source: name[techessentials] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techEssentials] filePath[/tech/_common/templates/index/techEssentials.xml]-->
+<ul>
+<li>
+<span class="spike tech"></span>
+<a href="http://www.usatoday.com/tech/columnist/edwardbaig/index" onclick="s_objectID='usat_tech_front|sub-front-box|techessentials|1'">Personal Tech: Edward C. Baig </a>
+</li>
+<li>
+<span class="spike tech"></span>
+<a href="http://www.usatoday.com/tech/columnist/talkingtech/index" onclick="s_objectID='usat_tech_front|sub-front-box|techessentials|2'">Talking Tech: Jefferson Graham</a>
+</li>
+<li>
+<span class="spike tech"></span>
+<a href="http://www.usatoday.com/tech/columnist/kimkomando/index" onclick="s_objectID='usat_tech_front|sub-front-box|techessentials|3'">Tech Tips: Kim Komando</a>
+</li>
+<li>
+<span class="spike tech"></span>
+<a href="http://www.usatoday.com/tech/columnist/jinnygudmundsen/index" onclick="s_objectID='usat_tech_front|sub-front-box|techessentials|4'">Kid's Tech: Jinny Gudmundsen</a>
+</li>
+<li>
+<span class="spike tech"></span>
+<a href="http://www.usatoday.com/tech/columnist/marcsaltzman/index" onclick="s_objectID='usat_tech_front|sub-front-box|techessentials|5'">Video Games: Marc Saltzman</a>
+</li>
+</ul>
+<!--/template[techEssentials]-->
+</div>
+<!-- end right-sub-nav-block -->
+</div>
+<!-- end sub-nav-block -->
+</div>
+<!-- end sub-nav-block-wrapper -->
+</div>
+<!-- end center-module -->
+<div class="clear"></div>
+<div class="ads-indexbottom">
+<h2>Sponsored Links</h2>
+<script type="text/javascript">adsonar_placementId=1549636;adsonar_pid=2625770;adsonar_ps=0;adsonar_zw=525;adsonar_zh=100;adsonar_jv='ads.adsonar.com';</script>
+<script language="JavaScript" src="http://js.adsonar.com/js/adsonar.js"></script>
+</div>
+<!-- end bottom-google-links -->
+</div>
+<!-- end center-news-well -->
+</div>
+<!-- end main-news-well -->
+</div>
+<!-- end yui-b .content -->
+</div>
+<!-- end yui-main -->
+<!-- END CONTENT AREA -->
+<!-- BEGIN RIGHT RAIL -->
+<div class="yui-b sidebar">
+<div class="rr-module poster-ad">
+<banner position="SFPoster" size="300x250" />
+</div>
+<!-- end rr-module ad -->
+<div class="rr-module section-front-video">
+<!--container source: name[techVideo] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techVideo] filePath[/tech/_common/templates/global/techVideo.xml]-->
+<div style="display:none"></div>
+<script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script src="http://admin.brightcove.com/js/APIModules_all.js"></script>
+<object id="myExperience" class="BrightcoveExperience">
+<param name="bgcolor" value="#FFFFFF" />
+<param name="width" value="300" />
+<param name="height" value="344" />
+<param name="playerID" value="941402328001" />
+<param name="publisherID" value="29906170001" />
+<param name="isVid" value="true" />
+<param name="isUI" value="true" />
+<param name="omnitureAccountID" value="usatodayprod" />
+<param name="division" value="usatoday" />
+<param name="marketName" value="usat" />
+<param name="pageTitle" value="tech" />
+<param name="revSciZip" />
+<param name="revSciAge" />
+<param name="revSciGender" />
+<param name="SSTSCode" value="tech/default.htm" />
+<param name="adServerURL" value="http://gannett.gcion.com/?adrawdata/3.0/5111.1/778078/0/0/header=yes;cc=2;alias=www.usatoday.com/video/tech_PreRoll;cookie=info;key=42806346001;adct=204;grp=12345" />
+<param name="@videoList" value="43799931001" />
+<param name="wmode" value="transparent" />
+</object>
+
+<script type="text/javascript">
+brightcove.createExperiences();
+
+var bcExp;
+var adModule;  
+var kk=0;    
+function onTemplateLoaded(experienceID) {
+bcExp = brightcove.getExperience(experienceID);
+adModule = bcExp.getModule(APIModules.ADVERTISING);
+}
+function writeExpandedBanner(value)
+{
+if(value != null && value != '') {         
+jQuery("#usat_PosterBlog").html('' + value + '');  
+if(kk == 0) {
+jQuery('.preroll-ad-wrapper').slideToggle('slow');
+kk=1;
+}
+}
+else { 
+if(kk == 1) {
+jQuery('.preroll-ad-wrapper').slideToggle('slow');
+kk=0;
+}
+}    
+}
+
+
+</script>
+<style type="text/css">
+#usat_PosterBlog {
+height:auto;
+background:url(http://i.usatoday.net/_fronts2010/_i/poster-ad-agate.gif);
+background-repeat:no-repeat;
+background-position:bottom;
+padding-bottom:16px;
+}
+</style>
+<div class="preroll-ad-wrapper" style="display:none;">
+<div id="usat_PosterBlog" class="ad poster3"></div>
+</div>
+<!--/template[techVideo]-->
+</div>
+<!-- end rr-module section-front-video -->
+<div id="usat_rightContent_01">
+<div class="rr-module sidebar-fragment ranked-list">
+<h3>Most Popular in Tech</h3>
+<ol>
+<!--container source: name[techSSI] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[~] filePath[http://content.usatoday.net/feed/most/popular-tech/list/5]-->
+<li><a href="http://www.usatoday.com/tech/science/space/story/2012-05-22/spacex-private-space-station/55141734/1" title="Hopes riding on SpaceX rocket as it heads to space station" onclick="s_objectID='usat_rightContent_01|MostPopular|popular-tech|1'">Hopes riding on SpaceX rocket as it heads...</a></li>
+<li><a href="http://www.usatoday.com/tech/columnist/edwardbaig/story/2012-05-22/sidecar-phone-app/55141408/1" title="Sidecar app makes multitasking easier on smartphones" onclick="s_objectID='usat_rightContent_01|MostPopular|popular-tech|2'">Sidecar app makes multitasking easier on...</a></li>
+<li><a href="http://www.usatoday.com/tech/science/space/story/2012-05-22/SpaceX-rocket-space-station/55126570/1" title="SpaceX rocket blasts off for space station" onclick="s_objectID='usat_rightContent_01|MostPopular|popular-tech|3'">SpaceX rocket blasts off for space station</a></li>
+<li><a href="http://www.usatoday.com/tech/news/story/2012-05-22/cellphone-wireless-wifi-hotspots/55142404/1" title="Wireless carriers seek to &quot;offload&quot; customers" onclick="s_objectID='usat_rightContent_01|MostPopular|popular-tech|4'">Wireless carriers seek to "offload"...</a></li>
+<li><a href="http://content.usatoday.com/communities/technologylive/post/2012/05/inventor-of-the-tv-remote-control-dies-at-96/1" title="Inventor of the TV remote control dies at 96" onclick="s_objectID='usat_rightContent_01|MostPopular|popular-tech|5'">Inventor of the TV remote control dies at 96</a></li><!--/template[~]-->
+</ol>
+</div>
+<!-- end most popular ranked-list -->
+</div>
+<!-- app tapp widget -->
+<div class="rr-module rr-template">
+<h2>Top Mobile Apps</h2>
+<div class="rr-template-container one-square-template" style="padding:10px 10px 0 0">
+<!--container source: name[techAppTapp] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techAppTapp] filePath[/tech/_common/templates/index/techAppTapp.xml]-->
+<div style="width:300px;height:250px">
+<script src="http://widget.apptap.com/apt/apt.nocache.js">{"target":"_self", "placeholder":"Search Apps","site":"http://apps.usatoday.com/","platforms":["iphone","ipad","android"]}</script>
+</div>
+<!--/template[techAppTapp]-->
+<br />
+</div>
+</div>
+<!-- app tapp widget end -->
+<!-- end usat_rightContent_01 -->
+<!--container source: name[techThreeThumbs] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techThreeThumbs] filePath[/tech/_common/templates/global/techThreeThumbs.xml]-->
+<!--/template[techThreeThumbs]-->
+<div class="rr-module rr-template">
+<!--container source: name[techTwitter] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techTwitter] filePath[/tech/_common/templates/global/techTwitter.xml]-->
+<script type="text/javascript" src="http://i.usatoday.net/Twitter/twitter-gray.js"></script>
+<link href="http://i.usatoday.net/_common/_styles/twitter-front.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+var twitterQuery = "http://search.twitter.com/search.json?q=from:usatodaytech+OR+from:dvergano+OR+from:usatodaygames";
+var twitterLinkOut = "http://twitter.com/#!/USATODAYtech";
+getTwitterResults(0);
+</script>
+<div id="twitter"></div>  
+<!--/template[techTwitter]-->
+</div>
+<div class="rr-module poster-ad">
+<banner position="PosterBlog" size="300x250" loadOnInit="true" />
+</div>
+<!--<div class="rr-module rr-template">
+<container name="techMashable" processor="echo" template="techMashable" />
+</div>-->
+<!--container source: name[techOneThumb] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techOneThumb] filePath[/tech/_common/templates/global/techOneThumb.xml]-->
+<!-- end rr-template-container -->
+<!--/template[techOneThumb]-->
+<!--container source: name[techSixThumbs] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techSixThumbs] filePath[/tech/_common/templates/global/techSixThumbs.xml]-->
+<!-- end rr-template-container -->
+<!--/template[techSixThumbs]-->
+<!-- end rr-module -->
+</div>
+<!-- end yui-b sidebar -->
+<!-- END RIGHT RAIL -->
+</div>
+<!-- end bd container -->
+<div id="ft">
+<!-- /EdSysObj -->
+<div id="usat-footer-02">
+<!--container source: name[techSSI] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[~] filePath[/_common/_includes/_fronts2011/usat-footer-2.ssi]-->
+<!-- EdSysObj ID="SSIFragment" FRAGMENTID="37368062" appadmin --><div class="usat_footer_01"> 
+<h5>USA TODAY Digital Services</h5> 
+<ul role="navigation"> 
+<li class="no-border"><a href="http://www.usatoday.com/mobile/index.htm?POE=FOOTER" onClick="s_objectID='usat_footer_01|digital|1';">Mobile</a></li> 
+<li><a href="http://email.usatoday.com/" onClick="s_objectID='usat_footer_01|digital|2';">E-Newsletters</a></li> 
+<li><a href="http://content.usatoday.com/marketing/rss/index.aspx?POE=FOOTER" onClick="s_objectID='usat_footer_01|digital|3';">RSS</a></li> 
+<li><a href="http://twitter.usatoday.com  " onClick="s_objectID='usat_footer_01|digital|4';">Twitter</a></li> 
+<!--<li><a href="http://content.usatoday.com/marketing/rss/index.aspx#podcast" onClick="s_objectID='usat_footer_01|digital|5';">Podcasts</a></li> 
+<li><a href="http://www.usatoday.com/community/widgets/index.htm" onClick="s_objectID='usat_footer_01|digital|6';">Widgets</a></li>-->
+<li><a href="http://www.usatodaysubscribe.com/eeservice" onClick="s_objectID='usat_footer_01|digital|7';">e-Newspaper</a></li> 
+<li><a href="http://www.usatoday.com/ipad" onClick="s_objectID='usat_footer_01|digital|17';">USA TODAY for iPad</a></li>
+<li><a href="http://www.amazon.com/USA_TODAY/dp/B001KBZ3D2/ref=o_disp_017_129_242_99_035&amp;tag=partnerlink1-20" onClick="s_objectID='usat_footer_01|digital|8';">USA TODAY on Kindle</a></li>
+<li><a href="http://search.barnesandnoble.com/USA-Today/Gannett-Co-Inc/e/2940000228067?itm=1&amp;USRI=usa%2Btoday" onClick="s_objectID='usat_footer_01|digital|18';">USA TODAY on Nook</a></li>
+<li><a href="http://www.usatoday.com/hpwebos-tablet/" onClick="s_objectID='usat_footer_01|digital|19';">USA TODAY on HP TouchPad</a></li>
+<!--<li><a href="http://www.usatoday.com/printedition/news/index.htm?POE=FOOTER" onClick="s_objectID='usat_footer_01|digital|9';">Print Edition</a></li> 
+<li><a href="www.usatodaysubscribe.com/homeNav" onClick="s_objectID='usat_footer_01|digital|10';">Subscribe to Home Delivery</a></li>-->
+</ul> 
+<ul role="navigation"> 
+<li class="no-border"><a href="http://www.GannettReprints.com?POE=Footer#reprints" onClick="s_objectID='usat_footer_01|digital|12';">Reprints &amp; Permissions</a></li> 
+<li><a href="http://content.usatoday.com/topics/index" onClick="s_objectID='usat_footer_01|digital|13';">USA TODAY Topics</a></li> 
+<li><a href="http://content.usatoday.com/topics/ReporterList" onClick="s_objectID='usat_footer_01|digital|14';">Reporter Index</a></li> 
+<li><a href="http://www.usatoday.com/news/Corrections-and-clarifications.htm" onClick="s_objectID='usat_footer_01|digital|15';">Corrections/Clarifications</a></li> 
+<li><a href="http://www.usatoday.com/marketing/feedback.htm?POE=Footer" onClick="s_objectID='usat_footer_01|digital|16';">Contact Us</a></li>
+<li><a href="http://www.usatodaysubscribe.com/homeNav" onClick="s_objectID='usat_footer_01|digital|10';">Subscribe to Home Delivery</a></li> 
+<li><a href="http://www.usatodaysubscribe.com/HomeService" onClick="s_objectID='usat_footer_01|digital|12';">Customer Service</a></li>
+<li><a href="http://pqasb.pqarchiver.com/USAToday/search.html?POE=FOOTER" onClick="s_objectID='usat_footer_01|digital|11';">Archives</a></li> 
+</ul> 
+</div><!-- /EdSysObj -->
+<!--/template[~]-->
+</div>
+<div id="usat_Bottom728x90" class="ad">
+<banner position="Bottom728x90" size="728x90" />
+</div>
+<div id="usat-footer-03">
+<!--container source: name[techSSI] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[~] filePath[/_common/_includes/_fronts2011/usat-footer-3.ssi]-->
+<!-- EdSysObj ID="SSIFragment" FRAGMENTID="37368064" cpeksens --><div class="float-inner"> 
+<ul class="usat_footer_02" role="navigation"> 
+<li class="no-border"><a href="http://www.usatoday.com/default.htm" class="ssts_home" onclick="s_objectID='usat_footer_02|nav|1';">Home</a></li> 
+<li><a href="http://www.usatoday.com/news/default.htm" class="ssts_news" onclick="s_objectID='usat_footer_02|nav|2';">News</a></li> 
+<li><a href="http://travel.usatoday.com/" class="ssts_travel" onclick="s_objectID='usat_footer_02|nav|3';">Travel</a></li> 
+<li><a href="http://www.usatoday.com/money/default.htm" class="ssts_money" onclick="s_objectID='usat_footer_02|nav|4';">Money</a></li> 
+<li><a href="http://www.usatoday.com/sports/default.htm" class="ssts_sports" onclick="s_objectID='usat_footer_02|nav|5';">Sports</a></li> 
+<li><a href="http://www.usatoday.com/life/default.htm"  class="ssts_life" onclick="s_objectID='usat_footer_02|nav|6';">Life</a></li> 
+<!--<li><a href="http://yourlife.usatoday.com/" class="ssts_yourlife" onclick="s_objectID='usat_footer_02|nav|9';">Your Life</a></li>-->    
+<li><a href="http://www.usatoday.com/tech/default.htm" class="ssts_tech" onclick="s_objectID='usat_footer_02|nav|7';">Tech</a></li> 
+<li><a href="http://www.usatoday.com/weather/default.htm" class="ssts_weather" onclick="s_objectID='usat_footer_02|nav|8';">Weather</a></li> 
+</ul> 
+<ul class="usat_footer_03"> 
+<li class="no-border"><strong>Visit our Partners:</strong></li> 
+<li class="no-border"><a href="http://www.usaweekend.com/usatoday.html?POE=FOOTER" onclick="s_objectID='usat_footer_03|partners|1';">USA WEEKEND</a></li> 
+<!--<li><a href="http://www.usatoday.com/marketing/media_kit/live/brand.html?POE=FOOTER" onclick="s_objectID='usat_footer_03|partners|2';">USA TODAY LIVE</a></li>-->
+<li><a href="http://www.mysportsweekly.com/cs" onclick="s_objectID='usat_footer_03|partners|3';">Sports Weekly</a></li>
+<li><a href="http://www.usatoday.com/educate/homesplash.htm?POE=FOOTER" onclick="s_objectID='usat_footer_03|partners|5';">Education</a></li> 
+<li><a href="http://www.space.com/?POE=FOOTER" onclick="s_objectID='usat_footer_03|partners|6';">Space.com</a></li> 
+<li><a href="http://traveltips.usatoday.com" onclick="s_objectID='usat_footer_03|partners|7';">Travel Tips</a></li> 
+</ul> 
+</div><!-- /EdSysObj -->
+<!--/template[~]-->
+</div>
+<!--container source: name[] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techFooterLinks] filePath[/tech/_common/templates/global/techFooterLinks.xml]-->
+<!--/template[techFooterLinks]-->
+<div id="usat-footer-04">
+<!--container source: name[techSSI] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[~] filePath[/_common/_includes/_fronts2011/usat-footer-4.ssi]-->
+<!-- EdSysObj ID="SSIFragment" FRAGMENTID="37368068" appadmin --><div>
+<ul class="usat_footer_04" role="navigation">
+<li class="no-border"><a href="http://www.usatoday.com/marketing/feedback.htm?POE=FOOTER" onclick="s_objectID='usat_footer_04|misc|1';">Contact us</a></li> 
+<li><a href="http://www.usatoday.com/marketing/media_kit/index.html" onclick="s_objectID='usat_footer_04|misc|2';">Advertise</a></li> 
+<li><a href="http://www.usatoday.com/marketing/media_kit/pressroom/press_releases_home.html" onclick="s_objectID='usat_footer_04|misc|3';">Pressroom</a></li> 
+<li><a href="http://developer.usatoday.com/" onclick="s_objectID='usat_footer_04|developer|1';">Developer</a></li> 
+<!--<li><a href="http://www.usatoday.com/marketing/media_lounge/index.html" onclick="s_objectID='usat_footer_04|misc|4';">Media Lounge</a></li>--> 
+<li><a href="http://www.careerbuilder.com/?lr=cbga_usa" onclick="s_objectID='usat_footer_04|misc|5';">Jobs</a></li> 
+<li><a href="http://www.usatoday.com/marketing/faq.htm" onclick="s_objectID='usat_footer_04|misc|6';">FAQ</a></li> 
+<li><a href="http://www.usatoday.com/marketing/questions.htm?POE=FOOTER#contentLicensingTop" onclick="s_objectID='usat_footer_04|misc|7';">Reprints/Permissions</a></li> 
+<li><a href="http://www.usatoday.com/marketing/privacy-notice.htm" onclick="s_objectID='usat_footer_04|misc|8';">Privacy Notice/Your California Privacy Rights</a></li> 
+<li><a href="http://www.usatoday.com/marketing/privacy-notice.htm#adserving" onclick="s_objectID='usat_footer_04|misc|11';">Ad Choices</a></li> 
+<li><a href="http://www.usatoday.com/marketing/tos.htm" onclick="s_objectID='usat_footer_04|misc|9';">Terms of Service</a></li> 
+<li><a href="http://www.usatoday.com/howtofind-cat.htm" onclick="s_objectID='usat_footer_04|misc|10';">Site Index</a></li> 
+</ul>
+<p class="usat_footer_05">&#169; 2012 USA TODAY, a division of <a href="http://www.gannett.com/" onclick="s_objectID='usat_footer_05|gannett|1';">Gannett Satellite Information Network, Inc.</a></p>
+</div><!-- /EdSysObj -->
+<!--/template[~]-->
+</div>
+</div>
+<!-- end ft div -->
+</div>
+<!-- end custom-doc div -->
+<!--container source: name[techFooterIncludes] layout[index] filePath[/tech/_common/layouts/index/index.xml]-->
+<!--template[techFooterIncludes] filePath[/tech/_common/templates/global/techFooterIncludes.xml]-->
+<script type="text/javascript">
+var usat_analytics_url = "www.usatoday.com/tech/front";
+var usat_analytics_pagename_url = "www.usatoday.com/tech/default.htm";
+</script>
+
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/usatv2.js"></script>
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/_omniture/omniturebase.js"></script>
+<script type="text/javascript" src="http://content.usatoday.com/asp/usataj/usataj.js"></script>
+<script type="text/javascript" src="http://www.usatoday.com/asp/uas3/uas.js"></script>
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/gel2011/lib/core/core.js"></script>
+<script type="text/javascript">
+jQuery(window).load(function(){
+(function($){ usatAuth.initialSetup(); })(jQuery);
+});
+</script>
+<script type="text/javascript">
+GEL.config.AdPage = "www.usatoday.com/tech/default.htm";
+GEL.config.AdServer = "gannett.gcion.com";
+GEL.config.AdNetworkId = "5111.1";
+GEL.thepage.initializer.addInitRoutine({
+name: "banners",
+namespace: "widget.AdBanner",
+callback: function () {
+var loader = GEL.thepage.bannerLoader = new GEL.widget.AdBanner.Locator();
+loader.findBanners();
+loader.loadBanners(function () { return this.config.loadOnInit; });
+},
+priority: 10
+});
+</script>
+<script type="text/javascript" src="http://i.usatoday.net/sports/_common/scripts/gel-directives-conveyor.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://i.usatoday.net/_common/_scripts/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('.search, #day1, #day2, #day3, .left-button, .right-button, .bullet, a, h2, h3, img');
+</script>
+<![endif]-->
+<!--/template[techFooterIncludes]-->
+</body>
+<!--pltResponseStatus--><!--OK--><!--/pltResponseStatus--></html>
