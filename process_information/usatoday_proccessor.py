@@ -7,7 +7,7 @@ import HTMLParser
 """Settings to edit"""
 """just prints stuff out and doesn't let you actually write to database"""
 testing = True
-database_name = 'insert database name here'
+database_name = 'usatoday_data'
 
 
 connection = Connection('localhost', 27018)
@@ -60,14 +60,15 @@ def get_title(html):
     print title
     return title
     
+
+p_matcher = re.compile('<p class="inside-copy">')
 def get_body(html):
-    a = html.find('<div class="body-copy">')
-    html1 = html[a + 23 :]
-    html_array = html1.split('</div>')
-    if len(html_array) < 2:
-        print 'failure'
-        return False
-    body = html_array[1]
+    first_p = html.find('<p class="inside-copy">') + 23
+    last_p = 0
+    for last_p in p_matcher.finditer(html):
+        pass
+    end = html[last_p : ].find('</p>') + last_p
+    body = html[first_p : end]
     'scripts in the body'
     if body.find('<script>') != -1 or body.find('</script>') != -1:
         print 'failure'
@@ -75,12 +76,13 @@ def get_body(html):
     clean_body = remove_tags(body).strip().replace('\n', ' ')
     clean_body = re.sub(r'\s+', ' ', clean_body)
     clean_body = h.unescape(clean_body)
+
     print clean_body
     return clean_body
 def get_date(html):
-    length = len('<div class="post-time">')
-    date_begin = html.find('<div class="post-time">')
-    date_end = html[date_begin:].find('</div>')
+    length = len('document.write(niceDate("')
+    date_begin = html.find('document.write(niceDate("')
+    date_end = html[date_begin:].find(')')
     if date_begin == -1 or date_end == -1:
         print 'failure'
         return False

@@ -75,6 +75,7 @@ def get_body(html):
     clean_body = remove_tags(body).strip().replace('\n', ' ')
     clean_body = re.sub(r'\s+', ' ', clean_body)
     clean_body = h.unescape(clean_body)
+
     print clean_body
     return clean_body
 def get_date(html):
