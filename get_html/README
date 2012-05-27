@@ -1,0 +1,11 @@
+create_visited.py uses the explored and the queued collections and creates a visited collection. visited = explored - queued
+
+new_get_html.py creates a explored, queued, and error collections adding new urls into explored and queued and readings urls from queued
+
+force_get_html.py uses new_get_html.py explored and error collections, but uses its own queue and you need to create a visited collection. Forces new urls into its own queue and basically does new_get_html.py except only adds to explored when it visits a url so new_get_html.py is still the main one. once a url is visited, it is added to visited
+
+
+
+NEED TO CREATE A SYNCCOLLECTIONS.py
+this will combine force_get_html.py information and new_get_html.py information
+new_get_html queue = new_get_html queue - visited

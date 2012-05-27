@@ -34,3 +34,5 @@ c.drop_database('whatever_data')
 
 When opening files open as utf-8
     f = codecs.open(file_path, 'r', 'utf-8')
+    or
+    f = codecs.open(file_path, 'r', 'iso-8859-1')

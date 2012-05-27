@@ -6,7 +6,9 @@ def percent_match(html, keywords):
     total_length = len(html_array)
     num_matches = 0
     for keyword in keywords:
-        num_matches += len(re.findall(keyword, html))
+        num_matches += num_match(html, keyword)
     return num_matches / float(total_length)
 
 
+def num_match(html, keyword):
+    return len(re.findall(keyword, html))

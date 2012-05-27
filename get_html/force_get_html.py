@@ -36,21 +36,15 @@ def main():
         queue_cursor = queue.find()
         begin_scrape()
 
-"""define when to reject a url here"""
-def reject(url):
-    return False
 def begin_scrape():
     while queue_cursor.count():
         queue.ensure_index('url')
         explored.ensure_index('url')
+        random_wait = random.randint(0, 70) / 30.0
+        time.sleep(wait_time + random_wait)
 
         current_url_obj = queue_cursor[0]
         current_url = current_url_obj['url']
-        if reject(current_url):
-            queue.remove(current_url_obj)
-            continue
-        random_wait = random.randint(0, 40) / 30.0
-        time.sleep(wait_time + random_wait)
         queue.remove(current_url_obj)
         print 'Working on ' + current_url
         try:

@@ -60,9 +60,16 @@ def get_files(current_dir):
 def find_basic_information(queue_obj, get_title, get_body, get_date,
                      testing, success, failure, queue):
     file_path = queue_obj['path']
-    f = codecs.open(file_path, 'r', 'utf-8')
+
+    f = open(file_path, 'r')
     html = f.read()
+    f = codecs.open(file_path, 'r', 'iso-8859-1')
+    html = f.read()
+    #html = unicode(html, 'iso-8859-1')
     #f = open(file_path, 'r')
+
+    #f = codecs.open(file_path, 'r', 'utf-8')
+    #html = f.read()
     try:
         print 'Title is:'
         title = get_title(html)
