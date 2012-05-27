@@ -4,9 +4,9 @@ from process_template import *
 from pymongo import Connection, ASCENDING, DESCENDING
 
 """Settings to edit"""
-"""just prints stuff out and doesn't let you actually write to database"""
+"""If true, just prints stuff out and doesn't let you actually write to database"""
 testing = True
-database_name = 'techcrunch_data'
+database_name = 'insert database name here'
 
 
 connection = Connection('localhost', 27018)
@@ -30,13 +30,11 @@ file_queue = get_queue(main_dir, explored, queue)
 
 
 
-
-
 def main():
     map_incremental(function_on_file, file_queue)
-    sort_info_lambda = lambda queue_obj : sort_information(queue_obj, get_title, get_body,
+    store_info = lambda queue_obj : find_basic_information(queue_obj, get_title, get_body,
                                             get_date, testing, success, failure, queue)
-    map_incremental(sort_info_lambda, file_queue)
+    map_incremental(store_info, file_queue)
 
 
 def function_on_file(queue_obj):

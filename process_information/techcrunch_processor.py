@@ -2,7 +2,8 @@ import sys
 from multiprocessing import Pool
 from process_template import *
 from pymongo import Connection, ASCENDING, DESCENDING
-
+import re
+import HTMLParser
 """Settings to edit"""
 """just prints stuff out and doesn't let you actually write to database"""
 testing = True
@@ -29,9 +30,10 @@ multiple functions calling upon this create multiple queues"""
 file_queue = get_queue(main_dir, explored, queue)
 
 
+h = HTMLParser.HTMLParser()
 def main():
     map_incremental(function_on_file, file_queue)
-    sort_info_lambda = lambda queue_obj : sort_information(queue_obj, get_title, get_body,
+    sort_info_lambda = lambda queue_obj : find_basic_information(queue_obj, get_title, get_body,
                                             get_date, testing, success, failure, queue)
     map_incremental(sort_info_lambda, file_queue)
 
@@ -45,21 +47,50 @@ def function_on_file(queue_obj):
 
 
 def get_title(html):
-    print 'get title not yet implemented'
+    title_begin = html.find('<title>')
+    title_end = html[title_begin :].find('</title>')
+    if title_begin == -1 or title_end == -1:
+        print 'failure'
+        return False
+    """fix offsets"""
+    title_end += title_begin
+    title_begin += 7
+
+    title = html[title_begin : title_end]
+    print title
+    return title
+    
 def get_body(html):
-    print 'get body not yet implemented'
     a = html.find('<div class="body-copy">')
     html1 = html[a + 23 :]
     html_array = html1.split('</div>')
     if len(html_array) < 2:
         print 'failure'
-        return
+        return False
     body = html_array[1]
-    clean_body = remove_tags(body)
+    'scripts in the body'
+    if body.find('<script>') != -1 or body.find('</script>') != -1:
+        print 'failure'
+        return False
+    clean_body = remove_tags(body).strip().replace('\n', ' ')
+    clean_body = re.sub(r'\s+', ' ', clean_body)
+    clean_body = h.unescape(clean_body)
+
     print clean_body
+    return clean_body
 def get_date(html):
-    print 'get date not yet implemented'
-    
+    length = len('<div class="post-time">')
+    date_begin = html.find('<div class="post-time">')
+    date_end = html[date_begin:].find('</div>')
+    if date_begin == -1 or date_end == -1:
+        print 'failure'
+        return False
+    date_end += date_begin
+    date_begin += length
+
+    date = html[date_begin : date_end]
+    print date
+    return date
 
 if __name__ == '__main__':
     main()

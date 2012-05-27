@@ -8,7 +8,7 @@ import time
 import random
 import traceback
 from multiprocessing import Pool
-
+import codecs
 
 """ from pymongo import Connection
 c = Connection('localhost', 27018)
@@ -57,15 +57,21 @@ def get_files(current_dir):
 
 
 
-def sort_information(queue_obj, get_title, get_body, get_date,
+def find_basic_information(queue_obj, get_title, get_body, get_date,
                      testing, success, failure, queue):
     file_path = queue_obj['path']
-    f = open(file_path, 'r')
+    f = codecs.open(file_path, 'r', 'utf-8')
     html = f.read()
+    #f = open(file_path, 'r')
     try:
+        print 'Title is:'
         title = get_title(html)
-        body = get_body(html)
+        print '\n \n Date is:'
         date = get_date(html)
+        print '\n \n Body is:'
+        body = get_body(html)
+        print '\n\n\n\n****************************************'
+        print '****************************************'
         f.close()
         entry = {'path' : file_path, 'title' : title, 'body' : body, 'date' : date}
         if not testing:
@@ -102,7 +108,7 @@ def map_incremental(function, queue):
     map(function, queue[count :])
 
 
-def to_bytestring (self, s, enc='utf-8'):
+def to_bytestring (s, enc='utf-8'):
     """Convert the given unicode string to a bytestring, using the standard encoding,                                                                                                                     
     unless it's already a bytestring"""
     if s:
