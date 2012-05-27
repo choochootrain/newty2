@@ -47,7 +47,8 @@ errors"""
 def list_of_dates():
     months_and_days = ((1, 31), (2, 29), (3, 31), (4, 30), (5, 31), (6, 30),
                        (7, 31), (8, 31), (9, 30), (10, 31), (11, 30), (12, 31))
-    years = (2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012)
+    #years = (2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012)
+    years = (2006, 2007, 2008, 2009, 2010, 2011, 2012)
     formatted_dates = []
     for year in years:
         for month, days in months_and_days:
@@ -56,33 +57,53 @@ def list_of_dates():
                     continue
                 if year == 2012 and month >= 6:
                     continue
-                formatted_dates.append('/' + str(year) + '/' + str(month) + '/' + str(day) + '/')
+                year_str = str(year)
+                month_str = str(month)
+                day_str = str(day)
+                if len(day_str) == 1:
+                    day_str = '0' + day_str
+                if len(month_str) == 1:
+                    month_str = '0' + month_str
+                formatted_dates.append('/' + year_str + '/' + month_str + '/' + day_str + '/')
     return formatted_dates
 
+
+
 def force_queue_urls():
-    return ['http://www.techcrunch.com']
+    to_force = []
+    list_dates = list_of_dates()
+    for x in list_dates:
+        to_force.append('http://techcrunch.com' + x)
+        print x
+    return to_force
 
 def main():
     get_input = raw_input('This assumes you have created a visited collection \n type yes if you have already created \n')
     if get_input != 'yes':
         return
-    list_dates = list_of_dates()
-    for x in list_dates:
-        forced_input = 'http://techcrunch.com' + x
-        print forced_input
-    return    
+
+
+
     global forced_queue_cursor
+    """This is the section put into the forced queue"""
     if forced_queue.count() == 0:
         entries_to_force = force_queue_urls()
         for x in entries_to_force:
             forced_queue.insert({'url' : x})
+            print x
         forced_queue_cursor = forced_queue.find()
         begin_scrape()
     else:
         forced_queue_cursor = forced_queue.find()
         begin_scrape()
 
-def reject_url():
+date_match = re.compile('.*20[0-1][0-9]/[0-1][1-9]/[0-3][0-9].*')
+def reject_url(url):
+    if visited.find({'url' : url}).count() != 0:
+        return True
+    if not date_match.match(url):
+        print 'rejected ' + url
+        return True
     return False
 def begin_scrape():
     while forced_queue_cursor.count():
