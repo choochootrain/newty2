@@ -1,9 +1,10 @@
 import sys
-from multiprocessing import Pool
 from process_template import *
 from pymongo import Connection, ASCENDING, DESCENDING
 import re
 import HTMLParser
+from datetime import datetime
+import traceback
 """Settings to edit"""
 """just prints stuff out and doesn't let you actually write to database"""
 testing = True
@@ -89,8 +90,26 @@ def get_date(html):
     date_begin += length
 
     date = html[date_begin : date_end]
-    print date
-    return date
+    try:
+        date_time = date_string_to_obj(date)
+    except:
+        print 'error date time not parsed'
+        traceback.print_exc()
+        return False
+    print date_time
+    return date_time
+
+number_attached_letters = re.compile('(\d+)([A-Za-z]+)')
+def date_string_to_obj(date_string):
+    result = date_string
+    date_string_array = date_string.split(' ')
+    for word in date_string_array:
+        match_obj = number_attached_letters.match(word)
+        if match_obj:
+            result = result.replace(word, match_obj.group(1) + ',')
+    date_time = datetime.strptime(result, "%A, %B %d, %Y")
+    return date_time
+
 
 if __name__ == '__main__':
     main()
