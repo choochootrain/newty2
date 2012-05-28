@@ -97,7 +97,8 @@ def main():
         forced_queue_cursor = forced_queue.find()
         begin_scrape()
 
-date_match = re.compile('.*20[0-1][0-9]/[0-1][1-9]/[0-3][0-9].*')
+"""ORIGINALLY THIS ACCIDENTALLY REJECTED anythin with month october 10"""
+date_match = re.compile('.*20[0-1][0-9]/[0-1][0-9]/[0-3][0-9].*')
 def reject_url(url):
     if visited.find({'url' : url}).count() != 0:
         return True

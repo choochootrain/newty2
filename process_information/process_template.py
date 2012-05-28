@@ -71,6 +71,7 @@ def find_basic_information(queue_obj, get_title, get_body, get_date,
     #f = codecs.open(file_path, 'r', 'utf-8')
     #html = f.read()
     try:
+        print file_path
         print 'Title is:'
         title = get_title(html)
         print '\n \n Date is:'
@@ -87,7 +88,6 @@ def find_basic_information(queue_obj, get_title, get_body, get_date,
         if not testing:
             failure.insert({'path' : file_path})
         traceback.print_exc()
-    print file_path
     if not testing:
         queue.remove(queue_obj)
 
