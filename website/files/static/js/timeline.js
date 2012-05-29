@@ -29,11 +29,11 @@ $(document).ready(function () {
 	    shape.setAttributeNS(null, "y1", "10");
 	    shape.setAttributeNS(null, "y2", "30");
 	    shape.setAttributeNS(null, "style", "stroke:blue;stroke-width:2")
-	    svg_timeline.appendChild(shape);
+		svg_timeline.appendChild(shape);
 	    //$('#svg_timeline').append('<line x1="'+ i * 36 + '" y1="10" x2="' + i * 36 + '" y2="30" style="stroke:blue;stroke-width:2"/>');
 	}
 	
-	var options = {
+	options = {
 	    lines : {show : true},
 	    points : {show : true},
 	    xaxis : {tickDecimals : 0, tickSize : 1},
@@ -41,8 +41,8 @@ $(document).ready(function () {
 	};
 	var graph = $('#graph');
 	var data = [{
-	    "label": "Trolling News",
-	    "data": [[2000, 5.9], [, 3.9], [2001, 2.0], [2002, 1.2], [2003, 1.3], [2004, 2.5], [2005, 2.0], [2006, 3.1], [2007, 2.9], [2008, 0.9]]
+		"label": "Trolling News",
+		"data": [[2000, 5.9], [, 3.9], [2001, 2.0], [2002, 1.2], [2003, 1.3], [2004, 2.5], [2005, 2.0], [2006, 3.1], [2007, 2.9], [2008, 0.9]]
 	    },
 	    {
 		"label": "Japan",
@@ -56,8 +56,26 @@ $(document).ready(function () {
 		}
 	    });
 	//for this, when we call the timeline, we give this timeline a request variable. With this variable we call the server to request a lightbox to show up and populate the lightbox with information or something.
-
-    });
+	
+	dynamic_graph = $('#dynamic_graph');
+	$.ajax({
+		type: 'POST',
+		    datatype: 'text',
+		    url: '/load_timeline',
+		    data: 'test',
+		    datatype: 'text',
+		    complete: function(res, status) {
+		    if (status == "success") {
+			alert(res.responseText);
+			data = eval(res.responseText);
+			$.plot(dynamic_graph, data, options);
+		    } else {
+			alert("error");
+		    }
+		}
+	    })
+	    
+	    });
 
 
 //use tooltip (displays event name when hovering over. and give data). 

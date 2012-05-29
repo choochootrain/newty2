@@ -20,7 +20,7 @@ all_articles = article_database['success']
 
 count = 0
 for article in all_articles.find():
-    if visited.find({'path' : article['path']}) > 0:
+    if visited_articles.find({'path' : article['path']}) > 0:
         print 'already visited'
         continue
     count += 1
