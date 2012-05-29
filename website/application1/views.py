@@ -50,6 +50,9 @@ def timeline_dynamic(request):
 
 
 def get_timeline_ajax(request):
+    jsonData = simplejson.loads(request.raw_post_data)
+    keyword = jsonData['keyword']
+    print keyword
     data = [{"label": "Trolling News", "data": [[2000, 5.9], [2000.5, 3.9], [2001, 2.0], [2002, 1.2], [2003, 1.3], [2004, 2.5], [2005, 2.0], [2006, 3.1], [2007, 2.9], [2008, 0.9]]}
             ,{"label": "Test2", "data": [[1999, -0.1], [2000, 2.9], [2001, 0.2], [2002, 0.3], [2003, 1.4], [2004, 2.7], [2005, 1.9], [2006, 2.0], [2007, 2.3], [2008, -0.7]]}]
     return HttpResponse(json.dumps(data))

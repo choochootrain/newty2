@@ -39,41 +39,67 @@ $(document).ready(function () {
 	    xaxis : {tickDecimals : 0, tickSize : 1},
 	    grid: {hoverable : true, clickable : true},
 	};
-	var graph = $('#graph');
-	var data = [{
-		"label": "Trolling News",
-		"data": [[2000, 5.9], [, 3.9], [2001, 2.0], [2002, 1.2], [2003, 1.3], [2004, 2.5], [2005, 2.0], [2006, 3.1], [2007, 2.9], [2008, 0.9]]
-	    },
-	    {
-		"label": "Japan",
-		"data": [[1999, -0.1], [2000, 2.9], [2001, 0.2], [2002, 0.3], [2003, 1.4], [2004, 2.7], [2005, 1.9], [2006, 2.0], [2007, 2.3], [2008, -0.7]]
-	    }];
-	$.plot(graph, data, options);
-	$("#graph").bind("plotclick", function (event, pos, item) {
-		if (item) {
-		    alert("You clicked point " + item.dataIndex + " in " + item.series.label + ".");
-		    plot.highlight(item.series, item.datapoint);
-		}
-	    });
+	var graph = $('#thegraph');
+	if (graph.length) {
+	    var data = [{
+		    "label": "Trolling News",
+		    "data": [[2000, 5.9], [, 3.9], [2001, 2.0], [2002, 1.2], [2003, 1.3], [2004, 2.5], [2005, 2.0], [2006, 3.1], [2007, 2.9], [2008, 0.9]]
+		},
+		{
+		    "label": "Japan",
+		    "data": [[1999, -0.1], [2000, 2.9], [2001, 0.2], [2002, 0.3], [2003, 1.4], [2004, 2.7], [2005, 1.9], [2006, 2.0], [2007, 2.3], [2008, -0.7]]
+		}];
+	    $.plot(graph, data, options);
+	    graph.bind("plotclick", function (event, pos, item) {
+		    if (item) {
+			alert("You clicked point " + item.dataIndex + " in " + item.series.label + ".");
+			plot.highlight(item.series, item.datapoint);
+		    }
+		});
+	}
 	//for this, when we call the timeline, we give this timeline a request variable. With this variable we call the server to request a lightbox to show up and populate the lightbox with information or something.
 	
+
 	dynamic_graph = $('#dynamic_graph');
-	$.ajax({
-		type: 'POST',
-		    datatype: 'text',
-		    url: '/load_timeline',
-		    data: 'test',
-		    datatype: 'text',
-		    complete: function(res, status) {
-		    if (status == "success") {
-			alert(res.responseText);
-			data = eval(res.responseText);
-			$.plot(dynamic_graph, data, options);
-		    } else {
-			alert("error");
+	if (dynamic_graph.length) {
+	    x = {};
+	    x['keyword'] = getParameterByName('keyword');
+	    post_data = JSON.stringify(x);
+	    $.ajax({
+		    type: 'POST',
+			datatype: 'text',
+			url: '/load_timeline',
+			data: post_data,
+			datatype: 'text',
+			complete: function(res, status) {
+			if (status == "success") {
+			    
+			    alert(res.responseText);
+			    data = eval('(' + res.responseText + ')');
+			    $.plot(dynamic_graph, data, options);
+			    $("#dynamic_graph").bind("plotclick", function (event, pos, item) {
+				    if (item) {
+					alert("You clicked point " + item.dataIndex + " in " + item.series.label + ".");
+					plot.highlight(item.series, item.datapoint);
+				    }
+				});
+			} else {
+			    alert("error");
+			}
 		    }
-		}
-	    })
+		})
+		};
+	    function getParameterByName(name)
+	    {
+		name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+		var regexS = "[\\?&]" + name + "=([^&#]*)";
+		var regex = new RegExp(regexS);
+		var results = regex.exec(window.location.search);
+		if(results == null)
+		    return "";
+		else
+		    return decodeURIComponent(results[1].replace(/\+/g, " "));
+	    }
 	    
 	    });
 
