@@ -1,2 +1,5 @@
 http://127.0.0.1:8000/timeline_dynamic?keyword=hello
 is a dynamic timeline that has the parameter hello as a keyword used in get_timeline_ajax (in views.py). get_timeline_ajax will send the graph data that is associated with the data back. 
+
+
+
