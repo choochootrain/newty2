@@ -21,11 +21,11 @@ def initialize_globals():
     
 
     '''total explored is queue + visited'''
-    queue_file_name = 'queue'
-    visited_file_name = 'visited'
-    rejected_file_name = 'rejected'
-    errors_file_name = 'errors'
-    explored_file_name = 'explored'
+    queue_file_name = url_short + 'queue'
+    visited_file_name = url_short + 'visited'
+    rejected_file_name = url_short + 'rejected'
+    errors_file_name = url_short + 'errors'
+    explored_file_name = url_short + 'explored'
 
 
     queue = parse_file_by_line(queue_file_name)
