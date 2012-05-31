@@ -3,3 +3,12 @@ LEARN HOW GIT WORKFLOWS WORK
 Write an error handler for get_html. Retry errors again because sometimes it fucks up and treats non reachable html (when your internet is down) as an error. Run the error handler and add to each task queue to ensure you aren't missing anything.
 
 Fix Retry Errors to write to their correct directories
+
+
+Graphing/graphics library
+  Flot
+
+Classify
+  determine possible keywords from article text
+  associate articles by keyword and temporal locality
+  

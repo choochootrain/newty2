@@ -1,3 +1,5 @@
+#parses date strings from techcrunch
+
 from datetime import datetime
 import re
 

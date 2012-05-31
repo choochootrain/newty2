@@ -1,0 +1,40 @@
+Phase I
+  [E] Scraping data from news sources and classifying/organizing text
+     *use AWS/S3 to grab articles (Hurshal)
+        get AWS and S3 accounts
+        run cronjob
+        sites:
+          techcrunch.com
+          nytimes.com
+          cnn.com
+          huffingtonpost.com
+          wallstreetjournal.com
+          usatoday.com
+          engadget.com
+          bbc.co.uk
+     *write automated script (Lu)
+       automate getbody/title parser
+     *design schema for article database (Anders)
+
+  [H] build UI for site (Hurshal and Samir)
+    *timeline
+      canvas or html?
+    *zoom and pan controls
+    *explore how the UI is going to look
+
+Deliverables:
+  Begin scraping sites and have it running on AWS
+  Begin processing information on subsets of the sites
+  Put processed information into the timeline and see how it looks - rudimentary visualization
+  Have database schema ready to code
+Reevaluate: Tuesday
+
+
+===================================================================
+
+[H] Linking articles together in a cohesive storyline
+  -when viewing article about bin ladens death suggest articles in past about bin laden hiding or previous events
+
+
+
+[M] Ranking importance of particular articles
