@@ -8,6 +8,12 @@ import traceback
 from download_package import *
 from catch_kill import BreakHandler
 
+'''downloads an entire website and does not force anything into the queue... that is yet to be implemented
+   does a breadth first search starting from the home page. queue, errors, rejected, explored, visited lists are all stored in a text file
+   catching kill signal is handled so feel free to kill the process as much as you want'''
+
+'''to run: python get_html.py http://www.anywebsite.com/'''
+
 
 
 def initialize_globals():
@@ -17,7 +23,7 @@ def initialize_globals():
     global write_visited, write_rejected, write_errors, write_explored
 
     url_to_scrape = sys.argv[1]
-    url_short = url_to_scrape.replace('http://', '').replace('www', '')
+    url_short = url_to_scrape.replace('http://', '').replace('www.', '').replace('/', '')
     
 
     '''total explored is queue + visited'''
