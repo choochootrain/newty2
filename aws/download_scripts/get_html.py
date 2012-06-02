@@ -20,17 +20,19 @@ def initialize_globals():
     global url_to_scrape, url_short, queue_file_name
     global visited_file_name, rejected_file_name, errors_file_name
     global explored_file_name, queue, visited, rejected, errors, explored
-    global write_visited, write_rejected, write_errors, write_explored
+    global write_visited, write_rejected, write_errors, write_explored, main_path
+
+    main_path = '/scraped_news/'
 
     url_to_scrape = sys.argv[1]
     url_short = url_to_scrape.replace('http://', '').replace('www.', '').replace('/', '')
     
 
-    queue_file_name = url_short + '/queue'
-    visited_file_name = url_short + '/visited'
-    rejected_file_name = url_short + '/rejected'
-    errors_file_name = url_short + '/errors'
-    explored_file_name = url_short + '/explored'
+    queue_file_name = main_path + url_short + '/queue'
+    visited_file_name = main_path + url_short + '/visited'
+    rejected_file_name = main_path + url_short + '/rejected'
+    errors_file_name = main_path + url_short + '/errors'
+    explored_file_name = main_path + url_short + '/explored'
 
     queue = parse_file_by_line(queue_file_name)
     visited = parse_file_by_line(visited_file_name)
@@ -63,11 +65,14 @@ def write_everything():
     write_one(rejected_file_name, write_rejected)
     write_one(errors_file_name, write_errors)
     write_one(explored_file_name, write_explored)
+    write_visited = ''
+    write_rejected = ''
+    write_errors = ''
+    write_explored = ''
 
 def write_one(file_name, text_to_write):
     f = open(file_name, 'a')
     f.write(text_to_write)
-    text_to_write = ''
     f.close()
 
 def write_to_queue():
@@ -83,12 +88,12 @@ def begin_scrape():
     global url_to_scrape, url_short, queue_file_name
     global visited_file_name, rejected_file_name, errors_file_name
     global explored_file_name, queue, visited, rejected, errors, explored
-    global write_visited, write_rejected, write_errors, write_explored
+    global write_visited, write_rejected, write_errors, write_explored, main_path
 
     break_handler = BreakHandler()
     break_handler.enable()
     counter = 0
-    file_parent_path = url_short + '/files/'
+    file_parent_path = main_path + url_short + '/files/'
     while len(queue) > 0:
         if break_handler.trapped:
             break_handler.disable()
@@ -114,8 +119,9 @@ def begin_scrape():
                     continue
                 if reject(new_url):
                     write_rejected += new_url + '\n'
-                    explored.add(new_url)
-                    write_explored += new_url + '\n'
+##################################DO we want some way to store explored just in case we want to use those later? ###############################
+                    #explored.add(new_url)
+                    #write_explored += new_url + '\n'
                     continue
                 else:
                     queue.append(new_url)
