@@ -111,6 +111,8 @@ def begin_scrape():
             sys.exit(1)
         counter += 1
         if counter > 100:
+            log.close()
+            log = open(main_path + url_short + '/log', 'a')
             write_everything()
             counter = 0
         current_url = queue.pop(0)
