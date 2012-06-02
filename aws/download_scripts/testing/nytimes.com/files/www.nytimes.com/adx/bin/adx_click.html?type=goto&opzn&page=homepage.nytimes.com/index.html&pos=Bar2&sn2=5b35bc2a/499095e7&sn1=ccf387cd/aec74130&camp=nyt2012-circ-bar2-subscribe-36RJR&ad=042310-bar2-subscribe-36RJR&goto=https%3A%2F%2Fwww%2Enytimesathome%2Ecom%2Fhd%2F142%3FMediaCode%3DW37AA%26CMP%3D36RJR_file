@@ -1,0 +1,352 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head> 
+	<meta name="CG" content="Home Delivery Acquisition" /> 										
+	<meta name="PT" content="E-Commerce" /> 
+    <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+    <title>The New York Times - Home Delivery</title>
+    <meta name="keywords" content=" The New York Times, NYTimes, NY Times, Home Delivery" />
+    <script type="text/javascript" src="https://nytimesathome.com/js/shared/jquery.js"></script>
+    <script type="text/javascript" src="https://nytimesathome.com/js/shared/jquery-ui.js"></script>
+    <script type="text/javascript" src="https://nytimesathome.com/js/shared/mbox.js"></script>
+	<script type="text/javascript" src="https://nytimesathome.com/js/shared/shared.js"></script>
+	<script type="text/javascript" src="https://nytimesathome.com/js/loadJavascript.php?offerID=205&discountPercent=50"></script>
+    <link rel="stylesheet" href="https://nytimesathome.com/css/loadStyles.php?offerID=205" type="text/css" />
+</head>
+
+<body>
+	    <div class="mboxDefault"></div>
+    <script type="text/javascript">
+            mboxCreate('ajaxTracker205');
+            mboxCreate('SimulatedPageTracker');
+    </script>
+    <script type="text/javascript">
+    	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+		try {
+			var pageTracker = _gat._getTracker("UA-3570556-10");
+			pageTracker._setCampNameKey("MediaCode"); // name
+			pageTracker._setCampMediumKey("CMP"); // medium
+			pageTracker._setCampSourceKey("SPTR_ID"); // sourcepageTracker
+			pageTracker._trackPageview();
+		} catch(err) {}
+    </script>
+    <!-- End Google Analytics Code -->
+
+    <script src="https://www.nytimes.com/js/app/analytics/trackingTags_v1.1.js " type="text/javascript"></script>
+<noscript><div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="dcsym57yw10000s1s8g0boozt_9t1x/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=1.0.7"/></div></noscript>
+    
+    
+    <!--
+    Start of DoubleClick Floodlight Tag: Please do not remove
+    Activity name of this tag: BAU-Landing Page-ID=142
+    URL of the webpage where the tag is expected to be placed: 					https://www.nytimesathome.com/hd/142?MediaCode=XXXXX&CMP=XXXXX
+    This tag must be placed between the body tags, as close as possible to the opening tag.
+    Creation Date: 07/14/2011
+    -->
+    <script type="text/javascript">
+    var axel = Math.random() + "";
+    var a = axel * 10000000000000;
+    document.write('<iframe src="https://fls.doubleclick.net/activityi;src=588818;type=bauid433;cat=bau-l847;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+    </script>
+    <noscript>
+    <iframe src="https://fls.doubleclick.net/activityi;src=588818;type=bauid433;cat=bau-l847;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+    </noscript>
+    <!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+    
+	<div id="divWrapper">
+    	<div id="logo">
+        	<img src="https://nytimesathome.com/images/shared/logo-nyt.gif" />
+        </div>
+        <div id="previousMember">
+            <b>Already a Subscriber?</b> 
+            <a href="/hd/205/alreadySubscribed" onclick="javascript: mboxUpdate('SimulatedPageTracker', 'click=alreadySubscriber'); var _delay=function(url){setTimeout(function(){location=url;},500)};_delay(this.href);return false;">Click Here</a> 
+        </div>
+        <div class="clear"></div>
+        <div id="borderWrapper">
+        
+        	<div id="headline">
+            	            	<img src="https://nytimesathome.com/images/205/headline.jpg" alt="Headline" />
+            </div>
+        
+        	<div id="leftContent">
+				<form action="/hd/205/submitOrder" method="POST" id="accordionForm">
+                    <input type="hidden" name="accStep" value="" id="lastStep" />
+                    <div id="accordion">
+                        <h3 id="section_1"><div class="checkMark" id="step1check"></div></h3>
+                        <div class="content hide">
+                            <div id="arrow">
+                                <input type="text" name="zip" id="zip" maxlength="5" size="10" value="" />
+                                <input type="image" src="https://nytimesathome.com/images/205/go.gif" alt="Go" id="getZipCode"/>
+                                <img src="https://nytimesathome.com/images/205/ajax-loader.gif" alt="" width="16" height="16" id="throbber" />
+                            </div>
+                            <div id="badge">
+                            	<img src="https://nytimesathome.com/images/205/banner.gif" alt="Home delivery Subscribers get free All Digital Access" />
+                            </div>
+                        </div>
+                        
+                        <h3 id="section_2"><div class="checkMark" id="step2check"></div></h3>
+                        <div class="content hide">
+                            <div><img src="https://nytimesathome.com/images/205/select-the-new.jpg" /></div>
+                            <div id="radio"></div>
+                            <div id="payWording">
+                            	<div id="wording"><div style="font-size:12px;"><div style="font-weight:bold; color:#53ABDA; margin-bottom:5px">Plus, you get All Digital Access Free!</div> Every print subscription includes unlimited access to NYTimes.com** and the NYTimes tablet and smartphone apps.<br /><br />Plus, as a home delivery subscriber you can share your digital access with a family member at no additional charge.</div></div>
+                                <div id="devices">
+                                	<img src="https://nytimesathome.com/images/205/devices.png" alt="" />
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            
+                            <input type="image" src="https://nytimesathome.com/images/205/previous.gif" value="prev" class="prev" id="prev1"/>
+                            <input type="image" src="https://nytimesathome.com/images/205/next.gif" alt="next" class="next" id="next1"/>
+                        </div>
+    
+                        <h3 id="section_3"><div class="checkMark" id="step3check"></div></h3>
+                        <div class="content hide">
+                            <div>
+                                <img src="https://nytimesathome.com/images/205/delivery-info.jpg" alt="Delivery Information" />
+                            </div>
+                            <div id="deliveryInfo">
+                                <ul>
+                                    <li class="first">First Name</li>
+                                    <li><input name="da_first_name" type="text" id="first_name" maxlength="20" /></li>
+                                    <li class="last" id="firstNameError">Please enter a valid first name</li>
+                                </ul>
+                                <ul>
+                                    <li class="first">Last Name</li>
+                                    <li><input name="da_last_name" type="text" id="last_name" maxlength="20" /></li>
+                                    <li class="last" id="lastNameError">Please enter a valid last name</li>
+                                </ul>
+                                <ul>
+                                    <li class="first">Address</li>
+                                    <li><input name="da_address1" type="text" id="address1" maxlength="30" /></li>
+                                    <li class="last" id="addressError">Please enter a valid delivery address</li>
+                                </ul>
+                                <ul>
+                                    <li class="first">&nbsp;</li>
+                                    <li><input type="text" name="da_address2" id="address2" maxlength="30" /></li>
+                                </ul>
+                                <ul>
+                                    <li class="first">City, State, Zip</li>
+                                    <li id="cityStateZip"></li>
+                                </ul>
+                                <ul>
+                                    <li class="first">Phone</li>
+                                    <li>(<input name="da_phone" type="text" id="phone1" size="3" maxlength="3" onKeyup="autotab(this, 'phone2')" />) <input name="da_phone1" type="text" id="phone2" size="3" maxlength="3" onKeyup="autotab(this, 'phone3')" /> - <input name="da_phone2" type="text" id="phone3" size="4" maxlength="4" onKeyup="autotab(this, 'email')" /></li>
+                                    <li class="last" id="phoneError">Please enter a valid phone number</li>
+                                </ul>
+                                <ul>
+                                    <li class="first">E-mail Address</li>
+                                    <li><input name="email" type="text" id="email" maxlength="50" /></li>
+                                    <li class="last" id="emailError">Please enter a valid email address</li>
+                                </ul>
+                                <div class="clear"></div>
+                                <div id="subscriberEmail">
+                                    <strong>Sign up to receive subscriber e-mails.</strong> 
+                                    Be the first to learn about exclusive subscriber discounts and new merchandise at The New York Times Store, upcoming events, special features in the newspaper and more. 
+                                                <br /><br /> 
+                                                <input type="radio" name="com_pref_nyt" value="Y" checked="checked" /> Yes, sign me up for exclusive subscriber e-mails.  
+                                                <input type="radio" value="N" name="com_pref_nyt"  /> No, please do not send me subscriber e-mails.
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <input type="image" src="https://nytimesathome.com/images/205/previous.gif" value="prev" class="prev" id="prev2"/>
+                            <input type="image" src="https://nytimesathome.com/images/205/next.gif" alt="next" class="next" id="next2"/>
+                        </div>
+    
+                        <h3 id="section_4"><div class="checkMark" id="step4check"></div></h3>
+                        <div class="content hide">
+                            <div>
+                                <img src="https://nytimesathome.com/images/205/billing-info.jpg" alt="Billing Information" />
+                            </div>
+                            <div id="billingInfoWrapper">
+                                <div id="billingInfo">
+                                    <div class="padTopBottom10">
+                                        <input type="checkbox" name="bill_add_flag" value="Y" id="showBilling" /> Billing address, if different from delivery address
+                                    </div>
+                                    <div id="hiddenBilling">
+                                        <ul>
+                                            <li class="first">First Name</li>
+                                            <li><input name="ba_first_name" type="text" id="ba_first_name" maxlength="20" /></li>
+                                            <li class="last" id="baFirstNameError">Please enter a valid first name</li>
+                                        </ul>
+                                        <ul>
+                                            <li class="first">Last Name</li>
+                                            <li><input name="ba_last_name" type="text" id="ba_last_name" maxlength="20" /></li>
+                                            <li class="last" id="baLastError">Please enter a valid last name</li>
+                                        </ul>
+                                        <ul>
+                                            <li class="first">Address</li>
+                                            <li><input name="ba_address1" type="text" id="ba_address1" maxlength="30" /></li>
+                                            <li class="last" id="baAddressError">Please enter a valid billing address</li>
+                                        </ul>
+                                        <ul>
+                                            <li class="first">&nbsp;</li>
+                                            <li><input name="ba_address2" type="text" id="ba_address2" maxlength="30" /></li>
+                                        </ul>
+                                        <ul>
+                                            <li class="first">City</li>
+                                            <li><input type="text" name="ba_city" id="ba_city" maxlength="20" /></li>
+                                            <li class="last" id="baCityError">Please enter a valid billing city</li>
+                                        </ul>
+                                        <ul>
+                                            <li class="first">State</li>
+                                            <li>
+                                                <select  name="ba_state" id="ba_state">
+                                                    <option value="AL">Alabama</option>
+                                                    <option value="AK">Alaska</option>
+                                                    <option value="AZ">Arizona</option>
+                                                    <option value="AR">Arkansas</option>
+                                                    <option value="CA">California</option>
+                                                    <option value="CO">Colorado</option>
+                                                    <option value="CT">Connecticut</option>
+                                                    <option value="DE">Delaware</option>
+                                                    <option value="DC">District of Columbia</option>
+                                                    <option value="FL">Florida</option>
+                                                    <option value="GA">Georgia</option>
+                                                    <option value="HI">Hawaii</option>
+                                                    <option value="ID">Idaho</option>
+                                                    <option value="IL">Illinois</option>
+                                                    <option value="IN">Indiana</option>
+                                                    <option value="IA">Iowa</option>
+                                                    <option value="KS">Kansas</option>
+                                                    <option value="KY">Kentucky</option>
+                                                    <option value="LA">Louisiana</option>
+                                                    <option value="ME">Maine</option>
+                                                    <option value="MD">Maryland</option>
+                                                    <option value="MA">Massachusetts</option>
+                                                    <option value="MI">Michigan</option>
+                                                    <option value="MN">Minnesota</option>
+                                                    <option value="MS">Mississippi</option>
+                                                    <option value="MO">Missouri</option>
+                                                    <option value="MT">Montana</option>
+                                                    <option value="NE">Nebraska</option>
+                                                    <option value="NV">Nevada</option>
+                                                    <option value="NH">New Hampshire</option>
+                                                    <option value="NJ">New Jersey</option>
+                                                    <option value="NM">New Mexico</option>
+                                                    <option value="NY">New York</option>
+                                                    <option value="NC">North Carolina</option>
+                                                    <option value="ND">North Dakota</option>
+                                                    <option value="OH">Ohio</option>
+                                                    <option value="OK">Oklahoma</option>
+                                                    <option value="OR">Oregon</option>
+                                                    <option value="PA">Pennsylvania</option>
+                                                    <option value="RI">Rhode Island</option>
+                                                    <option value="SC">South Carolina</option>
+                                                    <option value="SD">South Dakota</option>
+                                                    <option value="TN">Tennessee</option>
+                                                    <option value="TX">Texas</option>
+                                                    <option value="UT">Utah</option>
+                                                    <option value="VT">Vermont</option>
+                                                    <option value="VA">Virginia</option>
+                                                    <option value="WA">Washington</option>
+                                                    <option value="WV">West Virginia</option>
+                                                    <option value="WI">Wisconsin</option>
+                                                    <option value="WY">Wyoming</option>
+                                                </select>
+                                            </li>
+                                            <li class="last" id="baStateError">Please enter a valid billing state</li>
+                                        </ul>
+                                        <ul>
+                                            <li class="first">Zip</li>
+                                            <li><input type="text" name="ba_zip" id="ba_zip" maxlength="5" /></li>
+                                            <li class="last" id="baZipError">Please enter a valid billing zip code</li>
+                                        </ul>
+                                        <ul>
+                                            <li class="first">Phone</li>
+                                            <li>(<input name="ba_phone" type="text" id="ba_phone" size="3" maxlength="3" onKeyup="autotab(this, 'ba_phone1')" />) <input name="ba_phone1" type="text" id="ba_phone1" size="3" maxlength="3" onKeyup="autotab(this, 'ba_phone2')" /> - <input name="ba_phone2" type="text" id="ba_phone2" size="4" maxlength="4" /></li>
+                                            <li class="last" id="baPhoneError">Please enter a valid phone number</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                                                    <div id="payMethod">
+                                        <div>
+                                            <input type="radio" name="pm_payby_flag" value="CC" id="payByCC" checked /> Pay by credit card and get your <b>first 12 weeks at 50% off*</b>
+                                      </div>
+                                        <div>
+                                            <input type="radio" name="pm_payby_flag" value="MS" id="payByMail" /> Pay by mail and get your <b>first 8 weeks at 50% off*</b>
+                                        </div>                            
+                                    </div>
+                                                                <div id="ccInfo">
+                                    <ul>
+                                        <li class="first">Credit Card</li>
+                                        <li>
+                                            <select name="creditcard_type" id="creditcard_type">
+                                                <option value="VS">Visa</option>
+                                                <option value="DS">Discover</option>
+                                                <option value="MC">MasterCard</option>
+                                                <option value="AE">American Express</option>
+                                            </select>
+                                      </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="first">Card Number</li>
+                                        <li><input name="cc_num" type="text" maxlength="16" id="cardnumber" /></li>
+                                        <li class="last" id="baCCError">Please enter a valid credit card number</li>
+                                    </ul>
+                                    <ul>
+                                        <li class="first">Exp. Date</li>
+                                        <li>
+                                            <select name="cc_month" id="cc_month">
+                                                <option value="-1" selected>MM</option>
+                                                  	<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>
+                                            </select>
+                                            <select name="cc_year" id="cc_year">
+                                                <option value="-1" selected>YYYY</option>			
+                                                  	<option value="12">2012</option><option value="13">2013</option><option value="14">2014</option><option value="15">2015</option><option value="16">2016</option><option value="17">2017</option><option value="18">2018</option><option value="19">2019</option>                                            </select>                                    
+                                      </li>
+                                      <li class="last" id="baCCExpError">Please enter a valid credit card expiration date</li>
+                                    </ul>
+                                    <ul>
+                                        <li class="first">Card ID#</li>
+                                        <li><input name="cc_cvv" type="text" id="cvv" size="4" maxlength="4" /> <a href="javascript:void(0)" onclick="window.open('cvv', 'window', 'toolbar=no, location=no, scrollbars=no, resizable=no, width=700, height=510')">What's This</a></li>
+                                        <li class="last" id="baCVVError">Please enter a valid ccv number</li>
+                                    </ul>
+                                </div>
+								<div id="digiCert">
+									<!-- BEGIN DigiCert Site Seal Code --><div id="digicertsitesealcode" style="width: 81px; margin: 5px auto 5px auto;" align="center"><script language="javascript" type="text/javascript" src="https://www.digicert.com/custsupport/sealtable.php?order_id=00239953&amp;seal_type=a&amp;seal_size=large&amp;seal_color=blue&amp;new=1"></script><a href="http://www.digicert.com/">SSL Certificate</a><script language="javascript" type="text/javascript">coderz();</script></div><!-- END DigiCert Site Seal Code --> 
+                                </div>
+                                <div class="clear" style="height:10px"></div>
+                            </div>
+                            <input type="image" src="https://nytimesathome.com/images/205/previous.gif" value="prev" class="prev"/>
+                            <input type="image" src="https://nytimesathome.com/images/205/completeorder.gif" alt="Complete Order" id="completeOrder" name="complete" />
+                        </div>
+    
+                    </div>
+				</form>
+                <div id="terms">
+                	<div id="legal">
+                    	*This introductory offer is valid only in areas served by The New York 
+                        Times Delivery Service and to readers who have not had an active home 
+                        delivery account within the past 90 days. Prices may vary in some regions. 
+                        Some addresses in a zip code may not be serviceable. At the end of the introductory 
+                        period, service will continue at our regular rate unless you cancel your 
+                        subscription. You will be billed or your credit card will automatically be 
+                        charged for each 4-week billing period in advance. State and local taxes will 
+                        be added where applicable. Prices are subject to change. Receive The New York 
+                        Times for just $<span id="discPrice"></span> per week for 12                        weeks when you pay by credit card 
+							(8 weeks if you choose to be billed)
+						. 
+                        After your introductory period, home delivery will continue 
+                        at the regular price of $<span id="fullPrice"></span> per week.
+                    </div>
+                    <div>**Mobile apps are not supported on all devices. Does not include e-reader editions, Premium Crosswords or The New York Times Crossword apps. Book Review and Large Print Weekly subscriptions do not include Digital Access. Other restrictions apply.</div>
+                </div>
+            </div>
+            
+            <div id="rightContent">
+            	<img src="https://nytimesathome.com/images/205/papers.jpg" />
+            </div>
+            
+            <div class="clear"></div>
+        </div>
+    </div>
+	<div id="copyrightLinks">
+    	<a onclick="window.open('http://homedelivery.nytimes.com/', 'window', 'toolbar=yes, location=yes, scrollbars=yes, resizable=yes, width=850, height=590')" href="javascript:void(0)">Customer Care</a> &nbsp;|&nbsp; 
+	    <a onclick="window.open('http://www.nytimes.com/content/help/rights/copyright/copyright-notice.html',null,'height=740,width=1000,status=yes,scrollBars=yes,resizable=yes,location=no,left=10,top=0');" href="javascript: void(0);">&copy; 2012</a> &nbsp;|&nbsp; <a href="http://www.nytco.com/" target="_blank">The New York Times Company</a> &nbsp;|&nbsp; 
+	    <a onclick="window.open('http://www.nytimes.com/content/help/rights/privacy/policy/privacy-policy.html',null,'height=540,width=800,status=yes,scrollBars=yes,resizable=yes,location=no,left=10,top=0');" href="javascript: void(0);">Privacy Policy</a>
+    </div>
+</body>
+</html>

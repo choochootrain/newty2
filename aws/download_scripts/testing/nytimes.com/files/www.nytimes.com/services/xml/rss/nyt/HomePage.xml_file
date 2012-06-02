@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="/css/rss20.xsl" type="text/xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0" xmlns:pheedo="http://www.pheedo.com/namespace/pheedo">
+	<channel>
+		<title>NYT &gt; Home Page</title>
+		<link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+		<description/>
+		<language>en-us</language>
+		<copyright>Copyright 2012  The New York Times Company</copyright>
+		<lastBuildDate>Sat, 02 Jun 2012 02:55:29 GMT </lastBuildDate>
+		<image>
+			<title>NYT &gt; Home Page</title>
+			<url>http://graphics8.nytimes.com/images/misc/NYT_logo_rss_250x40.png</url>
+			<link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+		</image>
+		<atom:link rel="hub" href="http://www.pheedo.com/api/hub/"/>
+		<atom:link rel="self" href="http://feeds.nytimes.com/nyt/rss/HomePage" type="application/rss+xml"/>
+		<item>
+			<title>Weak Job Growth Could Alter Presidential Campaign</title>
+			<link>http://feeds.nytimes.com/click.phdo?i=723809b964c60d2543ef8faf431553d4</link>
+			<pheedo:origLink>http://www.nytimes.com/2012/06/02/business/weak-job-growth-could-alter-presidential-campaign.html?partner=rss&amp;amp;emc=rss</pheedo:origLink>
+			<guid isPermaLink="false">http://www.nytimes.com/2012/06/02/business/weak-job-growth-could-alter-presidential-campaign.html</guid>
+			<atom:link rel="standout" href="http://www.nytimes.com/2012/06/02/business/weak-job-growth-could-alter-presidential-campaign.html?partner=rss&amp;emc=rss"/>
+			<description>Friday&#x2019;s weak employment report was a potential turning point, focusing new attention on the economic implications of the partisan standoff over tax and spending policy.&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;a href=&quot;http://ads.pheedo.com/click.phdo?s=723809b964c60d2543ef8faf431553d4&amp;p=1&quot;&gt;&lt;img alt=&quot;&quot; style=&quot;border: 0;&quot; border=&quot;0&quot; src=&quot;http://ads.pheedo.com/img.phdo?s=723809b964c60d2543ef8faf431553d4&amp;p=1&quot;/&gt;&lt;/a&gt;
+</description>
+			<dc:creator>By JONATHAN WEISMANand MARK LANDLER</dc:creator>
+			<pubDate>Sat, 02 Jun 2012 02:55:18 GMT</pubDate>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/mdes">Labor and Jobs</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2012</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Republican Party</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Party</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Senate</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">House of Representatives</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Romney, Mitt</category>
+			<category domain="http://www.nytimes.com/namespaces/nyt_org_all">Honeywell International Inc|HON|NYSE</category>
+		</item>
+		<item>
+			<title>News Analysis: Weak Hiring May Force the Fed to Act Again &#x2014; News Analysis</title>
+			<link>http://feeds.nytimes.com/click.phdo?i=5b5b22a621d95bab5dae4b4d5b4acbc7</link>
+			<pheedo:origLink>http://www.nytimes.com/2012/06/02/business/jobs-report-makes-federal-reserve-more-likely-to-act.html?partner=rss&amp;amp;emc=rss</pheedo:origLink>
+			<guid isPermaLink="false">http://www.nytimes.com/2012/06/02/business/jobs-report-makes-federal-reserve-more-likely-to-act.html</guid>
+			<atom:link rel="standout" href="http://www.nytimes.com/2012/06/02/business/jobs-report-makes-federal-reserve-more-likely-to-act.html?partner=rss&amp;emc=rss"/>
+			<media:content url="http://graphics8.nytimes.com/images/2012/06/02/business/Fed/Fed-thumbStandard.jpg" medium="image" height="75" width="75"/>
+			<media:description>Analysts hope that Ben S. Bernanke, the Fed&#x2019;s chairman, will offer some clarity when he testifies Thursday before Congress.</media:description>
+			<media:credit>J. Scott Applewhite/Associated Press</media:credit>
+			<description>Federal Reserve officials are reluctant to provide further stimulus, but the slowing rate of job creation suggests they have not done enough.&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;a href=&quot;http://ads.pheedo.com/click.phdo?s=5b5b22a621d95bab5dae4b4d5b4acbc7&amp;p=1&quot;&gt;&lt;img alt=&quot;&quot; style=&quot;border: 0;&quot; border=&quot;0&quot; src=&quot;http://ads.pheedo.com/img.phdo?s=5b5b22a621d95bab5dae4b4d5b4acbc7&amp;p=1&quot;/&gt;&lt;/a&gt;
+</description>
+			<dc:creator>By BINYAMIN APPELBAUM</dc:creator>
+			<pubDate>Sat, 02 Jun 2012 02:54:25 GMT</pubDate>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/mdes">Labor and Jobs</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Federal Reserve System</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Politics and Government</category>
+			<category domain="http://www.nytimes.com/namespaces/nyt_org_all">Morgan Stanley|MS|NYSE</category>
+		</item>
+		<item>
+			<title>Plan Collapses for Queens Convention Hall and Casino</title>
+			<link>http://feeds.nytimes.com/click.phdo?i=088eee2085b9f4eee2ebaf652f2c774f</link>
+			<pheedo:origLink>http://www.nytimes.com/2012/06/02/nyregion/plan-collapses-for-queens-convention-hall-and-casino.html?partner=rss&amp;amp;emc=rss</pheedo:origLink>
+			<guid isPermaLink="false">http://www.nytimes.com/2012/06/02/nyregion/plan-collapses-for-queens-convention-hall-and-casino.html</guid>
+			<atom:link rel="standout" href="http://www.nytimes.com/2012/06/02/nyregion/plan-collapses-for-queens-convention-hall-and-casino.html?partner=rss&amp;emc=rss"/>
+			<description>Gov. Andrew M. Cuomo had made a signature initiative of building the country&#x2019;s largest convention center and a casino at the Aqueduct racetrack.&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;a href=&quot;http://ads.pheedo.com/click.phdo?s=088eee2085b9f4eee2ebaf652f2c774f&amp;p=1&quot;&gt;&lt;img alt=&quot;&quot; style=&quot;border: 0;&quot; border=&quot;0&quot; src=&quot;http://ads.pheedo.com/img.phdo?s=088eee2085b9f4eee2ebaf652f2c774f&amp;p=1&quot;/&gt;&lt;/a&gt;
+</description>
+			<dc:creator>By THOMAS KAPLAN and DANNY HAKIM</dc:creator>
+			<pubDate>Sat, 02 Jun 2012 02:54:32 GMT</pubDate>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Casinos</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Gambling</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cuomo, Andrew M</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Queens (NYC)</category>
+		</item>
+		<item>
+			<title>China Is Said to Detain Official Spying for U.S.</title>
+			<link>http://feeds.nytimes.com/click.phdo?i=a25c0a02ab6df65eed846e6b43721282</link>
+			<pheedo:origLink>http://www.nytimes.com/2012/06/02/world/asia/china-is-said-to-detain-official-spying-for-united-states.html?partner=rss&amp;amp;emc=rss</pheedo:origLink>
+			<guid isPermaLink="false">http://www.nytimes.com/2012/06/02/world/asia/china-is-said-to-detain-official-spying-for-united-states.html</guid>
+			<atom:link rel="standout" href="http://www.nytimes.com/2012/06/02/world/asia/china-is-said-to-detain-official-spying-for-united-states.html?partner=rss&amp;emc=rss"/>
+			<description>The arrest months ago of an official believed to have worked at the Ministry of State Security could mark the biggest intelligence breach for China in years.&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;a href=&quot;http://ads.pheedo.com/click.phdo?s=a25c0a02ab6df65eed846e6b43721282&amp;p=1&quot;&gt;&lt;img alt=&quot;&quot; style=&quot;border: 0;&quot; border=&quot;0&quot; src=&quot;http://ads.pheedo.com/img.phdo?s=a25c0a02ab6df65eed846e6b43721282&amp;p=1&quot;/&gt;&lt;/a&gt;
+</description>
+			<dc:creator>By EDWARD WONG</dc:creator>
+			<pubDate>Sat, 02 Jun 2012 02:51:10 GMT</pubDate>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/mdes">Espionage and Intelligence Services</category>
+		</item>
+		<item>
+			<title>Mets 8, Cardinals 0: Santana Throws First No-Hitter in Mets History</title>
+			<link>http://feeds.nytimes.com/click.phdo?i=835ee13a4fd32ed92c6e6733fb784498</link>
+			<pheedo:origLink>http://www.nytimes.com/2012/06/02/sports/baseball/santanas-no-hitter-is-a-first-for-the-mets.html?partner=rss&amp;amp;emc=rss</pheedo:origLink>
+			<guid isPermaLink="false">http://www.nytimes.com/2012/06/02/sports/baseball/santanas-no-hitter-is-a-first-for-the-mets.html</guid>
+			<atom:link rel="standout" href="http://www.nytimes.com/2012/06/02/sports/baseball/santanas-no-hitter-is-a-first-for-the-mets.html?partner=rss&amp;emc=rss"/>
+			<media:content url="http://graphics8.nytimes.com/images/2012/06/02/sports/02mets_sub/02mets_sub-thumbStandard.jpg" medium="image" height="75" width="75"/>
+			<media:description>Johan Santana threw 134 pitches with 8 strikeouts against the Cardinals.</media:description>
+			<media:credit>Mike Stobe/Getty Images</media:credit>
+			<description>After a string of close calls in their 51-season history, Johan Santana finally finished the job in the Mets&#x2019; 8,020nd game, against the St. Louis Cardinals.&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;a href=&quot;http://ads.pheedo.com/click.phdo?s=835ee13a4fd32ed92c6e6733fb784498&amp;p=1&quot;&gt;&lt;img alt=&quot;&quot; style=&quot;border: 0;&quot; border=&quot;0&quot; src=&quot;http://ads.pheedo.com/img.phdo?s=835ee13a4fd32ed92c6e6733fb784498&amp;p=1&quot;/&gt;&lt;/a&gt;
+</description>
+			<dc:creator>By TIM ROHAN</dc:creator>
+			<pubDate>Sat, 02 Jun 2012 02:47:29 GMT</pubDate>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Santana, Johan</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Mets</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">St Louis Cardinals</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Baseball</category>
+		</item>
+		<item>
+			<title>On Baseball: In Mets&#x2019; 51st Year, Finally, Their First No-Hitter</title>
+			<link>http://feeds.nytimes.com/click.phdo?i=257b646851a61342c7a179762eb9d96b</link>
+			<pheedo:origLink>http://www.nytimes.com/2012/06/02/sports/baseball/in-mets-51st-year-finally-their-first-no-hitter.html?partner=rss&amp;amp;emc=rss</pheedo:origLink>
+			<guid isPermaLink="false">http://www.nytimes.com/2012/06/02/sports/baseball/in-mets-51st-year-finally-their-first-no-hitter.html</guid>
+			<atom:link rel="standout" href="http://www.nytimes.com/2012/06/02/sports/baseball/in-mets-51st-year-finally-their-first-no-hitter.html?partner=rss&amp;emc=rss"/>
+			<description>Only Tom Seaver had taken a no-hitter into the ninth inning for the Mets, losing his bids in 1969 and 1972, while there were 131 other no-hitters in the major leagues during the franchise&#x2019;s existence.&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;a href=&quot;http://ads.pheedo.com/click.phdo?s=257b646851a61342c7a179762eb9d96b&amp;p=1&quot;&gt;&lt;img alt=&quot;&quot; style=&quot;border: 0;&quot; border=&quot;0&quot; src=&quot;http://ads.pheedo.com/img.phdo?s=257b646851a61342c7a179762eb9d96b&amp;p=1&quot;/&gt;&lt;/a&gt;
+</description>
+			<dc:creator>By TYLER KEPNER</dc:creator>
+			<pubDate>Sat, 02 Jun 2012 02:39:28 GMT</pubDate>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Baseball</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Mets</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Santana, Johan</category>
+		</item>
+		<item>
+			<title>California Cuts Threaten the Status of Universities</title>
+			<link>http://feeds.nytimes.com/click.phdo?i=07a3bc8a9db98648c37f8e086647561d</link>
+			<pheedo:origLink>http://www.nytimes.com/2012/06/02/us/california-cuts-threaten-the-status-of-universities.html?partner=rss&amp;amp;emc=rss</pheedo:origLink>
+			<guid isPermaLink="false">http://www.nytimes.com/2012/06/02/us/california-cuts-threaten-the-status-of-universities.html</guid>
+			<atom:link rel="standout" href="http://www.nytimes.com/2012/06/02/us/california-cuts-threaten-the-status-of-universities.html?partner=rss&amp;emc=rss"/>
+			<media:content url="http://graphics8.nytimes.com/images/2012/06/02/us/JP-COLLEGE/JP-COLLEGE-thumbStandard.jpg" medium="image" height="75" width="75"/>
+			<media:description>Students at the University of California, Riverside, taking a midterm exam in a psychology class that has an enrollment of 570.</media:description>
+			<media:credit>Monica Almeida/The New York Times</media:credit>
+			<description>If a proposed tax increase is not approved, officials say they would be forced to consider eliminating entire schools or programs, hurting the university system&#x2019;s elite reputation.&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;a href=&quot;http://ads.pheedo.com/click.phdo?s=07a3bc8a9db98648c37f8e086647561d&amp;p=1&quot;&gt;&lt;img alt=&quot;&quot; style=&quot;border: 0;&quot; border=&quot;0&quot; src=&quot;http://ads.pheedo.com/img.phdo?s=07a3bc8a9db98648c37f8e086647561d&amp;p=1&quot;/&gt;&lt;/a&gt;
+</description>
+			<dc:creator>By JENNIFER MEDINA</dc:creator>
+			<pubDate>Sat, 02 Jun 2012 01:46:43 GMT</pubDate>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">California</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">University of California</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">California State University</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Colleges and Universities</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">University of California, Riverside</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">University of California, Los Angeles</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Budgets and Budgeting</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Taxation</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/mdes">Community Colleges</category>
+		</item>
+		<item>
+			<title>London&#x2019;s ArcelorMittal Orbit Leads to Controversy</title>
+			<link>http://feeds.nytimes.com/click.phdo?i=0daa262b3efb5576a9a6b175aeaaecea</link>
+			<pheedo:origLink>http://www.nytimes.com/2012/06/02/arts/design/londons-arcelormittal-orbit-leads-to-controversy.html?partner=rss&amp;amp;emc=rss</pheedo:origLink>
+			<guid isPermaLink="false">http://www.nytimes.com/2012/06/02/arts/design/londons-arcelormittal-orbit-leads-to-controversy.html</guid>
+			<atom:link rel="standout" href="http://www.nytimes.com/2012/06/02/arts/design/londons-arcelormittal-orbit-leads-to-controversy.html?partner=rss&amp;emc=rss"/>
+			<media:content url="http://graphics8.nytimes.com/images/2012/06/02/arts/ORBIT/ORBIT-thumbStandard.jpg" medium="image" height="75" width="75"/>
+			<media:description>The ArcelorMittal Orbit, lighting up the night (and more than a few tempers) at the Olympic Park in East London.</media:description>
+			<media:credit>ArcelorMittal</media:credit>
+			<description>Some people in London are not enamored of the ArcelorMittal Orbit, a centerpiece of the city&#x2019;s Olympic Park.&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;a href=&quot;http://ads.pheedo.com/click.phdo?s=0daa262b3efb5576a9a6b175aeaaecea&amp;p=1&quot;&gt;&lt;img alt=&quot;&quot; style=&quot;border: 0;&quot; border=&quot;0&quot; src=&quot;http://ads.pheedo.com/img.phdo?s=0daa262b3efb5576a9a6b175aeaaecea&amp;p=1&quot;/&gt;&lt;/a&gt;
+</description>
+			<dc:creator>By AMY CHOZICK</dc:creator>
+			<pubDate>Sat, 02 Jun 2012 02:54:32 GMT</pubDate>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kapoor, Anish</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Balmond, Cecil</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Olympic Games (2012)</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Sculpture</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">London (England)</category>
+			<category domain="http://www.nytimes.com/namespaces/nyt_org_all">ArcelorMittal S.A|MT|NYSE</category>
+		</item>
+		<item>
+			<title>Cambodia to Ask Met to Return 10th-Century Statues</title>
+			<link>http://feeds.nytimes.com/click.phdo?i=18329d2a02bd29612c4fb598b0ebbc95</link>
+			<pheedo:origLink>http://www.nytimes.com/2012/06/02/arts/design/cambodia-to-ask-met-to-return-10th-century-statues.html?partner=rss&amp;amp;emc=rss</pheedo:origLink>
+			<guid isPermaLink="false">http://www.nytimes.com/2012/06/02/arts/design/cambodia-to-ask-met-to-return-10th-century-statues.html</guid>
+			<atom:link rel="standout" href="http://www.nytimes.com/2012/06/02/arts/design/cambodia-to-ask-met-to-return-10th-century-statues.html?partner=rss&amp;emc=rss"/>
+			<media:content url="http://graphics8.nytimes.com/images/2012/06/02/arts/02statue/02statue-thumbStandard.jpg" medium="image" height="75" width="75"/>
+			<media:description>Kneeling Male AttendantCambodia, Angkor period, Khmer styleof Koh Ker, ca. 921&#x2013;45.</media:description>
+			<media:credit>The Metropolitan Museum of Art, New York</media:credit>
+			<description>The Cambodian government will ask the Metropolitan Museum of Art to return twin sandstone figures that were allegedly looted from a jungle temple.&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;a href=&quot;http://ads.pheedo.com/click.phdo?s=18329d2a02bd29612c4fb598b0ebbc95&amp;p=1&quot;&gt;&lt;img alt=&quot;&quot; style=&quot;border: 0;&quot; border=&quot;0&quot; src=&quot;http://ads.pheedo.com/img.phdo?s=18329d2a02bd29612c4fb598b0ebbc95&amp;p=1&quot;/&gt;&lt;/a&gt;
+</description>
+			<dc:creator>By TOM MASHBERG and RALPH BLUMENTHAL</dc:creator>
+			<pubDate>Sat, 02 Jun 2012 02:30:31 GMT</pubDate>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Metropolitan Museum of Art</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Cambodia</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Museums</category>
+			<category domain="http://www.nytimes.com/namespaces/nyt_org_all">Sotheby's|BID|NYSE</category>
+		</item>
+		<item>
+			<title>Crime Scene: Falling Prey to a Fraudulent Vacation Rental - Crime Scene</title>
+			<link>http://feeds.nytimes.com/click.phdo?i=2402e13c4f43fd6e9a344d9f228189d8</link>
+			<pheedo:origLink>http://www.nytimes.com/2012/06/02/nyregion/falling-prey-to-a-fraudulent-vacation-rental-crime-scene.html?partner=rss&amp;amp;emc=rss</pheedo:origLink>
+			<guid isPermaLink="false">http://www.nytimes.com/2012/06/02/nyregion/falling-prey-to-a-fraudulent-vacation-rental-crime-scene.html</guid>
+			<atom:link rel="standout" href="http://www.nytimes.com/2012/06/02/nyregion/falling-prey-to-a-fraudulent-vacation-rental-crime-scene.html?partner=rss&amp;emc=rss"/>
+			<media:content url="http://graphics8.nytimes.com/images/2012/06/02/nyregion/CRIMESCENE/CRIMESCENE-thumbStandard.jpg" medium="image" height="75" width="75"/>
+			<media:description>A woman in Oregon paid $950 toward a 12-night rental of an apartment at 98 Mercer Street, on this SoHo block, then found no building at that address.</media:description>
+			<media:credit>Sara Krulwich/The New York Times</media:credit>
+			<description>An Oregon woman paid $950 toward a 12-night rental on a SoHo apartment offered on Craigslist, only to find that the building it was in is nonexistent.&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;br clear=&quot;both&quot; style=&quot;clear: both;&quot;/&gt;
+&lt;a href=&quot;http://ads.pheedo.com/click.phdo?s=2402e13c4f43fd6e9a344d9f228189d8&amp;p=1&quot;&gt;&lt;img alt=&quot;&quot; style=&quot;border: 0;&quot; border=&quot;0&quot; src=&quot;http://ads.pheedo.com/img.phdo?s=2402e13c4f43fd6e9a344d9f228189d8&amp;p=1&quot;/&gt;&lt;/a&gt;
+</description>
+			<dc:creator>By MICHAEL WILSON</dc:creator>
+			<pubDate>Sat, 02 Jun 2012 01:25:33 GMT</pubDate>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Frauds and Swindling</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/des">Renting and Leasing (Real Estate)</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/mdes">Computers and the Internet</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">SoHo (NYC)</category>
+			<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Craigslist</category>
+			<category domain="http://www.nytimes.com/namespaces/nyt_org_all">Google Inc|GOOG|NASDAQ</category>
+			<category domain="http://www.nytimes.com/namespaces/nyt_org_all">Macy's Inc|M|NYSE</category>
+		</item>
+	</channel>
+</rss>

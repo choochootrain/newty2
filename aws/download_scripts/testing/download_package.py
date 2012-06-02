@@ -24,15 +24,15 @@ url_opener.addheaders = [('User-agent', 'Mozilla/5.0 (X11; Linux x86_64) AppleWe
 
 
 
-def download_and_write_page(url):
+def download_and_write_page(url, file_parent_path):
     page = url_opener.open(url)
     html = page.read()
     url_no_http = url.replace('http://', '')
     account_for_last_slash = delete_last_slash.search(url_no_http)
     if account_for_last_slash and account_for_last_slash.group(0) == url_no_http:
         url_no_http = account_for_last_slash.group(1)
-    ensure_path(url_no_http)
-    f = open(url_no_http + '_file', 'w')
+    ensure_path(file_parent_path + url_no_http)
+    f = open(file_parent_path + url_no_http + '_file', 'w')
     f.write(html)
     f.close()
     return html
@@ -65,12 +65,11 @@ def parse_file_by_line(file_name):
     to_return = []
     try:
         f = open(file_name, 'r')
-        file_lines = f.read().split('\n')
-        for line in file_lines:
-            if line != '':
-                to_return.append(line)
+        file_lines = [line for line in f]
+        to_return = file_lines
         f.close()
     except IOError as e:
+        ensure_path(file_name)
         f = open(file_name, 'w')
         f.close()
     return to_return

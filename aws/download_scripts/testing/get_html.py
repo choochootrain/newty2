@@ -8,6 +8,12 @@ import traceback
 from download_package import *
 from catch_kill import BreakHandler
 
+'''downloads an entire website and does not force anything into the queue... that is yet to be implemented
+   does a breadth first search starting from the home page. queue, errors, rejected, explored, visited lists are all stored in a text file
+   catching kill signal is handled so feel free to kill the process as much as you want'''
+
+'''to run: python get_html.py http://www.anywebsite.com/'''
+
 
 
 def initialize_globals():
@@ -17,22 +23,28 @@ def initialize_globals():
     global write_visited, write_rejected, write_errors, write_explored
 
     url_to_scrape = sys.argv[1]
-    url_short = url_to_scrape.replace('http://', '').replace('www', '')
+    url_short = url_to_scrape.replace('http://', '').replace('www.', '').replace('/', '')
     
 
-    '''total explored is queue + visited'''
-    queue_file_name = 'queue'
-    visited_file_name = 'visited'
-    rejected_file_name = 'rejected'
-    errors_file_name = 'errors'
-    explored_file_name = 'explored'
-
+    queue_file_name = url_short + '/queue'
+    visited_file_name = url_short + '/visited'
+    rejected_file_name = url_short + '/rejected'
+    errors_file_name = url_short + '/errors'
+    explored_file_name = url_short + '/explored'
 
     queue = parse_file_by_line(queue_file_name)
-    visited = set(parse_file_by_line(visited_file_name))
-    rejected = set(parse_file_by_line(rejected_file_name))
-    errors = set(parse_file_by_line(errors_file_name))
-    explored = set(parse_file_by_line(explored_file_name))
+    visited = parse_file_by_line(visited_file_name)
+    rejected = parse_file_by_line(rejected_file_name)
+    errors = parse_file_by_line(errors_file_name)
+    explored = parse_file_by_line(explored_file_name)
+
+
+    
+    #Need this or else runs into MemoryError on smaller servers
+    visited = set(visited)
+    rejected = set(rejected)
+    errors = set(errors)
+    explored = set(explored)
 
     write_visited = ''
     write_rejected = ''
@@ -76,6 +88,7 @@ def begin_scrape():
     break_handler = BreakHandler()
     break_handler.enable()
     counter = 0
+    file_parent_path = url_short + '/files/'
     while len(queue) > 0:
         if break_handler.trapped:
             break_handler.disable()
@@ -94,7 +107,7 @@ def begin_scrape():
         time.sleep(.5 + random_wait)
         print 'Working on ' + current_url
         try:
-            html = download_and_write_page(current_url)
+            html = download_and_write_page(current_url, file_parent_path)
             links = [x.group(1) for x in re.finditer(r'href="([^"]*)"', html)]
             for new_url in links:
                 if new_url in explored:

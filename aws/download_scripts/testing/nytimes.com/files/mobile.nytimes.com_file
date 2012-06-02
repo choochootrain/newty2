@@ -1,0 +1,15 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="robots" content="noindex" />
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+var url = "http://www.nytimes.com"
+(document.images) ? location.replace(url) : location.href = url;
+//--><!]]></script>
+<meta http-equiv="refresh" content="0;URL=http://www.nytimes.com" />
+<title>Redirect</title>
+</head>
+<body>
+<p><a href="http://www.nytimes.com/">Go to NYTimes.com</a>.</p>
+</body>
+</html>

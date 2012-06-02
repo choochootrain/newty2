@@ -1,0 +1,1128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Blog Directory - NYTimes.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="robots" content="noarchive">
+<meta name="hdl" content="Blog Directory">
+<meta name="lp" content="A directory of New York Times blogs.">
+<meta name="dat" content="July 22, 2010">
+<meta name="DISPLAYDATE" content="July 22, 2010">
+<meta name="pdate" content="20100722">
+<meta name="col" content="">
+<meta name="dsk" content="Blogs">
+<meta name="cre" content="NYT">
+<meta name="tom" content="interactive_feature">
+<meta name="display-text" content="">
+<meta name="display-name" content="interactive">
+<meta name="url_thumb" content="">
+<meta name="url_thumb_wide" content="">
+<meta name="ttl" content="">
+<meta name="des" content="">
+<meta name="per" content="">
+<meta name="org" content="">
+<meta name="geo" content="">
+<meta name="misspelling" content="">
+<meta name="keywords" content="">
+<meta name="description" content="A directory of New York Times blogs.">
+<meta name="MEDIA_TEMPLATE_VERSION" content="200">
+<meta name="CG" content="blogs">
+<meta name="SCG" content="">
+<meta name="PT" content="Multimedia">
+<meta name="PST" content="Interactive">
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Blog Directory"/>
+<meta property="og:image" content="http://graphics8.nytimes.com/images/common/icons/t_wb_75.gif"/>
+
+<link rel="stylesheet" type="text/css" href="http://graphics8.nytimes.com/css/0.1/screen/build/interactive/styles.css?v=20120329">
+<link rel="stylesheet" type="text/css" media="print" href="http://graphics8.nytimes.com/css/0.1/print/styles.css">
+<!--[if IE]>
+        <style type="text/css">
+            @import url(http://graphics8.nytimes.com/css/0.1/screen/common/ie.css);
+        </style>
+    <![endif]-->
+<!--[if IE 6]>
+        <style type="text/css">
+            @import url(http://graphics8.nytimes.com/css/0.1/screen/common/ie6.css);
+        </style>
+    <![endif]-->
+<script type="text/javascript" src="http://graphics8.nytimes.com/js/common.js"></script>
+<script type="text/javascript" src="http://graphics8.nytimes.com/js/common/screen/DropDown.js"></script>
+<script type="text/javascript" src="http://graphics8.nytimes.com/js/fileit.js"></script>
+<script type="text/javascript" src="http://graphics8.nytimes.com/js/util/tooltip.js"></script>
+<script type="text/javascript" src="http://graphics8.nytimes.com/js/article/articleShare.js"></script>
+<script type="text/JavaScript">
+        var static_kw = "";
+        var dynamic_kw = "";
+        var nyt_google_contents = dynamic_kw + static_kw;
+        var nyt_google_ad_channel = "blogs";
+    </script>
+</head>
+<body id="interactiveABC">
+<a name="top"></a>
+<div id="shell">
+
+<ul id="memberTools">
+
+ 
+                        <li><a id="memberToolsLogin" href="https://myaccount.nytimes.com/auth/login">Log In</a></li>
+            <li><a href="https://myaccount.nytimes.com/gst/regi.html" onClick="dcsMultiTrack('WT.z_ract', 'Regnow', 'WT.z_rprod', 'Masthead','WT.z_dcsm','1');">Register Now</a></li>
+                            
+
+<li><a href="http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+</ul>
+<div class="mainTabsContainer tabsContainer">
+<ul id="mainTabs" class="mainTabs tabs">
+<li class="first mainTabHome"><a href="http://www.nytimes.com">Home Page</a></li>
+<li class="mainTabTodaysPaper"><a href="http://www.nytimes.com/pages/todayspaper/index.html">Today's Paper</a></li>
+<li class="mainTabVideo"><a href="http://www.nytimes.com/video">Video</a></li>
+<li class="mainTabMostPopular"><a href="http://www.nytimes.com/mostpopular">Most Popular</a></li>
+</ul>
+</div>
+<div id="editionToggle" class="editionToggle">
+Edition: <span id="editionToggleUS"><a href="http://www.nytimes.com" onmousedown="dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/toggleIHTtoNYT.html','WT.ti','toggleIHTtoNYT','WT.z_dcsm','1');" onclick="NYTD.EditionPref.setUS();">U.S.</a></span> / <span id="editionToggleGlobal"><a href="http://global.nytimes.com" onmousedown="dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/toggleNYTtoIHT.html','WT.ti','toggleNYTtoIHT','WT.z_dcsm','1');" onclick="NYTD.EditionPref.setGlobal();">Global</a></span>
+</div><!--close editionToggle -->
+<script type="text/javascript">
+NYTD.loadEditionToggle();
+
+window.setTimeout(function() {
+  var login = document.getElementById('memberToolsLogin');
+  if (login) {
+    login.href += "?URI=" + window.location.href;
+  }
+}, 0)
+</script>
+<div id="page" class="tabContent active">
+<div class="clearfix" id="masthead">
+
+<div class="singleAd" id="Middle1C">
+<!-- ADXINFO classification="Button88x31" campaign="ING_DirectSiteSearch12-1786280-nyt1"--><A HREF="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=www.nytimes.com/interactive/yr/mo/day&pos=Middle1C&sn2=f2025881/fc5c1736&sn1=facc780b/b59f6e47&camp=ING_DirectSiteSearch12-1786280-nyt1&ad=DirectSiteSearch12.ROS.dart88x31&goto=http://ad.doubleclick.net/jump/N3282.nytimes.comSD6440/B6188947;sz=88x31;pc=nyt176128A288112;ord=2012.06.02.03.41.28?" TARGET="_blank">
+<IMG SRC="http://ad.doubleclick.net/ad/N3282.nytimes.comSD6440/B6188947;sz=88x31;pc=nyt176128A288112;ord=2012.06.02.03.41.28?"
+ BORDER=0 WIDTH=88 HEIGHT=31
+ ALT="Click Here"></A>
+</div>
+
+<div id="searchWidget">
+<div class="inlineSearchControl">
+<form enctype="application/x-www-form-urlencoded" action="http://query.nytimes.com/search/sitesearch" method="get" name="searchForm" id="searchForm">
+<input type="hidden" value="full" name="date_select"/>
+<label for="searchQuery">Search All NYTimes.com</label>
+<input type="text" class="text" value="" size="" name="query" id="searchQuery"/>
+<input type="hidden" id="searchAll" name="type" value="nyt"/>
+<input id="searchSubmit" title="Search" width="22" height="19" alt="Search" type="image" src="http://graphics8.nytimes.com/images/global/buttons/go.gif">
+</form>
+</div>
+</div>
+<div id="branding" >
+<a href="http://www.nytimes.com"><span id="nytIhtMastheadLogo">
+<a href="http://www.nytimes.com"><img src="http://graphics8.nytimes.com/images/misc/nytlogo152x23.gif" alt="New York Times" id="NYTLogo"/></a>
+</span></a>
+</div>
+<div id="date">
+<p>
+<NYT_DISPLAYDATE></NYT_DISPLAYDATE>
+</p>
+</div>
+
+<h2>
+
+<a href="http://www.nytimes.com/pages/blogs/index.html">Blogs</a>
+</h2>
+
+</div>
+<div class="navigation tabsContainer">
+<ul class="tabs">
+<li id="navWorld" class="first ">
+<a href="http://www.nytimes.com/pages/world/index.html">World</a>
+</li>	<li id="navUs" >
+<a href="http://www.nytimes.com/pages/national/index.html">U.S.</a>
+</li>	<li id="navNyregion" >
+<a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region</a>
+</li>	<li id="navBusiness" >
+<a href="http://www.nytimes.com/pages/business/index.html">Business</a>
+</li>	<li id="navTechnology" >
+<a href="http://www.nytimes.com/pages/technology/index.html">Technology</a>
+</li>	<li id="navScience" >
+<a href="http://www.nytimes.com/pages/science/index.html">Science</a>
+</li>	<li id="navHealth" >
+<a href="http://www.nytimes.com/pages/health/index.html">Health</a>
+</li>	<li id="navSports" >
+<a href="http://www.nytimes.com/pages/sports/index.html">Sports</a>
+</li>	<li id="navOpinion" >
+<a href="http://www.nytimes.com/pages/opinion/index.html">Opinion</a>
+</li>	<li id="navArts" >
+<a href="http://www.nytimes.com/pages/arts/index.html">Arts</a>
+</li>	<li id="navStyle" >
+<a href="http://www.nytimes.com/pages/style/index.html">Style</a>
+</li>	<li id="navTravel" >
+<a href="http://www.nytimes.com/pages/travel/index.html">Travel</a>
+</li>	<li id="navJobs" >
+<a href="http://www.nytimes.com/pages/jobs/index.html">Jobs</a>
+</li>	<li id="navRealestate" >
+<a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+</li>	<li id="navAutomobiles" >
+<a href="http://www.nytimes.com/pages/automobiles/index.html">Autos</a>
+</li></ul>
+</div>
+
+<div class="singleAd" id="TopAd">
+<!-- ADXINFO classification="leaderboard_728" campaign="Google_2012_ROS_LB"--><div class="clearfix">
+<script type="text/javascript" language="JavaScript">
+<!--
+	google_ad_client = 'ca-nytimes_display_html';
+	google_alternate_ad_url = 'http://www.nytimes.com/ads/remnant/networkredirect-leaderboard.html';
+	google_ad_width = 728; 
+	google_ad_height = 90;
+	google_ad_format = '728x90_pas_abgc';
+	google_ad_type = 'image,flash';
+	google_encoding = 'utf8'; 
+	google_safe = 'high';
+	google_targeting = 'site_content';
+	google_ad_channel = 'ROS_leaderboard';
+// -->
+</script>
+<script type="text/javascript" language="JavaScript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+<noscript>
+	<img height="1" width="1" border="0" src="http://pagead2.googlesyndication.com/pagead/imp.gif?client=ca-nytimes_display_html&event=noscript" /> 
+</noscript>
+<div style="font-family: Arial; font-size: 10px; color:#004276; float: right; margin-right: 125px;"><a href="http://www.nytimes.whsites.net/mediakit/">Advertise on NYTimes.com</a></div></div>
+
+</div>
+
+<div id="main">
+<div id="interactiveShell">
+<div class="columnGroup firstColumnGroup">
+<div class="ledeStory">
+<div class="module insetHFullWidth">
+<script type="text/javascript">
+var articleToolsShareData = {"url":"http:\/\/www.nytimes.com\/interactive\/blogs\/directory.html","headline":"Blog Directory","description":"A directory of New York Times blogs.","keywords":"","section":"blogs","sub_section":null,"section_display":"Blogs","sub_section_display":null,"byline":null,"pubdate":"July 22, 2010","passkey":null};
+function getShareURL() {
+    return encodeURIComponent(articleToolsShareData.url);
+}
+function getShareHeadline() {
+    return encodeURIComponent(articleToolsShareData.headline);
+}
+function getShareDescription() {
+    return encodeURIComponent(articleToolsShareData.description);
+}
+function getShareKeywords() {
+    return encodeURIComponent(articleToolsShareData.keywords);
+}
+function getShareSection() {
+    return encodeURIComponent(articleToolsShareData.section);
+}
+function getShareSubSection() {
+	return encodeURIComponent(articleToolsShareData.sub_section);
+}
+function getShareSectionDisplay() {
+    return encodeURIComponent(articleToolsShareData.section_display);
+}
+function getShareSubSectionDisplay() {
+    return encodeURIComponent(articleToolsShareData.sub_section_display);
+}
+function getShareByline() {
+    return encodeURIComponent(articleToolsShareData.byline);
+}
+function getSharePubdate() {
+    return encodeURIComponent(articleToolsShareData.pubdate);
+}
+function getSharePasskey() {
+    return encodeURIComponent(articleToolsShareData.passkey);
+}
+</script>
+<div id="articleToolsTop" class="articleTools">
+<div class="box">
+<div class="inset">
+<ul id="toolsList" class="toolsList wrap">
+<li class="email">
+
+<a id="emailThis" onClick="s_code_linktrack('Article-Tool-EmailSignIn');" 
+           href="http://www.nytimes.com/auth/login?URI=http://www.nytimes.com/interactive/blogs/directory.html">Sign In to E-Mail</a>
+</li>
+<!--NYT_DYNAMIC_SPLITPAGE <li class="singlePage">-->
+<A HREF="/interactive/blogs/directory.html?pagewanted=all"><!--NYT_DYNAMIC_SPLITPAGE Single Page--></a>
+<!--NYT_DYNAMIC_SPLITPAGE </li>-->
+</ul>
+</div>
+</div>
+</div>
+<script type="text/javascript" language="JavaScript">
+    writePost();
+    </script>
+<div class="storyHeader">
+<h1>Blog Directory</h1>
+</div><!--close .storyHeader -->
+</div><!--end .module insetHFullWidth -->
+<div id="interactiveFreeFormMain">
+<style type="text/css" media="screen">
+  @import url(http://graphics8.nytimes.com/packages/css/blogs/directory/styles.min.css);
+</style>
+<ul class="horizontalMenu refer">
+<li class="kicker">Jump to:</li>
+<li class="first"><a class="scrollToAnchor" href="#blogNews">News</a></li>
+<li><a class="scrollToAnchor" href="#blogBusiness">Business</a></li>
+<li><a class="scrollToAnchor" href="#blogLocal">New York</a></li>
+<li><a class="scrollToAnchor" href="#blogTechnology">Technology</a></li>
+<li><a class="scrollToAnchor" href="#blogCulture">Culture/Media</a></li>
+<li><a class="scrollToAnchor" href="#blogScience">Science</a></li>
+<li><a class="scrollToAnchor" href="#blogStyles">Styles/Travel/Leisure</a></li>
+<li><a class="scrollToAnchor" href="#blogHealth">Health/Family</a></li>
+<li><a class="scrollToAnchor" href="#blogSports">Sports</a></li>
+<li><a class="scrollToAnchor" href="#blogMagazines">Magazines</a></li>
+<li><a class="scrollToAnchor" href="#blogOpinion">Opinion</a></li>
+</ul>
+<!--Begin News and Politics section -->
+<div id="blogNews" class="doubleRule opposingFloatControl wrap">
+<div class="element1">
+<h2 class="kicker">News and Politics</h2>
+</div>
+<div class="element2">
+<p class="caption"><a class="scrollToAnchor" href="#main">Back to top</a></p>
+</div>
+</div><!--END .doubleRule -->
+<div class="subColumn-3 module singleRule">
+<!--begin .column --><div class="column">
+<a href="http://thelede.blogs.nytimes.com/" title="Breaking News - The Lede Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/thelede/thelede75.gif" alt="Breaking News - The Lede Blog - NYTimes.com"></a>
+<h3><a href="http://thelede.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/thelede/thelede163.gif" alt="Breaking News - The Lede Blog - NYTimes.com"></a></h3>
+<p class="summary">Remixing the news with original reporting and information from around the world. <a class="refer" href="http://thelede.blogs.nytimes.com/">Read The Lede&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://thelede.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/thelede">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://thecaucus.blogs.nytimes.com/" title="Politics and Government - The Caucus Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/thecaucus/thecaucus75.gif" alt="Politics and Government - The Caucus Blog - NYTimes.com"></a>
+<h3><a href="http://thecaucus.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/thecaucus/thecaucus163b.gif" alt="Politics and Government - The Caucus Blog - NYTimes.com"></a></h3>
+<p class="summary">From the Washington Bureau, news and notes about government and politics. <a class="refer" href="http://thecaucus.blogs.nytimes.com/">Read The Caucus&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://thecaucus.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/thecaucus">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://cityroom.blogs.nytimes.com/" title="Metro - City Room Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/cityroom/cityroom75.gif" alt="Metro - City Room Blog - NYTimes.com"></a>
+<h3><a href="http://cityroom.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/cityroom/cityroom163.gif" alt="Metro - City Room Blog - NYTimes.com"></a></h3>
+<p class="summary">News and regular features, including Q. & A.'s, about New York. <a class="refer" href="http://cityroom.blogs.nytimes.com/">Read City Room&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://cityroom.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/#!/nytmetro/">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->  
+</div><!--END .subColumn-3 -->
+<div class="subColumn-3 module">
+<!--begin .column --><div class="column">
+<a href="http://atwar.blogs.nytimes.com/" title="At War: Notes From the Front Lines - At War Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/atwar/atwar75.gif" alt="At War: Notes From the Front Lines - At War Blog - NYTimes.com"></a>
+<h3><a href="http://atwar.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/atwar/atwar163.gif" alt="At War: Notes From the Front Lines - At War Blog - NYTimes.com"></a></h3>
+<p class="summary">Insight and images from Afghanistan, Pakistan and Iraq in the post-9/11 era. <a class="refer" href="http://atwar.blogs.nytimes.com/">Read At War&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://atwar.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytimesatwar">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://fivethirtyeight.blogs.nytimes.com" title="Election Forecasts - FiveThirtyEight Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/fivethirtyeight/fivethirtyeight75.gif" alt="Election Forecasts - FiveThirtyEight Blog - NYTimes.com"></a>
+<h3><a href="http://fivethirtyeight.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/fivethirtyeight/fivethirtyeight163_no_icon.gif" alt="Election Forecasts - FiveThirtyEight Blog - NYTimes.com"></a></h3>
+<p class="summary">Rigorous analysis of politics, polling, public affairs, sports, science and culture, largely through statistical means. <a class="refer" href="http://fivethirtyeight.blogs.nytimes.com/">Read FiveThirtyEight&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://fivethirtyeight.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/fivethirtyeight">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://lens.blogs.nytimes.com/" title="Photojournalism - Photography, Video and Visual Journalism Archives - Lens Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/lens/lens75.gif" alt="Photojournalism - Photography, Video and Visual Journalism Archives - Lens Blog - NYTimes.com"></a>
+<h3><a href="http://lens.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/lens/lens163.gif" alt="Photojournalism - Photography, Video and Visual Journalism Archives - Lens Blog - NYTimes.com"></a></h3>
+<p class="summary">Visual and multimedia reporting &mdash; photographs, videos and slide shows. <a class="refer" href="http://lens.blogs.nytimes.com/">Read Lens&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://lens.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytimesphoto">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<div class="subColumn-3 module">
+<!--begin .column --><div class="column">
+<a href="http://rendezvous.blogs.nytimes.com/" title="Global News and Analysis - IHT Rendezvous - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/gfx/blogs/rendezvous/rendezvous75.png" alt="Global News and Analysis - IHT Rendezvous - NYTimes.com"></a>
+<h3><a href="http://rendezvous.blogs.nytimes.com/" title="Global News and Analysis - IHT Rendezvous - NYTimes.com"><img class="w163" src="http://graphics8.nytimes.com/gfx/blogs/rendezvous/rendezvous163.gif" alt="Global News and Analysis - IHT Rendezvous - NYTimes.com"></a></h3>
+<p class="summary">International discussion and debate for the globally engaged. <a class="refer" href="http://rendezvous.blogs.nytimes.com/">Read Rendezvous&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://rendezvous.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/iht_rdv">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://india.blogs.nytimes.com/" title="News, Culture and Views From India - India Ink - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/india/india75.gif" alt="News, Culture and Views From India - India Ink - NYTimes.com"></a>
+<h3><a href="http://india.blogs.nytimes.com/" title="News, Culture and Views From India - India Ink - NYTimes.com"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/india/india163.gif" alt="News, Culture and Views From India - India Ink - NYTimes.com"></a></h3>
+<p class="summary">Notes on the world's largest democracy <a class="refer" href="http://india.blogs.nytimes.com/">Read India&nbsp;Ink&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://india.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytindia">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<!--Begin Business and Finance section -->
+<div id="blogBusiness" class="doubleRule opposingFloatControl wrap">
+<div class="element1">
+<h2 class="kicker">Business and Finance</h2>
+</div>
+<div class="element2">
+<p class="caption"><a class="scrollToAnchor" href="#main">Back to top</a></p>
+</div>
+</div><!--END .doubleRule -->
+<div class="subColumn-3 module singleRule">
+<!--begin .column --><div class="column">
+<a href="http://dealbook.nytimes.com/" title="Mergers, Acquisitions, Venture Capital, Hedge Funds - DealBook Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/dealbook/dealbook75.gif" alt="Mergers, Acquisitions, Venture Capital, Hedge Funds - DealBook Blog - NYTimes.com"></a>
+<h3><a href="http://dealbook.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/dealbook/dealbook163.gif" alt="Mergers, Acquisitions, Venture Capital, Hedge Funds - DealBook Blog - NYTimes.com"></a></h3>
+<p class="summary">The latest news and deals on Wall Street. Edited by Andrew Ross Sorkin. <a class="refer" href="http://dealbook.nytimes.com/">Read DealBook&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://dealbook.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytimesdealbook">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://economix.blogs.nytimes.com/" title="The Economy and the Economics of Everyday Life - Economix Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/economix/economix75.gif" alt="The Economy and the Economics of Everyday Life - Economix Blog - NYTimes.com"></a>
+<h3><a href="http://economix.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/economix/economix163.gif" alt="The Economy and the Economics of Everyday Life - Economix Blog - NYTimes.com"></a></h3>
+<p class="summary">An analysis of the news that uses economics as a framework for thinking about the world. <a class="refer" href="http://economix.blogs.nytimes.com/">Read Economix&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://economix.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytimeseconomix">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://bucks.blogs.nytimes.com/" title="Money, Personal Finance, Consumer Reviews - Bucks Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/bucks/bucks75.gif" alt="Money, Personal Finance, Consumer Reviews - Bucks Blog - NYTimes.com"></a>
+<h3><a href="http://bucks.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/bucks/bucks163.gif" alt="Money, Personal Finance, Consumer Reviews - Bucks Blog - NYTimes.com"></a></h3>
+<p class="summary">A guide to consumer tactics that helps readers sort out their financial lives. <a class="refer" href="http://bucks.blogs.nytimes.com/">Read Bucks&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://bucks.blogs.nytimes.com/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<div class="subColumn-3 module">
+<!--begin .column --><div class="column">
+<a href="http://boss.blogs.nytimes.com/" title="Small Business Blog  - You're the Boss Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/boss/boss75.gif" alt="Small Business Blog  - You're the Boss Blog - NYTimes.com"></a>
+<h3><a href="http://boss.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/boss/boss163.gif" alt="Small Business Blog  - You're the Boss Blog - NYTimes.com"></a></h3>
+<p class="summary">Where small-business owners get news, ask questions and learn from one another's mistakes. <a class="refer" href="http://boss.blogs.nytimes.com/">Read You're the Boss&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://boss.blogs.nytimes.com/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://wheels.blogs.nytimes.com/" title="Automobiles - Wheels Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/wheels/wheels75.gif" alt="Automobiles - Wheels Blog - NYTimes.com"></a>
+<h3><a href="http://wheels.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/wheels/wheels163.gif" alt="Automobiles - Wheels Blog - NYTimes.com"></a></h3>
+<p class="summary">News, trends and all things automotive, including reviews of cars and more. <a class="refer" href="http://wheels.blogs.nytimes.com/">Read Wheels&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://wheels.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytimeswheels">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<!--Begin Technology section -->
+<div id="blogTechnology" class="doubleRule opposingFloatControl wrap">
+<div class="element1">
+<h2 class="kicker">Technology</h2>
+</div>
+<div class="element2">
+<p class="caption"><a class="scrollToAnchor" href="#main">Back to top</a></p>
+</div>
+</div><!--END .doubleRule -->
+<div class="subColumn-3 module singleRule">
+<!--begin .column --><div class="column">
+<a href="http://bits.blogs.nytimes.com/" title="Technology - Bits Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/bits/bits75.gif" alt="Technology - Bits Blog - NYTimes.com"></a>
+<h3><a href="http://bits.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/bits/bits163.gif" alt="Technology - Bits Blog - NYTimes.com"></a></h3>
+<p class="summary">News and analysis on the technology industry. <a class="refer" href="http://bits.blogs.nytimes.com/">Read Bits&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://bits.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytimesbits">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://gadgetwise.blogs.nytimes.com/" title="Electronics and Gadgets - Gadgetwise Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/gadgetwise/gadgetwise75.gif" alt="Electronics and Gadgets - Gadgetwise Blog - NYTimes.com"></a>
+<h3><a href="http://gadgetwise.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/gadgetwise/gadgetwise163.gif" alt="Electronics and Gadgets - Gadgetwise Blog - NYTimes.com"></a></h3>
+<p class="summary">Helping consumers get the most out of their personal tech. <a class="refer" href="http://gadgetwise.blogs.nytimes.com/">Read Gadgetwise&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://gadgetwise.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/gadgetwise">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://pogue.blogs.nytimes.com/" title="Technology - Pogue's Posts Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/pogue/pogue75.gif" alt="Technology - Pogue's Posts Blog - NYTimes.com"></a>
+<h3><a href="http://pogue.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/pogue/pogue163.gif" alt="Technology - Pogue's Posts Blog - NYTimes.com"></a></h3>
+<p class="summary">Reviews and quick hits from the technology columnist. <a class="refer" href="http://pogue.blogs.nytimes.com/">Read Pogue's Posts&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://pogue.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/pogue">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<div class="subColumn-3 module">
+<!--begin .column --><div class="column">
+<a href="http://open.blogs.nytimes.com/" title="Code - Open Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/open/open75.gif" alt="Code - Open Blog - NYTimes.com"></a>
+<h3><a href="http://open.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/open/open163.gif" alt="Code - Open Blog - NYTimes.com"></a></h3>
+<p class="summary">A blog about code and development written by New York Times developers. <a class="refer" href="http://open.blogs.nytimes.com/">Read Open&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://open.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/timesopen">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumns-3 -->  
+<!--Begin Culture and Media section -->  
+<div id="blogCulture" class="doubleRule opposingFloatControl wrap">
+<div class="element1">
+<h2 class="kicker">Culture and Media</h2>
+</div>
+<div class="element2">
+<p class="caption"><a class="scrollToAnchor" href="#main">Back to top</a></p>
+</div>
+</div><!--END .doubleRule -->
+<div class="subColumn-3 module singleRule">
+<!--begin .column --><div class="column">
+<a href="http://artsbeat.blogs.nytimes.com/" title="Culture and the Arts &ndash; ArtsBeat Blog &ndash; NYTimes.com - ArtsBeat Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/artsbeat/artsbeat75.gif" alt="Culture and the Arts &ndash; ArtsBeat Blog &ndash; NYTimes.com - ArtsBeat Blog - NYTimes.com"></a>
+<h3><a href="http://artsbeat.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/artsbeat/artsbeat163.gif" alt="Culture and the Arts &ndash; ArtsBeat Blog &ndash; NYTimes.com - ArtsBeat Blog - NYTimes.com"></a></h3>
+<p class="summary">From the Culture Desk, up-to-the-minute reports from arts and entertainment. <a class="refer" href="http://artsbeat.blogs.nytimes.com/">Read ArtsBeat&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://artsbeat.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/artsbeat">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://carpetbagger.blogs.nytimes.com/" title="The Oscars and Movie Awards Season - Carpetbagger Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/carpetbagger/carpetbagger75.gif" alt="The Oscars and Movie Awards Season - Carpetbagger Blog - NYTimes.com"></a>
+<h3><a href="http://carpetbagger.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/carpetbagger/carpetbagger163.gif" alt="The Oscars and Movie Awards Season - Carpetbagger Blog - NYTimes.com"></a></h3>
+<p class="summary">Melena Ryzik hits the red carpet for the news and the nonsense of movie awards season. <a class="refer" href="http://carpetbagger.blogs.nytimes.com/">Read Carpetbagger&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://carpetbagger.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/TheCarpetbagger">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://mediadecoder.blogs.nytimes.com/" title="A Guide to the Media Industry - Media Decoder Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/mediadecoder/mediadecoder75.gif" alt="A Guide to the Media Industry - Media Decoder Blog - NYTimes.com"></a>
+<h3><a href="http://mediadecoder.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/mediadecoder/mediadecoder163.gif" alt="A Guide to the Media Industry - Media Decoder Blog - NYTimes.com"></a></h3>
+<p class="summary">The media industry, including the movie business, television, print and advertising. <a class="refer" href="http://mediadecoder.blogs.nytimes.com/">Read Media Decoder&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://mediadecoder.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/mediadecodernyt">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<div class="subColumn-3 module">
+<!--begin .column --><div class="column">
+<a href="http://publiceditor.blogs.nytimes.com/" title="Arthur S. Brisbane - Public Editor's Journal Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/publiceditor/publiceditor75.gif" alt="Arthur S. Brisbane - Public Editor's Journal Blog - NYTimes.com"></a>
+<h3><a href="http://publiceditor.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/publiceditor/publiceditor163.gif" alt="Arthur S. Brisbane - Public Editor's Journal Blog - NYTimes.com"></a></h3>
+<p class="summary">A blog by Arthur S. Brisbane, the readers' representative. <a class="refer" href="http://publiceditor.blogs.nytimes.com/">Read The Public Editor&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://publiceditor.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/thepubliceditor">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://topics.blogs.nytimes.com/tag/after-deadline" title="AFTER DEADLINE - Times Topics Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/afterdeadline/afterdeadline75.gif" alt="AFTER DEADLINE - Times Topics Blog - NYTimes.com"></a>
+<h3><a href="http://topics.blogs.nytimes.com/tag/after-deadline" title="AFTER DEADLINE - Times Topics Blog - NYTimes.com"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/afterdeadline/afterdeadline163.gif" alt="AFTER DEADLINE - Times Topics Blog - NYTimes.com"></a></h3>
+<p class="summary">Notes from the newsroom on grammar, usage and style. <a class="refer" href="http://topics.blogs.nytimes.com/tag/after-deadline">Read After Deadline&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://topics.blogs.nytimes.com/tag/after-deadline/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<!--Begin Science and Environment section -->  
+<div id="blogScience" class="doubleRule opposingFloatControl wrap">
+<div class="element1">
+<h2 class="kicker">Science and Environment</h2>
+</div>
+<div class="element2">
+<p class="caption"><a class="scrollToAnchor" href="#main">Back to top</a></p>
+</div>
+</div><!--END .doubleRule -->
+<div class="subColumn-3 module singleRule">
+<!--begin .column --><div class="column">
+<a href="http://green.blogs.nytimes.com/" title="Energy and Environment - Green Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/green/green75.gif" alt="http://green.blogs.nytimes.com/"></a>
+<h3><a href="http://green.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/green/green163.gif" alt="http://green.blogs.nytimes.com/"></a></h3>
+<p class="summary">From renewable energy policy to eco-advertising, tracking the pursuit of a greener globe. <a class="refer" href="http://green.blogs.nytimes.com/">Read Green&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://green.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytimesgreen">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://scientistatwork.blogs.nytimes.com/" title="Field Research Around the Globe  - Scientist at Work Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/scientistatwork/scientistatwork75.gif" alt="Field Research Around the Globe  - Scientist at Work Blog - NYTimes.com"></a>
+<h3><a href="http://scientistatwork.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/scientistatwork/scientistatwork163.gif" alt="Field Research Around the Globe  - Scientist at Work Blog - NYTimes.com"></a></h3>
+<p class="summary">A modern version of a field journal offering  the progress of expeditions. <a class="refer" href="http://scientistatwork.blogs.nytimes.com/">Read Scientist at Work&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://scientistatwork.blogs.nytimes.com/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://consults.blogs.nytimes.com/" title="Experts Answer Questions About Health and Medicine - Consults Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/consults/consults75.gif" alt="Experts Answer Questions About Health and Medicine - Consults Blog - NYTimes.com"></a>
+<h3><a href="http://consults.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/consults/consults163.gif" alt="Experts Answer Questions About Health and Medicine - Consults Blog - NYTimes.com"></a></h3>
+<p class="summary">Hear from experts in medicine, who will answer your questions about health. <a class="refer" href="http://consults.blogs.nytimes.com/">Read Consults&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://consults.blogs.nytimes.com/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<!--Begin Health and Family section -->
+<div id="blogHealth" class="doubleRule opposingFloatControl wrap">
+<div class="element1">
+<h2 class="kicker">Health, Family and Education</h2>
+</div>
+<div class="element2">
+<p class="caption"><a class="scrollToAnchor" href="#main">Back to top</a></p>
+</div>
+</div><!--END .doubleRule -->
+<div class="subColumn-3 module singleRule">
+<!--begin .column --><div class="column">
+<a href="http://well.blogs.nytimes.com/" title="Health and Wellness - Well Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/well/well75.gif" alt="Health and Wellness - Well Blog - NYTimes.com"></a>
+<h3><a href="http://well.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/well/well163.gif" alt="Health and Wellness - Well Blog - NYTimes.com"></a></h3>
+<p class="summary">Tara Parker-Pope reports on medical science, nutrition, fitness and family health. <a class="refer" href="http://well.blogs.nytimes.com/">Read Well&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://well.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytimeswell">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://parenting.blogs.nytimes.com/" title="Parenting, Children and Parents - Motherlode Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/parenting/parenting75.gif" alt="Parenting, Children and Parents - Motherlode Blog - NYTimes.com"></a>
+<h3><a href="http://parenting.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/parenting/parenting163.gif" alt="Parenting, Children and Parents - Motherlode Blog - NYTimes.com"></a></h3>
+<p class="summary">Subjects &mdash; some obvious, some not &mdash; related to parenting.
+<a class="refer" href="http://parenting.blogs.nytimes.com/">Read Motherlode&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://parenting.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/NYTMotherlode">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://newoldage.blogs.nytimes.com/" title="Caring for Aging Parents - The New Old Age Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/newoldage/newoldage75.gif" alt="Caring for Aging Parents - The New Old Age Blog - NYTimes.com"></a>
+<h3><a href="http://newoldage.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/newoldage/newoldage163.gif" alt="Caring for Aging Parents - The New Old Age Blog - NYTimes.com"></a></h3>
+<p class="summary">A focus on the elderly and the adult children who struggle to care for them. <a class="refer" href="http://newoldage.blogs.nytimes.com/">Read The New Old Age&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://newoldage.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/TheNewOldAge">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<div class="subColumn-3 module">
+<!--begin .column --><div class="column">
+<a href="http://thechoice.blogs.nytimes.com/" title="College Admissions Advice - The Choice Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/thechoice/thechoice75.gif" alt="College Admissions Advice - The Choice Blog - NYTimes.com"></a>
+<h3><a href="http://thechoice.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/thechoice/thechoice163.gif" alt="College Admissions Advice - The Choice Blog - NYTimes.com"></a></h3>
+<p class="summary">Help for students, parents and counselors on applying to, and paying for, college. <a class="refer" href="http://thechoice.blogs.nytimes.com/">Read The Choice&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://thechoice.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/NYTimesCollege">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://learning.blogs.nytimes.com/" title="The Learning Network - The Learning Network Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/learning/learning75.gif" alt="The Learning Network - The Learning Network Blog - NYTimes.com"></a>
+<h3><a href="http://learning.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/learning/learning163.gif" alt="The Learning Network - The Learning Network Blog - NYTimes.com"></a></h3>
+<p class="summary">Teaching and learning, with The New York Times as a resource. <a class="refer" href="http://learning.blogs.nytimes.com/">Read The Learning Network&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://learning.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/NYTimesLearning">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://nytimes.com/schoolbook" title="SchoolBook - New York City schools news, data and conversation"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/packages/images/nytint/schoolbook/schoolbook-75.png" alt="SchoolBook - New York City schools news, data and conversation"></a>
+<h3><a href="http://nytimes.com/schoolbook" title="SchoolBook - New York City schools news, data and conversation"><img class="w163" src="http://graphics8.nytimes.com/packages/images/nytint/schoolbook/schoolbook-163.png" alt="SchoolBook - New York City schools news, data and conversation"></a></h3>
+<p class="summary">News, data and conversation about schools in New York, from The New York Times and WNYC.<a class="refer" href="http://nytimes.com/schoolbook">Read SchoolBook&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://nytimes.com/schoolbook/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/schoolbook">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<!--Begin Localized Coverage section -->
+<div id="blogLocal" class="doubleRule opposingFloatControl wrap">
+<div class="element1">
+<h2 class="kicker">Local</h2>
+</div>
+<div class="element2">
+<p class="caption"><a class="scrollToAnchor" href="#main">Back to top</a></p>
+</div>
+</div><!--END .doubleRule -->
+<div class="subColumn-3 module singleRule">
+<!--begin .column --><div class="column">
+<a href="http://cityroom.blogs.nytimes.com/" title="Metro - City Room Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/cityroom/cityroom75.gif" alt="Metro - City Room Blog - NYTimes.com"></a>
+<h3><a href="http://cityroom.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/cityroom/cityroom163.gif" alt="Metro - City Room Blog - NYTimes.com"></a></h3>
+<p class="summary">News and regular features, including Q. & A.'s, about New York. <a class="refer" href="http://cityroom.blogs.nytimes.com/">Read City Room&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://cityroom.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/CityRoom">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://fort-greene.blogs.nytimes.com/" title="Fort Greene and Clinton Hill, Brooklyn - The Local &ndash; Fort-Greene Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/fort-greene/fort-greene75.gif" alt="Fort Greene and Clinton Hill, Brooklyn - The Local &ndash; Fort-Greene Blog - NYTimes.com"></a>
+<h3><a href="http://fort-greene.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/fort-greene/fort-greene163.gif" alt="Fort Greene and Clinton Hill, Brooklyn - The Local &ndash; Fort-Greene Blog - NYTimes.com"></a></h3>
+<p class="summary">The Local focuses on life in Fort Greene and Clinton Hill in Brooklyn. <a class="refer" href="http://fort-greene.blogs.nytimes.com/">Read Fort-Greene&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://fort-greene.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/bklocal">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://eastvillage.thelocal.nytimes.com/" title="News, Culture & Life - The Local East Village Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/eastvillage/eastvillage75.gif" alt="News, Culture & Life - The Local East Village Blog - NYTimes.com"></a>
+<h3><a href="http://eastvillage.thelocal.nytimes.com/" title="News, Culture & Life - The Local East Village Blog - NYTimes.com"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/eastvillage/eastvillage163.gif" alt="News, Culture & Life - The Local East Village Blog - NYTimes.com"></a></h3>
+<p class="summary">The Local focuses on news, culture and life in The East Village. <a class="refer" href="">Read East Village&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://eastvillage.thelocal.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytlev">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<!--Begin Styles and Travel section -->
+<div id="blogStyles" class="doubleRule opposingFloatControl wrap">
+<div class="element1">
+<h2 class="kicker">Styles,  Travel and Leisure</h2>
+</div>
+<div class="element2">
+<p class="caption"><a class="scrollToAnchor" href="#main">Back to top</a></p>
+</div>
+</div><!--END .doubleRule -->
+<div class="subColumn-3 module singleRule">
+<!--begin .column --><div class="column">
+<a href="http://tmagazine.blogs.nytimes.com/" title="Fashion and Design - T Magazine Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/themoment/themoment75.gif" alt="Fashion and Design - T Magazine Blog - NYTimes.com"></a>
+<h3><a href="http://tmagazine.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/themoment/themoment163.gif" alt="Fashion and Design - T Magazine Blog - NYTimes.com"></a></h3>
+<p class="summary">Spanning the universe of fashion, design, food, travel and culture. <a class="refer" href="http://tmagazine.blogs.nytimes.com/">Read T Magazine&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://tmagazine.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/themoment">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://intransit.blogs.nytimes.com/" title="Travel News - In Transit Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/intransit/intransit75.gif" alt="Travel News - In Transit Blog - NYTimes.com"></a>
+<h3><a href="http://intransit.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/intransit/intransit163.gif" alt="Travel News - In Transit Blog - NYTimes.com"></a></h3>
+<p class="summary">The Travel Desk offers news, city guides and  consumer deals. <a class="refer" href="http://intransit.blogs.nytimes.com/">Read In Transit&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://intransit.blogs.nytimes.com/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://dinersjournal.blogs.nytimes.com/" title="News on Food, Wine, Restaurants and Recipes  - Diner's Journal Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/dinersjournal/dinersjournal75.gif" alt="News on Food, Wine, Restaurants and Recipes  - Diner's Journal Blog - NYTimes.com"></a>
+<h3><a href="http://dinersjournal.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/dinersjournal/dinersjournal163.gif" alt="News on Food, Wine, Restaurants and Recipes  - Diner's Journal Blog - NYTimes.com"></a></h3>
+<p class="summary">Thoughts on and explorations of dining, cooking and drinking.  <a class="refer" href="http://dinersjournal.blogs.nytimes.com/">Read Diner's Journal&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://dinersjournal.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/dinersjournal">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<div class="subColumn-3 module">
+<!--begin .column --><div class="column">
+<a href="http://runway.blogs.nytimes.com/" title="Fashion - Style - On the Runway Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/runway/runway75.gif" alt="Fashion - Style - On the Runway Blog - NYTimes.com"></a>
+<h3><a href="http://runway.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/runway/runway163.gif" alt="Fashion - Style - On the Runway Blog - NYTimes.com"></a></h3>
+<p class="summary">Fashion news and commentary, from the design process to the runway. <a class="refer" href="http://runway.blogs.nytimes.com/">Read On the Runway&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://runway.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytimesrunway">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://frugaltraveler.blogs.nytimes.com/" title="Budget Travel - Frugal Traveler Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/frugaltraveler/frugaltraveler75.gif" alt="Budget Travel - Frugal Traveler Blog - NYTimes.com"></a>
+<h3><a href="http://frugaltraveler.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/frugaltraveler/frugaltraveler163.gif" alt="Budget Travel - Frugal Traveler Blog - NYTimes.com"></a></h3>
+<p class="summary">Seth Kugel seeks high style on a low budget. <a class="refer" href="http://frugaltraveler.blogs.nytimes.com/">Read Frugal Traveler&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://frugaltraveler.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/frugaltraveler">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://wordplay.blogs.nytimes.com/" title="Crossword Puzzles - Wordplay Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/wordplay/wordplay75.gif" alt="Crossword Puzzles - Wordplay Blog - NYTimes.com"></a>
+<h3><a href="http://wordplay.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/wordplay/wordplay163.gif" alt="Crossword Puzzles - Wordplay Blog - NYTimes.com"></a></h3>
+<p class="summary">All about The Times's crossword puzzle, constructors and clues. <a class="refer" href="http://wordplay.blogs.nytimes.com/">Read Wordplay&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://wordplay.blogs.nytimes.com/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<!--Begin Sports section -->  
+<div id="blogSports" class="doubleRule opposingFloatControl wrap">
+<div class="element1">
+<h2 class="kicker">Sports</h2>
+</div>
+<div class="element2">
+<p class="caption"><a class="scrollToAnchor" href="#main">Back to top</a></p>
+</div>
+</div><!--END .doubleRule -->
+<div class="subColumn-3 module singleRule">
+<!--begin .column --><div class="column">
+<a href="http://bats.blogs.nytimes.com/" title="Baseball - Bats Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/bats/bats75.gif" alt="Baseball - Bats Blog - NYTimes.com"></a>
+<h3><a href="http://bats.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/bats/bats163.gif" alt="Baseball - Bats Blog - NYTimes.com"></a></h3>
+<p class="summary">The Yankees, Mets and the 2011 baseball season. <a class="refer" href="http://bats.blogs.nytimes.com/">Read Bats&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://bats.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytimesbats">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://slapshot.blogs.nytimes.com/" title="Hockey - Sports - Slap Shot Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/slapshot/slapshot75.gif" alt="Hockey - Sports - Slap Shot Blog - NYTimes.com"></a>
+<h3><a href="http://slapshot.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/slapshot/slapshot163.gif" alt="Hockey - Sports - Slap Shot Blog - NYTimes.com"></a></h3>
+<p class="summary">The N.H.L. and ice hockey from around the world. <a class="refer" href="http://slapshot.blogs.nytimes.com/">Read Slap Shot&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://slapshot.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytimesslapshot">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://fifthdown.blogs.nytimes.com/" title="Sports - Pro Football - The Fifth Down Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/fifthdown/fifthdown75.gif" alt="Sports - Pro Football - The Fifth Down Blog - NYTimes.com"></a>
+<h3><a href="http://fifthdown.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/fifthdown/fifthdown163.gif" alt="Sports - Pro Football - The Fifth Down Blog - NYTimes.com"></a></h3>
+<p class="summary">The Jets, Giants and N.F.L., plus fantasy football advice. <a class="refer" href="http://fifthdown.blogs.nytimes.com/">Read The Fifth Down&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://fifthdown.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytimes5thdown">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<div class="subColumn-3 module">
+<!--begin .column --><div class="column">
+<a href="http://goal.blogs.nytimes.com/" title="World Cup - Soccer - Goal Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/goal/goal75.gif" alt="World Cup - Soccer - Goal Blog - NYTimes.com"></a>
+<h3><a href="http://goal.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/goal/goal163.gif" alt="World Cup - Soccer - Goal Blog - NYTimes.com"></a></h3>
+<p class="summary">Soccer, including tournaments and professional leagues. <a class="refer" href="http://goal.blogs.nytimes.com/">Read Goal&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://goal.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytimesgoal">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://offthedribble.blogs.nytimes.com/" title="Pro Basketball  - Off the Dribble Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/offthedribble/offthedribble75.gif" alt="Pro Basketball  - Off the Dribble Blog - NYTimes.com"></a>
+<h3><a href="http://offthedribble.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/offthedribble/offthedribble163.gif" alt="Pro Basketball  - Off the Dribble Blog - NYTimes.com"></a></h3>
+<p class="summary">The Knicks, Nets and the N.B.A. <a class="refer" href="http://offthedribble.blogs.nytimes.com/">Read Off the Dribble&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://offthedribble.blogs.nytimes.com/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://thequad.blogs.nytimes.com/" title="Sports - The Quad Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/thequad/thequad75.gif" alt="Sports - The Quad Blog - NYTimes.com"></a>
+<h3><a href="http://thequad.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/thequad/thequad163.gif" alt="Sports - The Quad Blog - NYTimes.com"></a></h3>
+<p class="summary">College sports, including N.C.A.A. news. <a class="refer" href="http://thequad.blogs.nytimes.com/">Read The Quad&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://thequad.blogs.nytimes.com/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<div class="subColumn-3 module">
+<!--begin .column --><div class="column">
+<a href="http://onpar.blogs.nytimes.com/" title="The New York Times Golf Blog - On Par Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/onpar/onpar75.gif" alt="The New York Times Golf Blog - On Par Blog - NYTimes.com"></a>
+<h3><a href="http://onpar.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/onpar/onpar163.gif" alt="The New York Times Golf Blog - On Par Blog - NYTimes.com"></a></h3>
+<p class="summary">Professional golf coverage, plus advice for recreational golfers. <a class="refer" href="http://onpar.blogs.nytimes.com/">Read On Par&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://onpar.blogs.nytimes.com/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://straightsets.blogs.nytimes.com/" title="Sports - Straight Sets Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/straightsets/straightsets75.gif" alt="Sports - Straight Sets Blog - NYTimes.com"></a>
+<h3><a href="http://straightsets.blogs.nytimes.com/" title="Sports - Straight Sets Blog - NYTimes.com"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/straightsets/straightsets163.gif" alt="Sports - Straight Sets  - NYTimes.com"></a></h3>
+<p class="summary">Match coverage, news and notes from major tennis events. <a class="refer" href="http://straightsets.blogs.nytimes.com/">Read Straight Sets&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://straightsets.blogs.nytimes.com/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://therail.blogs.nytimes.com/" title="Horseracing - The Rail Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/therail/therail75.gif" alt="Horse Racing - The Rail Blog - NYTimes.com"></a>
+<h3><a href="http://therail.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/therail/therail163.gif" alt="Horse Racing - The Rail Blog - NYTimes.com"></a></h3>
+<p class="summary"> The Rail provides an insider's view of horse racing action. <a class="refer" href="http://bats.blogs.nytimes.com/">Read The Rail&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://therail.blogs.nytimes.com/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<div class="subColumn-3 module">
+<!--begin .column --><div class="column">
+<a href="http://london2012.blogs.nytimes.com/" title="2012 London Olympics Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/london2012/london201275.gif" alt="2012 London Olympics Blog - NYTimes.com"></a>
+<h3><a href="http://london2012.blogs.nytimes.com/" title="2012 London Olympics Blog - NYTimes.com"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/london2012/london2012163.png" alt="2012 London Olympics Blog - NYTimes.com"></a></h3>
+<p class="summary">News about the London 2012 Olympic Games. <a class="refer" href="http://london2012.blogs.nytimes.com/">Read London&nbsp;2012&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://london2012.blogs.nytimes.com/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<!--Begin Magazine section -->  
+<div id="blogMagazines" class="doubleRule opposingFloatControl wrap">
+<div class="element1">
+<h2 class="kicker">Magazines</h2>
+</div>
+<div class="element2">
+<p class="caption"><a class="scrollToAnchor" href="#main">Back to top</a></p>
+</div>
+</div><!--END .doubleRule -->
+<div class="subColumn-3 module singleRule">
+<!--begin .column -->
+<div class="column">
+<a href="http://6thfloor.blogs.nytimes.com/" title="The 6th Floor - The Sunday Magazine - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/6thfloor/6thfloor75.gif" alt="The 6th Floor - The Sunday Magazine - NYTimes.com"></a>
+<h3><a href="http://6thfloor.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/6thfloor/6thfloor163.gif" alt="The 6th Floor - The Sunday Magazine - NYTimes.com"></a></h3>
+<p class="summary">The blog that eavesdrops on The New York Times Magazine. <a class="refer" href="http://6thfloor.blogs.nytimes.com/">Read The 6th Floor&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://6thfloor.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytimesmagazine">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://niemann.blogs.nytimes.com/" title="Abstract Sunday Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/niemann/niemann75.gif" alt="Abstract Sunday Blog - NYTimes.com"></a>
+<h3><a href="http://niemann.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/niemann/niemann163.gif" alt="Abstract City Blog - NYTimes.com"></a></h3>
+<p class="summary">Christoph Niemann's illustrated reflections of life. <a class="refer" href="http://niemann.blogs.nytimes.com/">Read Abstract Sunday&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://niemann.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/abstractcity">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://tmagazine.blogs.nytimes.com/" title="Fashion and Design - T Magazine Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/themoment/themoment75.gif" alt="Fashion and Design - T Magazine Blog - NYTimes.com"></a>
+<h3><a href="http://tmagazine.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/themoment/themoment163.gif" alt="Fashion and Design - T Magazine Blog - NYTimes.com"></a></h3>
+<p class="summary">Spanning the universe of fashion, design, food, travel and culture. <a class="refer" href="http://tmagazine.blogs.nytimes.com/">Read T Magazine&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://tmagazine.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/themoment">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<div class="subColumn-3 module">
+</div><!--END .subColumn-3 -->
+<!--Begin Opinion section -->
+<div id="blogOpinion" class="doubleRule opposingFloatControl wrap">
+<div class="element1">
+<h2 class="kicker">Opinion</h2>
+</div>
+<div class="element2">
+<p class="caption"><a class="scrollToAnchor" href="#main">Back to top</a></p>
+</div>
+</div><!--END .doubleRule -->
+<div class="subColumn-3 module singleRule">
+<!--begin .column --><div class="column">
+<a href="http://opinionator.blogs.nytimes.com/" title="Opinion - Opinionator Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/opinionator/opinionator75.gif" alt="Opinion - Opinionator Blog - NYTimes.com"></a>
+<h3><a href="http://opinionator.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/opinionator/opinionator163.gif" alt="Opinion - Opinionator Blog - NYTimes.com"></a></h3>
+<p class="summary">Exclusive commentary on politics, law, science, finance and more. <a class="refer" href="http://opinionator.blogs.nytimes.com/">Read Opinionator&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://opinionator.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/NYTOpinionator">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://campaignstops.blogs.nytimes.com/" title="2012 Election - Opinion - Campaign Stops Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/campaignstops/campaignstops75.gif" alt="2012 Election - Opinion - Campaign Stops Blog - NYTimes.com"></a>
+<h3><a href="http://campaignstops.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/campaignstops/campaignstops163.gif" alt="2012 Election - Opinion - Campaign Stops Blog - NYTimes.com"></a></h3>
+<p class="summary">Strong opinions about the 2012 election from columnists and contributors. <a class="refer" href="http://campaignstops.blogs.nytimes.com/">Read Campaign Stops&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://campaignstops.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytopinion">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://dotearth.blogs.nytimes.com/" title="Natural Resources and the Environment - Dot Earth Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/dotearth/dotearth75.gif" alt="Natural Resources and the Environment - Dot Earth Blog - NYTimes.com"></a>
+<h3><a href="http://dotearth.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/dotearth/dotearth163.gif" alt="Natural Resources and the Environment - Dot Earth Blog - NYTimes.com"></a></h3>
+<p class="summary">Andrew C. Revkin on climate change and the environment. <a class="refer" href="http://dotearth.blogs.nytimes.com/">Read Dot Earth&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://dotearth.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/dotearth">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<div class="subColumn-3 module">
+<!--begin .column --><div class="column">
+<a href="http://latitude.blogs.nytimes.com/" title="Views From Writers Around the World - Latitude Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/latitude/latitude75.gif" alt="Views From Writers Around the World - Latitude Blog - NYTimes.com"></a>
+<h3><a href="http://latitude.blogs.nytimes.com/" title="Views From Writers Around the World - Latitude Blog - NYTimes.com"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/latitude/latitude163.gif" alt="Views From Writers Around the World - Latitude Blog - NYTimes.com"></a></h3>
+<p class="summary">Commentary on significant and intriguing local issues, interpreted for a global audience. <a class="refer" href="http://latitude.blogs.nytimes.com/">Read Latitude&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://latitude.blogs.nytimes.com/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://bittman.blogs.nytimes.com/" title="On Food - Mark Bittman Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/bittman/bittman75.jpg" alt="On Food - Mark Bittman Blog - NYTimes.com"></a>
+<h3><a href="http://bittman.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/bittman/bittman163.gif" alt="On Food - Mark Bittman Blog - NYTimes.com"></a></h3>
+<p class="summary">The Op-Ed columnist on food and the politics of food. <a class="refer" href="http://bittman.blogs.nytimes.com/">Read Mark Bittman&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://bittman.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/bittman">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://bruni.blogs.nytimes.com/" title="Op-Ed Columnist - Frank Bruni's Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/bruni/bruni75.gif" alt="Op-Ed Columnist - Frank Bruni's Blog - NYTimes.com"></a>
+<h3><a href="http://bruni.blogs.nytimes.com/" title="Op-Ed Columnist - Frank Bruni's Blog - NYTimes.com"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/bruni/bruni163.gif" alt="Op-Ed Columnist - Frank Bruni's Blog - NYTimes.com"></a></h3>
+<p class="summary">The Op-Ed columnist's reflections on news and culture. <a class="refer" href="http://bruni.blogs.nytimes.com/">Read Frank Bruni&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://bruni.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/frankbruni">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<div class="subColumn-3 module">
+<!--begin .column --><div class="column">
+<a href="http://brooks.blogs.nytimes.com/" title="David Brooks - Opinion - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/brooks/brooks75.jpg" alt="David Brooks - Opinion - NYTimes.com"></a>
+<h3><a href="http://brooks.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/brooks/brooks163.gif" alt="David Brooks - Opinion - NYTimes.com"></a></h3>
+<p class="summary">The Op-Ed columnist's collection of recent intellectual, cultural and scientific findings. <a class="refer" href="http://brooks.blogs.nytimes.com/">Read David Brooks&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://brooks.blogs.nytimes.com/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://douthat.blogs.nytimes.com/" title="Commentary on Politics and Culture - Ross Douthat Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/2010/09/16/opinion/Douthat_New/Douthat_New-thumbStandard.jpg" alt="Commentary on Politics and Culture - Ross Douthat Blog - NYTimes.com"></a>
+<h3><a href="http://douthat.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/douthat/douthat163.gif" alt="Commentary on Politics and Culture - Ross Douthat Blog - NYTimes.com"></a></h3>
+<p class="summary">The Op-Ed columnist's observations on the intersection of politics and culture. <a class="refer" href="http://douthat.blogs.nytimes.com/">Read Ross Douthat&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://douthat.blogs.nytimes.com/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://keller.blogs.nytimes.com/" title="Op-Ed Columnist - Bill Keller's Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/2011/09/18/opinion/Keller_New/Keller_New-thumbStandard.jpg" alt="Op-Ed Columnist - Bill Keller's Blog - NYTimes.com"></a>
+<h3><a href="http://keller.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/keller/keller163.gif" alt="Op-Ed Columnist - Bill Keller's Blog - NYTimes.com"></a></h3>
+<p class="summary">The Op-Ed columnist's exchanges with readers, afterthoughts and riffs on other subjects. <a class="refer" href="http://keller.blogs.nytimes.com/">Read Bill Keller&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://keller.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/nytkeller">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<div class="subColumn-3 module">
+<!--begin .column --><div class="column">
+<a href="http://kristof.blogs.nytimes.com/" title="Globalization and Human Rights - Nicholas D. Kristof Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/2010/09/16/opinion/Kristof_New/Kristof_New-thumbStandard.jpg" alt="Globalization and Human Rights - Nicholas D. Kristof Blog - NYTimes.com"></a>
+<h3><a href="http://kristof.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/kristof/kristof163.gif" alt="Nicholas D. Kristof: On the Ground"></a></h3>
+<p class="summary">The Op-Ed columnist on the thoughts that shape his columns and follow his travels. <a class="refer" href="http://kristof.blogs.nytimes.com/">Read Nicholas D. Kristof&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://kristof.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/NickKristof">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://krugman.blogs.nytimes.com/" title="Economics and Politics - Paul Krugman Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/2010/09/16/opinion/Krugman_New/Krugman_New-thumbStandard.jpg" alt="Economics and Politics - Paul Krugman Blog - NYTimes.com"></a>
+<h3><a href="http://krugman.blogs.nytimes.com/"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/krugman/krugman163.gif" alt="Economics and Politics - Paul Krugman Blog - NYTimes.com"></a></h3>
+<p class="summary">The Op-Ed columnist on the politics and economics of inequality. <a class="refer" href="http://krugman.blogs.nytimes.com/">Read Paul Krugman&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://krugman.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/NytimesKrugman">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+<!--begin .column --><div class="column">
+<a href="http://nocera.blogs.nytimes.com/" title="Op-Ed Columnist - Joe Nocera's Blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/nocera/nocera75.gif" alt="Op-Ed Columnist - Joe Nocera's Blog - NYTimes.com"></a>
+<h3><a href="http://nocera.blogs.nytimes.com/" title="Op-Ed Columnist - Joe Nocera's Blog - NYTimes.com"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/nocera/nocera163.gif" alt="Op-Ed Columnist - Joe Nocera's Blog - NYTimes.com"></a></h3>
+<p class="summary">The Op-Ed columnist on business, finance, sports and other topics. <a class="refer" href="http://nocera.blogs.nytimes.com/">Read Joe&nbsp;Nocera&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://nocera.blogs.nytimes.com/feed/">Feed</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<div class="subColumn-3 module">
+<!--begin .column --><div class="column">
+<a href="http://takingnote.blogs.nytimes.com/" title="Editorial Page Editor  - Andrew Rosenthal's blog - NYTimes.com"><img class="w50 runaroundLeft" src="http://graphics8.nytimes.com/images/blogs_v3/takingnote/takingnote75.gif" alt="Editorial Page Editor  - Andrew Rosenthal's blog - NYTimes.com"></a>
+<h3><a href="http://takingnote.blogs.nytimes.com/" title="Editorial Page Editor  - Andrew Rosenthal's blog - NYTimes.com"><img class="w163" src="http://graphics8.nytimes.com/images/blogs_v3/takingnote/takingnote163.gif" alt="Editorial Page Editor  - Andrew Rosenthal's blog - NYTimes.com"></a></h3>
+<p class="summary">Political commentary from Andrew Rosenthal, the editorial page editor. <a class="refer" href="http://takingnote.blogs.nytimes.com/">Read Taking&nbsp;Note&nbsp;&raquo;</a></p>
+<ul class="horizontalMenu refer">
+<li class="rssLg"><a href="http://takingnote.blogs.nytimes.com/feed/">Feed</a></li>
+<li class="twitter"><a href="http://twitter.com/andyrNYT">Follow on Twitter</a></li>
+</ul>
+</div><!--end .column -->
+</div><!--END .subColumn-3 -->
+<script type="text/javascript" src="http://graphics8.nytimes.com/packages/js/blogs/directory/anchorscroller.js"></script>
+<script type="text/javascript"> 
+  new NYTD.AnchorScroller().init();
+</script>    </div><!--close main free form -->
+<div class="insetHFullWidth">
+<div id="interactiveFooter" class="opposingFloatControl wrap">
+<div class="metaData element1">
+<div class="module">
+<span class="refer feedback">
+<form name="interactivefeedback" method="post" enctype="application/x-www-form-urlencoded" action="/gst/emailus.html">
+<input type="hidden" name="type" value="interactivefeedback" />
+<input type="hidden" name="recipient" value="interactivefeedback" />
+<input type="hidden" name="article" value="Blog Directory" />
+<input type="hidden" name="url" value="http://www.nytimes.com/interactive/blogs/directory.html" />
+<a href="javascript:document.interactivefeedback.submit();">Send Feedback</a>
+</form>
+</span>
+</div>
+</div><!--close .metaData element1 -->
+<div class="element2">
+</div><!--close .element2 -->
+</div><!--close #interactiveFooter -->
+</div><!--close .insetHFullWidth -->
+</div><!--close .ledeStory -->
+</div><!--close .columnGroup -->
+</div><!--close #interactiveShell -->
+</div><!--close #main -->
+<div id="footer">
+<ul class="first">
+<li class="first"><a href="http://www.nytimes.com">Home</a></li>
+<li >
+<a href="http://www.nytimes.com/pages/world/index.html">World</a>
+</li>
+<li >
+<a href="http://www.nytimes.com/pages/national/index.html">U.S.</a>
+</li>
+<li >
+<a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region</a>
+</li>
+<li >
+<a href="http://www.nytimes.com/pages/business/index.html">Business</a>
+</li>
+<li >
+<a href="http://www.nytimes.com/pages/technology/index.html">Technology</a>
+</li>
+<li >
+<a href="http://www.nytimes.com/pages/science/index.html">Science</a>
+</li>
+<li >
+<a href="http://www.nytimes.com/pages/health/index.html">Health</a>
+</li>
+<li >
+<a href="http://www.nytimes.com/pages/sports/index.html">Sports</a>
+</li>
+<li >
+<a href="http://www.nytimes.com/pages/opinion/index.html">Opinion</a>
+</li>
+<li >
+<a href="http://www.nytimes.com/pages/arts/index.html">Arts</a>
+</li>
+<li >
+<a href="http://www.nytimes.com/pages/style/index.html">Style</a>
+</li>
+<li >
+<a href="http://www.nytimes.com/pages/travel/index.html">Travel</a>
+</li>
+<li >
+<a href="http://www.nytimes.com/pages/jobs/index.html">Jobs</a>
+</li>
+<li >
+<a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+</li>
+<li >
+<a href="http://www.nytimes.com/pages/automobiles/index.html">Autos</a>
+</li>
+<li><a href="http://spiderbites.nytimes.com/">Site Map</a></li>
+</ul>    <ul>
+<li class="first"><a href="http://www.nytimes.com/ref/membercenter/help/copyright.html">&copy; 2012</a> <a href="http://www.nytco.com/">The New York Times Company</a></li>
+<li><a href="http://www.nytimes.com/privacy">Privacy</a></li>
+<li><a href="http://www.nytimes.com/ref/membercenter/help/privacy.html#pp">Your Ad Choices</a></li>
+<li><a href="http://www.nytimes.com/ref/membercenter/help/agree.html">Terms of Service</a></li>
+<li class="termsOfSale"><a href="http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html">Terms of Sale</a></li>
+<li><a href="http://www.nytimes.com/pages/corrections/index.html">Corrections</a></li>
+<li><a class="rssButton" href="http://www.nytimes.com/rss">RSS</a></li>
+<li><a href="http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+<li><a href="http://www.nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+<li><a href="http://www.nytco.com/careers">Work With Us</a></li>
+<li><a href="http://www.nytimes.whsites.net/mediakit/">Advertise</a></li>
+</ul>
+</div>
+</div><!--close #page -->
+</div><!--close #shell -->
+<script type="text/javascript" language="JavaScript" src="http://graphics8.nytimes.com/js/app/homepage/articleCommentCounts.js"></script>
+<script type="text/javascript" language="JavaScript">var NYTArticleCommentCounts = {"http:\/\/www.nytimes.com\/2012\/06\/02\/sports\/baseball\/in-mets-51st-year-finally-their-first-no-hitter.html":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/02\/sports\/baseball\/in-mets-51st-year-finally-their-first-no-hitter.html"},"http:\/\/movies.nytimes.com\/movie\/463276\/Piranha-3DD\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/463276\/Piranha-3DD\/overview"},"http:\/\/www.nytimes.com\/2012\/06\/02\/opinion\/blow-darkness-in-the-sunshine-state.html":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/02\/opinion\/blow-darkness-in-the-sunshine-state.html"},"http:\/\/www.nytimes.com\/2012\/06\/02\/opinion\/nocera-the-mortgage-fraud-fraud.html":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/02\/opinion\/nocera-the-mortgage-fraud-fraud.html"},"http:\/\/www.nytimes.com\/2012\/06\/02\/opinion\/john-edwards-and-the-shrimp.html":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/02\/opinion\/john-edwards-and-the-shrimp.html"},"http:\/\/theater.nytimes.com\/show\/33974\/Evita\/overview?camefrom=EMCL_11374_NY Times":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/33974\/Evita\/overview?camefrom=EMCL_11374_NY Times"},"http:\/\/travel.nytimes.com\/2012\/06\/03\/travel\/the-american-queen-paddle-wheeler-cruises-on-the-mississippi.html":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/2012\/06\/03\/travel\/the-american-queen-paddle-wheeler-cruises-on-the-mississippi.html"},"http:\/\/movies.nytimes.com\/movie\/461179\/For-Greater-Glory\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/461179\/For-Greater-Glory\/overview"},"http:\/\/www.nytimes.com\/2012\/06\/03\/realestate\/brooklyns-gold-rush.html":{"count":5,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/03\/realestate\/brooklyns-gold-rush.html"},"http:\/\/www.nytimes.com\/2012\/06\/03\/magazine\/who-made-that-kraft-single.html":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/03\/magazine\/who-made-that-kraft-single.html"},"http:\/\/www.nytimes.com\/2012\/06\/03\/realestate\/the-dakotas-back-40.html":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/03\/realestate\/the-dakotas-back-40.html"},"http:\/\/www.nytimes.com\/2012\/06\/02\/us\/nuns-speak-about-vatican-criticism.html":{"count":174,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/02\/us\/nuns-speak-about-vatican-criticism.html"},"http:\/\/www.nytimes.com\/2012\/06\/03\/magazine\/costly-conversations.html":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/03\/magazine\/costly-conversations.html"},"http:\/\/travel.nytimes.com\/travel\/guides\/north-america\/united-states\/south-carolina\/hilton-head\/25496\/morris-whiteside-galleries\/shopping-detail.html":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/travel\/guides\/north-america\/united-states\/south-carolina\/hilton-head\/25496\/morris-whiteside-galleries\/shopping-detail.html"},"http:\/\/www.nytimes.com\/2012\/06\/03\/realestate\/the-short-stay-apartment.html":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/03\/realestate\/the-short-stay-apartment.html"},"http:\/\/movies.nytimes.com\/movie\/466842\/Pink-Ribbons-Inc-\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/466842\/Pink-Ribbons-Inc-\/overview"},"http:\/\/travel.nytimes.com\/travel\/guides\/caribbean-and-bermuda\/virgin-islands\/st-croix\/41682\/sugar-beach\/hotel-detail.html":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/travel\/guides\/caribbean-and-bermuda\/virgin-islands\/st-croix\/41682\/sugar-beach\/hotel-detail.html"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/31\/why-do-americans-love-the-british-royal-family\/gotta-love-the-royal-family-and-all-the-pomp-and-circumstance":{"count":7,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/31\/why-do-americans-love-the-british-royal-family\/gotta-love-the-royal-family-and-all-the-pomp-and-circumstance"},"http:\/\/movies.nytimes.com\/movie\/104175\/No-Room-for-the-Groom\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/104175\/No-Room-for-the-Groom\/overview"},"http:\/\/movies.nytimes.com\/movie\/466159\/Chely-Wright-Wish-Me-Away\/overview":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/466159\/Chely-Wright-Wish-Me-Away\/overview"},"http:\/\/www.nytimes.com\/2012\/06\/02\/business\/economy\/us-added-69000-jobs-in-may-jobless-rate-at-8-2.html":{"count":954,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/02\/business\/economy\/us-added-69000-jobs-in-may-jobless-rate-at-8-2.html"},"http:\/\/www.nytimes.com\/2012\/06\/01\/us\/edwards-case-a-blow-to-justice-dept-corruption-unit.html":{"count":166,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/01\/us\/edwards-case-a-blow-to-justice-dept-corruption-unit.html"},"http:\/\/www.nytimes.com\/2012\/06\/01\/world\/middleeast\/obama-ordered-wave-of-cyberattacks-against-iran.html":{"count":344,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/01\/world\/middleeast\/obama-ordered-wave-of-cyberattacks-against-iran.html"},"http:\/\/movies.nytimes.com\/movie\/88320\/Cry-Terror-\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/88320\/Cry-Terror-\/overview"},"http:\/\/movies.nytimes.com\/movie\/448799\/6-Month-Rule\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/448799\/6-Month-Rule\/overview"},"http:\/\/www.nytimes.com\/2012\/06\/05\/science\/skull-analysis-charts-the-changes-from-dinosaurs-to-birds.html":{"count":7,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/05\/science\/skull-analysis-charts-the-changes-from-dinosaurs-to-birds.html"},"http:\/\/movies.nytimes.com\/movie\/465718\/A-Cat-in-Paris\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/465718\/A-Cat-in-Paris\/overview"},"http:\/\/www.nytimes.com\/2012\/06\/01\/opinion\/blame-game-european-style.html":{"count":150,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/01\/opinion\/blame-game-european-style.html"},"http:\/\/www.nytimes.com\/2012\/06\/01\/nyregion\/to-gulp-or-to-sip-debating-a-crackdown-on-big-sugary-drinks.html":{"count":209,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/01\/nyregion\/to-gulp-or-to-sip-debating-a-crackdown-on-big-sugary-drinks.html"},"http:\/\/www.nytimes.com\/2012\/06\/01\/opinion\/krugman-the-austerity-agenda.html":{"count":911,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/01\/opinion\/krugman-the-austerity-agenda.html"},"http:\/\/www.nytimes.com\/2012\/06\/01\/opinion\/brooks-the-segmentation-century.html":{"count":259,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/01\/opinion\/brooks-the-segmentation-century.html"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/31\/why-do-americans-love-the-british-royal-family\/americas-obsession-with-royalty-started-with-princess-diana":{"count":22,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/31\/why-do-americans-love-the-british-royal-family\/americas-obsession-with-royalty-started-with-princess-diana"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/31\/why-do-americans-love-the-british-royal-family\/the-british-royal-family-has-all-the-elements-of-a-super-narrative":{"count":10,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/31\/why-do-americans-love-the-british-royal-family\/the-british-royal-family-has-all-the-elements-of-a-super-narrative"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/31\/why-do-americans-love-the-british-royal-family\/americans-have-a-long-history-of-royal-watching":{"count":104,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/31\/why-do-americans-love-the-british-royal-family\/americans-have-a-long-history-of-royal-watching"},"http:\/\/movies.nytimes.com\/movie\/125517\/The-Final-Days\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/125517\/The-Final-Days\/overview"},"http:\/\/movies.nytimes.com\/movie\/466820\/Found-Memories\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/466820\/Found-Memories\/overview"},"http:\/\/www.nytimes.com\/2012\/06\/01\/opinion\/black-women-and-natural-hair.html":{"count":358,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/01\/opinion\/black-women-and-natural-hair.html"},"http:\/\/www.nytimes.com\/2012\/06\/01\/us\/edwards-jury-returns-not-guilty-verdict-on-one-count.html":{"count":394,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/01\/us\/edwards-jury-returns-not-guilty-verdict-on-one-count.html"},"http:\/\/www.nytimes.com\/2012\/06\/01\/us\/appeals-court-rules-against-federal-marriage-act.html":{"count":344,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/01\/us\/appeals-court-rules-against-federal-marriage-act.html"},"http:\/\/travel.nytimes.com\/travel\/guides\/africa\/botswana\/chobe-national-park\/hotels.html":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/travel\/guides\/africa\/botswana\/chobe-national-park\/hotels.html"},"http:\/\/travel.nytimes.com\/2012\/06\/03\/travel\/36-hours-in-oxford-england.html":{"count":39,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/2012\/06\/03\/travel\/36-hours-in-oxford-england.html"},"http:\/\/www.nytimes.com\/2012\/06\/01\/business\/global\/greek-banks-regain-access-to-european-central-bank-loans.html":{"count":180,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/01\/business\/global\/greek-banks-regain-access-to-european-central-bank-loans.html"},"http:\/\/www.nytimes.com\/2012\/06\/01\/world\/americas\/honduran-drug-raid-deaths-wont-alter-us-policy.html":{"count":178,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/01\/world\/americas\/honduran-drug-raid-deaths-wont-alter-us-policy.html"},"http:\/\/movies.nytimes.com\/movie\/465653\/Good-Vibrations\/overview":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/465653\/Good-Vibrations\/overview"},"http:\/\/travel.nytimes.com\/travel\/guides\/europe\/italy\/rome\/34899\/st-regis-grand\/st-regis-grand\/hotel-detail.html":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/travel\/guides\/europe\/italy\/rome\/34899\/st-regis-grand\/st-regis-grand\/hotel-detail.html"},"http:\/\/theater.nytimes.com\/show\/54372\/Jukebox-Jackie-Snatches-of-Jackie-Curtis\/overview":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/54372\/Jukebox-Jackie-Snatches-of-Jackie-Curtis\/overview"},"http:\/\/www.nytimes.com\/2012\/06\/03\/magazine\/how-kinect-spawned-a-commercial-ecosystem.html":{"count":43,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/03\/magazine\/how-kinect-spawned-a-commercial-ecosystem.html"},"http:\/\/www.nytimes.com\/2012\/06\/03\/magazine\/soup-hold-the-heat.html":{"count":34,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/03\/magazine\/soup-hold-the-heat.html"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/30\/should-latin-america-end-the-war-on-drugs\/stop-outsourcing-our-drug-murders":{"count":28,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/30\/should-latin-america-end-the-war-on-drugs\/stop-outsourcing-our-drug-murders"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/30\/should-latin-america-end-the-war-on-drugs\/easing-marijuana-laws-could-have-broad-effect":{"count":12,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/30\/should-latin-america-end-the-war-on-drugs\/easing-marijuana-laws-could-have-broad-effect"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/30\/should-latin-america-end-the-war-on-drugs\/regulate-drug-use-dont-criminalize-it":{"count":47,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/30\/should-latin-america-end-the-war-on-drugs\/regulate-drug-use-dont-criminalize-it"},"http:\/\/theater.nytimes.com\/show\/45484\/Empire\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/45484\/Empire\/overview"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/30\/should-latin-america-end-the-war-on-drugs\/modify-the-rules-dont-abandon-the-fight":{"count":14,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/30\/should-latin-america-end-the-war-on-drugs\/modify-the-rules-dont-abandon-the-fight"},"http:\/\/www.nytimes.com\/2012\/05\/31\/opinion\/collins-the-tale-of-the-ticks-and-other-excess.html":{"count":308,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/31\/opinion\/collins-the-tale-of-the-ticks-and-other-excess.html"},"http:\/\/www.nytimes.com\/2012\/05\/31\/nyregion\/bloomberg-plans-a-ban-on-large-sugared-drinks.html":{"count":1426,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/31\/nyregion\/bloomberg-plans-a-ban-on-large-sugared-drinks.html"},"http:\/\/www.nytimes.com\/2012\/05\/31\/opinion\/too-much-power-for-a-president.html":{"count":479,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/31\/opinion\/too-much-power-for-a-president.html"},"http:\/\/www.nytimes.com\/2012\/05\/31\/opinion\/kristof-markets-and-morals.html":{"count":297,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/31\/opinion\/kristof-markets-and-morals.html"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/30\/should-latin-america-end-the-war-on-drugs\/focus-on-the-most-violent-gangs-and-the-biggest-users":{"count":37,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/30\/should-latin-america-end-the-war-on-drugs\/focus-on-the-most-violent-gangs-and-the-biggest-users"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/30\/should-latin-america-end-the-war-on-drugs\/drug-legalization-could-create-more-crime":{"count":101,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/30\/should-latin-america-end-the-war-on-drugs\/drug-legalization-could-create-more-crime"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/30\/should-latin-america-end-the-war-on-drugs\/stop-blindly-following-a-failed-policy":{"count":86,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/30\/should-latin-america-end-the-war-on-drugs\/stop-blindly-following-a-failed-policy"},"http:\/\/www.nytimes.com\/2012\/05\/31\/sports\/soccer\/concerns-of-racism-precede-european-soccer-championships.html":{"count":122,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/31\/sports\/soccer\/concerns-of-racism-precede-european-soccer-championships.html"},"http:\/\/www.nytimes.com\/2012\/05\/31\/technology\/personaltech\/galaxy-player-4-2-by-samsung-aims-at-ipod-touch-and-falls-just-short.html":{"count":35,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/31\/technology\/personaltech\/galaxy-player-4-2-by-samsung-aims-at-ipod-touch-and-falls-just-short.html"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/29\/nudging-bahrain-without-pushing-it-away\/the-us-should-mediate":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/29\/nudging-bahrain-without-pushing-it-away\/the-us-should-mediate"},"http:\/\/movies.nytimes.com\/movie\/467372\/5-Broken-Cameras\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/467372\/5-Broken-Cameras\/overview"},"http:\/\/theater.nytimes.com\/show\/48640\/Rangoon\/overview":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/48640\/Rangoon\/overview"},"http:\/\/www.nytimes.com\/2012\/05\/31\/us\/as-college-graduates-cluster-some-cities-are-left-behind.html":{"count":433,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/31\/us\/as-college-graduates-cluster-some-cities-are-left-behind.html"},"http:\/\/www.nytimes.com\/2012\/05\/31\/world\/europe\/british-court-clears-way-for-extradition-of-wikileaks-founder.html":{"count":103,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/31\/world\/europe\/british-court-clears-way-for-extradition-of-wikileaks-founder.html"},"http:\/\/theater.nytimes.com\/show\/53191\/True-West\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/53191\/True-West\/overview"},"http:\/\/movies.nytimes.com\/movie\/29921\/Long-Gone\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/29921\/Long-Gone\/overview"},"http:\/\/www.nytimes.com\/2012\/05\/31\/world\/africa\/charles-taylor-sentenced-to-50-years-for-war-crimes.html":{"count":98,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/31\/world\/africa\/charles-taylor-sentenced-to-50-years-for-war-crimes.html"},"http:\/\/www.nytimes.com\/2012\/05\/30\/opinion\/the-massacre-at-houla.html":{"count":24,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/30\/opinion\/the-massacre-at-houla.html"},"http:\/\/travel.nytimes.com\/2012\/06\/03\/travel\/wi-fi-and-amtrak-missed-connections.html":{"count":112,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/2012\/06\/03\/travel\/wi-fi-and-amtrak-missed-connections.html"},"http:\/\/www.nytimes.com\/2012\/06\/03\/magazine\/how-the-art-market-thrives-on-inequality.html":{"count":15,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/03\/magazine\/how-the-art-market-thrives-on-inequality.html"},"http:\/\/www.nytimes.com\/2012\/05\/30\/us\/new-digital-divide-seen-in-wasting-time-online.html":{"count":273,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/30\/us\/new-digital-divide-seen-in-wasting-time-online.html"},"http:\/\/www.nytimes.com\/2012\/05\/30\/world\/middleeast\/romney-condemns-obamas-syria-policy.html":{"count":258,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/30\/world\/middleeast\/romney-condemns-obamas-syria-policy.html"},"http:\/\/www.nytimes.com\/2012\/06\/03\/magazine\/craig-venters-bugs-might-save-the-world.html":{"count":172,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/06\/03\/magazine\/craig-venters-bugs-might-save-the-world.html"},"http:\/\/www.nytimes.com\/2012\/05\/30\/business\/energy-environment\/even-in-kentucky-coal-industry-is-under-siege.html":{"count":223,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/30\/business\/energy-environment\/even-in-kentucky-coal-industry-is-under-siege.html"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/29\/nudging-bahrain-without-pushing-it-away\/limited-options-for-the-us-in-bahrain":{"count":4,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/29\/nudging-bahrain-without-pushing-it-away\/limited-options-for-the-us-in-bahrain"},"http:\/\/movies.nytimes.com\/movie\/117064\/The-Wild-North\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/117064\/The-Wild-North\/overview"},"http:\/\/movies.nytimes.com\/movie\/83388\/Alias-Boston-Blackie\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/83388\/Alias-Boston-Blackie\/overview"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/29\/nudging-bahrain-without-pushing-it-away\/a-deeper-more-accurate-vision":{"count":8,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/29\/nudging-bahrain-without-pushing-it-away\/a-deeper-more-accurate-vision"},"http:\/\/www.nytimes.com\/2012\/05\/30\/opinion\/how-china-flouts-its-laws.html":{"count":159,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/30\/opinion\/how-china-flouts-its-laws.html"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/29\/nudging-bahrain-without-pushing-it-away\/tehrans-noise-is-all-bluster":{"count":9,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/29\/nudging-bahrain-without-pushing-it-away\/tehrans-noise-is-all-bluster"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/29\/nudging-bahrain-without-pushing-it-away\/treat-bahrain-like-an-ally":{"count":23,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/29\/nudging-bahrain-without-pushing-it-away\/treat-bahrain-like-an-ally"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/29\/nudging-bahrain-without-pushing-it-away\/support-reform-or-get-out-of-the-way":{"count":11,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/29\/nudging-bahrain-without-pushing-it-away\/support-reform-or-get-out-of-the-way"},"http:\/\/travel.nytimes.com\/travel\/guides\/north-america\/united-states\/new-mexico\/santa-fe\/6658\/the-chile-shop\/shopping-detail.html":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/travel\/guides\/north-america\/united-states\/new-mexico\/santa-fe\/6658\/the-chile-shop\/shopping-detail.html"},"http:\/\/theater.nytimes.com\/show\/49613\/Women-in-the-Pit\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/49613\/Women-in-the-Pit\/overview"},"http:\/\/www.nytimes.com\/2012\/05\/30\/opinion\/dowd-andromeda-is-coming.html":{"count":430,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/30\/opinion\/dowd-andromeda-is-coming.html"},"http:\/\/www.nytimes.com\/2012\/05\/30\/opinion\/friedman-paul-simon-takes-us-back.html":{"count":162,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/30\/opinion\/friedman-paul-simon-takes-us-back.html"},"http:\/\/www.nytimes.com\/2012\/05\/30\/arts\/music\/doc-watson-folk-musician-dies-at-89.html":{"count":241,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/30\/arts\/music\/doc-watson-folk-musician-dies-at-89.html"},"http:\/\/travel.nytimes.com\/travel\/guides\/central-and-south-america\/argentina\/buenos-aires\/34273\/plazoleta-carlos-pellegrini\/attraction-detail.html":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/travel\/guides\/central-and-south-america\/argentina\/buenos-aires\/34273\/plazoleta-carlos-pellegrini\/attraction-detail.html"},"http:\/\/travel.nytimes.com\/travel\/guides\/north-america\/united-states\/hawaii\/maui\/32689\/kula-lodge\/restaurant-detail.html":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/travel\/guides\/north-america\/united-states\/hawaii\/maui\/32689\/kula-lodge\/restaurant-detail.html"},"http:\/\/travel.nytimes.com\/travel\/guides\/europe\/italy\/tuscany-and-umbria\/pisa\/attractions.html":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/travel\/guides\/europe\/italy\/tuscany-and-umbria\/pisa\/attractions.html"},"http:\/\/www.nytimes.com\/2012\/05\/30\/world\/middleeast\/iran-confirms-cyber-attack-by-new-virus-called-flame.html":{"count":205,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/30\/world\/middleeast\/iran-confirms-cyber-attack-by-new-virus-called-flame.html"},"http:\/\/movies.nytimes.com\/movie\/464717\/Good-For-Nothing\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/464717\/Good-For-Nothing\/overview"},"http:\/\/theater.nytimes.com\/show\/48610\/Storefront-Church\/overview?scp=2&sq=storefront church&st=cse":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/48610\/Storefront-Church\/overview?scp=2&sq=storefront church&st=cse"},"http:\/\/www.nytimes.com\/2012\/05\/30\/business\/global\/as-global-rivals-gain-ground-corporate-japan-clings-to-cautious-ways.html":{"count":237,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/30\/business\/global\/as-global-rivals-gain-ground-corporate-japan-clings-to-cautious-ways.html"},"http:\/\/travel.nytimes.com\/travel\/guides\/europe\/belgium\/antwerp\/8548\/rubenshof\/hotel-detail.html":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/travel\/guides\/europe\/belgium\/antwerp\/8548\/rubenshof\/hotel-detail.html"},"http:\/\/travel.nytimes.com\/travel\/guides\/north-america\/united-states\/florida\/fort-myers\/24794\/koreshan-state-historic-site\/attraction-detail.html":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/travel\/guides\/north-america\/united-states\/florida\/fort-myers\/24794\/koreshan-state-historic-site\/attraction-detail.html"},"http:\/\/travel.nytimes.com\/travel\/guides\/caribbean-and-bermuda\/cuba\/havana\/31964\/parque-historico-morro-y-cabana\/attraction-detail.html":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/travel\/guides\/caribbean-and-bermuda\/cuba\/havana\/31964\/parque-historico-morro-y-cabana\/attraction-detail.html"},"http:\/\/theater.nytimes.com\/show\/53605\/Chimichangas-and-Zoloft\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/53605\/Chimichangas-and-Zoloft\/overview"},"http:\/\/www.nytimes.com\/2012\/05\/30\/world\/middleeast\/kofi-annan-meets-with-bashar-al-assad.html":{"count":264,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/30\/world\/middleeast\/kofi-annan-meets-with-bashar-al-assad.html"},"http:\/\/www.nytimes.com\/2012\/05\/29\/business\/economy\/extended-federal-unemployment-benefits-begin-to-wind-down.html":{"count":560,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/29\/business\/economy\/extended-federal-unemployment-benefits-begin-to-wind-down.html"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/28\/do-we-need-to-redefine-adulthood\/we-need-better-training-and-more-rules-for-new-drivers":{"count":28,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/28\/do-we-need-to-redefine-adulthood\/we-need-better-training-and-more-rules-for-new-drivers"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/28\/do-we-need-to-redefine-adulthood\/let-them-drink-at-18-with-a-learners-permit":{"count":69,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/28\/do-we-need-to-redefine-adulthood\/let-them-drink-at-18-with-a-learners-permit"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/28\/do-we-need-to-redefine-adulthood\/the-mysterious-age-of-consent-in-establishing-who-is-an-adult":{"count":32,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/28\/do-we-need-to-redefine-adulthood\/the-mysterious-age-of-consent-in-establishing-who-is-an-adult"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/28\/do-we-need-to-redefine-adulthood\/leave-the-voting-age-alone":{"count":37,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/28\/do-we-need-to-redefine-adulthood\/leave-the-voting-age-alone"},"http:\/\/www.nytimes.com\/2012\/05\/29\/world\/obamas-leadership-in-war-on-al-qaeda.html":{"count":1208,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/29\/world\/obamas-leadership-in-war-on-al-qaeda.html"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/28\/do-we-need-to-redefine-adulthood\/adulthood-what-the-brain-says-about-maturity":{"count":117,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/28\/do-we-need-to-redefine-adulthood\/adulthood-what-the-brain-says-about-maturity"},"http:\/\/www.nytimes.com\/2012\/05\/29\/nyregion\/gotham-arguments-for-stop-and-frisk-dont-hold-up.html":{"count":25,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/29\/nyregion\/gotham-arguments-for-stop-and-frisk-dont-hold-up.html"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/28\/do-we-need-to-redefine-adulthood\/mandatory-service-to-become-an-adult-9":{"count":66,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/28\/do-we-need-to-redefine-adulthood\/mandatory-service-to-become-an-adult-9"},"http:\/\/www.nytimes.com\/2012\/05\/29\/opinion\/nocera-the-simplicity-solution.html":{"count":191,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/29\/opinion\/nocera-the-simplicity-solution.html"},"http:\/\/www.nytimes.com\/2012\/05\/29\/opinion\/end-of-the-charade.html":{"count":322,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/29\/opinion\/end-of-the-charade.html"},"http:\/\/www.nytimes.com\/2012\/05\/29\/opinion\/brooks-the-role-of-uncle-sam.html":{"count":393,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/29\/opinion\/brooks-the-role-of-uncle-sam.html"},"http:\/\/movies.nytimes.com\/movie\/160777\/Neapolitanische-Geschwister\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/160777\/Neapolitanische-Geschwister\/overview"},"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/28\/do-we-need-to-redefine-adulthood\/a-parents-role-in-the-path-to-adulthood":{"count":35,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/roomfordebate\/2012\/05\/28\/do-we-need-to-redefine-adulthood\/a-parents-role-in-the-path-to-adulthood"},"http:\/\/www.nytimes.com\/2012\/05\/28\/opinion\/krugman-fiscal-phonies.htm":{"count":3,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/28\/opinion\/krugman-fiscal-phonies.htm"},"http:\/\/theater.nytimes.com\/show\/53867\/The-Bad-Guys\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/53867\/The-Bad-Guys\/overview"},"http:\/\/theater.nytimes.com\/show\/47521\/Medieval-Play\/overview?scp=1&sq=medieval play&st=cse":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/47521\/Medieval-Play\/overview?scp=1&sq=medieval play&st=cse"},"http:\/\/travel.nytimes.com\/travel\/guides\/europe\/spain\/catalonia\/barcelona\/37569\/hotel-espaa-a\/hotel-espaa-a\/hotel-detail.html":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/travel\/guides\/europe\/spain\/catalonia\/barcelona\/37569\/hotel-espaa-a\/hotel-espaa-a\/hotel-detail.html"},"http:\/\/www.nytimes.com\/2012\/05\/25\/science\/dispute-over-labeling-of-genetically-modified-food.html\/":{"count":0,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/25\/science\/dispute-over-labeling-of-genetically-modified-food.html\/"},"http:\/\/movies.nytimes.com\/movie\/294116\/Tremors-4-The-Legend-Begins\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/294116\/Tremors-4-The-Legend-Begins\/overview"},"http:\/\/movies.nytimes.com\/movie\/464203\/Avatar-2\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/464203\/Avatar-2\/overview"},"http:\/\/theater.nytimes.com\/show\/49450\/Murder-in-the-First\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/49450\/Murder-in-the-First\/overview"},"http:\/\/www.nytimes.com\/2012\/05\/28\/nyregion\/new-york-after-school-programs-may-face-trims.html":{"count":26,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/28\/nyregion\/new-york-after-school-programs-may-face-trims.html"},"http:\/\/www.nytimes.com\/2012\/05\/28\/technology\/for-tech-startups-new-york-has-increasing-allure.html":{"count":34,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/28\/technology\/for-tech-startups-new-york-has-increasing-allure.html"},"http:\/\/theater.nytimes.com\/show\/52376\/Love-Goes-to-Press\/overview?scp=3&sq=love goes to press&st=cse":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/52376\/Love-Goes-to-Press\/overview?scp=3&sq=love goes to press&st=cse"},"http:\/\/www.nytimes.com\/2012\/05\/28\/world\/at-west-point-asking-if-a-war-doctrine-was-worth-it.html":{"count":293,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/28\/world\/at-west-point-asking-if-a-war-doctrine-was-worth-it.html"},"http:\/\/www.nytimes.com\/2012\/05\/28\/opinion\/keller-a-brief-for-justice-kennedy.html":{"count":80,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/28\/opinion\/keller-a-brief-for-justice-kennedy.html"},"http:\/\/theater.nytimes.com\/show\/54374\/Playing-With-Fire\/overview?scp=4":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/54374\/Playing-With-Fire\/overview?scp=4"},"http:\/\/travel.nytimes.com\/travel\/guides\/europe\/spain\/extremadura\/36171\/parador-de-trujillo\/hotel-detail.html":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/travel\/guides\/europe\/spain\/extremadura\/36171\/parador-de-trujillo\/hotel-detail.html"},"http:\/\/www.nytimes.com\/2012\/05\/28\/opinion\/krugman-fiscal-phonies.html":{"count":389,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/28\/opinion\/krugman-fiscal-phonies.html"},"http:\/\/movies.nytimes.com\/movie\/19301\/A-Gathering-of-Eagles\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/19301\/A-Gathering-of-Eagles\/overview"},"http:\/\/movies.nytimes.com\/movie\/159030\/Amour\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/159030\/Amour\/overview"},"http:\/\/www.nytimes.com\/2012\/05\/27\/opinion\/sunday\/friedman-president-obama-should-seize-the-high-ground.htm":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/27\/opinion\/sunday\/friedman-president-obama-should-seize-the-high-ground.htm"},"http:\/\/www.nytimes.com\/2012\/05\/28\/us\/california-farmworkers-community-hurt-by-budget-crisis.html":{"count":112,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/28\/us\/california-farmworkers-community-hurt-by-budget-crisis.html"},"http:\/\/theater.nytimes.com\/show\/54374\/Playing-With-Fire\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/54374\/Playing-With-Fire\/overview"},"http:\/\/movies.nytimes.com\/movie\/465361\/\/overview":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/465361\/\/overview"},"http:\/\/theater.nytimes.com\/show\/49443\/Here-I-Go\/overview":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/49443\/Here-I-Go\/overview"},"http:\/\/www.nytimes.com\/2012\/05\/28\/world\/middleeast\/syria-denies-responsibility-in-brutal-attack.html":{"count":199,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/28\/world\/middleeast\/syria-denies-responsibility-in-brutal-attack.html"},"http:\/\/www.nytimes.com\/2012\/05\/27\/travel\/36-hours-in-dresden-germany.html":{"count":2,"commentsEnabled":true,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/27\/travel\/36-hours-in-dresden-germany.html"},"http:\/\/www.nytimes.com\/2012\/05\/27\/us\/politics\/ann-romneys-hobby-spotlights-world-of-dressage.html":{"count":468,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/27\/us\/politics\/ann-romneys-hobby-spotlights-world-of-dressage.html"},"http:\/\/movies.nytimes.com\/movie\/464046\/Dreiviertelmond\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/464046\/Dreiviertelmond\/overview"},"http:\/\/travel.nytimes.com\/travel\/guides\/australia-and-pacific\/new-zealand\/dunedin\/hotels.html":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/travel.nytimes.com\/travel\/guides\/australia-and-pacific\/new-zealand\/dunedin\/hotels.html"},"http:\/\/www.nytimes.com\/2012\/05\/27\/world\/asia\/first-a-black-hood-then-81-captive-days-for-artist-in-china.html":{"count":103,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/27\/world\/asia\/first-a-black-hood-then-81-captive-days-for-artist-in-china.html"},"http:\/\/theater.nytimes.com\/show\/52376\/Love-Goes-to-Press\/overview":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/52376\/Love-Goes-to-Press\/overview"},"http:\/\/www.nytimes.com\/2012\/05\/27\/world\/americas\/peru-confronts-wounds-of-civil-war.html":{"count":13,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/27\/world\/americas\/peru-confronts-wounds-of-civil-war.html"},"http:\/\/www.nytimes.com\/2012\/05\/27\/world\/middleeast\/syrian-activists-claim-death-toll-in-village-soars.html":{"count":54,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/27\/world\/middleeast\/syrian-activists-claim-death-toll-in-village-soars.html"},"http:\/\/www.nytimes.com\/2012\/05\/27\/world\/asia\/concerns-grow-about-spent-fuel-rods-at-damaged-nuclear-plant-in-japan.html":{"count":99,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/27\/world\/asia\/concerns-grow-about-spent-fuel-rods-at-damaged-nuclear-plant-in-japan.html"},"http:\/\/movies.nytimes.com\/movie\/370295\/One-for-the-Money\/overview":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/370295\/One-for-the-Money\/overview"},"http:\/\/www.nytimes.com\/2012\/05\/27\/opinion\/sunday\/bruni-the-emotional-tug-of-obama.html":{"count":156,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/27\/opinion\/sunday\/bruni-the-emotional-tug-of-obama.html"},"http:\/\/www.nytimes.com\/2012\/05\/27\/opinion\/sunday\/the-phony-regulation-debate.html":{"count":172,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/27\/opinion\/sunday\/the-phony-regulation-debate.html"},"http:\/\/www.nytimes.com\/2012\/05\/27\/opinion\/sunday\/douthat-the-facebook-illusion.html":{"count":180,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/27\/opinion\/sunday\/douthat-the-facebook-illusion.html"},"http:\/\/www.nytimes.com\/2012\/05\/27\/opinion\/sunday\/friedman-president-obama-should-seize-the-high-ground.html":{"count":261,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/27\/opinion\/sunday\/friedman-president-obama-should-seize-the-high-ground.html"},"http:\/\/www.nytimes.com\/2012\/05\/27\/opinion\/sunday\/this-is-how-we-ride.html":{"count":245,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/27\/opinion\/sunday\/this-is-how-we-ride.html"},"http:\/\/www.nytimes.com\/2012\/05\/27\/opinion\/sunday\/dowd-the-party-animals-at-the-secret-circus.html":{"count":291,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/27\/opinion\/sunday\/dowd-the-party-animals-at-the-secret-circus.html"},"http:\/\/www.nytimes.com\/2012\/05\/27\/us\/id-thieves-loot-tax-checks-filing-early-and-often.html":{"count":408,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/27\/us\/id-thieves-loot-tax-checks-filing-early-and-often.html"},"http:\/\/theater.nytimes.com\/show\/46650\/Potted-Potter-The-Unauthorized-Harry-Experience\/overview":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/46650\/Potted-Potter-The-Unauthorized-Harry-Experience\/overview"},"http:\/\/www.nytimes.com\/2012\/05\/27\/nyregion\/beach-town-of-eclectics.html":{"count":10,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/27\/nyregion\/beach-town-of-eclectics.html"},"http:\/\/www.nytimes.com\/2012\/05\/27\/magazine\/how-roland-barthes-gave-us-the-tv-recap.html":{"count":31,"commentsEnabled":false,"assetUrl":"http:\/\/www.nytimes.com\/2012\/05\/27\/magazine\/how-roland-barthes-gave-us-the-tv-recap.html"},"http:\/\/movies.nytimes.com\/movie\/468978\/Redlegs\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/468978\/Redlegs\/overview"},"http:\/\/movies.nytimes.com\/movie\/35655\/North-by-Northwest\/overview":{"count":0,"commentsEnabled":true,"assetUrl":"http:\/\/movies.nytimes.com\/movie\/35655\/North-by-Northwest\/overview"},"http:\/\/theater.nytimes.com\/show\/47826\/Two-Intimate\/overview?scp=4&sq=two intimate&st=cse":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/47826\/Two-Intimate\/overview?scp=4&sq=two intimate&st=cse"},"http:\/\/theater.nytimes.com\/show\/47826\/Two-Intimate\/overview":{"count":1,"commentsEnabled":true,"assetUrl":"http:\/\/theater.nytimes.com\/show\/47826\/Two-Intimate\/overview"}}</script>    <script type="text/javascript" language="JavaScript">
+    ArticleCommentCounts.apply()
+    </script>
+
+
+
+
+
+
+
+<IMG SRC="/adx/bin/clientside/457aec06Q2FTcRQ2FEQ264(Q60UvQ25cU!uE.(vQ604!E" height="1" width="3">
+
+
+			
+		<!-- Start UPT call -->
+		<img height="1" width="3" border=0 src="http://up.nytimes.com/?d=0//&t=6&s=0&ui=&r=&u=www%2enytimes%2ecom%2finteractive%2fblogs%2fdirectory%2ehtml%3f">
+		<!-- End UPT call -->
+	
+		
+        <script language="JavaScript"><!--
+          var dcsvid="";
+          var regstatus="non-registered";
+        //--></script>
+        <script src="http://graphics8.nytimes.com/js/app/analytics/trackingTags_v1.1.js" type="text/javascript"></script>
+        <noscript>
+          <div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://wt.o.nytimes.com/dcsym57yw10000s1s8g0boozt_9t1x/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=1.0.7"/></div>
+        </noscript>
+   
+</body>
+</html>
+
+
