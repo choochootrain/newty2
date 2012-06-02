@@ -1,3 +1,8 @@
+'''@short_description Scrapes website and stores the files in /scraped_news/website_name/files'''
+'''@run sudo python get_html.py http://www.anywebsite.com/'''
+'''@description downloads an entire website and does not force anything into the queue... that is yet to be implemented
+   does a breadth first search starting from the home page. queue, errors, rejected, explored, visited lists are all stored in a text file
+   catching kill signal is handled so feel free to kill the process as much as you want'''
 import urllib2
 import re
 import os
@@ -8,14 +13,13 @@ import traceback
 from download_package import *
 from catch_kill import BreakHandler
 
-'''downloads an entire website and does not force anything into the queue... that is yet to be implemented
-   does a breadth first search starting from the home page. queue, errors, rejected, explored, visited lists are all stored in a text file
-   catching kill signal is handled so feel free to kill the process as much as you want'''
 
-'''to run: python get_html.py http://www.anywebsite.com/'''
+'''This should be set true in the case of debug mode. If printing is true this will print to command line or else it prints into the log'''
+printing = True
 
 
-
+'''Initialize all the global variables necessary to run the code. In particular, this function builds the queue,
+the explored set, the visited set and the rejected set'''
 def initialize_globals():
     global url_to_scrape, url_short, queue_file_name
     global visited_file_name, rejected_file_name, errors_file_name
@@ -60,6 +64,7 @@ def reject(url):
     return False
 
 def write_everything():
+    global write_visited, write_rejected, write_errors, write_explored
     write_to_queue()
     write_one(visited_file_name, write_visited)
     write_one(rejected_file_name, write_rejected)
@@ -94,11 +99,15 @@ def begin_scrape():
     break_handler.enable()
     counter = 0
     file_parent_path = main_path + url_short + '/files/'
+    log = open(main_path + url_short + '/log', 'a')
     while len(queue) > 0:
         if break_handler.trapped:
             break_handler.disable()
             write_everything()
-            print 'Safely exited'
+            if printing:
+                print 'Safely exited'
+            log.write('Safely exited \n')
+            log.close()
             sys.exit(1)
         counter += 1
         if counter > 100:
@@ -110,7 +119,9 @@ def begin_scrape():
             continue
         random_wait = random.randint(0, 40) / 30.0
         time.sleep(.5 + random_wait)
-        print 'Working on ' + current_url
+        if printing:
+            print 'Working on ' + current_url
+        log.write('Working on ' + current_url + '\n')
         try:
             html = download_and_write_page(current_url, file_parent_path)
             links = [x.group(1) for x in re.finditer(r'href="([^"]*)"', html)]
@@ -130,12 +141,21 @@ def begin_scrape():
             visited.add(current_url)
             write_visited += current_url + '\n'
         except:
-            print 'error here'
-            traceback.print_exc()
+            if printing:
+                print 'error here'
+                traceback.print_exc()
+            log.write(traceback.format_exc())
             write_errors += current_url + '\n'
 
 
 
+"""Not yet implemented. Currently does nothing, but if you want to put special seeds into your code run this"""
+def queue_special():
+    global queue, explored
+    to_queue = []
+    for x in to_queue:
+        if x not in explored:
+            queue.append(x)
 
 
 
@@ -143,5 +163,6 @@ if __name__ == '__main__':
     initialize_globals()
     if len(queue) == 0:
         queue.append(url_to_scrape)
+    queue_special()
     begin_scrape()
     
