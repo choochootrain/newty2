@@ -1,5 +1,6 @@
 '''@short_description Scrapes website and stores the files in /scraped_news/website_name/files'''
-'''@run sudo python get_html.py http://www.anywebsite.com/'''
+'''@run sudo python get_html.py http://www.anywebsite.com'''
+'''Running with nohup : sudo nohup python get_html.py http://www.anywebsite.com'''
 '''@description downloads an entire website and does not force anything into the queue... that is yet to be implemented
    does a breadth first search starting from the home page. queue, errors, rejected, explored, visited lists are all stored in a text file
    catching kill signal is handled so feel free to kill the process as much as you want'''
@@ -40,16 +41,18 @@ def initialize_globals():
 
     queue = parse_file_by_line(queue_file_name)
     visited = parse_file_by_line(visited_file_name)
-    rejected = parse_file_by_line(rejected_file_name)
-    errors = parse_file_by_line(errors_file_name)
+    #rejected = parse_file_by_line(rejected_file_name)
+    ensure_path(rejected_file_name)
+    #errors = parse_file_by_line(errors_file_name)
+    ensure_path(errors_file_name)
     explored = parse_file_by_line(explored_file_name)
 
 
     
     #Need this or else runs into MemoryError on smaller servers
     visited = set(visited)
-    rejected = set(rejected)
-    errors = set(errors)
+    #rejected = set(rejected)
+    #errors = set(errors)
     explored = set(explored)
 
     write_visited = ''
