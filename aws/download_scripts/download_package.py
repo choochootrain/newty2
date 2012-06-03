@@ -4,7 +4,6 @@ import urllib2
 import os
 
 
-
 """Handles opening sites that force you to redirect. """
 class MyHTTPRedirectHandler(urllib2.HTTPRedirectHandler):
     def http_error_302(self, req, fp, code, msg, headers):
@@ -61,12 +60,16 @@ def to_bytestring (s, enc='utf-8'):
             return s.encode(enc)
 
 
+
+
+
+whitespace_regex = re.compile('\s*')
 def parse_file_by_line(file_name):
     to_return = []
     try:
         f = open(file_name, 'r')
-        file_lines = [line for line in f]
-        to_return = file_lines
+        to_return = [line for line in f]
+        print 'closed'
         f.close()
     except IOError as e:
         ensure_path(file_name)

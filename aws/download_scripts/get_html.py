@@ -1,6 +1,5 @@
 '''@short_description Scrapes website and stores the files in /scraped_news/website_name/files'''
-'''@run sudo python get_html.py http://www.anywebsite.com'''
-'''Running with nohup : sudo nohup python get_html.py http://www.anywebsite.com'''
+'''@run sudo python get_html.py http://www.anywebsite.com/'''
 '''@description downloads an entire website and does not force anything into the queue... that is yet to be implemented
    does a breadth first search starting from the home page. queue, errors, rejected, explored, visited lists are all stored in a text file
    catching kill signal is handled so feel free to kill the process as much as you want'''
@@ -40,7 +39,8 @@ def initialize_globals():
     explored_file_name = main_path + url_short + '/explored'
 
     queue = parse_file_by_line(queue_file_name)
-    visited = parse_file_by_line(visited_file_name)
+    #visited = parse_file_by_line(visited_file_name)
+    ensure_path(visited_file_name)
     #rejected = parse_file_by_line(rejected_file_name)
     ensure_path(rejected_file_name)
     #errors = parse_file_by_line(errors_file_name)
@@ -50,7 +50,7 @@ def initialize_globals():
 
     
     #Need this or else runs into MemoryError on smaller servers
-    visited = set(visited)
+    #visited = set(visited)
     #rejected = set(rejected)
     #errors = set(errors)
     explored = set(explored)
@@ -86,7 +86,7 @@ def write_one(file_name, text_to_write):
 def write_to_queue():
     to_write = ''
     for x in queue:
-        to_write += x + '\n'
+        to_write += x.strip() + '\n'
     f = open(queue_file_name, 'w')
     f.write(to_write)
     f.close()
@@ -131,6 +131,7 @@ def begin_scrape():
             html = download_and_write_page(current_url, file_parent_path)
             links = [x.group(1) for x in re.finditer(r'href="([^"]*)"', html)]
             for new_url in links:
+                new_url = new_url.strip()
                 if new_url in explored:
                     continue
                 if reject(new_url):
@@ -143,7 +144,7 @@ def begin_scrape():
                     queue.append(new_url)
                     write_explored += new_url + '\n'
                     explored.add(new_url)
-            visited.add(current_url)
+            #visited.add(current_url)
             write_visited += current_url + '\n'
         except:
             if printing:
