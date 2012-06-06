@@ -7,6 +7,8 @@ admin.autodiscover()
 urlpatterns = patterns('',
                        (r'^', include('application1.urls')),
                        (r'^app2/', include('application2.urls')),
+                       (r'^raphael/(?P<path>.*)$', 'django.views.static.serve',
+                         {'document_root': '../ui_test/'}),
     # Examples:
     # url(r'^$', 'mysite.views.home', name='home'),
     # url(r'^mysite/', include('mysite.foo.urls')),
