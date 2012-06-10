@@ -1,5 +1,9 @@
 <html>
   <head>
+    <meta name=viewport content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
     <title>
       Timeline
     </title>
@@ -13,48 +17,123 @@
         height: 100%;
         background-color: #CCCCCC;
       }
+
+      #canvas {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      #controls {
+        position: absolute;
+        left: 15px;
+        top: 30px;
+        width: 29px;
+      }
+
+      #zoom_in {
+        background: url(zoomIn.png) no-repeat center top;
+        display: block;
+        height: 26px;
+        width: 29px;
+      }
+
+      #zoom_out {
+        background: url(zoomOut.png) no-repeat center top;
+        display: block;
+        height: 27px;
+        width: 29px;
+      }
     </style>
   </head>
 
   <body>
     <div id="container">
-
+      <div id="canvas"></div>
+      <div id="controls">
+        <a id="zoom_in" href="javascript:;"></a>
+        <a id="zoom_out" href="javascript:;"></a>
+        Scroll to zoom and click to drag
+      </div>
     </div>
+
+    <link type="text/css" rel="stylesheet" src="raphael.pan-zoom.css"></link>
     <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="preventuglyscroll.js"></script>
     <script type="text/javascript" src="raphael.js"></script>
+    <script type="text/javascript" src="raphael.pan-zoom.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-        var width = $(document).width();
-        var height = $(document).height();
+        $(document).preventUglyScroll();
+        var width = $("#container").width();
+        var height = $("#container").height();
 
-        var canvas = Raphael("container", "100%", "100%");
+        var w = width;
+        var h = height;
 
-        var drawIcon = function(pathstring, x, y, id, callback) {
-          var icon = canvas.path(pathstring);
-          icon.attr({fill: "#444", stroke: "none"});
-          icon.transform('t' + x + ',' + y);
-          $(icon.node).attr('id', id);
-          $('#' + id).click(callback);
-          return icon;
-        }
+        var startX, startY;
 
-        var drawZoomIn = function(x, y, callback) {
-          return drawIcon("M22.646,19.307c0.96-1.583,1.523-3.435,1.524-5.421C24.169,8.093,19.478,3.401,13.688,3.399C7.897,3.401,3.204,8.093,3.204,13.885c0,5.789,4.693,10.481,10.484,10.481c1.987,0,3.839-0.563,5.422-1.523l7.128,7.127l3.535-3.537L22.646,19.307zM13.688,20.369c-3.582-0.008-6.478-2.904-6.484-6.484c0.006-3.582,2.903-6.478,6.484-6.486c3.579,0.008,6.478,2.904,6.484,6.486C20.165,17.465,17.267,20.361,13.688,20.369zM15.687,9.051h-4v2.833H8.854v4.001h2.833v2.833h4v-2.834h2.832v-3.999h-2.833V9.051z", x, y, 'zoom_in', callback);
+        var paper = Raphael("canvas", width, height);
+        var panzoom = paper.panzoom({});
+
+        $('#zoom_in').click(function(e) {
+          panzoom.zoomIn(1);
+          e.preventDefault();
+        });
+
+        $('#zoom_out').click(function(e) {
+          panzoom.zoomOut(1);
+          e.preventDefault();
+        });
+
+        $("#container").bind('gesturechange', function(e) {
+          var scale = e.originalEvent.scale;
+          var steps = Math.log(scale*scale) / 3;
+          if (scale > 1)
+            panzoom.zoomIn(steps);
+          else
+            panzoom.zoomOut(steps);
+        });
+        
+        $("#container").bind('touchstart', function(e) {
+          if(e.originalEvent.touches.length === 1) {  
+            startX = e.originalEvent.touches[0].pageX;
+            startY = e.originalEvent.touches[0].pageY;
+            $("#canvas").mousedown(e.originalEvent, false);
+          }
+        });
+
+        $("#container").bind('touchmove', function(e) {
+          if(e.originalEvent.touches.length === 1) {
+            var x = e.originalEvent.touches[0].pageX;
+            var y = e.originalEvent.touches[0].pageX;
+            //alert(x + " " + startX + " " + y + " " + startY);
+            $("#canvas").mousemove(e.originalEvent, false);
+            startX = x;
+            startY = y;
+          }
+        });
+
+        panzoom.enable();
+        paper.safari();
+
+        var redraw = function() {
+          paper.clear();
+          var line = paper.rect(0, height/2 - 5, width, 10);
+          line.attr('fill', '#444');
+          line.attr('stroke', '#444');
+
+          var tickSpacing = width/11;
+          for(var i = 1; i <= 10; i++) {
+            paper.path("M" + i*tickSpacing + "," + 0 + "L" + i*tickSpacing + "," + height);
+          }
+
+          line.touchmove(function(e) {
+            pan
+          });
         };
-  
-        var drawZoomOut = function(x, y, callback) {
-          return drawIcon("M22.646,19.307c0.96-1.583,1.523-3.435,1.524-5.421C24.169,8.093,19.478,3.401,13.688,3.399C7.897,3.401,3.204,8.093,3.204,13.885c0,5.789,4.693,10.481,10.484,10.481c1.987,0,3.839-0.563,5.422-1.523l7.128,7.127l3.535-3.537L22.646,19.307zM13.688,20.369c-3.582-0.008-6.478-2.904-6.484-6.484c0.006-3.582,2.903-6.478,6.484-6.486c3.579,0.008,6.478,2.904,6.484,6.486C20.165,17.465,17.267,20.361,13.688,20.369zM8.854,11.884v4.001l9.665-0.001v-3.999L8.854,11.884z", x, y, 'zoom_out', callback);
-        };
 
-        drawZoomIn(0, 0, function() {alert('zoom in');});
-        drawZoomOut(0, 50, function() {alert('zoom out');});
-
-        var line = canvas.rect(0, height/2 - 5, width, 10);
-        line.attr('fill', '#444');
-        line.attr('stroke', '#444');
-
-        var path = canvas.path("M10,129R,30,183,50,60,70,54,90,190,110,195,130,46,150,229,170,174,190,173,210,170,230,189,250,223,270,53,290,164,310,91,330,120,350,89,370,187,390,187,410,76,430,81,450,237,470,136,490,78,510,132,530,56,550,64,570,40,590,234");
-        path.attr('stroke', '#02B');
+        redraw();
       });
     </script>
   </body>
