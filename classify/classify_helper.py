@@ -2,6 +2,7 @@ import re
 import codecs
 import math
 import sys
+import os.path
 from pymongo import Connection
 def percent_match(html, keywords):
     html_array = html.split(' ')
@@ -57,22 +58,44 @@ def remove_useless_chars(text):
 c = Connection('localhost', 27018)
 words_db = c['words']
 
+newspaper_db_name = sys.argv[1].replace('http://', '').replace('www.', '')
+explored_file_name = '/scraped_news/' + newspaper_db_name + '/word_map_explored'
+def build_explored():
+    global explored_articles
+    explored_articles = set()
+    if os.path.exists(explored_file_name):
+        f = open(explored_file_name, 'r')
+        for x in f.readLines():
+            if x != '':
+                explored_articles.add(x)
+        f.close()
+
 def store_in_database(store_obj):
+    global explored_articles
     print 'storing into database'
     for word, articles in store_obj.items():
         if word.isspace() or word == '':
             continue
         word_coll = words_db[word]
-        for article in articles:
-            word_coll.insert(article)
+        word_coll.insert(articles)
+
+    f = open(explored_file_name, 'w')
+    for x in explored_articles:
+        f.write(x + '\n')
+    f.close()
+
 
 def populate_word_list(newspaper_name):
+    global explored_articles
     newspaper_db_name = newspaper_name.replace('http://', '').replace('www.', '')
     article_db = c['all_articles']
     newspaper_coll = article_db[newspaper_db_name]
     store_counter = 0
     temp_store_obj = {}
-    for article_obj in newspaper_coll.find():
+    for article_obj in newspaper_coll.find(timeout=False):
+        if article_obj['file_path'] in explored_articles:
+            continue
+        explored_articles.add(article_obj['file_path'])
         if store_counter > 1000:
             store_in_database(temp_store_obj)
             del temp_store_obj
@@ -94,7 +117,7 @@ def populate_word_list(newspaper_name):
         total_words = result_eval['total_words']
         word_counts = result_eval['word_counts']
         for word in word_counts.keys():
-            word_analysis = {'total_words' : total_words, 'word_count' : word_counts[word], 'percentage' : float(word_counts[word]) / total_words, 'article_id' : obj_id, 'title' : title, 'url' : url, 'file_path' : file_path, 'date' : date}
+            word_analysis = {'total_words' : total_words, 'word_count' : word_counts[word], 'percentage' : float(word_counts[word]) / total_words, 'article_id' : obj_id, 'newspaper' : newspaper_db_name, 'date' : date}
             #print word, word_analysis
             if word in temp_store_obj:
                 temp_store_obj[word].append(word_analysis)
@@ -117,4 +140,5 @@ def eval_text(text_to_eval):
 
 
 if __name__ == '__main__':
+    build_explored()
     populate_word_list(sys.argv[1])
