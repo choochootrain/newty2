@@ -54,7 +54,9 @@
       <div id="controls">
         <a id="zoom_in" href="javascript:;"></a>
         <a id="zoom_out" href="javascript:;"></a>
-        Scroll to zoom and click to drag
+        <div id="asdf">
+          Scroll to zoom and click to drag
+        </div>
       </div>
     </div>
 
@@ -75,12 +77,8 @@
 
         var startX, startY;
 
-        var paper = Raphael("canvas", width * 5, height);
-        var panzoom = paper.panzoom({
-          initialZoom: 8,
-          minZoom: -10,
-          maxZoom: 20,
-        });
+        var paper = Raphael("canvas", width, height);
+        var panzoom = paper.panzoom({});
 
         $('#zoom_in').click(function(e) {
           panzoom.zoomIn(1);
@@ -125,7 +123,7 @@
 
         var redraw = function() {
           paper.clear();
-          var line = paper.rect(0, height/2 - 5, width * 5, 10);
+          var line = paper.rect(0, height/2 - 5, width, 10);
           line.attr('fill', '#444');
           line.attr('stroke', '#444');
 
@@ -133,8 +131,7 @@
           for(var i = 1; i <= 10; i++) {
             paper.path("M" + i*tickSpacing + "," + 0 + "L" + i*tickSpacing + "," + height);
           }
-
-          paper.path(iphone_path);
+          paper.path(array_to_path(drop_samples(average_samples(iphone, 5), 5)));
         };
 
         redraw();
