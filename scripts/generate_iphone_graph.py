@@ -25,19 +25,22 @@ g = 0
 sorted_counts = sorted(counts_per_date.iteritems(), key=operator.itemgetter(0))
 shit = []
 path = "M0,500"
-for k,v in sorted_counts:
-    time = int(k.strftime('%s'))
-    if not s:
-        g = time
-        s = True
-        time = 0
-    else:
-        time = time - g
-    
-    time = time / 70000.0
 
-    shit.append([time, v])
-    path += "L" + str(time
+offset_time = int(sorted_counts[0][0].strftime('%s'))
+counter = 0
+total = 0
+for k,v in sorted_counts:
+    if counter == 5:
+        graph_average_time = int(k.strftime('%s')) - offset_time
+    if counter == 10:
+        shit.append([graph_average_time / 70000.0, total])
+        path += "L" + str(graph_average_time  / 70000.0) + ',' + str(total * 5)
+        total = 0
+        counter = 0
+    total += v
+    
+    
+    counter += 1        
 
 print json.dumps(shit)
 print "\n\n\n\n\n\n\n\n\n\n"
