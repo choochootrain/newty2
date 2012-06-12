@@ -16,6 +16,7 @@
         width: 100%;
         height: 100%;
         background-color: #CCCCCC;
+        overflow: hidden;
       }
 
       #canvas {
@@ -59,6 +60,7 @@
 
     <link type="text/css" rel="stylesheet" src="raphael.pan-zoom.css"></link>
     <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="paths.js"></script>
     <script type="text/javascript" src="preventuglyscroll.js"></script>
     <script type="text/javascript" src="raphael.js"></script>
     <script type="text/javascript" src="raphael.pan-zoom.js"></script>
@@ -73,8 +75,12 @@
 
         var startX, startY;
 
-        var paper = Raphael("canvas", width, height);
-        var panzoom = paper.panzoom({});
+        var paper = Raphael("canvas", width * 5, height);
+        var panzoom = paper.panzoom({
+          initialZoom: 8,
+          minZoom: -10,
+          maxZoom: 20,
+        });
 
         $('#zoom_in').click(function(e) {
           panzoom.zoomIn(1);
@@ -119,7 +125,7 @@
 
         var redraw = function() {
           paper.clear();
-          var line = paper.rect(0, height/2 - 5, width, 10);
+          var line = paper.rect(0, height/2 - 5, width * 5, 10);
           line.attr('fill', '#444');
           line.attr('stroke', '#444');
 
@@ -128,9 +134,7 @@
             paper.path("M" + i*tickSpacing + "," + 0 + "L" + i*tickSpacing + "," + height);
           }
 
-          line.touchmove(function(e) {
-            pan
-          });
+          paper.path(iphone_path);
         };
 
         redraw();

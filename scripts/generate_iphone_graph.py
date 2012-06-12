@@ -24,6 +24,7 @@ s = False
 g = 0
 sorted_counts = sorted(counts_per_date.iteritems(), key=operator.itemgetter(0))
 shit = []
+path = "M0,500"
 for k,v in sorted_counts:
     time = int(k.strftime('%s'))
     if not s:
@@ -33,7 +34,11 @@ for k,v in sorted_counts:
     else:
         time = time - g
     
-    time = time / 100000.0
+    time = time / 70000.0
+
     shit.append([time, v])
+    path += "L" + str(time
 
 print json.dumps(shit)
+print "\n\n\n\n\n\n\n\n\n\n"
+print path
