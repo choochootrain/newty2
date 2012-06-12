@@ -63,9 +63,10 @@ explored_file_name = '/scraped_news/' + newspaper_db_name + '/word_map_explored'
 def build_explored():
     global explored_articles
     explored_articles = set()
+    return explored_articles
     if os.path.exists(explored_file_name):
         f = open(explored_file_name, 'r')
-        for x in f.readLines():
+        for x in f.readlines():
             if x != '':
                 explored_articles.add(x)
         f.close()
@@ -113,10 +114,19 @@ def populate_word_list(newspaper_name):
         
         text_to_eval = body.strip().lower() + ' ' +  title.strip().lower()
         text_to_eval = remove_useless_chars(text_to_eval)
+        
+        #specific shit
+        if not sys.argv[2] in text_to_eval:
+            continue
+
         result_eval = eval_text(text_to_eval)
         total_words = result_eval['total_words']
         word_counts = result_eval['word_counts']
         for word in word_counts.keys():
+            #specific shit
+            if word != sys.argv[2]:
+                continue
+
             word_analysis = {'total_words' : total_words, 'word_count' : word_counts[word], 'percentage' : float(word_counts[word]) / total_words, 'article_id' : obj_id, 'newspaper' : newspaper_db_name, 'date' : date}
             #print word, word_analysis
             if word in temp_store_obj:
