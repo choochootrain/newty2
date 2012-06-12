@@ -68,7 +68,7 @@ def parse_file_by_line(file_name):
     to_return = []
     try:
         f = open(file_name, 'r')
-        to_return = [line for line in f]
+        to_return = [line.strip() for line in f if ((not line.isspace()) and line != '')]
         print 'closed'
         f.close()
     except IOError as e:
