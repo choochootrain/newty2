@@ -50,7 +50,9 @@ function get_path() {
 		data: post_data,
 		complete: function(res, status) {
 		if (status == "success") {
-		    path = eval(res.responseText);
+		    path = eval('(' + res.responseText + ')');
+		    alert(path);
+
 		} else {
 		    alert("error");
 		    alert(res.responseText);
