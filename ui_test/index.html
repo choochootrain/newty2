@@ -123,15 +123,22 @@
 
         var redraw = function() {
           paper.clear();
-          var line = paper.rect(0, height/2 - 5, width, 10);
-          line.attr('fill', '#444');
-          line.attr('stroke', '#444');
+          var line = paper.rect(0, height/2, width, 10);
+          line.attr({
+            fill: '#444',
+            stroke: '#444'
+          });
 
           var tickSpacing = width/11;
           for(var i = 1; i <= 10; i++) {
             paper.path("M" + i*tickSpacing + "," + 0 + "L" + i*tickSpacing + "," + height);
           }
-          paper.path(array_to_path(drop_samples(average_samples(iphone, 5), 5)));
+          var graph = paper.path(array_to_path(drop_samples(average_samples(iphone, 5), 5)));
+          graph.attr({
+            stroke: '#33F',
+            'stroke-width': 7,
+            'stroke-opacity': 0.7
+          });
         };
 
         redraw();
