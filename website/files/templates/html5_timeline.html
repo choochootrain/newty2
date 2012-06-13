@@ -1,0 +1,151 @@
+
+<html>
+  <head>
+    <meta name=viewport content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <title>
+      Timeline
+    </title>
+    <style type="text/css">
+      html, body {
+        margin: 0px;
+      }
+      
+      #container {
+        width: 100%;
+        height: 100%;
+        background-color: #CCCCCC;
+        overflow: hidden;
+      }
+
+      #canvas {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      #controls {
+        position: absolute;
+        left: 15px;
+        top: 30px;
+        width: 29px;
+      }
+
+      #zoom_in {
+        background: url(/static/images/zoomIn.png) no-repeat center top;
+        display: block;
+        height: 26px;
+        width: 29px;
+      }
+
+      #zoom_out {
+        background: url(/static/images/zoomOut.png) no-repeat center top;
+        display: block;
+        height: 27px;
+        width: 29px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="canvas"></div>
+      <div id="controls">
+        <a id="zoom_in" href="javascript:;"></a>
+        <a id="zoom_out" href="javascript:;"></a>
+        <div id="asdf">
+          Scroll to zoom and click to drag
+        </div>
+      </div>
+    </div>
+
+    <link type="text/css" rel="stylesheet" src="/static/css/raphael.pan-zoom.css"></link>
+    <script type="text/javascript" src="/static/js/jquery.js"></script>
+    <script type="text/javascript" src="/static/js/paths.js"></script>
+    <script type="text/javascript" src="/static/js/preventuglyscroll.js"></script>
+    <script type="text/javascript" src="/static/js/raphael.js"></script>
+    <script type="text/javascript" src="/static/js/raphael.pan-zoom.js"></script>
+      {% csrf_token %}
+    <script type="text/javascript">
+
+
+      $(document).ready(function() {
+        $(document).preventUglyScroll();
+        var width = $("#container").width();
+        var height = $("#container").height();
+
+        var w = width;
+        var h = height;
+
+        var startX, startY;
+
+        var paper = Raphael("canvas", width, height);
+        var panzoom = paper.panzoom({});
+
+        $('#zoom_in').click(function(e) {
+          panzoom.zoomIn(1);
+          e.preventDefault();
+        });
+
+        $('#zoom_out').click(function(e) {
+          panzoom.zoomOut(1);
+          e.preventDefault();
+        });
+
+        $("#container").bind('gesturechange', function(e) {
+          var scale = e.originalEvent.scale;
+          var steps = Math.log(scale*scale) / 3;
+          if (scale > 1)
+            panzoom.zoomIn(steps);
+          else
+            panzoom.zoomOut(steps);
+        });
+        
+        $("#container").bind('touchstart', function(e) {
+          if(e.originalEvent.touches.length === 1) {  
+            startX = e.originalEvent.touches[0].pageX;
+            startY = e.originalEvent.touches[0].pageY;
+            $("#canvas").mousedown(e.originalEvent, false);
+          }
+        });
+
+        $("#container").bind('touchmove', function(e) {
+          if(e.originalEvent.touches.length === 1) {
+            var x = e.originalEvent.touches[0].pageX;
+            var y = e.originalEvent.touches[0].pageX;
+            //alert(x + " " + startX + " " + y + " " + startY);
+            $("#canvas").mousemove(e.originalEvent, false);
+            startX = x;
+            startY = y;
+          }
+        });
+
+        panzoom.enable();
+        paper.safari();
+
+        var redraw = function() {
+          paper.clear();
+          var line = paper.rect(0, height/2, width, 10);
+          line.attr({
+            fill: '#444',
+            stroke: '#444'
+          });
+
+          var tickSpacing = width/11;
+          for(var i = 1; i <= 10; i++) {
+            paper.path("M" + i*tickSpacing + "," + 0 + "L" + i*tickSpacing + "," + height);
+          }
+          var graph = paper.path(array_to_path(drop_samples(average_samples(get_path(), 5), 5)));
+          graph.attr({
+            stroke: '#33F',
+            'stroke-width': 7,
+            'stroke-opacity': 0.7
+          });
+        };
+
+        redraw();
+      });
+    </script>
+  </body>
+<html>

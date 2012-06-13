@@ -117,7 +117,11 @@ def get_id(request):
 
 
 def get_classification(request):
-    word = request.REQUEST['word']
+    try:
+        word = request.REQUEST['word']
+    except:
+        jsonData = simplejson.loads(request.raw_post_data)
+        word = jsonData['word']
     if classify_one_view.main('http://www.techcrunch.com', word):
         c = Connection('localhost', 27018)
         db = c['words']
@@ -140,3 +144,9 @@ def get_classification(request):
         return HttpResponse(json.dumps(result))
     else:
         return HttpResponse("failure")
+
+
+def html5_timeline(request):
+    c = {}
+    c.update(csrf(request))
+    return render_to_response('html5_timeline.html', c)
