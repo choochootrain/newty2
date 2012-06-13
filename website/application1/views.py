@@ -122,29 +122,32 @@ def get_classification(request):
     except:
         jsonData = simplejson.loads(request.raw_post_data)
         word = jsonData['word']
-    if classify_one_view.main('http://www.techcrunch.com', word):
-        c = Connection('localhost', 27018)
-        db = c['words']
-        word_coll = db[word]
-        threshold = .01
-        counts_per_date = {}
-        for entry in word_coll.find().sort('date', DESCENDING):
-            date = entry['date']
-            percentage = entry['percentage']
-            if percentage > threshold:
-                if date in counts_per_date:
-                    counts_per_date[date] += 1
-                else:
-                    counts_per_date[date] = 1
-        result = []
-        sorted_counts = sorted(counts_per_date.iteritems(), key=operator.itemgetter(0))
-        for k, v in sorted_counts:
-            time = int(k.strftime('%s'))
-            result.append([time, v])
-        return HttpResponse(json.dumps(result))
-    else:
-        return HttpResponse("failure")
 
+    word_arr = word.split(' ')
+    to_return = {}
+    for single_word in word_arr:
+        if classify_one_view.main('http://www.techcrunch.com', word):
+            c = Connection('localhost', 27018)
+            db = c['words']
+            word_coll = db[word]
+            threshold = .01
+            counts_per_date = {}
+            for entry in word_coll.find().sort('date', DESCENDING):
+                date = entry['date']
+                percentage = entry['percentage']
+                if percentage > threshold:
+                    if date in counts_per_date:
+                        counts_per_date[date] += 1
+                    else:
+                        counts_per_date[date] = 1
+            one_result = []
+            sorted_counts = sorted(counts_per_date.iteritems(), key=operator.itemgetter(0))
+            for k, v in sorted_counts:
+                time = int(k.strftime('%s'))
+                one_result.append([time, v])
+            to_return[single_word] = one_result
+        return HttpResponse(json.dumps(to_return))
+    
 
 def html5_timeline(request):
     c = {}
