@@ -9,6 +9,7 @@ from django.contrib.auth import authenticate, login, logout
 import json
 from django.utils import simplejson
 from datetime import datetime
+import classify_one_view
 import uuid
 def home(request):
     # t = loader.get_template('postRequest.html')
@@ -109,3 +110,11 @@ def get_id(request):
     except Exception:
         return HttpResponse("you have no entry with x = " + id)
     return HttpResponse("your request id was there " + id)
+
+
+
+
+def get_classification(request):
+    word = request.REQUEST['param']
+    if classify_one_view('http://www.techcrunch.com', word):
+        

@@ -5,13 +5,23 @@ import sys
 import os.path
 from pymongo import Connection    
 
-newspaper_source = sys.argv[1]
-word_to_match = sys.argv[2]        
 
-c = Connection('localhost', 27018)
-words_db = c['words']
+def main(newspaper_name, word_to_match):
+    c = Connection('localhost', 27018)
+    words_db = c['words']
+    word_match_regex = re.compile(r'\b' + word_to_match + r'\b')
 
-newspaper_db_name = newspaper_source.replace('http://', '').replace('www.', '')
+    newspaper_db_name = newspaper_name.replace('http://', '').replace('www.', '')
+    article_db = c['all_articles']
+    newspaper_coll = article_db[newspaper_db_name]
+
+    if not handled(word_to_match, words_db):
+        populate_word_list(newspaper_coll, newspaper_name, newspaper_db_name, word_to_match, words_db, word_match_regex)
+        return True
+    return True
+
+
+
 
 
 
@@ -24,7 +34,7 @@ def remove_useless_chars(text):
     return text
 
 
-def handled(word):
+def handled(word, words_db):
     word_coll = words_db[word]
     if word_coll.count() > 100:
         return True
@@ -32,7 +42,7 @@ def handled(word):
         return False
 
 
-def store_in_database(store_obj):
+def store_in_database(store_obj, words_db):
     print 'storing into database'
     for word, articles in store_obj.items():
         if word.isspace() or word == '':
@@ -43,17 +53,13 @@ def store_in_database(store_obj):
 
 
 
-word_match_regex = re.compile(r'\b' + word_to_match + r'\b')
-space_regex = re.compile(r'\s+')
-def populate_word_list(newspaper_name):
-    newspaper_db_name = newspaper_name.replace('http://', '').replace('www.', '')
-    article_db = c['all_articles']
-    newspaper_coll = article_db[newspaper_db_name]
+
+def populate_word_list(newspaper_coll, newspaper_name, newspaper_db_name, word_to_match, words_db, word_match_regex):
     store_counter = 0
     temp_store_obj = {}
     for article_obj in newspaper_coll.find(timeout=False):
         if store_counter > 5000:
-            store_in_database(temp_store_obj)
+            store_in_database(temp_store_obj, words_db)
             del temp_store_obj
             temp_store_obj = {}
             store_counter = 0
@@ -75,7 +81,7 @@ def populate_word_list(newspaper_name):
             continue
 
         total_num_matched = len(word_match_regex.findall(text_to_eval))
-        total_num_words = len(space_regex.split(text_to_eval))
+        total_num_words = len(whitespace.split(text_to_eval))
         word_analysis = {'total_num_words' : total_num_words, 'total_num_matched' : total_num_matched, 'percentage' : float(total_num_matched) / total_num_words, 'article_id' : obj_id, 'newspaper' : newspaper_db_name, 'date' : date}
         if word_to_match in temp_store_obj:
             temp_store_obj[word_to_match].append(word_analysis)
@@ -84,13 +90,7 @@ def populate_word_list(newspaper_name):
         
     
 
-def main():
-    if not handled(word_to_match):
-        populate_word_list(newspaper_source)
-        return True
-    return True
 
 
 if __name__ == '__main__':
-    if not handled(word_to_match):
-        populate_word_list(newspaper_source)
+    main(sys.argv[1], sys.argv[2])
