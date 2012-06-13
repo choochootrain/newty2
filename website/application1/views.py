@@ -122,14 +122,15 @@ def get_classification(request):
     except:
         jsonData = simplejson.loads(request.raw_post_data)
         word = jsonData['word']
+    print word
 
     word_arr = word.split(' ')
     to_return = {}
     for single_word in word_arr:
-        if classify_one_view.main('http://www.techcrunch.com', word):
+        if classify_one_view.main('http://www.techcrunch.com', single_word):
             c = Connection('localhost', 27018)
             db = c['words']
-            word_coll = db[word]
+            word_coll = db[single_word]
             threshold = .01
             counts_per_date = {}
             for entry in word_coll.find().sort('date', DESCENDING):
@@ -146,7 +147,7 @@ def get_classification(request):
                 time = int(k.strftime('%s'))
                 one_result.append([time, v])
             to_return[single_word] = one_result
-        return HttpResponse(json.dumps(to_return))
+    return HttpResponse(json.dumps(to_return))
     
 
 def html5_timeline(request):
