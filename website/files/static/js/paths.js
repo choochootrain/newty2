@@ -37,30 +37,30 @@ $(document).ajaxSend(function(event, xhr, settings) {
         }
     });
 
-
 function get_path() {
+    var path;
     x = {};
     x['word'] = getParameterByName('word');
     post_data = JSON.stringify(x);
     $.ajax({
 	    type: 'POST',
+                async: false,
 		datatype: 'text',
 		url: '/load_dynamic',
 		data: post_data,
-		datatype: 'text',
 		complete: function(res, status) {
 		if (status == "success") {
-		    alert(res.responseText);
-		    data = eval('(' + res.responseText + ')')
-			return data;
-			} else {
+		    path = eval(res.responseText);
+		} else {
 		    alert("error");
 		    alert(res.responseText);
 		}
 	    }
 
-	});  
+	});
+    return path;
 }
+
 function getParameterByName(name)
 {
     name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
@@ -77,8 +77,9 @@ function getParameterByName(name)
 function scale_array(arr, x, y) {
     var scaled = [];
     for(var i = 0; i < arr.length; i++) {
-	scaled.push([arr[i][0] * x, arr[i][1] * y]);
+	scaled.push([(arr[i][0] - arr[0][0]) / x, arr[i][1] * y]);
     }
+    return scaled;
 }
 
 function drop_samples(arr, rate) {

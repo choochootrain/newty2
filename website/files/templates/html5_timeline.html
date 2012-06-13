@@ -136,7 +136,12 @@
           for(var i = 1; i <= 10; i++) {
             paper.path("M" + i*tickSpacing + "," + 0 + "L" + i*tickSpacing + "," + height);
           }
-          var graph = paper.path(array_to_path(drop_samples(average_samples(get_path(), 5), 5)));
+          var scaled = scale_array(get_path(), 70000, 10);
+          var averaged = average_samples(scaled, 5);
+          var dropped = drop_samples(averaged, 5);
+          var path = array_to_path(dropped);
+          
+          var graph = paper.path(path);
           graph.attr({
             stroke: '#33F',
             'stroke-width': 7,
