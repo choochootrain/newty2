@@ -73,11 +73,18 @@ function getParameterByName(name)
 	return decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 
+function offset_array(arr, offset) {
+    var shifted = [];
+    for(var i = 0; i < arr.length; i++) {
+        shifted.push([arr[i][0] - offset, arr[i][1]]);
+    }
+    return shifted;
+}
 
 function scale_array(arr, x, y) {
     var scaled = [];
     for(var i = 0; i < arr.length; i++) {
-	scaled.push([(arr[i][0] - arr[0][0]) / x, arr[i][1] * y]);
+	scaled.push([arr[i][0] * x, arr[i][1] * y]);
     }
     return scaled;
 }

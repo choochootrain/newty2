@@ -45,17 +45,32 @@
         height: 27px;
         width: 29px;
       }
+
+      #layers {
+        position: absolute;
+        left: -25px;
+        top: 90px;
+        background-color: rgba(75,75,75,0.5);
+        margin: 15px;
+      }
+
+      #layers_list {
+        list-style-type: none;
+      }
     </style>
   </head>
+  
+  {% csrf_token %}
+  
   <body>
     <div id="container">
       <div id="canvas"></div>
       <div id="controls">
         <a id="zoom_in" href="javascript:;"></a>
         <a id="zoom_out" href="javascript:;"></a>
-        <div id="asdf">
-          Scroll to zoom and click to drag
-        </div>
+      </div>
+      <div id="layers">
+        <ul id="layers_list"></ul>
       </div>
     </div>
 
@@ -65,7 +80,6 @@
     <script type="text/javascript" src="/static/js/preventuglyscroll.js"></script>
     <script type="text/javascript" src="/static/js/raphael.js"></script>
     <script type="text/javascript" src="/static/js/raphael.pan-zoom.js"></script>
-      {% csrf_token %}
     <script type="text/javascript">
 
 
@@ -123,10 +137,29 @@
         panzoom.enable();
         paper.safari();
 
+        var colorArr = ['#FF3', '#F3F', '#3FF', '#F33', '#3F3', '#33F'];
         var randomColor = function() {
-          var colors = ['#F33', '#3F3', '#33F'];
-          return colors[Math.floor(Math.random() * colors.length)];
+          return colorArr.pop();
         }
+
+        var layers = {};
+        var status = {};
+        var colors = {};
+
+        var togglePath = function(title) {
+          return function() {
+            if(status[title]) {
+              layers[title].hide();
+              status[title] = false;
+              $('#' + title).css('color', '#555');
+            } else {
+              layers[title].show();
+              status[title] = true;
+              $('#' + title).css('color', colors[title]);
+            }
+          };
+        };
+
 
         var redraw = function() {
           paper.clear();
@@ -142,19 +175,45 @@
           }
           var paths = get_paths();
 
+          var minOffset = Infinity;
           for(var path_title in paths) {
             var path = paths[path_title];
-            var scaled = scale_array(path, 70000, 10);
+            minOffset = Math.min(minOffset, path[0][0]);
+          }
+
+          for(var path_title in paths) {
+            var path = paths[path_title];
+            paths[path_title] = offset_array(path, minOffset);
+          }
+          
+          var maxRange = 0;
+          for(var path_title in paths) {
+            var path = paths[path_title];
+            maxRange = Math.max(maxRange, path[path.length - 1][0]);
+          }
+
+          for(var path_title in paths) {
+            var path = paths[path_title];
+            var scaled = scale_array(path, width/maxRange, 10);
             var averaged = average_samples(scaled, 5);
             var dropped = drop_samples(averaged, 5);
-            var path = array_to_path(dropped);
-            
-            var graph = paper.path(path);
+            var pathArr = array_to_path(dropped);
+
+            var color = randomColor();
+            var graph = paper.path(pathArr);
             graph.attr({
-              stroke: randomColor(),
-              'stroke-width': 7,
+              stroke: color,
+              'stroke-width': 5,
               'stroke-opacity': 0.7
             });
+
+            layers[path_title] = graph;
+            status[path_title] = true;
+            colors[path_title] = color;
+
+            $('#layers_list').append("<li><a id='" + path_title + "' href='javascript:;'>" + path_title + "</a></li>");
+            $('#' + path_title).css('color', color);
+            $('#' + path_title).click(togglePath(path_title));
           }
         };
 
