@@ -76,18 +76,35 @@ def reject(url):
 def special_cases_to_queue(queue):
     global write_explored, explored
     special_cases = []
-    max = 1233013
-    counter = 0
-    while counter < max:
-        url = 'http://query.nytimes.com/search/query?frow=' + str(counter) + '&n=' + str(counter + 50) + '&srcht=a&query=&srchst=nyt&submit.x=23&submit.y=9&submit=sub&hdlquery=&bylquery=&daterange=period&mon1=01&day1=01&year1=2000&mon2=06&day2=12&year2=2012'
-        if url not in explored:
-            special_cases.append(url)
-            explored.add(url)
-            write_explored += url + '\n'
-        counter += 50
-    #print special_cases
+    months_and_days = ((1, 31), (2, 29), (3, 31), (4, 30), (5, 31), (6, 30),
+                       (7, 31), (8, 31), (9, 30), (10, 31), (11, 30), (12, 31))
+    years = [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]
+    years.reverse()
+    for year in years:
+        for month, days in months_and_days:
+            for day in range(1, days + 1):
+                if year%4 != 0 and month == 2 and day == 29:
+                    continue
+                if year == 2012 and month >= 7 or (year == 2012 and month == 6 and day > 12):
+                    continue
+                year_str = str(year)
+                month_str = str(month)
+                day_str = str(day)
+                if len(day_str) == 1:
+                    day_str = '0' + day_str
+                if len(month_str) == 1:
+                    month_str = '0' + month_str
+                url_begin = 'http://query.nytimes.com/search/query?frow='
+                url_end = '&n=50&srcht=a&query=&srchst=nyt&submit.x=23&submit.y=9&submit=sub&hdlquery=&bylquery=&daterange=period&mon1=' + month_str + '&day1=' + day_str + '&year1=' + year_str + '&mon2=' + month_str + '&day2=' + day_str + '&year2=' + year_str
+                for i in range(7):
+                    new_url = url_begin + str(i * 50) + url_end
+                    if new_url not in explored:
+                        special_cases.append(new_url)
+                        explored.add(new_url)
+                        write_explored += new_url + '\n'                    
     special_cases.extend(queue)
     return special_cases
+
 
 def write_everything():
     global write_visited, write_rejected, write_errors, write_explored
@@ -165,6 +182,7 @@ def begin_scrape():
                     continue
                 else:
                     queue.append(new_url)
+                    print new_url
                     write_explored += new_url + '\n'
                     explored.add(new_url)
             #visited.add(current_url)
