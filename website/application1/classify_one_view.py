@@ -36,7 +36,7 @@ def remove_useless_chars(text):
 
 def handled(word, words_db):
     word_coll = words_db[word]
-    if word_coll.count() > 100:
+    if word_coll.count() > 1:
         return True
     else:
         return False
