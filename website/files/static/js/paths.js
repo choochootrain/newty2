@@ -37,8 +37,8 @@ $(document).ajaxSend(function(event, xhr, settings) {
         }
     });
 
-function get_path() {
-    var path;
+function get_paths() {
+    var paths;
     x = {};
     x['word'] = getParameterByName('word');
     post_data = JSON.stringify(x);
@@ -50,9 +50,7 @@ function get_path() {
 		data: post_data,
 		complete: function(res, status) {
 		if (status == "success") {
-		    path = eval('(' + res.responseText + ')');
-		    alert(path);
-
+		    paths = eval('(' + res.responseText + ')');
 		} else {
 		    alert("error");
 		    alert(res.responseText);
@@ -60,7 +58,7 @@ function get_path() {
 	    }
 
 	});
-    return path;
+    return paths;
 }
 
 function getParameterByName(name)

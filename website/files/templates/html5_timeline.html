@@ -1,4 +1,3 @@
-
 <html>
   <head>
     <meta name=viewport content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
@@ -124,6 +123,11 @@
         panzoom.enable();
         paper.safari();
 
+        var randomColor = function() {
+          var colors = ['#F33', '#3F3', '#33F'];
+          return colors[Math.floor(Math.random() * colors.length)];
+        }
+
         var redraw = function() {
           paper.clear();
           var line = paper.rect(0, height/2, width, 10);
@@ -136,17 +140,22 @@
           for(var i = 1; i <= 10; i++) {
             paper.path("M" + i*tickSpacing + "," + 0 + "L" + i*tickSpacing + "," + height);
           }
-          var scaled = scale_array(get_path(), 70000, 10);
-          var averaged = average_samples(scaled, 5);
-          var dropped = drop_samples(averaged, 5);
-          var path = array_to_path(dropped);
-          
-          var graph = paper.path(path);
-          graph.attr({
-            stroke: '#33F',
-            'stroke-width': 7,
-            'stroke-opacity': 0.7
-          });
+          var paths = get_paths();
+
+          for(var path_title in paths) {
+            var path = paths[path_title];
+            var scaled = scale_array(path, 70000, 10);
+            var averaged = average_samples(scaled, 5);
+            var dropped = drop_samples(averaged, 5);
+            var path = array_to_path(dropped);
+            
+            var graph = paper.path(path);
+            graph.attr({
+              stroke: randomColor(),
+              'stroke-width': 7,
+              'stroke-opacity': 0.7
+            });
+          }
         };
 
         redraw();
