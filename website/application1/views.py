@@ -11,6 +11,8 @@ from django.utils import simplejson
 from datetime import datetime
 import classify_one_view
 import uuid
+from pymongo import Connection, DESCENDING
+import operator
 def home(request):
     # t = loader.get_template('postRequest.html')
     # t.render(Context({"name":"Lu"}))
@@ -115,6 +117,26 @@ def get_id(request):
 
 
 def get_classification(request):
-    word = request.REQUEST['param']
-    if classify_one_view('http://www.techcrunch.com', word):
-        
+    word = request.REQUEST['word']
+    if classify_one_view.main('http://www.techcrunch.com', word):
+        c = Connection('localhost', 27018)
+        db = c['words']
+        word_coll = db[word]
+        threshold = .01
+        counts_per_date = {}
+        for entry in word_coll.find().sort('date', DESCENDING):
+            date = entry['date']
+            percentage = entry['percentage']
+            if percentage > threshold:
+                if date in counts_per_date:
+                    counts_per_date[date] += 1
+                else:
+                    counts_per_date[date] = 1
+        result = []
+        sorted_counts = sorted(counts_per_date.iteritems(), key=operator.itemgetter(0))
+        for k, v in sorted_counts:
+            time = int(k.strftime('%s'))
+            result.append([time, v])
+        return HttpResponse(json.dumps(result))
+    else:
+        return HttpResponse("failure")
