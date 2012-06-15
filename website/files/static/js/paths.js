@@ -60,6 +60,61 @@ function get_paths() {
 	});
     return paths;
 }
+//Basically a repeat of the above function. I'll leave it 
+// here for now so that it is easier to merge
+function dynamic_draw_path(query, minOffset, maxRange, width, randomColor, paper, layers, status,
+			   colors, togglePath) {
+    alert(query + minOffset + maxRange);
+    var paths;
+    x = {}
+    x['word'] = query;
+    post_data = JSON.stringify(x);
+    $.ajax({
+	    type: 'POST',
+		async: false,
+		url: '/load_dynamic',
+		data: post_data,
+		complete: function(res, status) {
+		   if (status == "success") {
+		       paths = eval('(' + res.responseText + ')');
+		   } else {
+		       alert("error");
+		       alert(res.responseText);
+		   }
+	    }
+	});
+    for(var path_title in paths) {
+	var path = paths[path_title];
+	paths[path_title] = offset_array(path, minOffset);
+    }
+    for(var path_title in paths) {
+            var path = paths[path_title];
+            var scaled = scale_array(path, width/maxRange, 10);
+            var averaged = average_samples(scaled, 5);
+            var dropped = drop_samples(averaged, 5);
+            var pathArr = array_to_path(dropped);
+	    //pathArr = array_to_path(scaled);
+	    //Above is the full data -- which might be good
+            var color = randomColor();
+            var graph = paper.path(pathArr);
+            graph.attr({
+              stroke: color,
+              'stroke-width': 5,
+              'stroke-opacity': 0.7
+			});
+	    layers[path_title] = graph;
+            status[path_title] = true;
+            colors[path_title] = color;
+	    
+            $('#layers_list').append("<li><a id='" + path_title + "' href='javascript:;'>" + path_title + "</a></li>");
+            $('#' + path_title).css('color', color);
+            $('#' + path_title).click(togglePath(path_title));
+
+    }
+
+
+}
+
 
 function getParameterByName(name)
 {

@@ -57,13 +57,21 @@
       #layers_list {
         list-style-type: none;
       }
+
+      #nice_search {
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+      }
     </style>
   </head>
   
   {% csrf_token %}
   
   <body>
+
     <div id="container">
+      <center> <input type="text" id="nice_search" placeholder="Type to search"/> </center>
       <div id="canvas"></div>
       <div id="controls">
         <a id="zoom_in" href="javascript:;"></a>
@@ -180,6 +188,8 @@
 	    maxDate = Math.max(maxDate, path[path.length - 1][0]);
           }
 
+
+          //Draws ticks and marks ticks with dates
           var current_epoch_time = 0;
           for(var i = 1; i <= 10; i++) {
             paper.path("M" + i*tickSpacing + "," + 0 + "L" + i*tickSpacing + "," + height);
@@ -225,10 +235,21 @@
             $('#layers_list').append("<li><a id='" + path_title + "' href='javascript:;'>" + path_title + "</a></li>");
             $('#' + path_title).css('color', color);
             $('#' + path_title).click(togglePath(path_title));
-          }
-        };
 
+	    
+
+          }
+	  //Dynamically draws text
+	  $('#nice_search').keypress( function(e) {
+	     if (e.which == 13) {
+	        dynamic_draw_path($('#nice_search').val(), minOffset, maxRange,
+		width, randomColor, paper, layers, status, colors, togglePath);
+		$('#nice_search').val("");
+	     }
+          });
+        };
         redraw();
+
       });
     </script>
   </body>
