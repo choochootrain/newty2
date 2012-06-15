@@ -170,16 +170,26 @@
           });
 
           var tickSpacing = width/11;
-          for(var i = 1; i <= 10; i++) {
-            paper.path("M" + i*tickSpacing + "," + 0 + "L" + i*tickSpacing + "," + height);
-          }
           var paths = get_paths();
 
           var minOffset = Infinity;
+	  var maxDate = 0;
           for(var path_title in paths) {
             var path = paths[path_title];
             minOffset = Math.min(minOffset, path[0][0]);
+	    maxDate = Math.max(maxDate, path[path.length - 1][0]);
           }
+
+          var current_epoch_time = 0;
+          for(var i = 1; i <= 10; i++) {
+            paper.path("M" + i*tickSpacing + "," + 0 + "L" + i*tickSpacing + "," + height);
+	    current_epoch_time = ((maxDate - minOffset) / 11) * i + minOffset;
+            var d = new Date(0);
+            d.setUTCSeconds(current_epoch_time);
+	    date_str = d.getMonth() + '/' + d.getDate() + '/' + d.getFullYear();
+            paper.text(i*tickSpacing, $('#container').height() / 2 + 30, date_str);
+          }
+
 
           for(var path_title in paths) {
             var path = paths[path_title];
@@ -198,7 +208,8 @@
             var averaged = average_samples(scaled, 5);
             var dropped = drop_samples(averaged, 5);
             var pathArr = array_to_path(dropped);
-
+//pathArr = array_to_path(scaled);
+//Above is the full data -- which might be good
             var color = randomColor();
             var graph = paper.path(pathArr);
             graph.attr({
