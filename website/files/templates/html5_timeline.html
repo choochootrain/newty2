@@ -16,20 +16,20 @@
         width: 100%;
         height: 100%;
         background-color: #CCCCCC;
-        overflow: hidden;
+        background: url(/static/images/greypaperfibers.png) repeat center top;
       }
 
       #canvas {
         width: 100%;
         height: 100%;
-        overflow: hidden;
       }
 
       #controls {
         position: absolute;
         left: 15px;
         top: 30px;
-        width: 29px;
+        background-color: rgba(10,10,10,0.4);
+        padding: 15px;
       }
 
       #zoom_in {
@@ -47,15 +47,24 @@
       }
 
       #layers {
-        position: absolute;
-        left: -25px;
-        top: 90px;
-        background-color: rgba(75,75,75,0.5);
-        margin: 15px;
+      
       }
 
       #layers_list {
         list-style-type: none;
+        -webkit-padding-start: 0;
+        margin-bottom: 0;
+      }
+
+      .layer {
+        text-decoration: none;
+      }
+
+      #searchbox {
+        position: absolute;
+        top: 5px;
+        width: 100%;
+        z-index: 100;
       }
 
       #nice_search {
@@ -71,14 +80,18 @@
   <body>
 
     <div id="container">
-      <center> <input type="text" id="nice_search" placeholder="Type to search"/> </center>
+      <div id="searchbox">
+        <center>
+          <input type="text" id="nice_search" placeholder="Type to search"/>
+        </center>
+      </div>
       <div id="canvas"></div>
       <div id="controls">
         <a id="zoom_in" href="javascript:;"></a>
         <a id="zoom_out" href="javascript:;"></a>
-      </div>
-      <div id="layers">
-        <ul id="layers_list"></ul>
+        <div id="layers">
+          <ul id="layers_list"></ul>
+        </div>
       </div>
     </div>
 
@@ -145,25 +158,35 @@
         panzoom.enable();
         paper.safari();
 
-        var colorArr = ['#FF3', '#F3F', '#3FF', '#F33', '#3F3', '#33F'];
+        var colorArr = ['#BB3', '#B3B', '#3BB', '#F33', '#3F3', '#33F'];
         var randomColor = function() {
-          return colorArr.pop();
+          if (colorArr.length > 0)
+            return colorArr.pop();
+          else
+            return '#FFF';
         }
 
         var layers = {};
-        var status = {};
-        var colors = {};
+        layers.path = {};
+        layers.status = {};
+        layers.color = {};
 
         var togglePath = function(title) {
           return function() {
-            if(status[title]) {
-              layers[title].hide();
-              status[title] = false;
-              $('#' + title).css('color', '#555');
+            if(layers.status[title]) {
+              layers.path[title].hide();
+              layers.status[title] = false;
+              $('#' + title).css({
+                'color': '#444',
+                'font-weight': 'normal'
+              });
             } else {
-              layers[title].show();
-              status[title] = true;
-              $('#' + title).css('color', colors[title]);
+              layers.path[title].show();
+              layers.status[title] = true;
+              $('#' + title).css({
+                'color': layers.color[title],
+                'font-weight': 'bold'
+              });
             }
           };
         };
@@ -171,13 +194,7 @@
 
         var redraw = function() {
           paper.clear();
-          var line = paper.rect(0, height/2, width, 10);
-          line.attr({
-            fill: '#444',
-            stroke: '#444'
-          });
 
-          var tickSpacing = width/11;
           var paths = get_paths();
 
           var minOffset = Infinity;
@@ -189,16 +206,7 @@
           }
 
 
-          //Draws ticks and marks ticks with dates
-          var current_epoch_time = 0;
-          for(var i = 1; i <= 10; i++) {
-            paper.path("M" + i*tickSpacing + "," + 0 + "L" + i*tickSpacing + "," + height);
-	    current_epoch_time = ((maxDate - minOffset) / 11) * i + minOffset;
-            var d = new Date(0);
-            d.setUTCSeconds(current_epoch_time);
-	    date_str = d.getMonth() + '/' + d.getDate() + '/' + d.getFullYear();
-            paper.text(i*tickSpacing, $('#container').height() / 2 + 30, date_str);
-          }
+
 
 
           for(var path_title in paths) {
@@ -215,37 +223,74 @@
           for(var path_title in paths) {
             var path = paths[path_title];
             var scaled = scale_array(path, width/maxRange, 10);
-            var averaged = average_samples(scaled, 5);
-            var dropped = drop_samples(averaged, 5);
-            var pathArr = array_to_path(dropped);
-//pathArr = array_to_path(scaled);
-//Above is the full data -- which might be good
-            var color = randomColor();
+            var minimize = Math.floor(path.length / 500 + 1);
+            var averaged = average_samples(scaled, minimize);
+            var dropped = drop_samples(averaged, minimize);
+            var pathArr = array_to_path(dropped, true);
+
+            var c = randomColor();
             var graph = paper.path(pathArr);
             graph.attr({
-              stroke: color,
-              'stroke-width': 5,
-              'stroke-opacity': 0.7
+              stroke: c,
+              fill: c,
+              'stroke-width': 3,
+              'stroke-opacity': 0.8,
+              'fill-opacity': 0.4
             });
 
-            layers[path_title] = graph;
-            status[path_title] = true;
-            colors[path_title] = color;
+            layers.path[path_title] = graph;
+            layers.status[path_title] = true;
+            layers.color[path_title] = c;
 
-            $('#layers_list').append("<li><a id='" + path_title + "' href='javascript:;'>" + path_title + "</a></li>");
-            $('#' + path_title).css('color', color);
+            $('#layers_list').append("<li><a class='layer' id='" + path_title + "' href='javascript:;'>" + path_title + "</a></li>");
+            $('#' + path_title).css({
+              'color': c,
+              'font-weight': 'bold'
+            });
             $('#' + path_title).click(togglePath(path_title));
-
-	    
-
           }
-	  //Dynamically draws text
-	  $('#nice_search').keypress( function(e) {
+          
+          //Dynamically draws text
+	  $('#nice_search').keypress(function(e) {
 	     if (e.which == 13) {
 	        dynamic_draw_path($('#nice_search').val(), minOffset, maxRange,
-		width, randomColor, paper, layers, status, colors, togglePath);
+		width, randomColor, paper, layers, togglePath);
 		$('#nice_search').val("");
-	     }
+            }
+          });
+
+          //Draws ticks and marks ticks with dates
+          var current_epoch_time = 0;
+          var tickSpacing = width/11;
+          var tickTickSpacing = tickSpacing/11;
+          for(var i = 0; i <= 10; i++) {
+            if (i != 0) {
+              var tick = paper.path("M" + i*tickSpacing + "," + (height/2 - 20) + "L" + i*tickSpacing + ","  + (height/2 + 20));
+              tick.attr({
+                stroke: '#444',  
+                'stroke-width': 5,
+                });
+              current_epoch_time = ((maxDate - minOffset) / 11) * i + minOffset;
+              var d = new Date(0);
+              d.setUTCSeconds(current_epoch_time);
+	      var date_str = d.getMonth() + '/' + d.getDate() + '/' + d.getFullYear();
+              paper.text(i*tickSpacing, $('#container').height() / 2 + 30, date_str);
+            }
+
+            for(var j = 1; j <= 10; j++) {
+              var tickTick = paper.path("M" + (i*tickSpacing + j*tickTickSpacing) + "," + (height/2 - 10)
+                                      + "L" + (i*tickSpacing + j*tickTickSpacing) + "," + (height/2 + 10));
+              tickTick.attr({
+                stroke: '#444',
+                'stroke-width': 2
+              });
+            }
+          }
+
+          var line = paper.rect(0, height/2 - 2, width, 4);
+          line.attr({
+            fill: '#444',
+            stroke: '#444'
           });
         };
         redraw();

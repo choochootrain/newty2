@@ -63,8 +63,8 @@
 
         options = options || {};
 
-        settings.verticalScroll = (!!options.verticalScroll ? options.verticalScroll : true);
-        settings.horizontalScroll = (!!options.horizontalScroll ? options.horizontalScroll : true);
+        settings.verticalScroll = (options.verticalScroll != undefined ? options.verticalScroll : true);
+        settings.horizontalScroll = (options.horizontalScroll != undefined ? options.horizontalScroll : true);
         settings.maxZoom = options.maxZoom || 9;
         settings.minZoom = options.minZoom || 0;
         settings.zoomStep = options.zoomStep || 0.1;

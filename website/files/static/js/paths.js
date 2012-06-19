@@ -62,8 +62,7 @@ function get_paths() {
 }
 //Basically a repeat of the above function. I'll leave it 
 // here for now so that it is easier to merge
-function dynamic_draw_path(query, minOffset, maxRange, width, randomColor, paper, layers, status,
-			   colors, togglePath) {
+function dynamic_draw_path(query, minOffset, maxRange, width, randomColor, paper, layers, togglePath) {
     alert(query + minOffset + maxRange);
     var paths;
     x = {}
@@ -92,22 +91,28 @@ function dynamic_draw_path(query, minOffset, maxRange, width, randomColor, paper
             var scaled = scale_array(path, width/maxRange, 10);
             var averaged = average_samples(scaled, 5);
             var dropped = drop_samples(averaged, 5);
-            var pathArr = array_to_path(dropped);
+            var pathArr = array_to_path(dropped, true);
 	    //pathArr = array_to_path(scaled);
 	    //Above is the full data -- which might be good
             var color = randomColor();
             var graph = paper.path(pathArr);
             graph.attr({
               stroke: color,
-              'stroke-width': 5,
-              'stroke-opacity': 0.7
-			});
-	    layers[path_title] = graph;
-            status[path_title] = true;
-            colors[path_title] = color;
+              fill: color,
+              'stroke-width': 3,
+              'stroke-opacity': 0.8,
+              'fill-opacity': 0.4
+	    });
+
+	    layers.path[path_title] = graph;
+            layers.status[path_title] = true;
+            layers.color[path_title] = color;
 	    
-            $('#layers_list').append("<li><a id='" + path_title + "' href='javascript:;'>" + path_title + "</a></li>");
-            $('#' + path_title).css('color', color);
+            $('#layers_list').append("<li><a class='layer' id='" + path_title + "' href='javascript:;'>" + path_title + "</a></li>");
+            $('#' + path_title).css({
+              'color': color,
+              'font-weight': 'bold'
+            });
             $('#' + path_title).click(togglePath(path_title));
 
     }
@@ -168,10 +173,24 @@ function average_samples(arr, rate) {
     return sampled;
 }
 
-function array_to_path(arr) {
-    var path = "M0," + $('#container').height()/2;
+function array_to_path(arr, reflect) {
+    var path = "M0," + $('#container').height()/2 + "L" + (arr[0][0] - 5 < 0 ? 0 : arr[0][0] - 5) + "," + ($('#container').height()/2);
     for(var i = 0; i < arr.length; i++) {
 	path += "L" + arr[i][0] + "," + ($('#container').height()/2 - arr[i][1]);
+        if (i < arr.length - 1 && arr[i+1][0] - arr[i][0] > 10)
+          path += "L" + (arr[i][0] + 5) + "," + ($('#container').height()/2) + "L" + (arr[i+1][0] - 5) + "," + ($('#container').height()/2);
     }
+    path += "L" + $('#container').width() + "," + $('#container').height()/2 + "L0," + $('#container').height()/2;
+
+    if (reflect) {
+      path += "M0," + $('#container').height()/2 + "L" + (arr[0][0] - 5 < 0 ? 0 : arr[0][0] - 5) + "," + ($('#container').height()/2);
+      for(var i = 0; i < arr.length; i++) {
+          path += "L" + arr[i][0] + "," + ($('#container').height()/2 + arr[i][1]);
+          if (i < arr.length - 1 && arr[i+1][0] - arr[i][0] > 10)
+            path += "L" + (arr[i][0] + 5) + "," + ($('#container').height()/2) + "L" + (arr[i+1][0] - 5) + "," + ($('#container').height()/2);
+      }
+      path += "L" + $('#container').width() + "," + $('#container').height()/2 + "L0," + $('#container').height()/2;
+    }
+
     return path;
 }
