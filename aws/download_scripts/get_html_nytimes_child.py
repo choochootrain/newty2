@@ -23,7 +23,7 @@ the explored set, the visited set and the rejected set'''
 
 def initialize_globals():
     global url_to_scrape, url_short, queue_file_name, new_queue_file_name, errors_file_name, visited_file_name
-    global queue, write_visited, write_errors, write_explored, write_rejected, main_path, rejected_file_name
+    global queue, write_visited, write_errors, write_explored, write_rejected, main_path, rejected_file_name, write_new_queue
 
     main_path = '/scraped_news/'
 
@@ -70,7 +70,7 @@ def write_everything():
     write_one(visited_file_name, write_visited)
     write_one(rejected_file_name, write_rejected)
     write_one(errors_file_name, write_errors)
-    write_one(explored_file_name, write_explored)
+    #write_one(explored_file_name, write_explored)
     write_one(new_queue_file_name, write_new_queue)
     write_visited = ''
     write_rejected = ''
@@ -95,7 +95,7 @@ def begin_scrape():
     global url_to_scrape, url_short, queue_file_name
     global visited_file_name, rejected_file_name, errors_file_name
     global explored_file_name, queue, visited, rejected, errors, explored
-    global write_visited, write_rejected, write_errors, write_explored, main_path
+    global write_visited, write_rejected, write_errors, write_explored, main_path, write_new_queue
 
     break_handler = BreakHandler()
     break_handler.enable()
@@ -129,6 +129,7 @@ def begin_scrape():
         try:
             html = download_and_write_page(current_url, file_parent_path)
             links = [x.group(1) for x in re.finditer(r'href="([^"]*)"', html)]
+            print '       ' + str(len(links)) + ' links'
             for new_url in links:
                 new_url = new_url.strip()
                 if reject(new_url):
@@ -140,7 +141,7 @@ def begin_scrape():
                 else:
                     write_new_queue += new_url + '\n'
                     #queue.append(new_url)
-                    print '        ' + new_url
+                    #print '        ' + new_url
                     write_explored += new_url + '\n'
             #visited.add(current_url)
             write_visited += current_url + '\n'
@@ -150,7 +151,7 @@ def begin_scrape():
                 traceback.print_exc()
             log.write(traceback.format_exc())
             write_errors += current_url + '\n'
-
+    write_everything()
 
 
 
@@ -163,6 +164,5 @@ if __name__ == '__main__':
     initialize_globals()
     if len(queue) == 0:
         queue.append(url_to_scrape)
-    queue_special()
     begin_scrape()
     
