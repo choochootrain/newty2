@@ -196,10 +196,12 @@ def get_relevant_articles(request):
         word = json_data['word']
         date = json_data['date']
     date_time_obj = datetime.fromtimestamp(int(date))
-    begin_time = datetime.fromtimestamp(int(date) - 129600)
-    end_time = datetime.fromtimestamp(int(date) + 129600)
+    begin_time = datetime.fromtimestamp(long(date) - 129600)
+    end_time = datetime.fromtimestamp(long(date) + 129600)
+    print begin_time, end_time
     heap = []
-    for body_obj in body_words.find({'word' : word, 'date' : {"$lt": end_time}, 'date' : {"$gt": begin_time}}):
+    for body_obj in body_words.find({'word' : word, 'date' : {"$lt": end_time, "$gt" : begin_time}}):
+        #print body_obj['date']
         article = articles.find_one({'_id' : body_obj['article_id']})
         heap.append((rank(word, article, body_obj), article))
     heapq.heapify(heap)
