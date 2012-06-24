@@ -5,31 +5,49 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <title>
-      Timeline
+      timeline.io
     </title>
     <style type="text/css">
       html, body {
         margin: 0px;
+        font-family: sans-serif;
+        background-color: #CCCCCC;
+        background: url(/static/images/greypaperfibers.png) repeat center top;
       }
       
       #container {
+        height: 50%;
         width: 100%;
-        height: 100%;
-        background-color: #CCCCCC;
-        overflow: hidden;
+      }
+
+      #bar {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        height: 3px;
+        background-color: #444444;
+      }
+
+      #content {
+        height: 50%;
+        width: 100%;
+      }
+
+      #fill {
+        position: relative;
+        top: 50px;
       }
 
       #canvas {
         width: 100%;
         height: 100%;
-        overflow: hidden;
       }
 
       #controls {
         position: absolute;
         left: 15px;
-        top: 30px;
-        width: 29px;
+        top: 55%;
+        padding: 15px;
       }
 
       #zoom_in {
@@ -48,14 +66,39 @@
 
       #layers {
         position: absolute;
-        left: -25px;
-        top: 90px;
-        background-color: rgba(75,75,75,0.5);
-        margin: 15px;
+        top: 50px;
+        right: 15px;
       }
 
       #layers_list {
         list-style-type: none;
+        -webkit-padding-start: 0;
+        margin-bottom: 0;
+      }
+
+      .layer {
+        text-decoration: none;
+      }
+
+      .layer_close {
+        float: right;
+        clear: both;
+        text-shadow: none;
+        -webkit-transition: 500ms linear 0s;
+        -moz-transition: 500ms linear 0s;
+        -o-transition: 500ms linear 0s;
+        transition: 500ms linear 0s;
+      }
+
+      .layer_close:hover {
+        text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+      }
+
+      #searchbox {
+        position: absolute;
+        top: 5px;
+        width: 100%;
+        margin-top: 10px;
       }
 
       #nice_search {
@@ -63,19 +106,68 @@
         -moz-border-radius: 20px;
         border-radius: 20px;
       }
+
+      #toolbar {
+        position:absolute;
+        top: 0px;
+        height: 50px;
+        width: 100%;
+        background: #333;
+        z-index: 100;
+      }
+
+      .logo {
+        color: #CCC;
+        margin-left: 10px;
+        margin-top: 6px;
+      }
+
+      .alert-box {
+        display: block;
+        padding: 6px 7px;
+        font-weight: bold;
+        font-size: 13px;
+        border: 1px solid rgba(0,0,0,0.1);
+        margin-bottom: 12px;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        position: relative;
+        width: 150px;
+      }
+
+      .link {
+        text-decoration: none;
+        margin: 10px;
+      }
     </style>
   </head>
   
   {% csrf_token %}
   
   <body>
-
+    <div id="toolbar">
+      <h1 class="logo">
+        timeline.io
+      </h1>
+      <div id="searchbox">
+        <center>
+          <input type="text" id="nice_search" placeholder="Type to search"/>
+        </center>
+      </div>
+    </div>
+    <div id="content">
+      <div id="fill">
+      </div>
+    </div>
+    <div id="bar">
+    </div>
     <div id="container">
-      <center> <input type="text" id="nice_search" placeholder="Type to search"/> </center>
       <div id="canvas"></div>
       <div id="controls">
         <a id="zoom_in" href="javascript:;"></a>
         <a id="zoom_out" href="javascript:;"></a>
+        <div id="status"></div>
       </div>
       <div id="layers">
         <ul id="layers_list"></ul>
@@ -83,14 +175,13 @@
     </div>
 
     <link type="text/css" rel="stylesheet" src="/static/css/raphael.pan-zoom.css"></link>
+    <link type="text/css" rel="stylesheet" src="/static/css/foundation.css"></link>
     <script type="text/javascript" src="/static/js/jquery.js"></script>
     <script type="text/javascript" src="/static/js/paths.js"></script>
     <script type="text/javascript" src="/static/js/preventuglyscroll.js"></script>
     <script type="text/javascript" src="/static/js/raphael.js"></script>
     <script type="text/javascript" src="/static/js/raphael.pan-zoom.js"></script>
     <script type="text/javascript">
-
-
       $(document).ready(function() {
         $(document).preventUglyScroll();
         var width = $("#container").width();
@@ -103,6 +194,11 @@
 
         var paper = Raphael("canvas", width, height);
         var panzoom = paper.panzoom({});
+
+        var monthNames = [ "January", "February", "March", "April", "May", "June", 
+        "July", "August", "September", "October", "November", "December" ];
+        var ratio = 1;
+        var offset = 0;
 
         $('#zoom_in').click(function(e) {
           panzoom.zoomIn(1);
@@ -145,39 +241,132 @@
         panzoom.enable();
         paper.safari();
 
-        var colorArr = ['#FF3', '#F3F', '#3FF', '#F33', '#3F3', '#33F'];
+        var colorArr = ['#BB3', '#B3B', '#3BB', '#D33', '#3D3', '#33D'];
         var randomColor = function() {
-          return colorArr.pop();
+          if (colorArr.length > 0)
+            return colorArr.pop();
+          else
+            return '#FFF';
         }
 
         var layers = {};
-        var status = {};
-        var colors = {};
+        layers.path = {};
+        layers.status = {};
+        layers.color = {};
+        var axis = paper.set();
 
         var togglePath = function(title) {
           return function() {
-            if(status[title]) {
-              layers[title].hide();
-              status[title] = false;
-              $('#' + title).css('color', '#555');
+            if(layers.status[title]) {
+              layers.path[title].hide();
+              layers.status[title] = false;
+              $('#' + title).css({
+                'font-weight': 'normal',
+                'background': '#444'
+              });
             } else {
-              layers[title].show();
-              status[title] = true;
-              $('#' + title).css('color', colors[title]);
+              layers.path[title].show();
+              layers.status[title] = true;
+              $('#' + title).css({
+                'font-weight': 'bold',
+                'background': layers.color[title]
+              });
             }
           };
         };
 
+        var removePath = function(title) {
+          return function() {
+            layers.path[title].remove();
+            $('div#' + title).remove();
+          };
+        };
+
+        var drawPath = function(paths, path_title, maxRange) {
+          var path = paths[path_title];
+          ratio = width/maxRange;
+          var scaled = scale_array(path, ratio, 7);
+          var minimize = Math.floor(path.length / 500 + 1);
+          var averaged = average_samples(scaled, minimize);
+          var dropped = drop_samples(averaged, minimize);
+          var pathArr = array_to_path(dropped, false);
+
+          var c = randomColor();
+          var graph = paper.path(pathArr);
+          var tooltips = paper.set();
+
+          layers.path[path_title] = paper.set();
+          layers.path[path_title].push(graph);
+          layers.status[path_title] = true;
+          layers.color[path_title] = c;
+
+          var closure = function(arr, i, el, word) {
+            return function() {
+              var query = {};
+              query.word = word;
+              query.date = (arr[i][0] / ratio) + offset;
+              var pdata = JSON.stringify(query);
+              $.ajax({
+                type: 'POST',
+                async: true,
+                url:'/get_relevant_articles',
+                data: pdata,
+                complete: function(res, status) {
+                  if(status == 'success') {
+                    var shit = eval('(' + res.responseText + ')');
+                    $('#fill').html("");
+                    for (var i = 0; i < shit.length; i++) {
+	              $('#fill').append("<a class='link' href='" + shit[i]['url'] + "'>" + shit[i]['title'] + "</a><br/>");
+		    }
+                  } else 
+                    alert(res.responseText);
+                }
+              });
+            }
+          }
+
+          for(var i = 1; i < dropped.length - 1; i++) {
+            if (dropped[i][1] > dropped[i-1][1] && dropped[i][1] > dropped[i+1][1]) {
+              var ci = paper.circle(dropped[i][0], height/2 - dropped[i][1], 1);
+              ci.attr({
+                stroke: c,
+                fill: c,
+                'stroke-width': 3,
+                'stroke-opacity': 0.8,
+                'fill-opacity': 0.4,
+              });
+              ci.click(closure(dropped, i, ci, path_title), false);
+              layers.path[path_title].push(ci);
+            }
+          }
+
+          graph.attr({
+            stroke: c,
+            fill: c,
+            'stroke-width': 3,
+            'stroke-opacity': 0.8,
+            'fill-opacity': 0.4
+          });
+
+          $('#layers_list').append("<li><div class='layer alert-box' id='" + path_title + "'>" + path_title + 
+              "<a class='layer layer_close' id='" + path_title + "' href='javascript:;'>&times;</a></div>" + "</li>");
+          $('div#' + path_title).css({
+            'color': '#CCC',
+            'font-weight': 'bold',
+            'background': c
+          });
+          $('a#' + path_title).css({
+            'color': '#CCC',
+            'font-weight': 'bold',
+          });
+
+          $('div#' + path_title).click(togglePath(path_title));
+          $('a#' + path_title).click(removePath(path_title));
+        }
 
         var redraw = function() {
           paper.clear();
-          var line = paper.rect(0, height/2, width, 10);
-          line.attr({
-            fill: '#444',
-            stroke: '#444'
-          });
 
-          var tickSpacing = width/11;
           var paths = get_paths();
 
           var minOffset = Infinity;
@@ -187,19 +376,6 @@
             minOffset = Math.min(minOffset, path[0][0]);
 	    maxDate = Math.max(maxDate, path[path.length - 1][0]);
           }
-
-
-          //Draws ticks and marks ticks with dates
-          var current_epoch_time = 0;
-          for(var i = 1; i <= 10; i++) {
-            paper.path("M" + i*tickSpacing + "," + 0 + "L" + i*tickSpacing + "," + height);
-	    current_epoch_time = ((maxDate - minOffset) / 11) * i + minOffset;
-            var d = new Date(0);
-            d.setUTCSeconds(current_epoch_time);
-	    date_str = d.getMonth() + '/' + d.getDate() + '/' + d.getFullYear();
-            paper.text(i*tickSpacing, $('#container').height() / 2 + 30, date_str);
-          }
-
 
           for(var path_title in paths) {
             var path = paths[path_title];
@@ -213,40 +389,123 @@
           }
 
           for(var path_title in paths) {
-            var path = paths[path_title];
-            var scaled = scale_array(path, width/maxRange, 10);
-            var averaged = average_samples(scaled, 5);
-            var dropped = drop_samples(averaged, 5);
-            var pathArr = array_to_path(dropped);
-//pathArr = array_to_path(scaled);
-//Above is the full data -- which might be good
-            var color = randomColor();
-            var graph = paper.path(pathArr);
-            graph.attr({
-              stroke: color,
-              'stroke-width': 5,
-              'stroke-opacity': 0.7
-            });
-
-            layers[path_title] = graph;
-            status[path_title] = true;
-            colors[path_title] = color;
-
-            $('#layers_list').append("<li><a id='" + path_title + "' href='javascript:;'>" + path_title + "</a></li>");
-            $('#' + path_title).css('color', color);
-            $('#' + path_title).click(togglePath(path_title));
-
-	    
-
+            drawPath(paths, path_title, maxRange);
           }
-	  //Dynamically draws text
-	  $('#nice_search').keypress( function(e) {
+
+          offset = minOffset;
+          
+          //Dynamically draws text
+	  $('#nice_search').keypress(function(e) {
 	     if (e.which == 13) {
 	        dynamic_draw_path($('#nice_search').val(), minOffset, maxRange,
-		width, randomColor, paper, layers, status, colors, togglePath);
-		$('#nice_search').val("");
-	     }
+                width, randomColor, paper, layers, drawPath);
+                $('#nice_search').val("");
+                axis.toFront();
+            }
           });
+
+          axis.clear();
+          var start = new Date(0);
+          start.setUTCSeconds(offset);
+          var startText = paper.text(15, height/2 + 30, start.getFullYear());
+          startText.attr({
+            'font': '12px Arial',
+            'font-weight': 'bold',
+            'fill': '#444'
+          });
+          axis.push(startText);
+
+          var startD = new Date(start.getFullYear(), 1, 1, 0, 0, 0, 0);
+          //TODO get real end date
+          var endD = new Date(2012, 1, 1, 0, 0, 0, 0);
+          for(var i = startD.getFullYear(); i <= 2012; i++) {
+            var d = new Date(i, 1, 1, 0, 0, 0, 0);
+            var time = d.getTime()/1000;
+            var o = time - offset;
+            var t = o * ratio;
+
+            if(t >= 0) {
+              var text = paper.text(t, height/2 + 30, i);
+              text.attr({
+                'font': '12px Arial',
+                'font-weight': 'bold',
+                'fill': '#444'
+              });
+              axis.push(text);
+              
+              var tick = paper.path("M" + t + "," + (height/2 - 10) + "L" + t + ","  + (height/2 + 3));
+              tick.attr({
+                stroke: '#444',  
+                'stroke-width': 5,
+              });
+              axis.push(tick);
+            }
+
+            for(var j = 1; j <= 12; j++) {
+              var d = new Date(i, j, 1, 0, 0, 0, 0);
+              var time = d.getTime()/1000;
+              var o = time - offset;
+              var t = o * ratio;
+              if(t >= 0) {
+                var text = paper.text(t, height/2 + 15, monthNames[j-1].substring(0,3));
+                text.attr({
+                  'font': '8px Arial',
+                  'font-weight': 'bold',
+                  'fill': '#444'
+                });
+                axis.push(text);
+                
+                var tick = paper.path("M" + t + "," + (height/2 - 5) + "L" + t + ","  + (height/2 + 1));
+                tick.attr({
+                  stroke: '#444',  
+                  'stroke-width': 3,
+                });             
+                axis.push(tick);
+              }
+            }
+          }
+
+          //Draws ticks and marks ticks with dates
+          //var current_epoch_time = 0;
+          //var inc = 30;
+          //var tickSpacing = width/(inc + 1);
+          //var tickTickSpacing = tickSpacing/(inc + 1);
+          //for(var i = 0; i <= inc; i++) {
+          //  if (i != 0) {
+          //    var tick = paper.path("M" + i*tickSpacing + "," + (height/2 - 20) + "L" + i*tickSpacing + ","  + (height/2));
+          //    tick.attr({
+          //      stroke: '#444',  
+          //      'stroke-width': 5,
+          //      });
+          //    current_epoch_time = ((maxDate - minOffset) / (inc + 1)) * i + minOffset;
+          //    var d = new Date(0);
+          //    d.setUTCSeconds(current_epoch_time);
+	  //    var date_str = monthNames[d.getMonth()].substring(0, 3) + ' ' + d.getFullYear();
+          //    var text = paper.text(i*tickSpacing, $('#container').height() / 2 + 10, date_str);
+          //    text.attr({
+          //      'font': '4px Arial',
+          //      'font-weight': 'bold',
+          //      'fill': '#444'
+          //    });
+          //  }
+
+          //  for(var j = 1; j <= inc; j++) {
+          //    var tickTick = paper.path("M" + (i*tickSpacing + j*tickTickSpacing) + "," + (height/2 - 10)
+          //                            + "L" + (i*tickSpacing + j*tickTickSpacing) + "," + (height/2));
+          //    tickTick.attr({
+          //      stroke: '#444',
+          //      'stroke-width': 2
+          //    });
+          //  }
+          //}
+
+          var line = paper.path("M" + 0 + "," + height/2 + "L" + width + "," + height/2);
+          line.attr({
+            fill: '#444',
+            stroke: '#444',
+            'stroke-width': 5
+          });
+          axis.push(line);
         };
         redraw();
 

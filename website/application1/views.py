@@ -10,6 +10,9 @@ import json
 from django.utils import simplejson
 from datetime import datetime
 import uuid
+from pymongo import Connection, DESCENDING
+import operator
+import heapq
 def home(request):
     # t = loader.get_template('postRequest.html')
     # t.render(Context({"name":"Lu"}))
@@ -109,3 +112,118 @@ def get_id(request):
     except Exception:
         return HttpResponse("you have no entry with x = " + id)
     return HttpResponse("your request id was there " + id)
+
+
+c = Connection('localhost', 27018)
+db = c['body_words']
+body_words = db['all_body_words']
+db = c['title_words']
+title_words = db['all_title_words']
+articles = c['all_articles']['techcrunch.com']            
+
+def get_classification(request):
+    try:
+        word = request.REQUEST['word']
+    except:
+        jsonData = simplejson.loads(request.raw_post_data)
+        word = jsonData['word']
+    print word
+
+    word_arr = word.split(' ')
+    to_return = {}
+    for single_word in word_arr:
+        title_entries_matched = title_words.find({'word' : single_word}).sort('date', DESCENDING)
+        body_entries_matched = body_words.find({'word' : single_word}).sort('date', DESCENDING)
+        threshold = .01
+        counts_per_date = {}
+        '''        
+        for entry in title_entries_matched:
+            date = entry['date']
+            percentage = entry['percentage']
+            if percentage > threshold:
+                if date in counts_per_date:
+                    counts_per_date[date] += 2
+                else:
+                    counts_per_date[date] = 2
+                    '''
+        for entry in body_entries_matched:
+            date = entry['date']
+            percentage = entry['percentage']
+            if percentage > threshold:
+                if date in counts_per_date:
+                    counts_per_date[date] += 1
+                else:
+                    counts_per_date[date] = 1
+        
+        one_result = []
+        sorted_counts = sorted(counts_per_date.iteritems(), key=operator.itemgetter(0))
+        for k, v in sorted_counts:
+            print k
+            time = int(k.strftime('%s'))
+            one_result.append([time, v])
+        to_return[single_word] = one_result
+    return HttpResponse(json.dumps(to_return))
+        
+'''
+        if classify_one_view.main('http://www.techcrunch.com', single_word):
+            word_coll = db[single_word]
+            threshold = .01
+            counts_per_date = {}
+            for entry in word_coll.find().sort('date', DESCENDING):
+                date = entry['date']
+                percentage = entry['percentage']
+                if percentage > threshold:
+                    if date in counts_per_date:
+                        counts_per_date[date] += 1
+                    else:
+                        counts_per_date[date] = 1 '''
+    
+
+def html5_timeline(request):
+    c = {}
+    c.update(csrf(request))
+    return render_to_response('html5_timeline.html', c)
+
+
+def get_relevant_articles(request):
+    try:
+        word = request.REQUEST['word']
+        date = request.REQUEST['date']
+    except:
+        json_data = simplejson.loads(request.raw_post_data)
+        word = json_data['word']
+        date = json_data['date']
+    date_time_obj = datetime.fromtimestamp(int(date))
+    begin_time = datetime.fromtimestamp(long(date) - 129600)
+    end_time = datetime.fromtimestamp(long(date) + 129600)
+    print begin_time, end_time
+    heap = []
+    for body_obj in body_words.find({'word' : word, 'date' : {"$lt": end_time, "$gt" : begin_time}}):
+        #print body_obj['date']
+        article = articles.find_one({'_id' : body_obj['article_id']})
+        heap.append((rank(word, article, body_obj), article))
+    heapq.heapify(heap)
+    top_five = heapq.nlargest(35, heap)
+    result = []
+    put_in = set()
+    count = 0
+    for ranker, article in top_five:
+        if count == 10:
+            break
+        count += 1
+        if article['title'] in put_in:
+            continue
+        else:
+            put_in.add(article['title'])
+        result.append({'url' : article['url'], 'title' : article['title']})
+    return HttpResponse(json.dumps(result))
+    
+
+
+def rank(user_input, article, body_obj):
+    score = 0
+    if user_input in article['title']:
+        score += 10
+    score += body_obj['total_num_matched']
+    score *= body_obj['total_num_words']
+    return score

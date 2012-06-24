@@ -92,5 +92,9 @@ def populate_word_list(newspaper_coll, newspaper_name, newspaper_db_name, word_t
 
 
 
+
+
+
+
 if __name__ == '__main__':
     main(sys.argv[1], sys.argv[2])
