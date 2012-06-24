@@ -63,7 +63,6 @@ function get_paths() {
 //Basically a repeat of the above function. I'll leave it 
 // here for now so that it is easier to merge
 function dynamic_draw_path(query, minOffset, maxRange, width, randomColor, paper, layers, drawPath) {
-    alert(query + minOffset + maxRange);
     var paths;
     x = {}
     x['word'] = query;
