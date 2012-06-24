@@ -90,8 +90,8 @@ def populate_word_list(newspaper_coll, newspaper_name, newspaper_db_name, word_t
         
     
 
-def rank(user_input, article):
-    print 'not done yet'
+
+
 
 
 

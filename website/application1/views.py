@@ -13,6 +13,7 @@ import classify_one_view
 import uuid
 from pymongo import Connection, DESCENDING
 import operator
+import heapq
 def home(request):
     # t = loader.get_template('postRequest.html')
     # t.render(Context({"name":"Lu"}))
@@ -115,6 +116,12 @@ def get_id(request):
 
 
 
+c = Connection('localhost', 27018)
+db = c['body_words']
+body_words = db['all_body_words']
+db = c['title_words']
+title_words = db['all_title_words']
+articles = c['all_articles']['techcrunch.com']            
 
 def get_classification(request):
     try:
@@ -127,9 +134,40 @@ def get_classification(request):
     word_arr = word.split(' ')
     to_return = {}
     for single_word in word_arr:
+        title_entries_matched = title_words.find({'word' : single_word}).sort('date', DESCENDING)
+        body_entries_matched = body_words.find({'word' : single_word}).sort('date', DESCENDING)
+        threshold = .01
+        counts_per_date = {}
+        '''        
+        for entry in title_entries_matched:
+            date = entry['date']
+            percentage = entry['percentage']
+            if percentage > threshold:
+                if date in counts_per_date:
+                    counts_per_date[date] += 2
+                else:
+                    counts_per_date[date] = 2
+                    '''
+        for entry in body_entries_matched:
+            date = entry['date']
+            percentage = entry['percentage']
+            if percentage > threshold:
+                if date in counts_per_date:
+                    counts_per_date[date] += 1
+                else:
+                    counts_per_date[date] = 1
+        
+        one_result = []
+        sorted_counts = sorted(counts_per_date.iteritems(), key=operator.itemgetter(0))
+        for k, v in sorted_counts:
+            print k
+            time = int(k.strftime('%s'))
+            one_result.append([time, v])
+        to_return[single_word] = one_result
+    return HttpResponse(json.dumps(to_return))
+        
+'''
         if classify_one_view.main('http://www.techcrunch.com', single_word):
-            c = Connection('localhost', 27018)
-            db = c['words']
             word_coll = db[single_word]
             threshold = .01
             counts_per_date = {}
@@ -140,17 +178,43 @@ def get_classification(request):
                     if date in counts_per_date:
                         counts_per_date[date] += 1
                     else:
-                        counts_per_date[date] = 1
-            one_result = []
-            sorted_counts = sorted(counts_per_date.iteritems(), key=operator.itemgetter(0))
-            for k, v in sorted_counts:
-                time = int(k.strftime('%s'))
-                one_result.append([time, v])
-            to_return[single_word] = one_result
-    return HttpResponse(json.dumps(to_return))
+                        counts_per_date[date] = 1 '''
     
 
 def html5_timeline(request):
     c = {}
     c.update(csrf(request))
     return render_to_response('html5_timeline.html', c)
+
+
+def get_relevant_articles(request):
+    try:
+        word = request.REQUEST['word']
+        date = request.REQUEST['date']
+    except:
+        json_data = simplejson.loads(request.raw_post_data)
+        word = json_data['word']
+        date = json_data['date']
+    date_time_obj = datetime.fromtimestamp(int(date))
+    begin_time = datetime.fromtimestamp(int(date) - 129600)
+    end_time = datetime.fromtimestamp(int(date) + 129600)
+    heap = []
+    for body_obj in body_words.find({'word' : word, 'date' : {"$lt": end_time}, 'date' : {"$gt": begin_time}}):
+        article = articles.find_one({'_id' : body_obj['article_id']})
+        heap.append((rank(word, article, body_obj), article))
+    heapq.heapify(heap)
+    top_five = heapq.nlargest(5, heap)
+    result = []
+    for ranker, article in top_five:
+        result.append({'url' : article['url'], 'title' : article['title']})
+    return HttpResponse(json.dumps(result))
+    
+
+
+def rank(user_input, article, body_obj):
+    score = 0
+    if user_input in article['title']:
+        score += 10
+    score += body_obj['total_num_matched']
+    score *= body_obj['total_num_words']
+    return score
