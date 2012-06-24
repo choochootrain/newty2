@@ -5,7 +5,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <title>
-      Timeline
+      timeline.io
     </title>
     <style type="text/css">
       html, body {
@@ -63,6 +63,15 @@
       .layer_close {
         float: right;
         clear: both;
+        text-shadow: none;
+        -webkit-transition: 500ms linear 0s;
+        -moz-transition: 500ms linear 0s;
+        -o-transition: 500ms linear 0s;
+        transition: 500ms linear 0s;
+      }
+
+      .layer_close:hover {
+        text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
       }
 
       #searchbox {
@@ -110,7 +119,7 @@
   <body>
     <div id="toolbar">
       <h1 class="logo">
-        Timeline.io
+        timeline.io
       </h1>
       <div id="searchbox">
         <center>
@@ -197,7 +206,7 @@
         panzoom.enable();
         paper.safari();
 
-        var colorArr = ['#BB3', '#B3B', '#3BB', '#F33', '#3F3', '#33F'];
+        var colorArr = ['#BB3', '#B3B', '#3BB', '#D33', '#3D3', '#33D'];
         var randomColor = function() {
           if (colorArr.length > 0)
             return colorArr.pop();
@@ -209,6 +218,7 @@
         layers.path = {};
         layers.status = {};
         layers.color = {};
+        var axis = paper.set();
 
         var togglePath = function(title) {
           return function() {
@@ -250,9 +260,15 @@
           var graph = paper.path(pathArr);
           var tooltips = paper.set();
 
-          var closure = function(x, y) {
+          layers.path[path_title] = paper.set();
+          layers.path[path_title].push(graph);
+          layers.status[path_title] = true;
+          layers.color[path_title] = c;
+
+          var closure = function(arr, i, el, word) {
             return function() {
-              $('#status').html(Math.round(x[y][0]) + " " + Math.round(x[y][1]));
+              $('#status').html(word + " " + Math.round(arr[i][0]) + " " + Math.round(arr[i][1]));
+              paper.rect(arr[i][0], height/2 - arr[i][1], 100, 30);
             }
           }
 
@@ -260,15 +276,17 @@
             if (dropped[i][1] > dropped[i-1][1] && dropped[i][1] > dropped[i+1][1]) {
               var ci = paper.circle(dropped[i][0], height/2 - dropped[i][1], 1);
               ci.attr({
-               stroke: c,
+                stroke: c,
                 fill: c,
                 'stroke-width': 3,
                 'stroke-opacity': 0.8,
-                'fill-opacity': 0.4
+                'fill-opacity': 0.4,
               });
-              ci.hover(closure(dropped, i), false);
+              ci.hover(closure(dropped, i, ci, path_title), false);
+              layers.path[path_title].push(ci);
             }
           }
+
           graph.attr({
             stroke: c,
             fill: c,
@@ -276,10 +294,6 @@
             'stroke-opacity': 0.8,
             'fill-opacity': 0.4
           });
-
-          layers.path[path_title] = graph;
-          layers.status[path_title] = true;
-          layers.color[path_title] = c;
 
           $('#layers_list').append("<li><div class='layer alert-box' id='" + path_title + "'>" + path_title + 
               "<a class='layer layer_close' id='" + path_title + "' href='javascript:;'>&times;</a></div>" + "</li>");
@@ -332,10 +346,12 @@
 	     if (e.which == 13) {
 	        dynamic_draw_path($('#nice_search').val(), minOffset, maxRange,
                 width, randomColor, paper, layers, drawPath);
-		$('#nice_search').val("");
+                $('#nice_search').val("");
+                axis.toFront();
             }
           });
 
+          axis.clear();
           var start = new Date(0);
           start.setUTCSeconds(offset);
           var startText = paper.text(15, height/2 + 30, start.getFullYear());
@@ -344,45 +360,55 @@
             'font-weight': 'bold',
             'fill': '#444'
           });
+          axis.push(startText);
 
           var startD = new Date(start.getFullYear(), 1, 1, 0, 0, 0, 0);
           //TODO get real end date
           var endD = new Date(2012, 1, 1, 0, 0, 0, 0);
-          for(var i = startD.getFullYear() + 1; i <= 2012; i++) {
+          for(var i = startD.getFullYear(); i <= 2012; i++) {
             var d = new Date(i, 1, 1, 0, 0, 0, 0);
             var time = d.getTime()/1000;
             var o = time - offset;
             var t = o * ratio;
-            var text = paper.text(t, height/2 + 30, i);
-            text.attr({
-              'font': '12px Arial',
-              'font-weight': 'bold',
-              'fill': '#444'
-            });
-            
-            var tick = paper.path("M" + t + "," + (height/2 - 20) + "L" + t + ","  + (height/2 + 5));
-            tick.attr({
-              stroke: '#444',  
-              'stroke-width': 5,
+
+            if(t >= 0) {
+              var text = paper.text(t, height/2 + 30, i);
+              text.attr({
+                'font': '12px Arial',
+                'font-weight': 'bold',
+                'fill': '#444'
               });
+              axis.push(text);
+              
+              var tick = paper.path("M" + t + "," + (height/2 - 10) + "L" + t + ","  + (height/2 + 3));
+              tick.attr({
+                stroke: '#444',  
+                'stroke-width': 5,
+              });
+              axis.push(tick);
+            }
 
             for(var j = 1; j <= 12; j++) {
               var d = new Date(i, j, 1, 0, 0, 0, 0);
               var time = d.getTime()/1000;
               var o = time - offset;
               var t = o * ratio;
-              var text = paper.text(t, height/2 + 15, monthNames[j-1].substring(0,3));
-              text.attr({
-                'font': '8px Arial',
-                'font-weight': 'bold',
-                'fill': '#444'
-              });
-              
-              var tick = paper.path("M" + t + "," + (height/2 - 10) + "L" + t + ","  + (height/2 + 3));
-              tick.attr({
-                stroke: '#444',  
-                'stroke-width': 3,
+              if(t >= 0) {
+                var text = paper.text(t, height/2 + 15, monthNames[j-1].substring(0,3));
+                text.attr({
+                  'font': '8px Arial',
+                  'font-weight': 'bold',
+                  'fill': '#444'
+                });
+                axis.push(text);
+                
+                var tick = paper.path("M" + t + "," + (height/2 - 5) + "L" + t + ","  + (height/2 + 1));
+                tick.attr({
+                  stroke: '#444',  
+                  'stroke-width': 3,
                 });             
+                axis.push(tick);
+              }
             }
           }
 
@@ -420,11 +446,13 @@
           //  }
           //}
 
-          var line = paper.rect(0, height/2 - 2, width, 4);
+          var line = paper.path("M" + 0 + "," + height/2 + "L" + width + "," + height/2);
           line.attr({
             fill: '#444',
-            stroke: '#444'
+            stroke: '#444',
+            'stroke-width': 5
           });
+          axis.push(line);
         };
         redraw();
 
