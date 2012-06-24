@@ -203,9 +203,18 @@ def get_relevant_articles(request):
         article = articles.find_one({'_id' : body_obj['article_id']})
         heap.append((rank(word, article, body_obj), article))
     heapq.heapify(heap)
-    top_five = heapq.nlargest(5, heap)
+    top_five = heapq.nlargest(35, heap)
     result = []
+    put_in = set()
+    count = 0
     for ranker, article in top_five:
+        if count == 10:
+            break
+        count += 1
+        if article['title'] in put_in:
+            continue
+        else:
+            put_in.add(article['title'])
         result.append({'url' : article['url'], 'title' : article['title']})
     return HttpResponse(json.dumps(result))
     

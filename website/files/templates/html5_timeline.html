@@ -308,8 +308,12 @@
                 complete: function(res, status) {
                   if(status == 'success') {
                     var shit = eval('(' + res.responseText + ')');
-                    $('#fill').html("<a href='" + shit.url + "'>" + shit.title + "</a>");
-                  else
+      $('#fill').html("");
+      for (var i = 0; i < shit.length; i++) {
+			  $('#fill').append("<a href='" + shit[i]['url'] + "'>" + shit[i]['title'] + "</a><br/>");
+			  }
+      }            
+      else 
                     alert(res.responseText);
                 }
               });
