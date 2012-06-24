@@ -27,7 +27,6 @@
         position: absolute;
         left: 15px;
         top: 80px;
-        background-color: rgba(10,10,10,0.4);
         padding: 15px;
       }
 
@@ -124,6 +123,7 @@
       <div id="controls">
         <a id="zoom_in" href="javascript:;"></a>
         <a id="zoom_out" href="javascript:;"></a>
+        <div id="status"></div>
       </div>
       <div id="layers">
         <ul id="layers_list"></ul>
@@ -150,6 +150,11 @@
 
         var paper = Raphael("canvas", width, height);
         var panzoom = paper.panzoom({});
+
+        var monthNames = [ "January", "February", "March", "April", "May", "June", 
+        "July", "August", "September", "October", "November", "December" ];
+        var ratio = 1;
+        var offset = 0;
 
         $('#zoom_in').click(function(e) {
           panzoom.zoomIn(1);
@@ -234,7 +239,8 @@
 
         var drawPath = function(paths, path_title, maxRange) {
           var path = paths[path_title];
-          var scaled = scale_array(path, width/maxRange, 10);
+          ratio = width/maxRange;
+          var scaled = scale_array(path, ratio, 10);
           var minimize = Math.floor(path.length / 500 + 1);
           var averaged = average_samples(scaled, minimize);
           var dropped = drop_samples(averaged, minimize);
@@ -242,6 +248,27 @@
 
           var c = randomColor();
           var graph = paper.path(pathArr);
+          var tooltips = paper.set();
+
+          var closure = function(x, y) {
+            return function() {
+              $('#status').html(Math.round(x[y][0]) + " " + Math.round(x[y][1]));
+            }
+          }
+
+          for(var i = 1; i < dropped.length - 1; i++) {
+            if (dropped[i][1] > dropped[i-1][1] && dropped[i][1] > dropped[i+1][1]) {
+              var ci = paper.circle(dropped[i][0], height/2 - dropped[i][1], 1);
+              ci.attr({
+               stroke: c,
+                fill: c,
+                'stroke-width': 3,
+                'stroke-opacity': 0.8,
+                'fill-opacity': 0.4
+              });
+              ci.hover(closure(dropped, i), false);
+            }
+          }
           graph.attr({
             stroke: c,
             fill: c,
@@ -297,6 +324,8 @@
           for(var path_title in paths) {
             drawPath(paths, path_title, maxRange);
           }
+
+          offset = minOffset;
           
           //Dynamically draws text
 	  $('#nice_search').keypress(function(e) {
@@ -307,33 +336,89 @@
             }
           });
 
-          //Draws ticks and marks ticks with dates
-          var current_epoch_time = 0;
-          var tickSpacing = width/11;
-          var tickTickSpacing = tickSpacing/11;
-          for(var i = 0; i <= 10; i++) {
-            if (i != 0) {
-              var tick = paper.path("M" + i*tickSpacing + "," + (height/2 - 20) + "L" + i*tickSpacing + ","  + (height/2));
+          var start = new Date(0);
+          start.setUTCSeconds(offset);
+          var startText = paper.text(15, height/2 + 30, start.getFullYear());
+          startText.attr({
+            'font': '12px Arial',
+            'font-weight': 'bold',
+            'fill': '#444'
+          });
+
+          var startD = new Date(start.getFullYear(), 1, 1, 0, 0, 0, 0);
+          //TODO get real end date
+          var endD = new Date(2012, 1, 1, 0, 0, 0, 0);
+          for(var i = startD.getFullYear() + 1; i <= 2012; i++) {
+            var d = new Date(i, 1, 1, 0, 0, 0, 0);
+            var time = d.getTime()/1000;
+            var o = time - offset;
+            var t = o * ratio;
+            var text = paper.text(t, height/2 + 30, i);
+            text.attr({
+              'font': '12px Arial',
+              'font-weight': 'bold',
+              'fill': '#444'
+            });
+            
+            var tick = paper.path("M" + t + "," + (height/2 - 20) + "L" + t + ","  + (height/2 + 5));
+            tick.attr({
+              stroke: '#444',  
+              'stroke-width': 5,
+              });
+
+            for(var j = 1; j <= 12; j++) {
+              var d = new Date(i, j, 1, 0, 0, 0, 0);
+              var time = d.getTime()/1000;
+              var o = time - offset;
+              var t = o * ratio;
+              var text = paper.text(t, height/2 + 15, monthNames[j-1].substring(0,3));
+              text.attr({
+                'font': '8px Arial',
+                'font-weight': 'bold',
+                'fill': '#444'
+              });
+              
+              var tick = paper.path("M" + t + "," + (height/2 - 10) + "L" + t + ","  + (height/2 + 3));
               tick.attr({
                 stroke: '#444',  
-                'stroke-width': 5,
-                });
-              current_epoch_time = ((maxDate - minOffset) / 11) * i + minOffset;
-              var d = new Date(0);
-              d.setUTCSeconds(current_epoch_time);
-	      var date_str = d.getMonth() + '/' + d.getDate() + '/' + d.getFullYear();
-              paper.text(i*tickSpacing, $('#container').height() / 2 + 30, date_str);
-            }
-
-            for(var j = 1; j <= 10; j++) {
-              var tickTick = paper.path("M" + (i*tickSpacing + j*tickTickSpacing) + "," + (height/2 - 10)
-                                      + "L" + (i*tickSpacing + j*tickTickSpacing) + "," + (height/2));
-              tickTick.attr({
-                stroke: '#444',
-                'stroke-width': 2
-              });
+                'stroke-width': 3,
+                });             
             }
           }
+
+          //Draws ticks and marks ticks with dates
+          //var current_epoch_time = 0;
+          //var inc = 30;
+          //var tickSpacing = width/(inc + 1);
+          //var tickTickSpacing = tickSpacing/(inc + 1);
+          //for(var i = 0; i <= inc; i++) {
+          //  if (i != 0) {
+          //    var tick = paper.path("M" + i*tickSpacing + "," + (height/2 - 20) + "L" + i*tickSpacing + ","  + (height/2));
+          //    tick.attr({
+          //      stroke: '#444',  
+          //      'stroke-width': 5,
+          //      });
+          //    current_epoch_time = ((maxDate - minOffset) / (inc + 1)) * i + minOffset;
+          //    var d = new Date(0);
+          //    d.setUTCSeconds(current_epoch_time);
+	  //    var date_str = monthNames[d.getMonth()].substring(0, 3) + ' ' + d.getFullYear();
+          //    var text = paper.text(i*tickSpacing, $('#container').height() / 2 + 10, date_str);
+          //    text.attr({
+          //      'font': '4px Arial',
+          //      'font-weight': 'bold',
+          //      'fill': '#444'
+          //    });
+          //  }
+
+          //  for(var j = 1; j <= inc; j++) {
+          //    var tickTick = paper.path("M" + (i*tickSpacing + j*tickTickSpacing) + "," + (height/2 - 10)
+          //                            + "L" + (i*tickSpacing + j*tickTickSpacing) + "," + (height/2));
+          //    tickTick.attr({
+          //      stroke: '#444',
+          //      'stroke-width': 2
+          //    });
+          //  }
+          //}
 
           var line = paper.rect(0, height/2 - 2, width, 4);
           line.attr({
