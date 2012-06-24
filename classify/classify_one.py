@@ -14,7 +14,6 @@ words_db = c['words']
 newspaper_db_name = newspaper_source.replace('http://', '').replace('www.', '')
 
 
-
 to_remove = re.compile('\W+')
 whitespace = re.compile('\s+')
 def remove_useless_chars(text):
