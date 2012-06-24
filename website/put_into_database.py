@@ -49,7 +49,11 @@ def main():
     count = 0
     for line in word_counts_per_article_file.readlines():
         count += 1
-        if count % 1000 == 0:
+        if count <= 44000:
+            continue
+        if count > 60000:
+            continue
+        if count % 100 == 0:
             transaction.commit()
         if count % 10 == 0:
             print 'finished ' + str(count) + ' articles'
