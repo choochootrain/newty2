@@ -21,3 +21,7 @@ title_words.ensure_index('date')
 print 'finished'
 title_words.ensure_index('total_num_matched')
 print 'finished'
+title_words.ensure_index('word')
+print 'finished'
+body_words.ensure_index('word')
+print 'finished'
