@@ -62,7 +62,7 @@ function get_paths() {
 }
 //Basically a repeat of the above function. I'll leave it 
 // here for now so that it is easier to merge
-function dynamic_draw_path(query, minOffset, maxRange, width, randomColor, paper, layers, togglePath) {
+function dynamic_draw_path(query, minOffset, maxRange, width, randomColor, paper, layers, drawPath) {
     alert(query + minOffset + maxRange);
     var paths;
     x = {}
@@ -86,38 +86,7 @@ function dynamic_draw_path(query, minOffset, maxRange, width, randomColor, paper
 	var path = paths[path_title];
 	paths[path_title] = offset_array(path, minOffset);
     }
-    for(var path_title in paths) {
-            var path = paths[path_title];
-            var scaled = scale_array(path, width/maxRange, 10);
-            var averaged = average_samples(scaled, 5);
-            var dropped = drop_samples(averaged, 5);
-            var pathArr = array_to_path(dropped, true);
-	    //pathArr = array_to_path(scaled);
-	    //Above is the full data -- which might be good
-            var color = randomColor();
-            var graph = paper.path(pathArr);
-            graph.attr({
-              stroke: color,
-              fill: color,
-              'stroke-width': 3,
-              'stroke-opacity': 0.8,
-              'fill-opacity': 0.4
-	    });
-
-	    layers.path[path_title] = graph;
-            layers.status[path_title] = true;
-            layers.color[path_title] = color;
-	    
-            $('#layers_list').append("<li><a class='layer' id='" + path_title + "' href='javascript:;'>" + path_title + "</a></li>");
-            $('#' + path_title).css({
-              'color': color,
-              'font-weight': 'bold'
-            });
-            $('#' + path_title).click(togglePath(path_title));
-
-    }
-
-
+    drawPath(paths, path_title, maxRange);
 }
 
 

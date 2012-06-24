@@ -14,7 +14,6 @@
       
       #container {
         width: 100%;
-        height: 100%;
         background-color: #CCCCCC;
         background: url(/static/images/greypaperfibers.png) repeat center top;
       }
@@ -27,7 +26,7 @@
       #controls {
         position: absolute;
         left: 15px;
-        top: 30px;
+        top: 80px;
         background-color: rgba(10,10,10,0.4);
         padding: 15px;
       }
@@ -47,7 +46,9 @@
       }
 
       #layers {
-      
+        position: absolute;
+        top: 50px;
+        right: 15px;
       }
 
       #layers_list {
@@ -60,11 +61,16 @@
         text-decoration: none;
       }
 
+      .layer_close {
+        float: right;
+        clear: both;
+      }
+
       #searchbox {
         position: absolute;
         top: 5px;
         width: 100%;
-        z-index: 100;
+        margin-top: 10px;
       }
 
       #nice_search {
@@ -72,38 +78,66 @@
         -moz-border-radius: 20px;
         border-radius: 20px;
       }
+
+      #toolbar {
+        height: 50px;
+        background: #333;
+        z-index: 100;
+      }
+
+      .logo {
+        color: #CCC;
+        margin-left: 10px;
+      }
+
+      .alert-box {
+        display: block;
+        padding: 6px 7px;
+        font-weight: bold;
+        font-size: 13px;
+        border: 1px solid rgba(0,0,0,0.1);
+        margin-bottom: 12px;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        position: relative;
+        width: 150px;
+      }
     </style>
   </head>
   
   {% csrf_token %}
   
   <body>
-
-    <div id="container">
+    <div id="toolbar">
+      <h1 class="logo">
+        Timeline.io
+      </h1>
       <div id="searchbox">
         <center>
           <input type="text" id="nice_search" placeholder="Type to search"/>
         </center>
       </div>
+    </div>
+    <div id="container">
       <div id="canvas"></div>
       <div id="controls">
         <a id="zoom_in" href="javascript:;"></a>
         <a id="zoom_out" href="javascript:;"></a>
-        <div id="layers">
-          <ul id="layers_list"></ul>
-        </div>
+      </div>
+      <div id="layers">
+        <ul id="layers_list"></ul>
       </div>
     </div>
 
     <link type="text/css" rel="stylesheet" src="/static/css/raphael.pan-zoom.css"></link>
+    <link type="text/css" rel="stylesheet" src="/static/css/foundation.css"></link>
     <script type="text/javascript" src="/static/js/jquery.js"></script>
     <script type="text/javascript" src="/static/js/paths.js"></script>
     <script type="text/javascript" src="/static/js/preventuglyscroll.js"></script>
     <script type="text/javascript" src="/static/js/raphael.js"></script>
     <script type="text/javascript" src="/static/js/raphael.pan-zoom.js"></script>
     <script type="text/javascript">
-
-
       $(document).ready(function() {
         $(document).preventUglyScroll();
         var width = $("#container").width();
@@ -177,20 +211,64 @@
               layers.path[title].hide();
               layers.status[title] = false;
               $('#' + title).css({
-                'color': '#444',
-                'font-weight': 'normal'
+                'font-weight': 'normal',
+                'background': '#444'
               });
             } else {
               layers.path[title].show();
               layers.status[title] = true;
               $('#' + title).css({
-                'color': layers.color[title],
-                'font-weight': 'bold'
+                'font-weight': 'bold',
+                'background': layers.color[title]
               });
             }
           };
         };
 
+        var removePath = function(title) {
+          return function() {
+            layers.path[title].remove();
+            $('div#' + title).remove();
+          };
+        };
+
+        var drawPath = function(paths, path_title, maxRange) {
+          var path = paths[path_title];
+          var scaled = scale_array(path, width/maxRange, 10);
+          var minimize = Math.floor(path.length / 500 + 1);
+          var averaged = average_samples(scaled, minimize);
+          var dropped = drop_samples(averaged, minimize);
+          var pathArr = array_to_path(dropped, false);
+
+          var c = randomColor();
+          var graph = paper.path(pathArr);
+          graph.attr({
+            stroke: c,
+            fill: c,
+            'stroke-width': 3,
+            'stroke-opacity': 0.8,
+            'fill-opacity': 0.4
+          });
+
+          layers.path[path_title] = graph;
+          layers.status[path_title] = true;
+          layers.color[path_title] = c;
+
+          $('#layers_list').append("<li><div class='layer alert-box' id='" + path_title + "'>" + path_title + 
+              "<a class='layer layer_close' id='" + path_title + "' href='javascript:;'>&times;</a></div>" + "</li>");
+          $('div#' + path_title).css({
+            'color': '#CCC',
+            'font-weight': 'bold',
+            'background': c
+          });
+          $('a#' + path_title).css({
+            'color': '#CCC',
+            'font-weight': 'bold',
+          });
+
+          $('div#' + path_title).click(togglePath(path_title));
+          $('a#' + path_title).click(removePath(path_title));
+        }
 
         var redraw = function() {
           paper.clear();
@@ -205,10 +283,6 @@
 	    maxDate = Math.max(maxDate, path[path.length - 1][0]);
           }
 
-
-
-
-
           for(var path_title in paths) {
             var path = paths[path_title];
             paths[path_title] = offset_array(path, minOffset);
@@ -221,40 +295,14 @@
           }
 
           for(var path_title in paths) {
-            var path = paths[path_title];
-            var scaled = scale_array(path, width/maxRange, 10);
-            var minimize = Math.floor(path.length / 500 + 1);
-            var averaged = average_samples(scaled, minimize);
-            var dropped = drop_samples(averaged, minimize);
-            var pathArr = array_to_path(dropped, true);
-
-            var c = randomColor();
-            var graph = paper.path(pathArr);
-            graph.attr({
-              stroke: c,
-              fill: c,
-              'stroke-width': 3,
-              'stroke-opacity': 0.8,
-              'fill-opacity': 0.4
-            });
-
-            layers.path[path_title] = graph;
-            layers.status[path_title] = true;
-            layers.color[path_title] = c;
-
-            $('#layers_list').append("<li><a class='layer' id='" + path_title + "' href='javascript:;'>" + path_title + "</a></li>");
-            $('#' + path_title).css({
-              'color': c,
-              'font-weight': 'bold'
-            });
-            $('#' + path_title).click(togglePath(path_title));
+            drawPath(paths, path_title, maxRange);
           }
           
           //Dynamically draws text
 	  $('#nice_search').keypress(function(e) {
 	     if (e.which == 13) {
 	        dynamic_draw_path($('#nice_search').val(), minOffset, maxRange,
-		width, randomColor, paper, layers, togglePath);
+                width, randomColor, paper, layers, drawPath);
 		$('#nice_search').val("");
             }
           });
@@ -265,7 +313,7 @@
           var tickTickSpacing = tickSpacing/11;
           for(var i = 0; i <= 10; i++) {
             if (i != 0) {
-              var tick = paper.path("M" + i*tickSpacing + "," + (height/2 - 20) + "L" + i*tickSpacing + ","  + (height/2 + 20));
+              var tick = paper.path("M" + i*tickSpacing + "," + (height/2 - 20) + "L" + i*tickSpacing + ","  + (height/2));
               tick.attr({
                 stroke: '#444',  
                 'stroke-width': 5,
@@ -279,7 +327,7 @@
 
             for(var j = 1; j <= 10; j++) {
               var tickTick = paper.path("M" + (i*tickSpacing + j*tickTickSpacing) + "," + (height/2 - 10)
-                                      + "L" + (i*tickSpacing + j*tickTickSpacing) + "," + (height/2 + 10));
+                                      + "L" + (i*tickSpacing + j*tickTickSpacing) + "," + (height/2));
               tickTick.attr({
                 stroke: '#444',
                 'stroke-width': 2
