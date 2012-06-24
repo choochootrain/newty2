@@ -147,6 +147,7 @@ def begin_scrape():
             log.write('Safely exited \n')
             log.close()
             sys.exit(1)
+        time.sleep(1)
         counter += 1
         if counter > 100:
             log.close()
