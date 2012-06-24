@@ -3,9 +3,3 @@ is a dynamic timeline that has the parameter hello as a keyword used in get_time
 
 
 
-
-
-http://127.0.0.1:8000/new_timeline?word=iphone+ipad
-
-http://127.0.0.1:8000/load_dynamic?word=iphone+facebook
-
