@@ -306,13 +306,13 @@
                 url:'/get_relevant_articles',
                 data: pdata,
                 complete: function(res, status) {
-                  if(status == 'success')
-                    $('#fill').html(res.responseText);
+                  if(status == 'success') {
+                    var shit = eval('(' + res.responseText + ')');
+                    $('#fill').html("<a href='" + shit.url + "'>" + shit.title + "</a>");
                   else
                     alert(res.responseText);
                 }
               });
-              $('#fill').append(word + " " + Math.round(arr[i][0]) + " " + Math.round(arr[i][1]));
             }
           }
 
@@ -326,7 +326,7 @@
                 'stroke-opacity': 0.8,
                 'fill-opacity': 0.4,
               });
-              ci.hover(closure(dropped, i, ci, path_title), false);
+              ci.click(closure(dropped, i, ci, path_title), false);
               layers.path[path_title].push(ci);
             }
           }
