@@ -1,0 +1,9 @@
+Order of Running
+get_means_per_word.py
+clean_words_counts.py
+
+
+get_total_words.py
+
+
+put_into_database.py

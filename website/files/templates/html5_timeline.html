@@ -314,7 +314,9 @@
                 complete: function(res, status) {
                   if(status == 'success') {
                     var shit = eval('(' + res.responseText + ')');
-                    $('#fill').html("");
+      var current_date = new Date(0);
+      current_date.setUTCSeconds(query.date);
+                    $('#fill').html("<h2> Articles from " + monthNames[current_date.getMonth() - 1] + " " + current_date.getDate() + ", " + current_date.getFullYear() +"</h2>");
                     for (var i = 0; i < shit.length; i++) {
 	              $('#fill').append("<a class='link' href='" + shit[i]['url'] + "'>" + shit[i]['title'] + "</a><br/>");
 		    }

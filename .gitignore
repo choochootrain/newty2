@@ -1,3 +1,6 @@
 *.pyc
 *~
 .*.sw[a-z]
+*.json
+database
+database_backup*
