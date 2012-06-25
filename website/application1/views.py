@@ -9,7 +9,6 @@ from django.contrib.auth import authenticate, login, logout
 import json
 from django.utils import simplejson
 from datetime import datetime
-import classify_one_view
 import uuid
 from pymongo import Connection, DESCENDING
 import operator
@@ -113,7 +112,6 @@ def get_id(request):
     except Exception:
         return HttpResponse("you have no entry with x = " + id)
     return HttpResponse("your request id was there " + id)
-
 
 
 c = Connection('localhost', 27018)
