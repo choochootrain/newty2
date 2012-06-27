@@ -132,8 +132,10 @@ def get_classification(request):
     word_arr = word.split(' ')
     to_return = {}
     for single_word in word_arr:
-        title_entries_matched = title_words.find({'word' : single_word}).sort('date', DESCENDING)
-        body_entries_matched = body_words.find({'word' : single_word}).sort('date', DESCENDING)
+        #title_entries_matched = title_words.find({'word' : single_word}).sort('date', DESCENDING)
+        title_entries_matched = title_words.find({'word' : single_word})
+        #body_entries_matched = body_words.find({'word' : single_word}).sort('date', DESCENDING)
+        body_entries_matched = body_words.find({'word' : single_word})
         threshold = .01
         counts_per_date = {}
         '''        

@@ -25,6 +25,7 @@ def initialize_globals():
     global visited_file_name, rejected_file_name, errors_file_name
     global explored_file_name, queue, visited, rejected, errors, explored
     global write_visited, write_rejected, write_errors, write_explored, main_path
+    global visited
 
     main_path = '/scraped_news/'
 
@@ -39,7 +40,7 @@ def initialize_globals():
     explored_file_name = main_path + url_short + '/explored'
 
     queue = parse_file_by_line(queue_file_name)
-    #visited = parse_file_by_line(visited_file_name)
+    visited = set(parse_file_by_line(visited_file_name))
     ensure_path(visited_file_name)
     #rejected = parse_file_by_line(rejected_file_name)
     ensure_path(rejected_file_name)
@@ -58,6 +59,9 @@ def initialize_globals():
     
 """Define when to reject a url here"""
 def reject(url):
+    global visited
+    if url.strip() in visited:
+        return True
     if url_short not in url:
         return True
     if 'adx/bin' in url:
@@ -147,9 +151,9 @@ def begin_scrape():
             log.write('Safely exited \n')
             log.close()
             sys.exit(1)
-        time.sleep(1)
+        #time.sleep(1)
         counter += 1
-        if counter > 100:
+        if counter > 2500:
             log.close()
             log = open(main_path + url_short + '/log', 'a')
             write_everything()
@@ -157,6 +161,7 @@ def begin_scrape():
         current_url = queue.pop(0)
         if reject(current_url):
             write_rejected += current_url + '\n'
+            print 'rejected ' + current_url
             continue
         random_wait = random.randint(0, 40) / 30.0
         time.sleep(.5 + random_wait)
@@ -181,7 +186,7 @@ def begin_scrape():
                     print '        ' + new_url
                     write_explored += new_url + '\n'
                     explored.add(new_url)
-            #visited.add(current_url)
+            visited.add(current_url)
             write_visited += current_url + '\n'
         except:
             if printing:
