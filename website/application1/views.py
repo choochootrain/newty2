@@ -120,6 +120,8 @@ body_words = db['all_body_words']
 db = c['title_words']
 title_words = db['all_title_words']
 articles = c['all_articles']['techcrunch.com']            
+db = c['fast_entries']
+cached_body_words = db['body_words']
 
 def get_classification(request):
     try:
@@ -135,7 +137,8 @@ def get_classification(request):
         #title_entries_matched = title_words.find({'word' : single_word}).sort('date', DESCENDING)
         title_entries_matched = title_words.find({'word' : single_word})
         #body_entries_matched = body_words.find({'word' : single_word}).sort('date', DESCENDING)
-        body_entries_matched = body_words.find({'word' : single_word})
+        #body_entries_matched = body_words.find({'word' : single_word})
+        body_entries_matched = cached_body_words.find({'word' : single_word})[0]
         threshold = .01
         counts_per_date = {}
         '''        
@@ -148,9 +151,17 @@ def get_classification(request):
                 else:
                     counts_per_date[date] = 2
                     '''
-        for entry in body_entries_matched:
-            date = entry['date']
-            percentage = entry['percentage']
+
+        #for entry in body_entries_matched:
+        #percentage = entry['percentage']
+        #date = entry['date']
+        count = 0
+        for entry in body_entries_matched['info']:
+            count += 1
+            if count % 50 == 0:
+                print count
+            percentage = entry[0]
+            date = entry[1]
             if percentage > threshold:
                 if date in counts_per_date:
                     counts_per_date[date] += 1
@@ -160,7 +171,7 @@ def get_classification(request):
         one_result = []
         sorted_counts = sorted(counts_per_date.iteritems(), key=operator.itemgetter(0))
         for k, v in sorted_counts:
-            print k
+            #print k
             time = int(k.strftime('%s'))
             one_result.append([time, v])
         to_return[single_word] = one_result
