@@ -62,7 +62,7 @@ def write_to_database(all_paths_and_urls):
                          'body' : remove_tags(data['body']), 'date' : data['date']}
             counter_succeeded += 1
             print str(counter_succeeded) + ' succeeded'
-            #coll.insert(to_insert)
+            coll.insert(to_insert)
         except:
             counter_failed += 1
             print str(counter_failed) + ' failed'

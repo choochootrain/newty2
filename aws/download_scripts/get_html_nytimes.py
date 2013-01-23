@@ -153,7 +153,7 @@ def begin_scrape():
             sys.exit(1)
         #time.sleep(1)
         counter += 1
-        if counter > 2500:
+        if counter > 300:
             log.close()
             log = open(main_path + url_short + '/log', 'a')
             write_everything()

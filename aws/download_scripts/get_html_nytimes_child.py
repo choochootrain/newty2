@@ -72,6 +72,7 @@ def write_everything():
     write_one(errors_file_name, write_errors)
     #write_one(explored_file_name, write_explored)
     write_one(new_queue_file_name, write_new_queue)
+    write_new_queue = ''
     write_visited = ''
     write_rejected = ''
     write_errors = ''
@@ -111,6 +112,7 @@ def begin_scrape():
             log.write('Safely exited \n')
             log.close()
             sys.exit(1)
+        #time.sleep(1)
         counter += 1
         if counter > 100:
             log.close()
@@ -121,7 +123,7 @@ def begin_scrape():
         if reject(current_url):
             write_rejected += current_url + '\n'
             continue
-        random_wait = random.randint(0, 40) / 30.0
+        random_wait = random.randint(0, 20) / 30.0
         time.sleep(.5 + random_wait)
         if printing:
             print 'Working on ' + current_url
@@ -158,9 +160,9 @@ def begin_scrape():
 
 
 if __name__ == '__main__':
-    x = raw_input('This may not work yet. This is the get html for the child computer. Only run if this took another queue. Type "yes" to continue')
-    if x != 'yes':
-        sys.exit(1)
+    #x = raw_input('This may not work yet. This is the get html for the child computer. Only run if this took another queue. Type "yes" to continue')
+    #if x != 'yes':
+    #    sys.exit(1)
     initialize_globals()
     if len(queue) == 0:
         queue.append(url_to_scrape)

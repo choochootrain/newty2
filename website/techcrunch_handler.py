@@ -2,7 +2,7 @@ import re
 import HTMLParser
 import traceback
 from datetime import datetime
-from useful_functions import *
+#from useful_functions import *
 h = HTMLParser.HTMLParser()
 def get_title(html, url):
     title_begin = html.find('<title>')

@@ -29,10 +29,12 @@ def write_article_to_db(article_obj):
     for word, count in article_obj['body_word_counts'].items():
         if word in useless_words:
             continue
-        all_body_words.insert({'article_id' : article_obj['_id'], 'total_num_words' : article_obj['total_body_count'], 'total_num_matched' : count, 'percentage' : float(count) / article_obj['total_body_count'], 'date' : article_obj['date'], 'word' : word})
+        #all_body_words.insert({'article_id' : article_obj['_id'], 'total_num_words' : article_obj['total_body_count'], 'total_num_matched' : count, 'percentage' : float(count) / article_obj['total_body_count'], 'date' : article_obj['date'], 'word' : word})
+        all_body_words.insert({'article_id' : article_obj['_id'], 'percentage' : float(count) / article_obj['total_body_count'], 'date' : article_obj['date'], 'word' : word})
     for word, count in article_obj['header_word_counts'].items():
         if word in useless_words:
             continue
+        #all_title_words.insert({'article_id' : article_obj['_id'], 'total_num_words' : article_obj['total_title_count'], 'total_num_matched' : count, 'percentage' : float(count) / article_obj['total_title_count'], 'date' : article_obj['date'], 'word' : word})
         all_title_words.insert({'article_id' : article_obj['_id'], 'total_num_words' : article_obj['total_title_count'], 'total_num_matched' : count, 'percentage' : float(count) / article_obj['total_title_count'], 'date' : article_obj['date'], 'word' : word})
 
 

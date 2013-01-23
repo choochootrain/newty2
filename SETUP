@@ -1,0 +1,40 @@
+Download stuff to /scraped_news/awebsite.com
+python write_to_database.py http://www.awebsite.com (no slash at the end) (the write_to_database in aws/post_download)
+
+in classify/mean_words/:
+python get_means_per_word.py
+       this creates
+            word_counts_per_article.json
+                {"body_word_counts" : {"word" : number of times appeared}, "article_url" : article url, "title_word_counts" : {"word" : number of times appeared in title}, "total_body_count" : number of words in body, "total_title_count", number of words in title}
+            body_word_counts.json
+                {"word" : [total number of times word appears, total number of words in articles where the word appears]}
+            title_word_counts.json
+                {"word" : [total number of times word appears in title, total number of words in articles where the word appears]}  
+
+python clean_words_counts.py
+       this creates
+            useless_words.json list of words that are useless
+            clean_body_word_counts.json
+                {"word" : [total number of times word appears, total number of words in articles where the word appears]}
+                
+
+python put_into_database_new.py
+python refactor_database2.py
+python ensure_correct_index.py
+
+
+
+
+
+
+Database stuff?
+db = c['fast_entries']
+fast_title_words = db['title_words']
+fast_body_words = db['body_words']
+
+
+db = c['cached_entries']
+cached_title_words = db['body_words']
+article_id, word, percentage, date
+cached_body_words = db['body_words']
+article_id, word, percentage, date

@@ -237,6 +237,7 @@ def rank(user_input, article, body_obj):
     score = 0
     if user_input in article['title']:
         score += 10
-    score += body_obj['total_num_matched']
-    score *= body_obj['total_num_words']
+    #score += body_obj['total_num_matched']
+    #score *= body_obj['total_num_words']
+    score += (100 * body_obj['percentage'])
     return score

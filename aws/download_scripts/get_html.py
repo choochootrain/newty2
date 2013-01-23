@@ -30,7 +30,7 @@ def initialize_globals():
 
     url_to_scrape = sys.argv[1]
     url_short = url_to_scrape.replace('http://', '').replace('www.', '').replace('/', '')
-    
+
 
     queue_file_name = main_path + url_short + '/queue'
     visited_file_name = main_path + url_short + '/visited'
@@ -48,7 +48,7 @@ def initialize_globals():
     explored = parse_file_by_line(explored_file_name)
 
 
-    
+
     #Need this or else runs into MemoryError on smaller servers
     #visited = set(visited)
     #rejected = set(rejected)
@@ -92,7 +92,7 @@ def write_to_queue():
     f.close()
 
 
-def begin_scrape():    
+def begin_scrape():
     global url_to_scrape, url_short, queue_file_name
     global visited_file_name, rejected_file_name, errors_file_name
     global explored_file_name, queue, visited, rejected, errors, explored
@@ -171,4 +171,4 @@ if __name__ == '__main__':
         queue.append(url_to_scrape)
     queue_special()
     begin_scrape()
-    
+
