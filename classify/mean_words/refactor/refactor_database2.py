@@ -27,9 +27,11 @@ def run(letters):
         if count % 1000:
             print 'finished ' + str(count)
         if word in explored:
-            explored[word].append((word_obj['percentage'], word_obj['date'], word_obj['total_num_matched']))
+            #explored[word].append((word_obj['percentage'], word_obj['date'], word_obj['total_num_matched']))
+            explored[word].append((word_obj['percentage'], word_obj['date']))
         else:
-            explored[word] = [(word_obj['percentage'], word_obj['date'], word_obj['total_num_matched']),]
+            #explored[word] = [(word_obj['percentage'], word_obj['date'], word_obj['total_num_matched']),]
+            explored[word] = [(word_obj['percentage'], word_obj['date']),]
 
     for word, word_obj in explored.items():
         if len(word_obj) > 20000:
