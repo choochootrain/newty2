@@ -61,9 +61,9 @@ def get_title(html):
     return title
     
 
-p_matcher = re.compile('<p class="inside-copy">')
+begin_matcher = re.compile('<p itemprop="articleBody">')
 def get_body(html):
-    first_p = html.find('<p class="inside-copy">') + 23
+    first_p = html.find('<p itemprop="articleBody">') + len('<p itemprop="articleBody">')
     last_p = 0
     for last_p in p_matcher.finditer(html):
         pass
