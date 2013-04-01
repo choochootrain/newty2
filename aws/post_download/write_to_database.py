@@ -6,12 +6,13 @@ from useful_functions import *
 import codecs
 import traceback
 import time
-
+import chardet
 website_name = sys.argv[1].replace('http://', '').replace('www.', '')
 exec('from ' + website_name.replace('.com', '') + '_handler import *')
 
 def usage():
     print 'Takes one command line argument: website name in the exact format of something like this http://www.nytimes.com with no slash in the end'
+    print 'Testing command: Takes two command line arguments: website name and then a url to use that websites parser to test. e.g. python write_to_database.py http://www.nytimes.com http://www.nytimes.com/an_article_here'
 
 """current dir begins with main_dir as current_dir and is recursive and finds all file paths in the main_dir"""
 def get_files(current_dir):
@@ -47,7 +48,7 @@ def write_to_database(all_paths_and_urls):
         if reject(url):
             continue
         try:
-            #f = open(file_path, 'r')  
+            #f = open(file_path, 'r')
             f = codecs.open(file_path, 'r', 'iso-8859-1')
             html = f.read()
             f.close()
@@ -68,7 +69,42 @@ def write_to_database(all_paths_and_urls):
             print str(counter_failed) + ' failed'
             traceback.print_exc()
 
-                    
+
+
+
+
+
+'''TEST CODE'''
+"""Handles opening sites that force you to redirect. """
+class MyHTTPRedirectHandler(urllib2.HTTPRedirectHandler):
+    def http_error_302(self, req, fp, code, msg, headers):
+        return urllib2.HTTPRedirectHandler.http_error_302(self, req, fp, code, msg, headers)
+    http_error_301 = http_error_303 = http_error_307 = http_error_302
+
+"""Url Parser : use as page = url_opener.open(url)"""
+cookie_handler = urllib2.HTTPCookieProcessor()
+url_opener = urllib2.build_opener(MyHTTPRedirectHandler, cookie_handler)
+url_opener.addheaders = [('User-agent', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.9 Safari/536.5')]
+
+def to_bytestring (s, enc='utf-8'):
+    """Convert the given unicode string to a bytestring, using the standard encoding,
+    unless it's already a bytestring"""
+    if s:
+        if isinstance(s, str):
+            return s
+        else:
+            return s.encode(enc)
+
+def test(url):
+    connection = url_opener.open(url)
+    html = connection.read()
+    #addressing http://stackoverflow.com/questions/4790078/python-htmlparser-unicodedecodeerror
+    #encoding = connection.headers.getparam('charset')
+    encoding = chardet.detect(html)['encoding']
+    html = html.decode(encoding)
+    print get_title(html, url)
+    print get_body(html, url)
+    print get_date(html, url)
 
 '''
 def get_title(html):
@@ -79,9 +115,13 @@ def get_body(html):
 
 def get_date(html):
     return 'date'
-   ''' 
+   '''
 
 if __name__ == '__main__':
+    print 'REACHED'
+    if len(sys.argv) == 3:
+        test(sys.argv[2])
+        sys.exit(1)
     if len(sys.argv) != 2:
         usage()
         sys.exit(1)
