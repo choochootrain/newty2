@@ -40,6 +40,7 @@ def get_paths_and_urls(all_file_paths):
 c = Connection('localhost', 27018)
 db = c['all_articles']
 coll = db[sys.argv[1].replace('http://', '').replace('www.', '')]
+error = db['error_' + sys.argv[1].replace('http://', '').replace('www.', '')]
 def write_to_database(all_paths_and_urls):
     counter_failed = 0
     counter_succeeded = 0
@@ -56,11 +57,14 @@ def write_to_database(all_paths_and_urls):
             if data == False:
                 counter_failed += 1
                 print str(counter_failed) + ' failed'
+                error.insert({'url' : url})
                 continue
+
 #print '***************** FAILURE *********************', file_path
 
             to_insert = {'url' : url, 'file_path' : file_path, 'title' : data['title'],
                          'body' : remove_tags(data['body']), 'date' : data['date']}
+            print data['title'], data['date'], data['body'], '\n\n\n'
             counter_succeeded += 1
             print str(counter_succeeded) + ' succeeded'
             coll.insert(to_insert)
@@ -103,8 +107,9 @@ def test(url):
     encoding = chardet.detect(html)['encoding']
     html = html.decode(encoding)
     print get_title(html, url)
-    print get_body(html, url)
     print get_date(html, url)
+    print get_body(html, url)
+
 
 '''
 def get_title(html):

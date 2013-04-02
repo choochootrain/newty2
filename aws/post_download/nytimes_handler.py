@@ -29,6 +29,9 @@ def get_body(html, url):
     body2 = get_body2(html, url)
     if body2:
         return body2
+    body3 = get_body3(html, url)
+    if body3:
+        return body3
     print 'failure body', url
     return False
 
@@ -58,6 +61,18 @@ def get_body2(html, url):
     clean_body = h.unescape(clean_body)
     return clean_body
 
+def get_body3(html, url):
+    start_body = html.find('<div class="articleBody">') + len('<div class="articleBody">')
+    last_div_article_body = html.rfind('<div class="articleBody">')
+    end_body = html[last_div_article_body :].find('</div>') + last_div_article_body
+    if start_body == -1 or end_body == -1:
+        return False
+    body =  html[start_body : end_body]
+    clean_body = remove_tags(body).strip().replace('\n', ' ')
+    clean_body = re.sub(r'\s+', ' ', clean_body)
+    clean_body = h.unescape(clean_body)
+    return clean_body
+
 
 def get_date(html, url):
     date1 = get_date1(html, url)
@@ -69,15 +84,27 @@ def get_date(html, url):
     date3 = get_date3(html, url)
     if date3:
         return date3
+    date4 = get_date4(html, url)
+    if date4:
+        return date4
     print 'failure date' , url
     return False
 
 def get_date1(html, url):
     date_begin = html.find('<meta name="ptime" content="') + len('<meta name="ptime" content="')
     date_end = html[date_begin : ].find('"') + date_begin
+    if date_begin < 0 or date_end < 0:
+        return False
     return html[date_begin : date_end].strip()
 
 def get_date2(html, url):
+    date_begin = html.find('<meta name="pdate" content="') + len('<meta name="pdate" content="')
+    date_end = html[date_begin : ].find('"') + date_begin
+    if date_begin < 0 or date_end < 0:
+        return False
+    return html[date_begin : date_end].strip()
+
+def get_date3(html, url):
     length = len('<meta itemprop="datePublished" content="')
     date_begin = html.find('<meta itemprop="datePublished" content="')
     date_end = html[date_begin:].find('">')
@@ -88,7 +115,7 @@ def get_date2(html, url):
     date = html[date_begin : date_end]
     return date
 
-def get_date3(html, url):
+def get_date4(html, url):
     start_looking = html.find('<time datetime=')
     date_begin = html[start_looking :].find('>') + len('>') + start_looking
     date_end = html[date_begin:].find('</time>') + date_begin

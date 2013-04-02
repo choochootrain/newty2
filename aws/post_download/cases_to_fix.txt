@@ -1,0 +1,3 @@
+nytimes:
+body: http://bits.blogs.nytimes.com/2012/06/05/new-san-francisco-tech-boom-brings-jobs-but-also-worries/?scp=134&amp;sq=&amp;st=nyt
+http://bits.blogs.nytimes.com/2012/01/04/online-sales-buoy-u-p-s-and-fedex/?scp=68&amp;sq=&amp;st=nyt
