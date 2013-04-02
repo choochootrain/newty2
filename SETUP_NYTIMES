@@ -1,0 +1,11 @@
+inside aws/post_download:
+python write_to_database.py http://www.nytimes.com
+
+inside ml_process:
+python get_word_counts1.py
+       creates body_word_counts.json
+               each line is ["word" [total_num_occurrence, freq3_occurence, freq5_occurence, freq10_occurence, freq15_occurence, freq25_occurence]]
+       creates title_word_counts.json -- same format as body_word_counts.json
+python clean_words2.py
+       creates clean_body_word_counts.json
+       creates clean_title_word_counts.json
