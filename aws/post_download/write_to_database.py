@@ -64,7 +64,7 @@ def write_to_database(all_paths_and_urls):
 
             to_insert = {'url' : url, 'file_path' : file_path, 'title' : data['title'],
                          'body' : remove_tags(data['body']), 'date' : data['date']}
-            print data['title'], data['date'], data['body'], '\n\n\n'
+            print data['title'], data['date'], data['body'][:25], '\n\n\n'
             counter_succeeded += 1
             print str(counter_succeeded) + ' succeeded'
             coll.insert(to_insert)
