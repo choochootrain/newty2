@@ -1,3 +1,5 @@
+pip install ystockquote
+
 Download stuff to /scraped_news/awebsite.com
 python write_to_database.py http://www.awebsite.com (no slash at the end) (the write_to_database in aws/post_download)
 
@@ -9,14 +11,14 @@ python get_means_per_word.py
             body_word_counts.json
                 {"word" : [total number of times word appears, total number of words in articles where the word appears]}
             title_word_counts.json
-                {"word" : [total number of times word appears in title, total number of words in articles where the word appears]}  
+                {"word" : [total number of times word appears in title, total number of words in articles where the word appears]}
 
 python clean_words_counts.py
        this creates
             useless_words.json list of words that are useless
             clean_body_word_counts.json
                 {"word" : [total number of times word appears, total number of words in articles where the word appears]}
-                
+
 
 python put_into_database_new.py
 python refactor_database2.py
