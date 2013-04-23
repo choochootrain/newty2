@@ -8,6 +8,8 @@ def convert_to_date_time(x):
 vfunc_convert_to_date_time = numpy.vectorize(convert_to_date_time)
 
 
+
+#later on calculate a good day by whether or not it did better compared to all of technology on any given day
 def good_day(opening_price, closing_price):
     if float(closing_price) > float(opening_price) * 1.015:
         return 1
