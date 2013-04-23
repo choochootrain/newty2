@@ -80,6 +80,7 @@ for date in date_keys:
     date_counts_row = [numpy.concatenate([date_to_counts[date], [date]])]
     print numpy.shape(output_array), numpy.shape(date_counts_row)
     output_array = numpy.append(output_array, date_counts_row, axis=0)
+    del date_to_counts[date]
 
 print output_array
 
