@@ -32,12 +32,17 @@ def get_body(html, url):
     body3 = get_body3(html, url)
     if body3:
         return body3
+    body4 = get_body4(html, url)
+    if body4:
+        return body4
     print 'failure body', url
     return False
 
 begin_matcher = re.compile('<p itemprop="articleBody">')
 def get_body1(html, url):
     div_article_body = html.find('<div class="articleBody">')
+    if div_article_body == -1:
+        return False
     first_p = html[div_article_body:].find('<p itemprop="articleBody">') + len('<p itemprop="articleBody">') + div_article_body
     last_p = html.rfind('<p itemprop="articleBody">')
     end = html[last_p : ].find('</p>') + last_p
@@ -53,9 +58,13 @@ def get_body1(html, url):
 def get_body2(html, url):
     start_body = html.find('<div class="entry-content">') + len('<div class="entry-content">')
     end_body = html.find('<div class="entry-meta">')
+    if html.find('<div class="entry-content">') == -1:
+        return False
     if start_body  == -1 or end_body  == -1:
         return False
     body =  html[start_body : end_body]
+    if body.find('<script>') != -1 or body.find('</script>') != -1:
+        return False
     clean_body = remove_tags(body).strip().replace('\n', ' ')
     clean_body = re.sub(r'\s+', ' ', clean_body)
     clean_body = h.unescape(clean_body)
@@ -65,13 +74,43 @@ def get_body3(html, url):
     start_body = html.find('<div class="articleBody">') + len('<div class="articleBody">')
     last_div_article_body = html.rfind('<div class="articleBody">')
     end_body = html[last_div_article_body :].find('</div>') + last_div_article_body
+    if html.find('<div class="articleBody">'):
+        return False
     if start_body == -1 or end_body == -1:
         return False
     body =  html[start_body : end_body]
+    if body.find('<script>') != -1 or body.find('</script>') != -1:
+        return False
     clean_body = remove_tags(body).strip().replace('\n', ' ')
     clean_body = re.sub(r'\s+', ' ', clean_body)
     clean_body = h.unescape(clean_body)
     return clean_body
+
+def get_body4(html, url):
+    start_body = html.find('<div id="mod-a-body')
+    if start_body == -1:
+        return False
+    start_body = html[start_body:].find('>') + start_body + 1
+    end_body = html[start_body:].find('</div>')
+    if end_body == -1:
+        return False
+    end_body += start_body
+    body = html[start_body : end_body]
+    while html[end_body:].find('<div id="mod-a-body') != -1:
+        start_body = html[end_body:].find('<div id="mod-a-body') + end_body
+        start_body = html[start_body:].find('>') + 1 + start_body
+        end_body = html[start_body:].find('</div>')
+        if end_body == -1:
+            break
+        end_body += start_body
+        if '</script>' in html[start_body : end_body]:
+            break
+        body += '\n\n' + html[start_body : end_body]
+    clean_body = remove_tags(body).strip().replace('\n', ' ')
+    clean_body = re.sub(r'\s+', ' ', clean_body)
+    clean_body = h.unescape(clean_body)
+    return clean_body
+
 
 
 def get_date(html, url):
@@ -93,6 +132,8 @@ def get_date(html, url):
 def get_date1(html, url):
     date_begin = html.find('<meta name="ptime" content="') + len('<meta name="ptime" content="')
     date_end = html[date_begin : ].find('"') + date_begin
+    if html.find('<meta name="ptime" content="') == -1:
+        return False
     if date_begin < 0 or date_end < 0:
         return False
     return html[date_begin : date_end].strip()
@@ -100,6 +141,8 @@ def get_date1(html, url):
 def get_date2(html, url):
     date_begin = html.find('<meta name="pdate" content="') + len('<meta name="pdate" content="')
     date_end = html[date_begin : ].find('"') + date_begin
+    if html.find('<meta name="pdate" content="') == -1:
+        return False
     if date_begin < 0 or date_end < 0:
         return False
     return html[date_begin : date_end].strip()
@@ -119,7 +162,7 @@ def get_date4(html, url):
     start_looking = html.find('<time datetime=')
     date_begin = html[start_looking :].find('>') + len('>') + start_looking
     date_end = html[date_begin:].find('</time>') + date_begin
-    if date_begin == -1 or date_end == -1:
+    if date_begin == -1 or date_end == -1 or start_looking == -1:
         return False
     return html[date_begin : date_end]
 
