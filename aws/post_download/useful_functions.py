@@ -23,6 +23,18 @@ end_tags = r'</(div|td|tr|th|table|a|body|area|form|font|h1|h2|h3|h4|h5|h6|head|
 tags_regex = '<[^<^>]*>'
 
 
+
+def remove_scripts(html):
+    while html.find('<script') != -1:
+        begin_script = html.find('<script')
+        end_script = html[begin_script:].find('</script>')
+        if end_script == -1:
+            html = html[:begin_script]
+        else:
+            end_script += len('</script>') + begin_script
+            html = html[:begin_script] + '\n' + html[end_script:]
+    return html
+
 def remove_tags(html):
     tags = [(x.start(), x.end()) for x in re.finditer(tags_regex, html)]
     clean_html = ''

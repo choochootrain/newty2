@@ -61,27 +61,8 @@ def get_body1(html, url):
     clean_body = h.unescape(clean_body)
     return clean_body
 
+
 def get_body2(html, url):
-    start_body = html.find('<div class="entry-content">')
-    if start_body == -1:
-        return False
-    start_body = html[start_body:].find('<p>') + start_body
-
-    start_body += len('<p>')
-    end_body = html[start_body:].find('<div class="entry-meta">')
-    if end_body == -1:
-        return False
-    end_body += start_body
-
-    body =  html[start_body : end_body]
-    if body.find('<script>') != -1 or body.find('</script>') != -1:
-        return False
-    clean_body = remove_tags(body).strip().replace('\n', ' ')
-    clean_body = re.sub(r'\s+', ' ', clean_body)
-    clean_body = h.unescape(clean_body)
-    return clean_body
-
-def get_body3(html, url):
     start_body = html.find('<div class="articleBody">') + len('<div class="articleBody">')
     last_div_article_body = html.rfind('<div class="articleBody">')
     end_body = html[last_div_article_body :].find('</div>') + last_div_article_body
@@ -96,6 +77,30 @@ def get_body3(html, url):
     clean_body = re.sub(r'\s+', ' ', clean_body)
     clean_body = h.unescape(clean_body)
     return clean_body
+
+
+def get_body3(html, url):
+    start_body = html.find('<div class="articleBody">')
+    if start_body == -1:
+        return False
+    start_body = start_body + len('<div class="articleBody">')
+    end_body = html[start_body:].find('</div>')
+    if end_body == -1:
+        return False
+    end_body += start_body
+    body = html[start_body : end_body]
+    while html[end_body:].find('<div class="articleBody">') != -1:
+        start_body = html[end_body:].find('<div class="articleBody">') + end_body + len('<div class="articleBody">')
+        end_body = html[start_body:].find('</div>')
+        if end_body == -1:
+            break
+        end_body += start_body
+        body += '\n\n' + html[start_body : end_body]
+    clean_body = remove_tags(body).strip().replace('\n', ' ')
+    clean_body = re.sub(r'\s+', ' ', clean_body)
+    clean_body = h.unescape(clean_body)
+    return clean_body
+
 
 def get_body4(html, url):
     start_body = html.find('<div id="mod-a-body')
@@ -122,7 +127,27 @@ def get_body4(html, url):
     clean_body = h.unescape(clean_body)
     return clean_body
 
+
 def get_body5(html, url):
+    start_body = html.find('<div class="entry-content">')
+    if start_body == -1:
+        return False
+    start_body = html[start_body:].find('<p>') + start_body
+
+    start_body += len('<p>')
+    end_body = html[start_body:].find('<div class="entry-meta">')
+    if end_body == -1:
+        return False
+    end_body += start_body
+
+    body =  html[start_body : end_body]
+    body = remove_scripts(body)
+    clean_body = remove_tags(body).strip().replace('\n', ' ')
+    clean_body = re.sub(r'\s+', ' ', clean_body)
+    clean_body = h.unescape(clean_body)
+    return clean_body
+
+def get_body6(html, url):
     start_body = html.find('<div class="entry-content">')
     if start_body == -1:
         return False
@@ -136,29 +161,6 @@ def get_body5(html, url):
     clean_body = re.sub(r'\s+', ' ', clean_body)
     clean_body = h.unescape(clean_body)
     return clean_body
-
-def get_body6(html, url):
-    start_body = html.find('<div class="articleBody">')
-    if start_body == -1:
-        return False
-    start_body = start_body + len('<div class="articleBody">')
-    end_body = html[start_body:].find('</div>')
-    if end_body == -1:
-        return False
-    end_body += start_body
-    body = html[start_body : end_body]
-    while html[end_body:].find('<div class="articleBody">') != -1:
-        start_body = html[end_body:].find('<div class="articleBody">') + end_body + len('<div class="articleBody">')
-        end_body = html[start_body:].find('</div>')
-        if end_body == -1:
-            break
-        end_body += start_body
-        body += '\n\n' + html[start_body : end_body]
-    clean_body = remove_tags(body).strip().replace('\n', ' ')
-    clean_body = re.sub(r'\s+', ' ', clean_body)
-    clean_body = h.unescape(clean_body)
-    return clean_body
-
 
 def get_date(html, url):
     date1 = get_date1(html, url)

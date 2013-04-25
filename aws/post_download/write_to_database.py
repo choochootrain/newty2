@@ -57,9 +57,8 @@ def write_to_database(all_paths_and_urls):
             if data == False:
                 counter_failed += 1
                 print str(counter_failed) + ' failed'
-                error.insert({'url' : url})
+                error.insert({'url' : url, 'file_path' : file_path})
                 continue
-
 #print '***************** FAILURE *********************', file_path
 
             to_insert = {'url' : url, 'file_path' : file_path, 'title' : data['title'],
