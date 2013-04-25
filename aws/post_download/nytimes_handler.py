@@ -22,6 +22,25 @@ def get_title(html, url):
 
 
 
+def simple_begin_end(html, begin, end):
+    start_body = html.find(begin)
+    if start_body == -1:
+        return False
+    start_body = start_body + len(begin)
+    end_body = html[start_body:].find(end)
+    if end_body == -1:
+        return False
+    print 'REACHED'
+    end_body += start_body
+    body = html[start_body : end_body]
+    clean_body = remove_scripts(body)
+    clean_body = remove_tags(clean_body).strip().replace('\n', ' ')
+    clean_body = re.sub(r'\s+', ' ', clean_body)
+    clean_body = h.unescape(clean_body)
+    return clean_body
+
+
+
 def get_body(html, url):
     body1 = get_body1(html, url)
     if body1:
@@ -41,6 +60,18 @@ def get_body(html, url):
     body6 = get_body6(html, url)
     if body6:
         return body6
+    body7 = get_body7(html, url)
+    if body7:
+        return body7
+    body8 = simple_begin_end(html, '<div class="postContent">', 'end .postContent')
+    if body8:
+        return body8
+    body9 = simple_begin_end(html, '<NYT_TEXT >', '</NYT_TEXT>')
+    if body9:
+        return body9
+    body10 = simple_begin_end(html, '<div class="entry">', '<script')
+    if body10:
+        return body10
     print 'failure body', url
     return False
 
@@ -141,8 +172,8 @@ def get_body5(html, url):
     end_body += start_body
 
     body =  html[start_body : end_body]
-    body = remove_scripts(body)
-    clean_body = remove_tags(body).strip().replace('\n', ' ')
+    clean_body = remove_scripts(body)
+    clean_body = remove_tags(clean_body).strip().replace('\n', ' ')
     clean_body = re.sub(r'\s+', ' ', clean_body)
     clean_body = h.unescape(clean_body)
     return clean_body
@@ -157,6 +188,28 @@ def get_body6(html, url):
         return False
     end_body += start_body
     body = html[start_body:end_body]
+    clean_body = remove_tags(body).strip().replace('\n', ' ')
+    clean_body = re.sub(r'\s+', ' ', clean_body)
+    clean_body = h.unescape(clean_body)
+    return clean_body
+
+def get_body7(html, url):
+    start_body = html.find('<div id="articleBody">')
+    if start_body == -1:
+        return False
+    start_body = start_body + len('<div id="articleBody">')
+    end_body = html[start_body:].find('</div>')
+    if end_body == -1:
+        return False
+    end_body += start_body
+    body = html[start_body : end_body]
+    while html[end_body:].find('<div id="articleBody">') != -1:
+        start_body = html[end_body:].find('<div id="articleBody">') + end_body + len('<div id="articleBody">')
+        end_body = html[start_body:].find('</div>')
+        if end_body == -1:
+            break
+        end_body += start_body
+        body += '\n\n' + html[start_body : end_body]
     clean_body = remove_tags(body).strip().replace('\n', ' ')
     clean_body = re.sub(r'\s+', ' ', clean_body)
     clean_body = h.unescape(clean_body)

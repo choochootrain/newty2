@@ -52,6 +52,7 @@ def write_to_database(all_paths_and_urls):
             #f = open(file_path, 'r')
             f = codecs.open(file_path, 'r', 'iso-8859-1')
             html = f.read()
+            html = html.replace('  ', ' ')
             f.close()
             data = find_basic_information(html, url, get_title, get_body, get_date)
             if data == False:
@@ -101,6 +102,7 @@ def to_bytestring (s, enc='utf-8'):
 def test(url):
     connection = url_opener.open(url)
     html = connection.read()
+    html = html.replace('  ', ' ')
     #addressing http://stackoverflow.com/questions/4790078/python-htmlparser-unicodedecodeerror
     #encoding = connection.headers.getparam('charset')
     encoding = chardet.detect(html)['encoding']

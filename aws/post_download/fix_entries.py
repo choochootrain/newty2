@@ -17,7 +17,7 @@ def usage():
 
 
 def get_error_path_from_url(url):
-    file_path = '/scrape_news/' + website_name.replace('http://', '') + '/files/' + url.replace('http://', '') + '_file'
+    file_path = '/scraped_news/' + website_name.replace('http://', '') + '/files/' + url.replace('http://', '') + '_file'
     return file_path
 
 
@@ -30,6 +30,7 @@ def fix_errors():
     errors = db['error_' + sys.argv[1].replace('http://', '').replace('www.', '')]
     file_paths_and_urls = []
     counter_failed = 0
+    counter_succeeded = 0
     for error_entry in errors.find():
         url = error_entry['url']
         file_path = get_error_path_from_url(url)
@@ -40,6 +41,7 @@ def fix_errors():
             #f = open(file_path, 'r')
             f = codecs.open(file_path, 'r', 'iso-8859-1')
             html = f.read()
+            html = html.replace('  ', ' ')
             f.close()
             data = find_basic_information(html, url, get_title, get_body, get_date)
             if data == False:

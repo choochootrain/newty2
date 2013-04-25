@@ -32,17 +32,20 @@ def get_all_counts():
             print counter
         body = only_alphanumeric.sub(' ', article['body'].replace(u'\u00A0', ' ').lower())
         title = only_alphanumeric.sub(' ', article['title'].replace(u'\u00A0', ' ').lower())
-        words_in_body, total_body_count = get_counts(body, body_word_counts)
-        words_in_title, total_title_count = get_counts(title, title_word_counts)
+        #words_in_body, total_body_count = get_counts(body, body_word_counts)
+        #words_in_title, total_title_count = get_counts(title, title_word_counts)
 
-        if 'apple' in words_in_body and words_in_body['apple'] >= 4:
+        #if 'apple' in words_in_body and words_in_body['apple'] >= 4:
+        words = body.split(' ')
+        apple_count = words.count('apple')
+        if apple_count >= 4
             print article['title']
             article_count += 1
             print 'article count is ' , article_count
-            nytimes_apple_articles.insert({'title': article['title'], 'body' : article['body'], 'url' : article['url'], 'apple_count' : words_in_body['apple'], 'date' : article['date']})
+            nytimes_apple_articles.insert({'title': article['title'], 'body' : article['body'], 'url' : article['url'], 'apple_count' : apple_count, 'date' : article['date']})
 
-        total_num_body_words += total_body_count
-        total_num_title_words += total_title_count
+        #total_num_body_words += total_body_count
+        #total_num_title_words += total_title_count
     return body_word_counts, title_word_counts
 
 def get_counts(text, word_counts):
