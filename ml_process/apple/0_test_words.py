@@ -38,7 +38,7 @@ def get_all_counts():
         #if 'apple' in words_in_body and words_in_body['apple'] >= 4:
         words = body.split(' ')
         apple_count = words.count('apple')
-        if apple_count >= 4
+        if apple_count >= 3:
             print article['title']
             article_count += 1
             print 'article count is ' , article_count

@@ -83,7 +83,7 @@ date_keys.sort()
 print len(date_keys)
 date_counts_array = []
 for date in date_keys:
-    date_counts_array.append([date.strftime('%m/%d/%Y'), date_to_counts[date]])
+    date_counts_array.append([date, date_to_counts[date]])
 
 print date_counts_array
 
