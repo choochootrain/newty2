@@ -69,7 +69,7 @@ class decision_node:
 def majority_vote(results):
         if 1 in results and (0 not in results or results[0] > results[1]):
             return 0
-        elif 0 in results and (0 not in results or results[0] < results[1]):
+        elif 0 in results and (1 not in results or results[0] < results[1]):
             return 1
         else: #Flip a coin
             return random.choice([0,1])
