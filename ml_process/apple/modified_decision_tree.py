@@ -24,10 +24,13 @@ for article in articles:
 #now articles [[date, word_counts, label, column_word_count],...]
 
 del dates_and_good_days_dict
+words_to_use = set()
+for article in articles:
+    for word in article[1].keys():
+        words_to_use.add(word)
 
 
-
-
+words_to_use = list(words_to_use)
 
 
 
@@ -180,6 +183,50 @@ def predict_tree(tree, word_counts):
     return majority_vote(current_node.result)
 
 
+def build_random_tree(articles):
+    if len(articles) == 0: return decision_node()
+    current_score = entropy(articles)
+    best_gain = 0
+    best_criteria = None
+    best_sets = None
+    #random.shuffle(words_to_use)
+    num_articles = len(articles)
+    #for column_word in words_to_use[:int(len(words_to_use) * .80)]:
+    for column_word in words_to_use:
+        counts_left = [0, 0]
+        counts_right = [0, 0]
+        articles_with_column_word = []
+        random.shuffle(articles)
+        random_article_set = articles[:int(len(articles) * .70)]
+        #now articles [[date, word_counts, label, column_word_count],...]
+        for article in random_article_set:
+            if column_word not in article[1]:
+                counts_left[article[2]] += 1
+            else:
+                counts_right[article[2]] += 1
+                article[3] = article[1][column_word]
+                articles_with_column_word.append(article)
+        articles_with_column_word = sorted(articles_with_column_word, key=itemgetter(3))
+
+        zeros  = float(counts_left[0] + counts_left[1])
+
+        for i, article in enumerate(articles_with_column_word):
+            if i == 0 or articles_with_column_word[i - 1][3] != article[3]:
+                p = float(i + zeros) / num_articles
+                gain = current_score - p * entropy_counts(counts_left) - (1 - p) * entropy_counts(counts_right)
+                if gain > best_gain:
+                    best_gain = gain
+                    best_criteria = (column_word, article[3])
+            counts_left[article[2]] += 1
+            counts_right[article[2]] -= 1
+    if best_gain > prune_percentage:
+        best_sets = divide_set(articles, best_criteria[0], best_criteria[1])
+        true_node = build_tree(best_sets[0])
+        false_node = build_tree(best_sets[1])
+        return decision_node(col=best_criteria[0], value=best_criteria[1], true_node = true_node, false_node = false_node)
+    else:
+        return decision_node(result = unique_results(articles))
+
 
 def build_random_forest(articles, num_trees):
     forest = set()
@@ -215,19 +262,134 @@ def predict_forest(forest, word_counts):
 def test_forest(forest, articles):
     correct = 0
     for article in articles:
-        result = predict_forest(forest, articles[1])
+        result = predict_forest(forest, article[1])
         if result == article[2]:
             correct += 1
-    print 'random forest results', float(correct) / len(data)
+    print 'random forest results', float(correct) / len(articles)
 
 
 random.shuffle(articles)
-training_set = articles[:len(articles) * 5 / 7]
-testing_set = articles[len(articles) * 5 / 7 : ]
+positive_articles = []
+negative_articles = []
+for article in articles:
+    if article[2] == 0:
+        negative_articles.append(article)
+    else:
+        positive_articles.append(article)
+training_set = positive_articles[:200] + negative_articles[:200]
+testing_set = positive_articles[200:] + negative_articles[200:]
+#training_set = articles[:len(articles) * 5 / 7]
+#testing_set = articles[len(articles) * 5 / 7 : ]
 
+print 'start'
 tree = build_tree(training_set)
 print_tree(tree)
 print 'on training set'
 test_tree(tree, training_set)
-print 'on testing set'
-test_tree(tree, testing_set)
+testing_set_positive = []
+testing_set_negative = []
+for article in testing_set:
+    if article[2] == 0:
+        testing_set_negative.append(article)
+    else:
+        testing_set_positive.append(article)
+print len(testing_set_positive), 'positive length'
+print len(testing_set_negative), 'negative length'
+print 'on testing set positive'
+test_tree(tree, testing_set_positive)
+print 'on testing set negative'
+test_tree(tree, testing_set_negative)
+print 'finish'
+
+forest = build_random_forest(training_set, 10)
+print 'testing forest'
+test_forest(forest, testing_set)
+print 'testing forest on positive'
+test_forest(forest, testing_set_positive)
+print 'testing forest on negative'
+test_forest(forest, testing_set_negative)
+
+
+
+
+def build_weak_tree(articles):
+    return build_tree(articles)
+
+def error(weak_learner, D, articles):
+    error = 0
+    m = len(rows)
+    for i in range(m):
+        if predict_tree(weak_learner, rows[i]) != rows[i][57]:
+            error += D[i]
+            #error += 1.0/m
+    return error
+
+
+
+def adaboost(training_data_and_labels, T):
+    m = len(training_data_and_labels)
+    D = numpy.zeros(m)
+    # Initialize D_1(i) = 1/m
+    D += 1.0/m
+    depth = 3 # Depth of weak learner tree
+    weak_learners = []
+    alphas = []
+    indices = [i for i in range(m)]
+    for t in range(0, T):
+        sample_training_indices = numpy.random.choice(indices, 1000, replace=True, p=D)
+        sample_training_data_and_labels = []
+        #print sample_training_indices
+        for i in sample_training_indices:
+            sample_training_data_and_labels.append(training_data_and_labels[i])
+        #print numpy.array(sample_training_data_and_labels).T[57]
+        sample_training_data_and_labels = numpy.array(sample_training_data_and_labels)
+        weak_learner = build_weak_tree(sample_training_data_and_labels, depth)
+        #print_tree(weak_learner)
+        e = error(weak_learner, D, training_data_and_labels)
+        alpha = 0.5 * math.log((1.0 - e) / e)
+        # Update weights
+        results = []
+        for row in training_data_and_labels:
+            results.append((predict_tree(weak_learner, row) - 1.0/2) * 2)
+        #print (training_data_and_labels.T[-1].T - 1.0 / 2) * 2
+        D = D * numpy.exp(-alpha * ((training_data_and_labels.T[-1].T -1.0/2) * 2) * results)
+        D = D / sum(D)
+        #print list(D)
+        weak_learners.append(weak_learner)
+        alphas.append(alpha)
+    return weak_learners, alphas
+
+
+def test_adaboost(test_data_and_labels, weak_learners, alphas):
+    correct = 0
+    count = 0
+    neg_count = 0
+    #print alphas
+    for data_and_label in test_data_and_labels:
+        result = 0
+        for i, weak_learner in enumerate(weak_learners):
+            result += alphas[i] * (predict_tree(weak_learner, data_and_label) - 1.0/2) * 2
+            x =  (predict_tree(weak_learner, data_and_label) - 1.0/2) * 2
+            if x > 0:
+                count += 1
+            else:
+                neg_count += 1
+
+        if result > 0 and data_and_label[-1] == 1:
+            correct += 1
+        if result < 0 and data_and_label[-1] == 0:
+            correct += 1
+    #print count, neg_count
+    print float(correct) / len(test_data_and_labels), 'correct for adaboost'
+
+if 'finished adaboost' == True:
+    print 'start adaboost'
+    weak_learners, alphas = adaboost(training_data, 40)
+    print 'test on training data'
+    test_adaboost(training_data, weak_learners, alphas)
+    print 'test on testing data'
+    test_adaboost(test_data, weak_learners, alphas)
+    print 'test on testing set positive'
+    test_adaboost(testing_set_positive, weak_learners, alphas)
+    print 'test on testing set negative'
+    test_adaboost(testing_set_negative, weak_learners, alphas)

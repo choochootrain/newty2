@@ -24,13 +24,15 @@ def query_symbol(symbol):
     result = result[1:]
     dates = result.T[0]
     open_price = result.T[1]
+    open_price_offset = numpy.concatenate([[open_price[0]], open_price[:-1]])
     high_price = result.T[2]
     low_price = result.T[3]
     close_price = result.T[4]
     volume = result.T[5]
     adjusted_closing_price = result.T[6]
     dates = vfunc_convert_to_date_time(dates)
-    good_days = vfunc_good_day(open_price, close_price)
+    #good_days = vfunc_good_day(open_price, close_price)
+    good_days = vfunc_good_day(open_price, open_price_offset)
     print 'Number of good days ', numpy.count_nonzero(good_days), 'out of ', len(good_days), 'days'
     to_store = numpy.column_stack([dates, good_days])
     f = open(symbol + '.npy', 'w')
