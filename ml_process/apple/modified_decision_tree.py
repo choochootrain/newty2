@@ -4,6 +4,10 @@ import datetime
 import operator
 import sys
 from operator import itemgetter
+if len(sys.argv) == 1:
+    print 'need to specify prune percentage. suggest .2'
+    sys.exit(1)
+prune_percentage = float(sys.argv[1])
 f = open('apple_articles.json', 'r')
 articles = json.loads(f.read()) #[[date, word_counts], [date, word_counts]]
 f.close()
@@ -43,15 +47,12 @@ counter = 0
 for article in articles:
     counter += 1
     print counter
-#    for word in article[1].keys():
-#        if word not in words_to_use:
-#            del article[1][word]
+    for word in article[1].keys():
+        if word not in words_to_use:
+            del article[1][word]
 
 
 
-random.shuffle(articles)
-training_set = articles[:len(articles) * 4 / 7]
-testing_set = articles[len(articles) * 4 / 7 : ]
 
 #now articles [[date,word_wcounts, good_day(label)]...]
 #print articles
@@ -67,10 +68,10 @@ class decision_node:
 
 
 def majority_vote(results):
-        if 1 in results and (0 not in results or results[0] > results[1]):
-            return 0
-        elif 0 in results and (1 not in results or results[0] < results[1]):
+        if 1 in results and (0 not in results or results[1] > results[0]):
             return 1
+        elif 0 in results and (1 not in results or results[0] > results[1]):
+            return 0
         else: #Flip a coin
             return random.choice([0,1])
 
@@ -111,7 +112,7 @@ def build_tree(articles):
     print 'reached'
     if len(articles) == 0: return decision_node()
     current_score = entropy(articles)
-    best_gain = 0.0
+    best_gain = 0
     best_criteria = None
     best_sets = None
     #labels = rows.T[len(rows[0]) - 1]
@@ -141,7 +142,7 @@ def build_tree(articles):
                     best_criteria = (column_word, article[3])
             counts_left[article[2]] += 1
             counts_right[article[2]] -= 1
-    if best_gain > 0:
+    if best_gain > prune_percentage:
         best_sets = divide_set(articles, best_criteria[0], best_criteria[1])
         true_node = build_tree(best_sets[0])
         false_node = build_tree(best_sets[1])
@@ -201,8 +202,53 @@ def predict_tree(tree, word_counts):
 
 
 
+def build_random_forest(articles, num_trees):
+    forest = set()
+    num_data_points = int(0.7 * len(articles))
+    for i in range(num_trees): # For each tree
+        # First permute rows
+        random.shuffle(articles)
+        # Select 70% of permuted rows as training data for tree
+        random_training_data = articles[0:int(len(articles) * .70)]
+        tree = build_random_tree(random_training_data)
+        forest.add(tree)
+        print 'New tree planted in forest'
+    return forest
 
+
+def predict_forest(forest, word_counts):
+    result0 = 0
+    result1 = 0
+    for tree in forest:
+        result = predict_tree(tree, word_counts)
+        if result == 0:
+            result0 += 1
+        else:
+            result1 += 1
+    #Majority vote
+    if result0 > result1:
+        return 0
+    elif result0 < result1:
+        return 1
+    else: #Flip a coin
+        return random.choice([0,1])
+
+def test_forest(forest, articles):
+    correct = 0
+    for article in articles:
+        result = predict_forest(forest, articles[1])
+        if result == article[2]:
+            correct += 1
+    print 'random forest results', float(correct) / len(data)
+
+
+random.shuffle(articles)
+training_set = articles[:len(articles) * 5 / 7]
+testing_set = articles[len(articles) * 5 / 7 : ]
 
 tree = build_tree(training_set)
 print_tree(tree)
+print 'on training set'
+test_tree(tree, training_set)
+print 'on testing set'
 test_tree(tree, testing_set)
