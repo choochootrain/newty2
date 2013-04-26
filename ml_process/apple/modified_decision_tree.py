@@ -8,7 +8,7 @@ if len(sys.argv) == 1:
     print 'need to specify prune percentage. suggest .2'
     sys.exit(1)
 prune_percentage = float(sys.argv[1])
-f = open('apple_articles.json', 'r')
+f = open('apple_articles_clean.json', 'r')
 articles = json.loads(f.read()) #[[date, word_counts], [date, word_counts]]
 f.close()
 f = open('AAPL.json', 'r')
@@ -22,34 +22,14 @@ for article in articles:
     article.append(dates_and_good_days_dict[article[0]])
     article.append(0)
 #now articles [[date, word_counts, label, column_word_count],...]
-print 'size of dates and good days dict', float(sys.getsizeof(dates_and_good_days_dict)) / 1000, 'kilobytes'
+
 del dates_and_good_days_dict
 
-words_to_article_count = {}
-for date, word_counts, label, column_word_count in articles:
-    for word in word_counts.keys():
-        words_to_article_count[word] = words_to_article_count.get(word, 0) + 1
 
-sorted_words_to_article_count = sorted(words_to_article_count.iteritems(), key=operator.itemgetter(1))
-print len(sorted_words_to_article_count)
-new_sorted_words_to_article_count = []
-for i, word_and_count in enumerate(sorted_words_to_article_count):
-    if word_and_count[1] >= 5:
-        new_sorted_words_to_article_count.append(word_and_count)
-print len(new_sorted_words_to_article_count)
-#print new_sorted_words_to_article_count
-del sorted_words_to_article_count
-words_to_use = set()
-for word, count in new_sorted_words_to_article_count:
-    words_to_use.add(word)
-words_to_use = list(words_to_use)
-counter = 0
-for article in articles:
-    counter += 1
-    print counter
-    for word in article[1].keys():
-        if word not in words_to_use:
-            del article[1][word]
+
+
+
+
 
 
 
@@ -109,7 +89,6 @@ def entropy(articles):
     return entropy
 
 def build_tree(articles):
-    print 'reached'
     if len(articles) == 0: return decision_node()
     current_score = entropy(articles)
     best_gain = 0
