@@ -1,0 +1,12 @@
+string --> extract words --> list
+
+tweet --> tweet_words --> list
+tweet --> tweet_string --> string
+
+int --> make_sentiment--> sentiment
+sentiment> has sentiment --> bool
+sentiment> sentiment_value-> int
+string --> getwordsentiment> sentiment
+
+
+tweet --> analyze_tweet_sentiment -->sentiment
