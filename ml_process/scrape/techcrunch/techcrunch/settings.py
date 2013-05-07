@@ -11,5 +11,10 @@ BOT_NAME = 'techcrunch'
 SPIDER_MODULES = ['techcrunch.spiders']
 NEWSPIDER_MODULE = 'techcrunch.spiders'
 
+ITEM_PIPELINES = [
+  'techcrunch.pipelines.DataCleanPipeline',
+  'techcrunch.pipelines.SqlitePipeline'
+]
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'techcrunch (+http://www.yourdomain.com)'
