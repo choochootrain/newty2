@@ -4,15 +4,22 @@
 import nltk.classify.util
 from nltk.classify import NaiveBayesClassifier
 from nltk.corpus import movie_reviews
+from os import listdir
+from os.path import isfile, join
 
 def word_feats(words):
-    return dict([(word, True) for word in words])
+  return dict([(word, True) for word in words])
 
-negids = movie_reviews.fileids('neg')
-posids = movie_reviews.fileids('pos')
+def wordize(f):
+  lines = [line.strip() for line in open(f)]
+  lines = map(lambda x: x.split(' '), lines)
+  return [item for sublist in lines for item in sublist]
 
-negfeats = [(word_feats(movie_reviews.words(fileids=[f])), 'neg') for f in negids]
-posfeats = [(word_feats(movie_reviews.words(fileids=[f])), 'pos') for f in posids]
+negfiles = [ join('neg', f) for f in listdir('neg') if isfile(join('neg',f)) ]
+posfiles = [ join('pos', f) for f in listdir('pos') if isfile(join('pos',f)) ]
+
+negfeats = [(word_feats(wordize(f)), 'neg') for f in negfiles]
+posfeats = [(word_feats(wordize(f)), 'pos') for f in posfiles]
 
 negcutoff = len(negfeats)*3/4
 poscutoff = len(posfeats)*3/4
