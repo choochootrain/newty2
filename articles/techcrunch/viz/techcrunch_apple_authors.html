@@ -155,12 +155,8 @@ Of course MG Siegler is on here because he is a huge fanboy
     .attr('class', 'box')
     .attr('fill', 'steel-blue');
 
-    box.transition()
-    .attr('transform', function(d) { return 'translate(' + timescale(d.datetime) + ',' + (500-y(d.count + d.offset)) + ')'; })
+    box.attr('transform', function(d) { return 'translate(' + timescale(d.datetime) + ',' + (500-y(d.count + d.offset)) + ')'; })
     .attr('fill', function(d) { return name_to_color(d.author); })
-    .duration(2000)
-    .delay(1000)
-    .ease('elastic');
 
     box.append('rect')
     .attr('width', 3)
@@ -168,21 +164,26 @@ Of course MG Siegler is on here because he is a huge fanboy
 
     box.on('click', function(d) { alert(JSON.stringify(d)); });
 
-    var stock = svg.selectAll('.box')
+    var stock = svg.selectAll('.stock')
     .data(stocks)
     .enter().append('g')
     .attr('class', 'stock')
     .attr('fill', 'steel-blue');
 
-    stock.transition()
-    .attr('transform', function(d) { return 'translate(' + timescale(d.date) + ',' + (d.price) + ')'; })
-    .attr('fill', function(d) { (d.change > 0 ? 'green' : 'red'); })
-    .duration(2000)
-    .delay(1000)
-    .ease('elastic');
+    stock.attr('transform', function(d) { return 'translate(' + timescale(format.parse(d.date)) + ',' + (500-y2(d.price)) + ')'; })
+    .attr('fill', function(d) { return (d.change > 0 ? 'green' : 'red'); });
 
     stock.append('circle')
-    .attr('r', 5 );
+    .attr('r', function(d) {
+      if (Math.abs(d.change) > d.price*0.03)
+        return Math.log(Math.abs(d.change*d.change));
+      else
+        return 1;
+    });
+
+    stock.on('click', function(d) {
+      alert(JSON.stringify(d));
+    });
 
     var atrs = svg.append('g')
     .style('position', 'absolute')
