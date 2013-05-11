@@ -175,10 +175,7 @@ Of course MG Siegler is on here because he is a huge fanboy
 
     stock.append('circle')
     .attr('r', function(d) {
-      if (Math.abs(d.change) > d.price*0.03)
-        return Math.log(Math.abs(d.change*d.change));
-      else
-        return 1;
+      return Math.abs(d.change)*Math.abs(d.change)/d.price*5;
     });
 
     stock.on('click', function(d) {
