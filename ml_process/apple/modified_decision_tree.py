@@ -51,9 +51,9 @@ class decision_node:
 
 
 def majority_vote(results):
-        if 1 in results and (0 not in results or results[1] > results[0]):
+        if 1 in results and (0 not in results or num_negative_articles * results[1] > num_positive_articles * results[0]):
             return 1
-        elif 0 in results and (1 not in results or results[0] > results[1]):
+        elif 0 in results and (1 not in results or num_positive_articles * results[0] > num_negative_articles * results[1]):
             return 0
         else: #Flip a coin
             return random.choice([0,1])
@@ -276,8 +276,10 @@ for article in articles:
         negative_articles.append(article)
     else:
         positive_articles.append(article)
-training_set = positive_articles[:200] + negative_articles[:200]
-testing_set = positive_articles[200:] + negative_articles[200:]
+num_positive_articles = len(positive_articles)
+num_negative_articles = len(negative_articles)
+training_set = positive_articles[:num_positive_articles*2/3] + negative_articles[:num_negative_articles*2/3]
+testing_set = positive_articles[num_positive_articles * 2 / 3:] + negative_articles[num_negative_articles * 2 /3:]
 #training_set = articles[:len(articles) * 5 / 7]
 #testing_set = articles[len(articles) * 5 / 7 : ]
 
