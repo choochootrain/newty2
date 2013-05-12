@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+
+<!--
+Number of articles on Apple visualized by author and date
+
+Of course MG Siegler is on here because he is a huge fanboy
+-->
+
+
+<meta charset="utf-8">
+  <style>
+
+  body {
+    font: 10px sans-serif;
+    background-color: #111;
+  }
+
+  text {
+    fill: #ddd;
+  }
+
+  .big_text {
+    text-shadow: 2px 2px #aaa;
+  }
+
+  .instructions {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #ddd;
+    font-size: 30px;
+  }
+
+
+  .axis path, .axis line {
+    fill: #ddd;
+    stroke: #ddd;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+  }
+
+  .axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+  }
+
+</style>
+<div class="instructions">
+  Click to filter
+</div>
+<body>
+  <script src="http://d3js.org/d3.v2.min.js?2.10.0"></script>
+  <!-- because it's huge -->
+  <script src="techcrunch_apple_authors.js"></script>
+  <script src="aapl_stock.js"></script>
+  <script>
+    var format = d3.time.format('%Y-%m-%dT%H:%M:%S')
+
+    var extract = function(data) {
+      var values = [];
+      for (var key in data) {
+        var obj = data[key];
+
+        var temp = [];
+        for (var author in obj) {
+          temp.push(author);
+        }
+
+        temp.sort();
+
+        for (var i = 0; i < temp.length; i++) {
+          var author = temp[i];
+          var new_obj = {};
+          new_obj.datetime = format.parse(key);
+          new_obj.author = author;
+          new_obj.count = obj[author];
+          if (i > 0) {
+            var last = values.slice(-1)[0];
+            new_obj.offset = last.offset + last.count;
+          } else
+            new_obj.offset = 0;
+          values.push(new_obj);
+          i++;
+        }
+      }
+      return values;
+    };
+
+    var get_authors = function(data) {
+      var authors = ['all'];
+      for (var i = 0; i < data.length; i++) {
+        if (authors.indexOf(data[i].author) == -1)
+          authors.push(data[i].author);
+      }
+      return authors;
+    };
+
+    function hashCode(str) { // java String#hashCode
+      var hash = 0;
+      for (var i = 0; i < str.length; i++) {
+        hash = str.charCodeAt(i) + ((hash << 5) - hash);
+      }
+      return hash;
+    }
+
+    function intToARGB(i){
+      return '#' + (
+        ((i>>16)&0xFF).toString(16) +
+        ((i>>8)&0xFF).toString(16) +
+        (i&0xFF).toString(16));
+    }
+
+    var values = extract(data);
+    console.log(values);
+    var authors = get_authors(values);
+    console.log(authors);
+
+ var clrs =
+   ["#e41a1c","#377eb8","#4daf4a","#984ea3","#ff7f00","#ffff33","#a65628","#f781bf","#999999", "#66c2a5","#fc8d62","#8da0cb","#e78ac3","#a6d854","#ffd92f","#e5c494","#b3b3b3", "#8dd3c7","#ffffb3","#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9", "#fbb4ae","#b3cde3","#ccebc5","#decbe4","#fed9a6","#ffffcc","#e5d8bd","#fddaec","#f2f2f2", "#b3e2cd","#fdcdac","#cbd5e8","#f4cae4","#e6f5c9","#fff2ae","#f1e2cc","#cccccc", "#9e0142","#d53e4f","#f46d43","#fdae61","#fee08b","#ffffbf","#e6f598","#abdda4","#66c2a5"];
+
+    var colors = {};
+    function name_to_color(name) {
+      if (name in colors)
+        return colors[name];
+      else {
+        var color = clrs[authors.indexOf(name)];
+        colors[name] = color;
+        return color;
+      }
+    };
+
+    var timescale = d3.time.scale().domain([format.parse(first_date), format.parse(last_date)]).range([0, 1900]);
+    var y = d3.scale.linear().domain([0, 38]).range([0, 500]);
+    var y2 = d3.scale.linear().domain([50, 700]).range([0, 500]);
+    var y_inv = d3.scale.linear().domain([0,38]).range([500,0]);
+
+    var svg = d3.select('body').append('svg')
+    .attr('width', 2000)
+    .attr('height', 600)
+    .append('g').attr('transform', 'translate(50,50)');
+
+    svg.append('g')
+    .attr('class', 'axis')
+    .attr('transform', 'translate(0, 500)')
+    .call(d3.svg.axis().scale(timescale).orient("bottom"));
+
+    svg.append('g')
+    .attr('class', 'axis')
+    .call(d3.svg.axis().scale(y_inv).orient("left"));
+
+    var box = svg.selectAll('.box')
+    .data(values)
+    .enter().append('g')
+    .attr('class', 'box')
+    .attr('fill', 'steel-blue');
+
+    box.attr('transform', function(d) { return 'translate(' + timescale(d.datetime) + ',' + (500-y(d.count + d.offset)) + ')'; })
+    .attr('fill', function(d) { return name_to_color(d.author); })
+
+    box.append('rect')
+    .attr('width', 3)
+    .attr('height', function(d) { return y(d.count); } );
+
+    box.on('click', function(d) { alert(JSON.stringify(d)); });
+
+    var stock = svg.selectAll('.stock')
+    .data(stocks)
+    .enter().append('g')
+    .attr('class', 'stock')
+    .attr('fill', 'steel-blue');
+
+    stock.attr('transform', function(d) { return 'translate(' + timescale(format.parse(d.date)) + ',' + (500-y2(d.price)) + ')'; })
+    .attr('fill', function(d) { return (d.change > 0 ? 'green' : 'red'); });
+
+    stock.append('circle')
+    .attr('r', function(d) {
+      return Math.abs(d.change)*Math.abs(d.change)/d.price*5;
+    });
+
+    stock.on('click', function(d) {
+      alert(JSON.stringify(d));
+    });
+
+    var atrs = svg.append('g')
+    .style('position', 'absolute')
+    .style('top', '50px')
+    .style('left', '50px')
+    .selectAll('.atr')
+    .data(authors)
+    .enter().append('g')
+    .attr('class', 'attr')
+    .attr('transform', function(d, i) { return 'translate(' + 20*(i-i%8+2) + ',' + (20*(i%8)) + ')'; })
+    .attr('width', 25)
+    .attr('height', 10);
+
+    atrs.append('rect')
+    .attr('width', 10)
+    .attr('height', 10)
+    .attr('fill', function(d) { return name_to_color(d); });
+
+    atrs.append('text')
+    .attr('x', 13)
+    .attr('y', 8)
+    .text(function(d) { return d; });
+
+    atrs.on('click', function(d) {
+      box.transition()
+      .attr('opacity', function(d2) {
+        if (d === d2.author || d === 'all') {
+          return 1;
+      } else {
+        return 0;
+      }})
+      .attr('transform', function(d2) {
+        if (d === d2.author) {
+          return 'translate(' + timescale(d2.datetime) + ',' + (500-y(d2.count)) + ')';
+        } else {
+          return 'translate(' + timescale(d2.datetime) + ',' + (500-y(d2.count + d2.offset)) + ')';
+        }})
+      .duration(1000);
+    });
+  </script>

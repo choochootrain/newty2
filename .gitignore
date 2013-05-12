@@ -4,3 +4,4 @@
 *.json
 database
 database_backup*
+.DS_Store
