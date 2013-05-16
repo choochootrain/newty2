@@ -64,7 +64,10 @@
 
         authors[sentiment.author].push(sentiment.sentiment);
       }
-      all_authors.sort();
+      all_authors.sort(function(a, b) {
+        return Math.max.apply(null, authors[b]) - Math.max.apply(null, authors[a]);
+      });
+      console.log(all_authors);
       return data;
     };
 
