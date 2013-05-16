@@ -42,18 +42,20 @@ def extract_article_sentiment(cleaned_text):
     else:
         return 0
 
+
 def normalize(sentiment):
-    ''' 
+    '''
     Normalizes sentiment value between -1 and 1 using min/max
     Both the minimum and maximum sentiment were calculated beforehand.
     '''
-    max_sent = 0.25 
+    max_sent = 0.116
     min_sent = -0.0625
-    normalized_value = (sentiment - min_sent) / (max_sent - min_sent)
-    if abs(sentiment) == sentiment: # if the sentiment is positive, then keep the sign
-        return normalized_value
-    else:
-        return -1 * normalized_value
+    normalized_value = sentiment / (abs(max_sent) + abs(min_sent) / 2)
+    return normalized_value
+    #if abs(sentiment) == sentiment: # if the sentiment is positive, then keep the sign
+    #    return normalized_value
+    #else: # otherwise, since the normalization changes negatives to positives, we want to the negative sign back
+    #    return -1 * normalized_value
 
 if __name__ == '__main__':
     articles = tc_data['body']
@@ -61,7 +63,7 @@ if __name__ == '__main__':
     for article, index, author in zip(articles, tc_data.index, tc_data['author']):
         if article == article:
             article_dict = {}
-            
+ 
             # Getting the sentiment value
             cleaned_article = clean_words(article)
             sentiment = extract_article_sentiment(cleaned_article)
@@ -71,13 +73,7 @@ if __name__ == '__main__':
             article_dict['author'] = author
             ## Getting the dates
             link = index.split('/') #
-            article_dict['date'] = (link[3] + '-' + link[4] + '-' + link[5])# date2num(DT.datetime.strptime(link[3] + link[4] + link[5], '%Y%m%d'))
+            article_dict['date'] = (link[3] + '-' + link[4] + '-' + link[5])
             
             data.append(article_dict)
             print article_dict
-            ## Getting the dates
-            # x.append(date2num(DT.datetime.strptime(link[3] + link[4] + link[5], '%Y%m%d')))
-            # y.append(sentiment)
-    # plt.plot(x, y)
-        #print (index, sentiment)
-    #print data
