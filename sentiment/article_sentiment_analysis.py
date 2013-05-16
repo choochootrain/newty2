@@ -72,7 +72,7 @@ if __name__ == '__main__':
             article_dict['sentiment'] = normalized_sentiment
             article_dict['author'] = author
             ## Getting the dates
-            link = index.split('/') #
+            link = index.split('/')
             article_dict['date'] = (link[3] + '-' + link[4] + '-' + link[5])
             
             data.append(article_dict)
