@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+
+<meta charset="utf-8">
+  <style>
+
+  body {
+    font: 10px sans-serif;
+    background-color: #111;
+  }
+
+  text {
+    fill: #ddd;
+  }
+
+  .line {
+    stroke: blue;
+    fill: transparent;
+  }
+
+  .line2 {
+    stroke: purple;
+    fill: transparent;
+  }
+
+
+
+  .big_text {
+    text-shadow: 2px 2px #aaa;
+  }
+
+  .instructions {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #ddd;
+    font-size: 30px;
+  }
+
+
+  .axis path, .axis line {
+    fill: #ddd;
+    stroke: #ddd;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+  }
+
+  .axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+  }
+
+  #toggle {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    color: #ddd;
+    font-size: 30px;
+  }
+
+</style>
+<a href="#" id="toggle">Toggle average</a>
+<body>
+  <script src="http://d3js.org/d3.v2.min.js?2.10.0"></script>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- because it's huge -->
+  <script src="techcrunch_apple_authors.js"></script>
+  <script src="aapl_sentiment.js"></script>
+  <script src="aapl_stock.js"></script>
+
+  <script>
+    var format = d3.time.format('%Y-%m-%dT%H:%M:%S')
+
+    var all_authors = [];
+    var authors = {};
+
+    var extract = function(data) {
+      var values = [];
+      var dates = {};
+      var d = [];
+
+      for (var i = 0; i < data.length; i++) {
+        var sentiment = data[i];
+        if (!(sentiment.date in dates))
+          dates[sentiment.date] = [];
+
+        dates[sentiment.date].push(sentiment.sentiment);
+        d.push(sentiment.date);
+      }
+
+      d.sort();
+
+      for (var j = 0; j < d.length; j++) {
+        var date = d[j];
+        var obj = {};
+        obj.date = format.parse(date + 'T00:00:00');
+        obj.sentiment = 0;
+        for (var i = 0; i < dates[date].length; i++) {
+          obj.sentiment += dates[date][i];
+        }
+        obj.avg_sentiment = obj.sentiment / dates[date].length;
+        values.push(obj);
+      }
+      return values;
+    };
+
+    var rand_color = function() {
+      return '#'+ ('000000' + (Math.random()*0xFFFFFF<<0).toString(16)).slice(-6);
+    };
+
+    var colors = {};
+    function name_to_color(name) {
+      if (name in colors)
+        return colors[name];
+      else {
+        var color = rand_color();//clrs[authors.indexOf(name)];
+        colors[name] = color;
+        return color;
+      }
+    };
+
+    var values = extract(sentiments);
+
+    var timescale = d3.time.scale().domain([format.parse(first_date), format.parse(last_date)]).range([0, 1900]);
+
+    var y = d3.scale.linear().domain([-0.8, 5]).range([0, 600]);
+    var y_inv = d3.scale.linear().domain([-0.8,5]).range([600,0]);
+    var y2 = d3.scale.linear().domain([50, 700]).range([0, 600]);
+    var y2_inv = d3.scale.linear().domain([50, 700]).range([600, 0]);
+
+    var svg = d3.select('body').append('svg')
+    .attr('width', 2000)
+    .attr('height', 700)
+    .append('g').attr('transform', 'translate(50,50)');
+
+    var xa = svg.append('g')
+    .attr('class', 'axis')
+    .attr('transform', 'translate(0, ' + (600 - y(0)) + ')');
+
+    xa.call(d3.svg.axis().scale(timescale).orient("bottom"));
+
+    var ya = svg.append('g')
+    .attr('class', 'axis');
+
+    ya.call(d3.svg.axis().scale(y_inv).orient("left"));
+
+    var ya2 = svg.append('g')
+    .attr('class', 'axis')
+    .attr('transform', 'translate(' + timescale(format.parse(last_date)) + ',0)');
+
+    ya2.call(d3.svg.axis().scale(y2_inv).orient("right"));
+
+    var line = d3.svg.line()
+    .x(function(d) { return timescale(d.date); })
+    .y(function(d) { return (600 - y(d.sentiment)); })
+    .interpolate('linear');
+
+    var path = svg.append('svg:path')
+    .attr('d', line(values))
+    .attr('class', 'line');
+
+
+    var stock = svg.selectAll('.stock')
+    .data(stocks)
+    .enter().append('g')
+    .attr('class', 'stock')
+    .attr('fill', 'steel-blue');
+
+    stock.attr('transform', function(d) { return 'translate(' + timescale(format.parse(d.date)) + ',' + (y_inv(0)-y2(d.price)) + ')'; })
+    .attr('fill', function(d) { return (d.change > 0 ? 'green' : 'red'); });
+
+    stock.append('circle')
+    .attr('r', function(d) {
+      return Math.abs(d.change)*Math.abs(d.change)/d.price*5;
+    });
+
+    stock.on('click', function(d) {
+      alert(JSON.stringify(d));
+    });
+
+    var n = true;
+    $('#toggle').click(function() {
+       line = d3.svg.line()
+      .x(function(d) { return timescale(d.date); })
+      .y(function(d) { return (600 - y(n ? d.avg_sentiment : d.sentiment)); })
+      .interpolate('linear');
+
+      y = d3.scale.linear().domain([n ? -0.4 : -0.8, n ? 1 : 5]).range([0, 600]);
+      y_inv = d3.scale.linear().domain([n ? -0.4 : -0.8,n ? 1 : 5]).range([600,0]);
+      y2 = d3.scale.linear().domain([50, 700]).range([0, n ? 500 : 600]);
+      y2_inv = d3.scale.linear().domain([50, 700]).range([n ? 500 : 600, 0]);
+
+      path.transition()
+      .attr('d', line(values))
+      .attr('class', n ? 'line2' : 'line');
+
+      ya.call(d3.svg.axis().scale(y_inv).orient("left"));
+
+      ya2.call(d3.svg.axis().scale(y2_inv).orient("right"));
+
+      xa.attr('transform', 'translate(0, ' + (600 - y(0)) + ')');
+      xa.call(d3.svg.axis().scale(timescale).orient("bottom"));
+
+      stock.attr('transform', function(d) { return 'translate(' + timescale(format.parse(d.date)) + ',' + (y_inv(0)-y2(d.price)) + ')'; });
+
+      $('#toggle').html(n ? 'Untoggle average' : 'Toggle average');
+
+      n = !n;
+
+    });
+
+    //var box = svg.selectAll('.box')
+    //.data(values)
+    //.enter().append('g')
+    //.attr('class', 'box')
+    //.attr('fill', 'steel-blue');
+
+    //box.attr('transform', function(d) { return 'translate(' + timescale(d.date) + ',' + (600-y(d.sentiment)) + ')'; })
+    //.attr('fill', function(d) { return name_to_color(d.author); });
+
+    //box.append('rect')
+    //.attr('width', 3)
+    //.attr('height', 3);
+
+    //box.on('click', function(d) { window.open(d.link, '_blank'); });
+    //box.on('mouseover', function(d) { $('.instructions').html(d.author); });
+  </script>
