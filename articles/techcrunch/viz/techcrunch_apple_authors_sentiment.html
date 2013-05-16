@@ -71,8 +71,8 @@
     };
 
     var extract = function(data) {
-      for (var i = 0; i < sentiments.length; i++) {
-        var sentiment = sentiments[i];
+      for (var i = 0; i < data.length; i++) {
+        var sentiment = data[i];
         if (!(sentiment.author in authors)) {
           authors[sentiment.author] = [];
           all_authors.push(sentiment.author);
@@ -141,7 +141,10 @@
     $('#toggle').click(function() {
       all_authors.sort(m ? min_f : max_f);
       m = !m;
-      box.attr('transform', function(d) { return 'translate(' + x(all_authors.indexOf(d.author)) + ',' + (600-y(d.sentiment)) + ')'; });
+      box.transition()
+      .attr('transform', function(d) { return 'translate(' + x(all_authors.indexOf(d.author)) + ',' + (600-y(d.sentiment)) + ')'; })
+      .duration(2000);
+
     });
 
   </script>
