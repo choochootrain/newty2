@@ -38,10 +38,19 @@
     font-size: 11px;
   }
 
+  #toggle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #ddd;
+    font-size: 30px;
+  }
+
 </style>
 <div class="instructions">
   Click to filter
 </div>
+<a href="#" id="toggle">Toggle min/max</a>
 <body>
   <script src="http://d3js.org/d3.v2.min.js?2.10.0"></script>
   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -52,9 +61,17 @@
     var format = d3.time.format('%Y-%m-%dT%H:%M:%S')
 
     var all_authors = [];
+    var authors = {};
+
+    var max_f = function(a, b) {
+        return Math.max.apply(null, authors[b]) - Math.max.apply(null, authors[a]);
+    };
+
+    var min_f = function(a, b) {
+        return Math.min.apply(null, authors[a]) - Math.min.apply(null, authors[b]);
+    };
 
     var extract = function(data) {
-      var authors = {};
       for (var i = 0; i < sentiments.length; i++) {
         var sentiment = sentiments[i];
         if (!(sentiment.author in authors)) {
@@ -64,9 +81,7 @@
 
         authors[sentiment.author].push(sentiment.sentiment);
       }
-      all_authors.sort(function(a, b) {
-        return Math.max.apply(null, authors[b]) - Math.max.apply(null, authors[a]);
-      });
+      all_authors.sort(max_f);
       console.log(all_authors);
       return data;
     };
@@ -90,17 +105,17 @@
 
     var x = d3.scale.linear().domain([0, all_authors.length-1]).range([0, 1200]);
 
-    var y = d3.scale.linear().domain([-0.2, 0.6]).range([0, 500]);
-    var y_inv = d3.scale.linear().domain([-0.2,0.6]).range([500,0]);
+    var y = d3.scale.linear().domain([-0.5, 0.9]).range([0, 600]);
+    var y_inv = d3.scale.linear().domain([-0.5,0.9]).range([600,0]);
 
     var svg = d3.select('body').append('svg')
     .attr('width', 1300)
-    .attr('height', 600)
+    .attr('height', 700)
     .append('g').attr('transform', 'translate(50,50)');
 
     svg.append('g')
     .attr('class', 'axis')
-    .attr('transform', 'translate(0, ' + (500 - y(0)) + ')')
+    .attr('transform', 'translate(0, ' + (600 - y(0)) + ')')
     .call(d3.svg.axis().scale(x).orient("bottom").ticks(0));
 
     svg.append('g')
@@ -113,8 +128,8 @@
     .attr('class', 'box')
     .attr('fill', 'steel-blue');
 
-    box.attr('transform', function(d) { return 'translate(' + x(all_authors.indexOf(d.author)) + ',' + (500-y(d.sentiment)) + ')'; })
-    .attr('fill', function(d) { return name_to_color(d.author); })
+    box.attr('transform', function(d) { return 'translate(' + x(all_authors.indexOf(d.author)) + ',' + (600-y(d.sentiment)) + ')'; })
+    .attr('fill', function(d) { return name_to_color(d.author); });
 
     box.append('rect')
     .attr('width', 20)
@@ -122,4 +137,12 @@
 
     box.on('click', function(d) { window.open(d.link, '_blank'); });
     box.on('mouseover', function(d) { $('.instructions').html(d.author); });
+
+    var m = true;
+    $('#toggle').click(function() {
+      all_authors.sort(m ? min_f : max_f);
+      m = !m;
+      box.attr('transform', function(d) { return 'translate(' + x(all_authors.indexOf(d.author)) + ',' + (600-y(d.sentiment)) + ')'; });
+    });
+
   </script>
