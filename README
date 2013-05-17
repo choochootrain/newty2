@@ -104,3 +104,4 @@ In thinking about future possibilities with regards to our project, we’ve iden
 1. Refine our own sentiment analyzer - The sentiment analyzer we implemented was an effective, but crude, measurement of sentiment. It suffered from several pitfalls such as being dependent upon article length, and only having words in the word bank that were most commonly Tweeted. There are certainly more robust methods we can look into in the future in upgrading our sentiment analysis.
 
 2. Cluster authors based upon words used - We’re curious to see if we can implement a clustering algorithm based upon the words that were contained within an article. We suspect that certain authors have unique ways of writing that can be quantified through a data-mining approach.
+
