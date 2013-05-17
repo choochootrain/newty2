@@ -1,5 +1,106 @@
-http://127.0.0.1:8000/timeline_dynamic?keyword=hello
-is a dynamic timeline that has the parameter hello as a keyword used in get_timeline_ajax (in views.py). get_timeline_ajax will send the graph data that is associated with the data back. 
+Which TechCrunch Authors Are Biased?
+By Carl Shan, Hurshal Patel
+
+1 Introduction:
+Our team was interested in mining a large corpus of TechCrunch articles covering Apple. We scraped over 4,600 articles starting September 12, 2006 to May 4, 2013. We were curious to see whether there was two possible relationship:
+
+Between authors and how favorably their articles were towards Apple
+Between article sentiment and stock price movements
+
+We used a bag-of-words model to create a weighted sum for an article’s sentiment, based upon a previous file we had that associated 22,158 different words with a sentiment value between -1 and 1.
+
+To present our conclusions, we used the JavaScript D3 library to visualize several charts that can be found within this report.
+
+2 Problem:
+We’re interested in analyzing the average sentiment value per author, and plotting it against stock price movements in hopes to observing some trend. We’re also interested in analyzing the variation in sentiment per author.
+
+As this is an exploratory data analysis project, and were not attempting to confirm or disconfirm an explicit hypothesis, but rather to dive into the data and visualize any findings we had.
+
+3 Solution:
+Our solution had three steps that we outlined below:
+
+3.1 Scraping the Data:
+We wrote a Techcrunch spider using the Scrapy framework to crawl Techcrunch and grab all articles tagged with 'Apple'. Scrapy downloads these pages, and selects the text for title, author, content using an XPath query, and places the extracted data into the "data pipeline". 
+
+Our XPath querying function is below:
+def parse_article(self, response):
+    hxs = HtmlXPathSelector(response)
+    body = hxs.select('//div[contains(@class, "module-post-detail")]')
+    item = TechcrunchItem()
+    item['title'] = body.select('h1[contains(@class, "headline")]/text()').extract()[0]
+    item['author'] = body.select('div/h4/span/a/span[contains(@class, "name")]/text()').extract()[0]
+    item['date'] = body.select('div/div[contains(@class, "post-time")]/text()').extract()[0]
+    item['text'] = body.select('div[contains(@class, "body-copy")]').extract()[0]
+    item['link'] = response.url
+    return item
+
+The data pipeline is where all of our cleaning and preprocessing occurs. Each part of the text is stripped of HTML tags, and unicode characters are replaced with their ASCII equivalents, or removed completely. Once this is one, the data moves to the next stage of the pipeline, which stores each tuple of cleaned data into a SQlite3 database. This database has a table of articles with columns for each of the properties scraped from the article.
+
+Once Scrapy has crawled all the Techcrunch articles tagged with 'Apple', we can extract the data from the database in Python and export it as JSON for use in a D3 visualization.
+
+3.2 Analyzing Sentiment:
+Bag-Of-Words
+For every single article we scraped, we created its associated bag of words. Using a dataset we had previously with over 22,000 words and associated sentiment, we then created a weighted sum of the article’s total sentiment, averaged over all the words that were used.
+Our Python implementation is below: 
+
+def bag_of_words(words):
+    return Counter(words.split())
+
+def extract_article_sentiment(cleaned_text):
+    # Step 1: Create Bag of Words
+    bag = bag_of_words(cleaned_text)
+    # Step 2: Update Sentiment
+    sentiment = 0
+    for word in bag:
+        if word in word_sentiments.keys():
+            sentiment += word_sentiments[word] * bag[word]
+    return sentiment / sum(bag.values())
+
+3.3 Creating Visualizations:
+We created three visualizations using the D3 library, which you can view here:
+
+3.3.1 Visualization of Author Activity
+http://people.ischool.berkeley.edu/~choochootrain/viz/techcrunch_apple_authors.html
+
+3.3.2 Visualization of Author Sentiment per Article
+http://people.ischool.berkeley.edu/~choochootrain/viz/techcrunch_apple_authors_sentiment.html
+
+3.3.3 Visualization of Daily Article Sentiment and Stock Price
+http://people.ischool.berkeley.edu/~choochootrain/viz/techcrunch_apple_stock_sentiment.html
+
+4 Details:
+Throughout our process, we faced several engineering challenges that obstructed our progress.
+
+The various challenges we faced were:
+
+4.1 Getting and Cleaning Article Data 
+It was challenging to scrape all of the TechCrunch articles pertaining to Apple.to 
+Some of the Techcrunch articles have a company profile box at the bottom of the article body, and we had trouble coming up with an XPath query to remove that content. To make matters worse, it was generated via Javascript, so all Scrapy sees is a <script> tag. 
+
+We ended up cleaning it with a regex in the preprocessing stage later on:
+regex = re.compile('            Learn more  End of panel-container -->')
+def clean_words(text):
+    '''Cleans corpus up, removing HTML and punctuation.'''
+    cleaned_text = regex.sub('', text)
+    return cleaned_text
 
 
+4.2 Finding Reliable Sentiment Analyzer 
+Before we implemented our own sentiment analyzer, we first looked for public libraries that could help conduct sentiment analysis. Unfortunately, we didn’t find any public implementations we could take advantage of.
 
+To overcome this challenge, we used a database we found with words and an associated sentiment score between -1 and 1. We created a sentiment dictionary out of it and used it in our own implementation of sentiment analysis.
+
+4.3 Range of TechCrunch Articles
+TechCrunch publishes a diverse range of types of articles. From standard report to op-eds to surveys to videos. There’s a high degree of variance in length depending on the type of article. The sentiment scores would be biased to be high if there was a small number of total words in the article, which would occur on certain TechCrunch articles. These articles may be neutral towards Apple in reality, but would register as a high-sentiment post simply due to the length of the post.
+
+5 Related Work:
+In creating our project, we relied upon a variety of open libraries that helped us scrape and conduct our analysis. We used the JavaScript D3 library, various open-source web scrapers and the sentiment file that we used to construct our sentiment analyzer.
+
+A related research paper from Columbia University that analyzed stock price performance after positive or negative news-reports is also available here: http://www0.gsb.columbia.edu/faculty/ptetlock/papers/Tetlock_et_al_JF_08_More_Than_Words.pdf 
+
+6 Further Work: 
+In thinking about future possibilities with regards to our project, we’ve identified several areas that can build off of our current results:
+
+1. Refine our own sentiment analyzer - The sentiment analyzer we implemented was an effective, but crude, measurement of sentiment. It suffered from several pitfalls such as being dependent upon article length, and only having words in the word bank that were most commonly Tweeted. There are certainly more robust methods we can look into in the future in upgrading our sentiment analysis.
+
+2. Cluster authors based upon words used - We’re curious to see if we can implement a clustering algorithm based upon the words that were contained within an article. We suspect that certain authors have unique ways of writing that can be quantified through a data-mining approach.
